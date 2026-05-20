@@ -1,0 +1,26 @@
+## Overview of the Enriched Pathways
+
+In Table 1, we rank the enriched biological pathways associated with arrhythmia based on statistical significance, biological coherence, and disease relevance. Notably, the strongest signals center on inflammatory and cytokine-mediated mechanisms, including cytokine-cytokine receptor interaction (Kyoto Encyclopedia of Genes and Genomes:04060, p = 1.0480055801033972 × 10−34, 65 associated proteins), viral protein interaction with cytokine and cytokine receptor (Kyoto Encyclopedia of Genes and Genomes:04061, p = 4.277640489045937 × 10−16, 27 associated proteins), tumor necrosis factors bind their physiological receptors (Reactome:R-HSA-5669034, p = 1.299783594479869 × 10−11, 14 associated proteins), and neutrophil degranulation (Reactome:R-HSA-6798695, p = 5.793716961483522 × 10−10, 48 associated proteins). These findings are highly consistent with literature showing that inflammatory cytokines, innate immune activation, and infection-related signaling can alter ion channel function, gap junction coupling, calcium handling, and atrial or ventricular structural remodeling, thereby increasing arrhythmogenic susceptibility.  
+
+In addition, strong enrichment of extracellular matrix and tissue remodeling pathways, particularly collagen metabolic process (Gene Ontology:0032963, p = 3.1440856737905816 × 10−7, 14 associated proteins), glycosaminoglycan binding (Gene Ontology:0005539, p = 5.378474612832188 × 10−15, 30 associated proteins), and lung fibrosis (WikiPathways:WP3624, p = 8.265656098006917 × 10−7, 15 associated proteins), suggests that fibrotic remodeling may be a major shared mechanism. This is well supported by cardiac literature showing that excess collagen deposition and extracellular matrix reorganization disrupt electrical conduction, promote conduction heterogeneity, and facilitate re-entry, which are central mechanisms in many forms of arrhythmia. The enrichment of endopeptidase activity (Gene Ontology:0004175, p = 2.7954040457582796 × 10−11, 44 associated proteins) further supports active proteolytic remodeling of the extracellular environment, which may contribute to myocardial fibrosis and inflammatory tissue injury.  
+
+Additional pathways, including lipid localization (Gene Ontology:0010876, p = 3.415223569846427 × 10−5, 26 associated proteins), late endosome (Gene Ontology:0005770, p = 0.007816926593059137, 16 associated proteins), and ruffle membrane (Gene Ontology:0032587, p = 0.041994677647457415, 6 associated proteins), point to altered membrane trafficking, lipid handling, and receptor turnover. These processes are relevant because membrane composition and intracellular trafficking influence ion channel localization, receptor signaling, and cardiomyocyte stress responses, all of which have been implicated in arrhythmia biology. Although some enriched annotations, such as colon goblet cells (Human Protein Atlas:0130891, p = 3.96653314155423 × 10−6, 36 associated proteins; Human Protein Atlas:0130893, p = 6.70451993364627 × 10−5, 21 associated proteins), pleural mesothelioma (WikiPathways:WP5087, p = 5.1660111075016064 × 10−5, 38 associated proteins), and arthralgia (Human Phenotype Ontology:0002829, p = 0.020265199832114434, 20 associated proteins), are less directly cardiac, they likely reflect shared inflammatory, extracellular matrix, and secretory programs rather than tissue-specific causation. Overall, the pathway profile supports a model in which arrhythmia is linked to a convergence of cytokine-driven inflammation, immune cell activation, extracellular matrix remodeling, fibrosis, and altered membrane trafficking, with the very low p-values providing strong statistical support for these mechanisms.
+
+Table 1: Top Enriched Pathways from Each Source
+| Term ID | Pathway Name | Associated Proteins Counts | Weighted Score | p-value | Source |
+| --- | --- | --- | --- | --- | --- |
+| HP:0002829 | Arthralgia | 20 | 0.566 | 2.027e-02 | HP |
+| HPA:0130891 | Colon; goblet cells[≥Low] | 36 | 0.457 | 3.967e-06 | HPA |
+| HPA:0130893 | Colon; goblet cells[High] | 21 | 0.447 | 6.705e-05 | HPA |
+| GO:0010876 | lipid localization | 26 | 0.435 | 3.415e-05 | GO:BP |
+| GO:0005770 | late endosome | 16 | 0.432 | 7.817e-03 | GO:CC |
+| GO:0032587 | ruffle membrane | 6 | 0.400 | 4.199e-02 | GO:CC |
+| GO:0032963 | collagen metabolic process | 14 | 0.335 | 3.144e-07 | GO:BP |
+| GO:0005539 | glycosaminoglycan binding | 30 | 0.285 | 5.378e-15 | GO:MF |
+| KEGG:04061 | Viral protein interaction with cytokine and cytokine receptor | 27 | 0.262 | 4.278e-16 | KEGG |
+| WP:WP3624 | Lung fibrosis | 15 | 0.236 | 8.266e-07 | WP |
+| WP:WP5087 | Pleural mesothelioma | 38 | 0.231 | 5.166e-05 | WP |
+| REAC:R-HSA-6798695 | Neutrophil degranulation | 48 | 0.197 | 5.794e-10 | REAC |
+| KEGG:04060 | Cytokine-cytokine receptor interaction | 65 | 0.163 | 1.048e-34 | KEGG |
+| GO:0004175 | endopeptidase activity | 44 | 0.152 | 2.795e-11 | GO:MF |
+| REAC:R-HSA-5669034 | TNFs bind their physiological receptors | 14 | 0.150 | 1.300e-11 | REAC |

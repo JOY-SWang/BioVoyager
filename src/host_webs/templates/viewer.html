@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-Agents Results Viewer</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6fb;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .header {
+      background: #2d3e50;
+      color: #fff;
+      padding: .9em 1.5em;
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      flex-shrink: 0;
+      box-shadow: 0 2px 8px rgba(44,62,80,.15);
+    }
+    .header h3 { font-size: 1.05em; letter-spacing: .5px; white-space: nowrap; }
+    .header .spacer { flex: 1; }
+    .header a.back-link {
+      font-size: .78rem;
+      color: #aec2d5;
+      text-decoration: none;
+      border: 1px solid #3d5468;
+      padding: .28rem .7rem;
+      border-radius: 6px;
+      transition: background .15s;
+    }
+    .header a.back-link:hover { background: #3d5468; color: #fff; }
+
+    .toolbar {
+      background: #fff;
+      border-bottom: 1px solid #dce4ed;
+      padding: .6em 1.5em;
+      display: flex;
+      align-items: center;
+      gap: .8em;
+      flex-shrink: 0;
+    }
+    .toolbar label { font-size: .85em; font-weight: 500; color: #445; white-space: nowrap; }
+    .toolbar select {
+      font-size: .85em;
+      padding: .38em 1em .38em .6em;
+      border-radius: 7px;
+      border: 1px solid #bfc9d9;
+      background: #f8fafc;
+      min-width: 300px;
+      max-width: 520px;
+      transition: border .15s;
+    }
+    .toolbar select:focus { outline: none; border-color: #2d3e50; }
+    .toolbar .export-btn {
+      font-size: .8em;
+      padding: .38em .9em;
+      border-radius: 7px;
+      border: 1px solid #bfc9d9;
+      background: #f8fafc;
+      cursor: pointer;
+      color: #2d3e50;
+      transition: background .15s;
+    }
+    .toolbar .export-btn:hover { background: #e8eef6; }
+
+    .frame-wrap {
+      flex: 1;
+      overflow: hidden;
+      background: #f4f6fb;
+    }
+
+    #report-frame {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+
+    .placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: #8a9ab0;
+      font-size: .95em;
+    }
+  </style>
+  <script>
+    function onFileChange(sel) {
+      const val = sel.value;
+      if (!val) {
+        document.getElementById('report-frame').src = 'about:blank';
+        document.getElementById('frame-placeholder').style.display = 'flex';
+        document.getElementById('report-frame').style.display = 'none';
+        return;
+      }
+      history.pushState(null, '', '/view?file=' + encodeURIComponent(val));
+      loadFrame(val);
+    }
+
+    function loadFrame(file) {
+      const frame = document.getElementById('report-frame');
+      const ph = document.getElementById('frame-placeholder');
+      frame.src = '/raw?file=' + encodeURIComponent(file);
+      frame.style.display = 'block';
+      ph.style.display = 'none';
+    }
+
+    function exportToPDF() {
+      const sel = document.getElementById('file-select');
+      if (!sel.value) { alert('Please select a file to export.'); return; }
+      window.open('/export_pdf?file=' + encodeURIComponent(sel.value), '_blank');
+    }
+
+    window.addEventListener('DOMContentLoaded', function () {
+      const sel = document.getElementById('file-select');
+      if (sel && sel.value) loadFrame(sel.value);
+    });
+  </script>
+</head>
+<body>
+
+  <div class="header">
+    <h3>AI-Agents Results Viewer</h3>
+    <div class="spacer"></div>
+    <a class="back-link" href="/">&#8592; Portal</a>
+  </div>
+
+  <div class="toolbar">
+    <label for="file-select">Report:</label>
+    <select id="file-select" onchange="onFileChange(this)">
+      <option value="">-- Select a report --</option>
+      {% for f, label in html_files %}
+        <option value="{{ f }}" {% if selected_file == f %}selected{% endif %}>{{ label }}</option>
+      {% endfor %}
+    </select>
+    <button class="export-btn" onclick="exportToPDF()">&#8659; Export PDF</button>
+  </div>
+
+  <div class="frame-wrap">
+    <div id="frame-placeholder" class="placeholder" {% if selected_file %}style="display:none"{% endif %}>
+      Select a report above to preview it.
+    </div>
+    <iframe id="report-frame"
+            {% if selected_file %}src="/raw?file={{ selected_file | urlencode }}"{% endif %}
+            {% if not selected_file %}style="display:none"{% endif %}
+            allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>

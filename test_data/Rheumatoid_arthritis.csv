@@ -1,0 +1,316 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ACE2,Angiotensin-converting enzyme 2,35883,894,1.45 [1.31-1.61],4.769083827654158e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ACTA2,"Actin, aortic smooth muscle",35883,894,1.40 [1.26-1.55],9.033260158037468e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ACVRL1,Serine/threonine-protein kinase receptor R3,36225,898,2.62 [2.10-3.27],8.970611015277473e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ADA2,Adenosine deaminase 2,36329,909,1.79 [1.58-2.04],6.594900926920072e-19
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ADAM8,Disintegrin and metalloproteinase domain-containing protein 8,36817,917,1.89 [1.55-2.29],1.8221390913351518e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ADAMTS8,A disintegrin and metalloproteinase with thrombospondin motifs 8,36674,915,0.60 [0.53-0.69],1.0126055518488354e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ADM,Pro-adrenomedullin,36884,920,2.25 [1.79-2.84],3.980108907372105e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,AGRN,Agrin,36714,914,1.69 [1.44-1.99],1.4772168009197987e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,AMBP,Protein AMBP,36832,919,3.91 [2.96-5.15],3.644409700274836e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ANGPT2,Angiopoietin-2,36884,920,1.69 [1.45-1.96],5.854130156097543e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ANXA10,Annexin A10,35754,888,1.25 [1.17-1.34],1.684859206301464e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,AREG,Amphiregulin,36385,906,1.70 [1.53-1.89],1.1169336455642382e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ASGR1,Asialoglycoprotein receptor 1,36284,898,2.41 [2.03-2.88],6.528181755150269e-23
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ASGR2,Asialoglycoprotein receptor 2,31842,796,2.37 [1.86-3.00],1.3531502966839893e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ATRAID,All-trans retinoic acid-induced differentiation factor,31688,787,1.60 [1.40-1.82],1.2416358745167886e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,B2M,Beta-2-microglobulin,31853,790,1.53 [1.39-1.68],1.6539522739639297e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,B4GALT1,"Beta-1,4-galactosyltransferase 1",36714,914,2.47 [2.03-3.01],1.4851262104349018e-19
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,BAIAP2,Brain-specific angiogenesis inhibitor 1-associated protein 2,35719,889,1.30 [1.20-1.42],8.029312487980983e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,BCAN,Brevican core protein,36284,898,0.56 [0.47-0.66],2.512316765551709e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,BRK1,Protein BRICK1,35754,888,1.55 [1.37-1.76],9.570542522020825e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,BSG,Basigin,36893,921,3.76 [2.85-4.96],5.5268195837363e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,BST2,Bone marrow stromal antigen 2,36878,919,1.48 [1.36-1.62],1.7145657243142182e-19
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,BTN2A1,Butyrophilin subfamily 2 member A1,36714,914,2.40 [1.95-2.96],1.5163142632016102e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,BTN3A2,Butyrophilin subfamily 3 member A2,36521,907,1.76 [1.55-2.00],6.486867734464014e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,C1QA,Complement C1q subcomponent subunit A,36772,917,2.61 [2.04-3.34],2.1173835564251983e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,C4BPB,C4b-binding protein beta chain,36674,915,1.57 [1.36-1.80],3.0138505113562205e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,C9,Complement component C9,31842,796,1.55 [1.35-1.78],3.5784633385991177e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CA6,Carbonic anhydrase 6,36434,910,0.74 [0.68-0.81],2.41120242774646e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CANT1,Soluble calcium-activated nucleotidase 1,36444,906,2.76 [2.07-3.68],3.921872782434005e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CAPG,Macrophage-capping protein,36321,906,1.34 [1.22-1.47],9.641134962893461e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CBLN4,Cerebellin-4,36884,920,0.45 [0.37-0.53],1.0598784495983376e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CCL18,C-C motif chemokine 18,36033,903,1.27 [1.18-1.36],5.953847512292821e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CCL21,C-C motif chemokine 21,36714,914,1.53 [1.39-1.68],3.937055482705821e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CCL3,C-C motif chemokine 3,36521,907,1.28 [1.21-1.36],5.5682531788096e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CCL7,C-C motif chemokine 7,36521,907,1.59 [1.49-1.69],8.856205833911954e-46
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CCN3,CCN family member 3,36936,917,1.80 [1.53-2.11],9.540498152174057e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD14,Monocyte differentiation antigen CD14,35780,893,1.74 [1.52-1.99],3.5156487497528213e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD163,Scavenger receptor cysteine-rich type 1 protein M130,36689,918,1.68 [1.48-1.90],1.1926241072822465e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD27,CD27 antigen,36674,915,2.30 [2.04-2.60],2.43251594054036e-41
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD274,Programmed cell death 1 ligand 1,36284,898,2.21 [1.93-2.53],2.8332724622202456e-31
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD28,T-cell-specific surface glycoprotein CD28,35719,889,1.62 [1.42-1.84],1.075798491045888e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD300A,CMRF35-like molecule 8,31115,772,2.43 [1.95-3.03],3.625152177321156e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD300C,CMRF35-like molecule 6,36878,919,2.08 [1.78-2.42],4.261855202234347e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD300E,CMRF35-like molecule 2,36760,919,2.41 [2.12-2.74],5.203931221017793e-41
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD302,CD302 antigen,36385,906,2.55 [2.17-2.98],1.0748749367185165e-30
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD4,T-cell surface glycoprotein CD4,36462,906,1.53 [1.34-1.75],2.6113831548175193e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD48,CD48 antigen,36651,912,1.91 [1.58-2.32],3.6102201634657945e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD5,T-cell surface glycoprotein CD5,36832,919,1.65 [1.41-1.94],6.434840641542443e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD59,CD59 glycoprotein,35237,873,2.31 [1.84-2.89],4.1064377480081574e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD72,B-cell differentiation antigen CD72,31115,772,1.76 [1.51-2.04],1.3789329652883414e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD74,HLA class II histocompatibility antigen gamma chain,36878,919,2.57 [2.22-2.97],9.597056746352594e-37
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD79B,B-cell antigen receptor complex-associated protein beta chain,36950,921,1.81 [1.62-2.02],2.649402966339533e-25
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD80,T-lymphocyte activation antigen CD80,31815,788,2.65 [2.25-3.10],8.857947566119663e-33
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD83,CD83 antigen,36521,907,2.18 [1.86-2.56],2.8329656838092844e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CD99L2,CD99 antigen-like protein 2,36550,913,2.23 [1.76-2.82],3.226799797266434e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CDCP1,CUB domain-containing protein 1,36284,898,1.81 [1.64-2.00],4.442855561060184e-31
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CHCHD10,"Coiled-coil-helix-coiled-coil-helix domain-containing protein 10, mitochondrial",31733,788,2.07 [1.83-2.34],3.0387837713009877e-31
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CHGA,Chromogranin-A,31817,785,1.46 [1.38-1.55],8.917304494009495e-38
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CHI3L1,Chitinase-3-like protein 1,35725,896,1.35 [1.26-1.44],4.524666550165967e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CKAP4,Cytoskeleton-associated protein 4,36768,918,2.43 [2.07-2.85],2.7966304802914062e-27
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CKB,Creatine kinase B-type,31817,785,1.56 [1.40-1.75],7.576934782031575e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CLEC14A,C-type lectin domain family 14 member A,36550,913,1.83 [1.53-2.19],3.3947293088847325e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CLEC4D,C-type lectin domain family 4 member D,36521,907,1.35 [1.23-1.48],1.1954089046756748e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CLEC5A,C-type lectin domain family 5 member A,36419,905,2.47 [2.05-2.98],1.1305009261524366e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CLEC6A,C-type lectin domain family 6 member A,35719,889,1.67 [1.48-1.87],3.1924939313649312e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CNTN1,Contactin-1,36996,919,0.43 [0.36-0.53],2.2642540453847486e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CNTN5,Contactin-5,36637,909,0.59 [0.50-0.69],1.17575024137263e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,COL18A1,Collagen alpha-1(XVIII) chain,36682,911,3.37 [2.64-4.30],2.633140778120848e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,COL6A3,Collagen alpha-3(VI) chain,36996,919,2.20 [1.89-2.56],1.6471319332461516e-24
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,COL9A1,Collagen alpha-1(IX) chain,36521,907,1.63 [1.46-1.83],7.063981613513492e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,COLEC12,Collectin-12,36528,909,2.41 [1.94-2.99],1.6922396445777219e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CRELD1,Protein disulfide isomerase CRELD1,31115,772,1.80 [1.51-2.16],1.1634658734594492e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CRIM1,Cysteine-rich motor neuron 1 protein,36714,914,2.50 [1.90-3.28],4.150983066043655e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CRTAM,Cytotoxic and regulatory T-cell molecule,36284,898,1.48 [1.32-1.66],2.565122507614153e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CSF1,Macrophage colony-stimulating factor 1,36714,914,3.87 [3.19-4.68],1.0547134142749132e-43
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CST3,Cystatin-C,36630,917,2.65 [2.21-3.18],4.258046158049552e-26
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CSTB,Cystatin-B,36043,892,1.54 [1.35-1.76],1.5784226480702988e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CTSL,Cathepsin L1,36547,908,2.93 [2.35-3.65],1.0794339519278353e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CTSZ,Cathepsin Z,36563,915,2.10 [1.75-2.52],6.7764259698279225e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CXADR,Coxsackievirus and adenovirus receptor,36521,907,1.43 [1.29-1.58],1.935043152212737e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CXCL10,C-X-C motif chemokine 10,36714,914,1.50 [1.40-1.61],2.221185429511568e-30
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CXCL11,C-X-C motif chemokine 11,36878,919,1.29 [1.21-1.37],1.0511147698255311e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CXCL13,C-X-C motif chemokine 13,36878,919,1.51 [1.43-1.59],4.2583880577080933e-50
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CXCL16,C-X-C motif chemokine 16,36927,918,2.51 [1.98-3.18],3.9349601747635785e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,CXCL9,C-X-C motif chemokine 9,36714,914,1.53 [1.43-1.64],1.0056086049942869e-33
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DCBLD2,"Discoidin, CUB and LCCL domain-containing protein 2",36674,915,1.71 [1.45-2.01],9.924179854742984e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DCTPP1,dCTP pyrophosphatase 1,36547,908,1.78 [1.48-2.14],6.100663355334288e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DEFA1_DEFA1B,Neutrophil defensin 1,35776,899,1.42 [1.30-1.55],3.294086412664112e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DLL1,Delta-like protein 1,36674,915,2.59 [2.15-3.11],3.879464564267383e-24
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DNER,Delta and Notch-like epidermal growth factor-related receptor,36477,908,0.37 [0.29-0.46],1.209785911064245e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DPP4,Dipeptidyl peptidase 4,35852,899,0.51 [0.42-0.63],3.8303549326727456e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DPY30,Protein dpy-30 homolog,36779,916,1.43 [1.32-1.55],1.1666826188723729e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DSC2,Desmocollin-2,36150,902,2.19 [1.86-2.58],1.1511445404055296e-20
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,DTNB,Dystrobrevin beta,31609,786,1.68 [1.47-1.92],3.7437267468798506e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,EBI3_IL27,Interleukin-27,36832,918,2.09 [1.76-2.48],2.817154217253757e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,EDA2R,Tumor necrosis factor receptor superfamily member 27,36884,920,2.30 [2.00-2.65],1.0427331956851544e-30
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,EFEMP1,EGF-containing fibulin-like extracellular matrix protein 1,36621,917,2.13 [1.78-2.54],7.30332819465271e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,EFNA1,Ephrin-A1,36491,912,2.48 [2.05-2.99],3.4153343429404395e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,EFNA4,Ephrin-A4,36225,898,2.40 [2.05-2.80],2.4567047554296964e-28
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,EGFR,Epidermal growth factor receptor,36996,919,0.28 [0.21-0.37],1.766194019874173e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ENAH,Protein enabled homolog,35888,889,1.50 [1.34-1.68],1.2019892618091533e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,EPHA2,Ephrin type-A receptor 2,35248,882,2.17 [1.91-2.48],1.0105211003203812e-31
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,EPHB4,Ephrin type-B receptor 4,36996,919,2.36 [1.91-2.91],1.774493117757999e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ESAM,Endothelial cell-selective adhesion molecule,36996,919,1.73 [1.45-2.06],9.142747459963399e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FABP3,"Fatty acid-binding protein, heart",31815,788,1.57 [1.40-1.77],7.253848061315662e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FAS,Tumor necrosis factor receptor superfamily member 6,36868,916,1.49 [1.31-1.69],5.814184762602533e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FCAR,Immunoglobulin alpha Fc receptor,36521,907,1.58 [1.41-1.78],1.9670307449168613e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FGF23,Fibroblast growth factor 23,36831,919,1.36 [1.26-1.48],6.523389171192059e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FGFBP1,Fibroblast growth factor-binding protein 1,36674,915,0.51 [0.43-0.61],8.426395706338268e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FGL1,Fibrinogen-like protein 1,31842,796,1.66 [1.50-1.84],4.212510131253754e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FOLR1,Folate receptor alpha,36520,907,2.52 [2.13-2.98],3.3835643985574145e-27
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FSTL1,Follistatin-related protein 1,30988,765,3.03 [2.44-3.75],5.3284043735862725e-24
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,FSTL3,Follistatin-related protein 3,36473,907,2.12 [1.79-2.52],3.015753138333012e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GAST,Gastrin,31733,788,1.30 [1.25-1.35],6.547864085884814e-36
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GBP1,Guanylate-binding protein 1,31674,786,1.49 [1.35-1.63],2.295258044001449e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GCNT1,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase",36385,906,1.78 [1.51-2.10],4.2229430214845126e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GDF15,Growth/differentiation factor 15,36996,919,2.03 [1.89-2.18],9.937772392008707e-83
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GFRA1,GDNF family receptor alpha-1,36832,918,3.04 [2.52-3.67],5.883032211740917e-31
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GIPC2,PDZ domain-containing protein GIPC2,31733,788,2.03 [1.66-2.48],5.840774394768744e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GM2A,Ganglioside GM2 activator,31027,771,1.51 [1.35-1.70],2.665412791846385e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GOLM2,Protein GOLM2,36878,919,2.05 [1.68-2.51],2.395354061938069e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GRN,Progranulin,36370,910,2.37 [1.90-2.96],2.4494079378391253e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GRPEL1,"GrpE protein homolog 1, mitochondrial",36385,906,1.42 [1.31-1.55],9.507882385271649e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,GSR,"Glutathione reductase, mitochondrial",31643,792,2.89 [2.19-3.80],4.2539356096181207e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,HAVCR1,Hepatitis A virus cellular receptor 1,36832,919,1.45 [1.33-1.58],4.975284173367048e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,HAVCR2,Hepatitis A virus cellular receptor 2,36550,913,2.80 [2.41-3.24],1.142724566984384e-42
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,HGF,Hepatocyte growth factor,36950,921,1.78 [1.52-2.08],4.994540893390947e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,HLA-E,"HLA class I histocompatibility antigen, alpha chain E",36521,907,2.14 [1.79-2.55],4.668555482145881e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,HPGDS,Hematopoietic prostaglandin D synthase,35719,889,0.57 [0.49-0.67],1.9592889267756384e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,HSPB6,Heat shock protein beta-6,36884,920,1.70 [1.48-1.97],2.550923371767104e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,HSPG2,Basement membrane-specific heparan sulfate proteoglycan core protein,36261,905,1.93 [1.57-2.38],6.90450452633173e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,HYOU1,Hypoxia up-regulated protein 1,36996,919,2.29 [1.77-2.97],3.1705020457040105e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ICAM1,Intercellular adhesion molecule 1,36396,912,2.00 [1.66-2.42],3.1659713764700136e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ICAM3,Intercellular adhesion molecule 3,36996,919,2.07 [1.68-2.56],1.0637166462521336e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IFI30,Gamma-interferon-inducible lysosomal thiol reductase,30924,768,2.29 [1.98-2.65],7.39350063308529e-29
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IFNLR1,Interferon lambda receptor 1,36521,907,1.55 [1.37-1.76],4.2489930322079616e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IGFBP2,Insulin-like growth factor-binding protein 2,36935,916,1.44 [1.31-1.58],2.7890738108781923e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IGFBP4,Insulin-like growth factor-binding protein 4,36072,901,1.98 [1.77-2.22],2.1014166187662523e-32
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IGFBP7,Insulin-like growth factor-binding protein 7,36996,919,1.74 [1.49-2.04],4.912314669615793e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IGFBPL1,Insulin-like growth factor-binding protein-like 1,36547,908,1.67 [1.42-1.96],3.957945396288709e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IGLC2,Immunoglobulin lambda constant 2,31811,789,1.65 [1.42-1.91],5.8123429876263614e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL10,Interleukin-10,35888,889,1.32 [1.26-1.39],6.2908446894605365e-27
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL10RB,Interleukin-10 receptor subunit beta,36714,914,1.89 [1.59-2.24],4.815485353689834e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL12A_IL12B,Interleukin-12,36385,906,1.41 [1.31-1.51],8.329943110836297e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL12B,Interleukin-12 subunit beta,36950,921,1.58 [1.43-1.76],6.323044484107199e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL12RB1,Interleukin-12 receptor subunit beta-1,35888,889,1.57 [1.37-1.79],3.2733309852708037e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL15,Interleukin-15,36521,907,2.48 [2.14-2.87],3.994728288956583e-33
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL15RA,Interleukin-15 receptor subunit alpha,35888,889,1.76 [1.48-2.08],7.534683301158601e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL18,Interleukin-18,36404,902,1.47 [1.31-1.65],4.273297432207496e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL18BP,Interleukin-18-binding protein,36689,918,2.82 [2.40-3.31],3.3367981273458125e-36
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL18R1,Interleukin-18 receptor 1,36950,921,2.23 [1.89-2.63],1.961477017150078e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL1R1,Interleukin-1 receptor type 1,36491,912,2.19 [1.73-2.79],1.4245671792088702e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL1RL1,Interleukin-1 receptor-like 1,36868,916,1.52 [1.33-1.73],2.9890645988338046e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL1RN,Interleukin-1 receptor antagonist protein,36465,905,1.40 [1.29-1.53],2.6420313752524523e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL2RA,Interleukin-2 receptor subunit alpha,36272,902,2.16 [1.93-2.41],9.007428895817168e-42
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL4R,Interleukin-4 receptor subunit alpha,36521,907,1.70 [1.48-1.97],4.020244145075149e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IL6,Interleukin-6,36385,906,1.42 [1.36-1.50],2.570425918956468e-44
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,IMMT,MICOS complex subunit MIC60,31668,786,1.48 [1.31-1.67],9.801841343813124e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ITGA11,Integrin alpha-11,36521,907,0.47 [0.40-0.55],1.089177948864079e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ITGAV,Integrin alpha-V,36884,920,0.36 [0.27-0.48],1.10823552985272e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,KIT,Mast/stem cell growth factor receptor Kit,36633,918,0.48 [0.40-0.59],2.4120591219324226e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,KLK4,Kallikrein-4,36884,920,1.42 [1.30-1.54],1.4355088875662424e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,KRT19,"Keratin, type I cytoskeletal 19",36461,906,1.31 [1.21-1.42],4.8041709641918755e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LAG3,Lymphocyte activation gene 3 protein,36385,906,1.60 [1.42-1.81],4.154643400596928e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LAIR1,Leukocyte-associated immunoglobulin-like receptor 1,36528,909,1.81 [1.61-2.03],1.4891922956699148e-24
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LAMP3,Lysosome-associated membrane glycoprotein 3,36893,921,1.74 [1.56-1.93],2.5483261394507075e-24
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LAYN,Layilin,36224,896,1.86 [1.58-2.18],3.723826750937961e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LBR,Delta(14)-sterol reductase LBR,36878,919,1.28 [1.19-1.37],5.863677623538255e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LCN2,Neutrophil gelatinase-associated lipocalin,35422,884,1.57 [1.37-1.80],1.2540991978748866e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LCP1,Plastin-2,31817,785,1.50 [1.32-1.70],2.569809856291173e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LGALS4,Galectin-4,36528,909,1.52 [1.38-1.68],1.4176759156775418e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LGALS9,Galectin-9,36525,909,2.98 [2.53-3.51],1.7415944840973542e-39
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LGMN,Legumain,36714,914,1.86 [1.59-2.17],2.9628540366162644e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LILRA5,Leukocyte immunoglobulin-like receptor subfamily A member 5,36496,908,2.20 [1.84-2.64],9.366669761144528e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LILRB4,Leukocyte immunoglobulin-like receptor subfamily B member 4,35888,889,2.01 [1.77-2.27],6.94547536237759e-28
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LMNB1,Lamin-B1,31631,786,1.41 [1.30-1.53],6.88225205457022e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LMNB2,Lamin-B2,31733,788,2.92 [2.44-3.49],3.113421065609105e-32
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LRG1,Leucine-rich alpha-2-glycoprotein,31853,790,2.60 [2.07-3.26],1.575371832208517e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LRIG1,Leucine-rich repeats and immunoglobulin-like domains protein 1,36780,917,2.09 [1.77-2.45],6.451875924399609e-19
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LRP11,Low-density lipoprotein receptor-related protein 11,36547,908,1.65 [1.41-1.94],4.017957178847343e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LRRC25,Leucine-rich repeat-containing protein 25,36385,906,1.61 [1.43-1.82],2.608435402059089e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LRRN1,Leucine-rich repeat neuronal protein 1,35888,889,0.52 [0.45-0.61],5.61941392464758e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LTA4H,Leukotriene A-4 hydrolase,36884,920,1.39 [1.26-1.52],3.984164249078149e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LTBP2,Latent-transforming growth factor beta-binding protein 2,36996,919,2.03 [1.71-2.41],9.286145662833368e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,LTBR,Tumor necrosis factor receptor superfamily member 3,36335,902,2.36 [1.95-2.85],9.307169060130473e-19
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MAD1L1,Mitotic spindle assembly checkpoint protein MAD1,36174,896,1.52 [1.41-1.63],5.9496413145035e-28
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MAP2,Microtubule-associated protein 2,31733,788,1.52 [1.35-1.72],2.838010843877282e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MARCO,Macrophage receptor MARCO,36547,908,2.37 [1.90-2.97],3.45135825555968e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MDK,Midkine,36566,911,1.40 [1.27-1.54],1.8179864685379881e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MMP1,Interstitial collagenase,35219,880,1.29 [1.20-1.38],4.3263728130577523e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MMP12,Macrophage metalloelastase,36610,910,1.48 [1.33-1.64],3.058430031417843e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MMP3,Stromelysin-1,36550,913,2.14 [1.94-2.37],2.4156114725559364e-50
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MMP7,Matrilysin,35825,892,1.53 [1.35-1.74],7.223558918359453e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MPO,Myeloperoxidase,36550,913,1.54 [1.38-1.71],4.321445998145962e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MRC1,Macrophage mannose receptor 1,31842,796,2.91 [2.35-3.61],3.2492072634408498e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MSLN,Mesothelin,36327,905,1.52 [1.39-1.67],1.5899201364853093e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MSR1,Macrophage scavenger receptor types I and II,36878,919,1.85 [1.64-2.10],3.3070471973294825e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,MZB1,Marginal zone B- and B1-cell-specific protein,36654,913,1.73 [1.56-1.91],1.324070209559167e-25
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NBL1,Neuroblastoma suppressor of tumorigenicity 1,36674,915,2.05 [1.65-2.55],6.698397874767887e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NCR3LG1,Natural cytotoxicity triggering receptor 3 ligand 1,31688,787,2.18 [1.81-2.61],9.373180644375123e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NECTIN2,Nectin-2,36496,908,2.60 [2.17-3.12],1.4943723753424612e-24
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NECTIN4,Nectin-4,36674,915,1.79 [1.51-2.12],1.8980235437507163e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NHLRC3,NHL repeat-containing protein 3,30351,751,2.46 [1.96-3.08],7.518641990788974e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NOMO1,Nodal modulator 1,36550,913,2.19 [1.77-2.72],8.887648405169476e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NOS3,"Nitric oxide synthase, endothelial",35754,888,1.61 [1.50-1.74],2.0580981596422268e-36
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NPC2,NPC intracellular cholesterol transporter 2,31265,777,2.24 [1.96-2.55],1.7967941284274778e-33
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NPDC1,Neural proliferation differentiation and control protein 1,36547,908,1.85 [1.57-2.18],3.691833320444265e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NT5C1A,Cytosolic 5'-nucleotidase 1A,31733,788,1.64 [1.43-1.88],2.6240058151610447e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,NTRK3,NT-3 growth factor receptor,36878,919,0.37 [0.28-0.47],4.404637991646389e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,OCLN,Occludin,31759,791,1.92 [1.68-2.20],2.2940107895754013e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,OGFR,Opioid growth factor receptor,36385,906,1.82 [1.54-2.16],3.6471947249474016e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ORM1,Alpha-1-acid glycoprotein 1,31733,790,4.25 [3.14-5.75],6.6618475628764515e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,OSCAR,Osteoclast-associated immunoglobulin-like receptor,36591,911,2.15 [1.80-2.56],1.5092733444223634e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PALM2,Paralemmin-2,31733,788,1.71 [1.46-1.99],2.1536100372652545e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PDCD1,Programmed cell death protein 1,36823,916,2.30 [2.11-2.51],1.9958850953304968e-78
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PDCD1LG2,Programmed cell death 1 ligand 2,36385,906,1.75 [1.47-2.09],2.433717909130044e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PGA4,Pepsin A-4,31842,796,1.57 [1.43-1.73],4.592036064883371e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PGF,Placenta growth factor,36950,921,2.36 [2.09-2.66],9.310010859794817e-44
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PHLDB1,Pleckstrin homology-like domain family B member 1,31688,787,1.50 [1.33-1.70],2.9636735035651746e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PIGR,Polymeric immunoglobulin receptor,36070,904,2.09 [1.80-2.43],1.4349345037511581e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PIK3IP1,Phosphoinositide-3-kinase-interacting protein 1,36550,913,2.33 [1.93-2.82],2.1999456055661085e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PILRA,Paired immunoglobulin-like type 2 receptor alpha,36550,913,1.84 [1.60-2.12],5.009353388214714e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PLA2G15,Phospholipase A2 group XV,36674,915,2.10 [1.70-2.59],7.80051459963614e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PLA2G2A,"Phospholipase A2, membrane associated",36463,908,1.43 [1.32-1.54],7.406554693320231e-20
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PLAUR,Urokinase plasminogen activator surface receptor,36271,906,3.64 [3.00-4.41],2.307225680860604e-39
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,POF1B,Protein POF1B,30872,766,1.54 [1.36-1.73],2.1742852164783418e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,POLR2F,"DNA-directed RNA polymerases I, II, and III subunit RPABC2",36385,906,1.62 [1.44-1.82],2.2584771552545914e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PPP3R1,Calcineurin subunit B type 1,36284,898,1.55 [1.35-1.78],8.80711034201937e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PRAP1,Proline-rich acidic protein 1,31817,785,1.95 [1.64-2.33],5.0240400149342173e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PRG2,Bone marrow proteoglycan,31817,785,1.68 [1.49-1.90],1.2039014059263298e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PRSS8,Prostasin,36399,905,1.78 [1.56-2.04],3.120070100910648e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PRTN3,Myeloblastin,35624,877,1.56 [1.42-1.71],1.1228681913530808e-20
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PSAP,Prosaposin,31505,779,1.95 [1.64-2.32],2.2935244891928844e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PSIP1,PC4 and SFRS1-interacting protein,36521,907,1.26 [1.17-1.35],4.006081718104528e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,PTGDS,Prostaglandin-H2 D-isomerase,36274,908,1.81 [1.53-2.16],1.5601468736775485e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RARRES2,Retinoic acid receptor responder protein 2,36761,919,1.46 [1.31-1.63],6.808956170732845e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RBFOX3,RNA binding protein fox-1 homolog 3,31759,791,1.86 [1.67-2.07],9.548101889696338e-30
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RCC1,Regulator of chromosome condensation,31668,786,1.41 [1.28-1.55],1.0151075707163177e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,REG3A,Regenerating islet-derived protein 3-alpha,36996,919,1.33 [1.22-1.45],7.113372821810537e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RELT,Tumor necrosis factor receptor superfamily member 19L,36550,913,2.70 [2.25-3.23],4.0581253378051386e-27
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RETN,Resistin,36468,902,1.49 [1.31-1.69],7.4022448316644e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RNASE1,Ribonuclease pancreatic,31842,796,2.48 [2.03-3.03],4.933137323252786e-19
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RNASE4,Ribonuclease 4,30781,768,1.90 [1.55-2.33],9.318185467108304e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RNASE6,Ribonuclease K6,31603,792,1.97 [1.74-2.24],4.65000679935628e-26
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RNASET2,Ribonuclease T2,36834,914,2.41 [2.00-2.90],3.632606371708991e-20
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RNF149,E3 ubiquitin-protein ligase RNF149,30988,765,2.09 [1.79-2.44],1.7174199479844508e-20
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,RRM2,Ribonucleoside-diphosphate reductase subunit M2,35719,889,1.69 [1.59-1.79],2.320598233137686e-65
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,S100A12,Protein S100-A12,36054,902,1.45 [1.35-1.56],3.460448077251866e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,S100P,Protein S100-P,35883,894,1.39 [1.28-1.51],2.4830718030803958e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SCARB2,Lysosome membrane protein 2,35630,885,1.87 [1.57-2.23],2.025047009115389e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SCRG1,Scrapie-responsive protein 1,31815,788,2.07 [1.70-2.52],4.851890330271641e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SDC1,Syndecan-1,36547,908,1.68 [1.48-1.91],3.907376317724397e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SEL1L,Protein sel-1 homolog 1,30988,765,1.65 [1.46-1.87],1.0609745170097576e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SEMA3F,Semaphorin-3F,36547,908,2.21 [1.78-2.75],6.49497222278615e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SEPTIN8,Septin-8,31675,786,1.94 [1.66-2.27],1.1761092295709188e-16
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SERPINA1,Alpha-1-antitrypsin,31228,778,7.73 [4.83-12.37],1.6558123286875786e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SERPINA3,Alpha-1-antichymotrypsin,31745,789,4.19 [3.27-5.38],1.4177189964869086e-29
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SERPINB8,Serpin B8,36950,921,1.31 [1.21-1.41],7.619080136741763e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SETMAR,Histone-lysine N-methyltransferase SETMAR,36164,897,1.76 [1.48-2.08],7.406123356984123e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SHISA5,Protein shisa-5,31817,785,2.25 [1.92-2.63],4.046718698839603e-24
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SIGLEC1,Sialoadhesin,36714,914,2.04 [1.80-2.31],3.1958096725331514e-29
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SIGLEC10,Sialic acid-binding Ig-like lectin 10,36521,907,1.96 [1.68-2.29],1.889358854670744e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SIRPB1,Signal-regulatory protein beta-1,36461,905,1.73 [1.53-1.96],8.288245364300508e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SLAMF8,SLAM family member 8,35719,889,1.48 [1.32-1.66],1.0183529397118852e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SMOC1,SPARC-related modular calcium-binding protein 1,36884,920,1.84 [1.56-2.18],3.232765504050566e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SOD2,"Superoxide dismutase [Mn], mitochondrial",36550,913,1.78 [1.57-2.03],1.3224795251089057e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SPINK1,Serine protease inhibitor Kazal-type 1,36550,913,1.58 [1.41-1.78],2.2082113061811998e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SPON1,Spondin-1,36591,911,1.70 [1.45-2.00],8.944849754801127e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SPON2,Spondin-2,36366,906,1.76 [1.49-2.08],1.6570235278573635e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,SPP1,Osteopontin,36935,916,1.60 [1.41-1.81],1.4172091951415888e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ST6GAL1,"Beta-galactoside alpha-2,6-sialyltransferase 1",36996,919,2.03 [1.73-2.39],7.84025934550182e-18
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TCN2,Transcobalamin-2,36935,916,1.79 [1.52-2.10],1.7423980628619366e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TCOF1,Treacle protein,31815,788,1.79 [1.53-2.09],3.186637847213956e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TFF1,Trefoil factor 1,36357,912,1.25 [1.17-1.34],2.4867725138506287e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TFF2,Trefoil factor 2,36651,912,1.52 [1.39-1.67],2.166070790646488e-19
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TFF3,Trefoil factor 3,36514,911,1.42 [1.29-1.57],2.4437579324607484e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TFPI2,Tissue factor pathway inhibitor 2,36549,914,1.38 [1.25-1.52],2.6103905884381167e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TFRC,Transferrin receptor protein 1,36701,915,1.65 [1.43-1.90],7.526617115012649e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TGFA,Protransforming growth factor alpha,36521,907,1.72 [1.54-1.92],6.915144504341623e-22
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TGFBR2,TGF-beta receptor type-2,36674,915,1.82 [1.55-2.14],4.55637821698837e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TIMD4,T-cell immunoglobulin and mucin domain-containing protein 4,36689,918,1.91 [1.68-2.16],3.155764550411265e-24
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TIMP1,Metalloproteinase inhibitor 1,36131,900,2.30 [1.93-2.74],5.633231531559304e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TINAGL1,Tubulointerstitial nephritis antigen-like,36433,906,2.60 [2.01-3.35],3.065401976428273e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNC,Tenascin,36689,918,1.74 [1.55-1.96],5.631150472700412e-21
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNF,Tumor necrosis factor,35830,891,2.08 [1.90-2.28],5.7917947983334495e-55
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFAIP2,Tumor necrosis factor alpha-induced protein 2,31688,787,1.50 [1.34-1.68],5.2032363417603395e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF10A,Tumor necrosis factor receptor superfamily member 10A,36284,898,2.10 [1.87-2.36],3.0807328778987154e-36
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF10B,Tumor necrosis factor receptor superfamily member 10B,36284,898,1.41 [1.32-1.51],1.885253781286437e-23
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF11A,Tumor necrosis factor receptor superfamily member 11A,36950,921,1.78 [1.54-2.05],2.3663333366506947e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF11B,Tumor necrosis factor receptor superfamily member 11B,36528,909,1.99 [1.65-2.39],3.149831677123348e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF12A,Tumor necrosis factor receptor superfamily member 12A,36674,915,1.81 [1.55-2.11],7.901479124745179e-14
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF13B,Tumor necrosis factor receptor superfamily member 13B,36591,911,1.61 [1.40-1.86],1.8866919728412488e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF14,Tumor necrosis factor receptor superfamily member 14,36591,911,2.56 [2.15-3.06],1.138293184780541e-25
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF1A,Tumor necrosis factor receptor superfamily member 1A,36550,913,2.95 [2.49-3.48],8.246756272927708e-37
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF1B,Tumor necrosis factor receptor superfamily member 1B,36550,913,2.38 [2.20-2.57],4.840389746234114e-106
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF4,Tumor necrosis factor receptor superfamily member 4,36893,921,2.77 [2.47-3.11],2.146596330174077e-68
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF6B,Tumor necrosis factor receptor superfamily member 6B,36284,898,1.65 [1.51-1.79],1.228496055703456e-29
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF8,Tumor necrosis factor receptor superfamily member 8,36878,919,2.02 [1.83-2.23],7.723717463370403e-43
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFRSF9,Tumor necrosis factor receptor superfamily member 9,36284,898,2.08 [1.90-2.28],2.983207114220683e-56
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFSF13B,Tumor necrosis factor ligand superfamily member 13B,36927,918,1.85 [1.56-2.20],2.945961193403532e-12
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TNFSF8,Tumor necrosis factor ligand superfamily member 8,31817,785,1.95 [1.65-2.31],3.6849964076336236e-15
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TREM2,Triggering receptor expressed on myeloid cells 2,36528,909,1.59 [1.43-1.77],1.939457893105916e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,TXNDC15,Thioredoxin domain-containing protein 15,36674,915,2.09 [1.71-2.56],5.628136516252348e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,UBE2L6,Ubiquitin/ISG15-conjugating enzyme E2 L6,31815,788,1.40 [1.26-1.56],5.823565605555404e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ULBP2,UL16-binding protein 2,36284,898,1.72 [1.49-1.99],2.691968571792053e-13
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,UMOD,Uromodulin,36877,916,0.72 [0.65-0.79],5.5659679419022357e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,VCAM1,Vascular cell adhesion protein 1,36633,918,2.45 [2.02-2.98],1.0421322752076537e-19
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,VCAN,Versican core protein,36878,919,1.84 [1.52-2.22],2.0259684899067567e-10
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,VSIG2,V-set and immunoglobulin domain-containing protein 2,31668,786,1.78 [1.63-1.96],3.871914470588886e-35
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,VSIG4,V-set and immunoglobulin domain-containing protein 4,36498,911,2.67 [2.36-3.01],1.2224125645829412e-56
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,WARS,"Tryptophan--tRNA ligase, cytoplasmic",36550,913,1.91 [1.65-2.22],1.3088720630222749e-17
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,WFDC2,WAP four-disulfide core domain protein 2,34676,861,2.35 [2.08-2.65],1.3356342479043925e-43
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,XCL1,Lymphotactin,36884,920,1.34 [1.23-1.46],2.3087168710164627e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,YAP1,Transcriptional coactivator YAP1,31733,788,2.10 [1.69-2.59],1.1134000652102356e-11
+Chapter XIII Diseases of the musculoskeletal system and connective tissue,Rheumatoid arthritis,ZBTB17,Zinc finger and BTB domain-containing protein 17,35883,894,1.65 [1.50-1.81],2.4184779656586046e-26

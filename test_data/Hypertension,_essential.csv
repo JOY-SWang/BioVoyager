@@ -1,0 +1,653 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",A1BG,Alpha-1B-glycoprotein,40860,11301,1.59 [1.43-1.77],2.8464011789900104e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ABL1,Tyrosine-protein kinase ABL1,46592,12934,1.08 [1.05-1.10],1.072276651337026e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ACAA1,"3-ketoacyl-CoA thiolase, peroxisomal",45697,12673,1.11 [1.09-1.13],8.198066395040038e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ACE,Angiotensin-converting enzyme,40826,11287,1.57 [1.47-1.69],7.262765547636069e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ACE2,Angiotensin-converting enzyme 2,45953,12750,1.33 [1.30-1.37],1.793001286441639e-94
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ACP5,Tartrate-resistant acid phosphatase type 5,47019,13065,1.30 [1.24-1.36],2.10800016429636e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ACTA2,"Actin, aortic smooth muscle",45953,12750,1.25 [1.21-1.29],4.073063439590748e-44
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ACVRL1,Serine/threonine-protein kinase receptor R3,46396,12861,1.41 [1.32-1.50],8.336394412559355e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ACY1,Aminoacylase-1,46802,12992,1.21 [1.18-1.24],4.0925721933696224e-51
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ACY3,N-acyl-aromatic-L-amino acid amidohydrolase,39453,10882,1.18 [1.14-1.22],4.5980666832331374e-24
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADA2,Adenosine deaminase 2,46556,12951,1.22 [1.17-1.26],2.8935512817226967e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADAM12,Disintegrin and metalloproteinase domain-containing protein 12,39626,10928,1.26 [1.20-1.33],1.558936004061447e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADAM9,Disintegrin and metalloproteinase domain-containing protein 9,40627,11257,1.24 [1.17-1.32],2.140215117659149e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADAMTS8,A disintegrin and metalloproteinase with thrombospondin motifs 8,46971,13049,0.88 [0.85-0.91],1.0807317557311697e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADAMTSL2,ADAMTS-like protein 2,40795,11277,1.56 [1.48-1.64],2.1254224298846965e-65
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADGRD1,Adhesion G-protein coupled receptor D1,39910,11023,1.28 [1.22-1.34],8.656334701169571e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADGRG1,Adhesion G-protein coupled receptor G1,46592,12934,1.12 [1.10-1.15],2.2496782355988536e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADGRG2,Adhesion G-protein coupled receptor G2,46802,12992,0.67 [0.63-0.71],6.132811770206725e-44
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADH1B,All-trans-retinol dehydrogenase,39910,11023,1.09 [1.07-1.12],1.181536727273705e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADH4,All-trans-retinol dehydrogenase [NAD(+)] ADH4,45953,12750,1.12 [1.10-1.14],1.965890270876537e-30
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ADM,Pro-adrenomedullin,47219,13113,1.78 [1.67-1.89],1.0151980246317461e-73
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AFM,Afamin,40860,11301,1.41 [1.29-1.55],1.1076128065973713e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AGR2,Anterior gradient protein 2 homolog,45366,12585,1.06 [1.04-1.08],1.923382422975713e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AGRN,Agrin,47037,13058,1.36 [1.30-1.43],1.6562892046016355e-40
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AGRP,Agouti-related protein,47336,13136,1.15 [1.12-1.19],2.9341499283296644e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AGXT,Serine--pyruvate aminotransferase,46802,12992,1.11 [1.08-1.13],1.820763127505735e-23
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AIFM1,"Apoptosis-inducing factor 1, mitochondrial",46512,12912,1.06 [1.05-1.08],1.0528530748042516e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AKR7L,Aflatoxin B1 aldehyde reductase member 4,39626,10928,1.12 [1.09-1.15],2.664624482741921e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ALPP,"Alkaline phosphatase, placental type",46592,12934,1.05 [1.04-1.07],1.10832883448167e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AMBP,Protein AMBP,47149,13093,1.90 [1.75-2.06],4.2928940762951305e-56
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AMIGO2,Amphoterin-induced protein 2,46592,12934,1.34 [1.25-1.43],3.016918415700163e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ANG,Angiogenin,46700,13001,1.29 [1.23-1.35],2.137985227516041e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ANGPT2,Angiopoietin-2,47219,13113,1.33 [1.27-1.38],5.761115090691459e-40
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ANGPTL2,Angiopoietin-related protein 2,46888,13018,1.15 [1.11-1.20],3.690497675398611e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ANGPTL3,Angiopoietin-related protein 3,46861,13037,0.82 [0.78-0.85],2.7422912628894334e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ANGPTL4,Angiopoietin-related protein 4,46956,13039,1.20 [1.16-1.25],8.422855098335927e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ANGPTL7,Angiopoietin-related protein 7,47219,13113,1.19 [1.14-1.24],5.462793001021014e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ANPEP,Aminopeptidase N,46945,13052,1.20 [1.13-1.27],1.0027879949985572e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ANXA10,Annexin A10,45729,12690,1.08 [1.06-1.10],3.935179758283044e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",APBB1IP,Amyloid beta A4 precursor protein-binding family B member 1-interacting protein,46592,12934,1.13 [1.10-1.17],4.874931051375957e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",APLP1,Amyloid-like protein 1,46802,12992,0.89 [0.87-0.92],1.0000866881452416e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",APOC1,Apolipoprotein C-I,40782,11280,0.78 [0.74-0.82],5.3931606386932985e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",APOD,Apolipoprotein D,39006,10792,0.86 [0.81-0.90],6.86052088618052e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",APOF,Apolipoprotein F,40826,11287,0.74 [0.70-0.78],2.3825142556846047e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",APOH,Beta-2-glycoprotein 1,46846,13018,1.14 [1.10-1.19],6.928337522850067e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",APOM,Apolipoprotein M,46940,13057,0.76 [0.72-0.81],4.526086789453236e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",AREG,Amphiregulin,46592,12934,1.32 [1.28-1.37],2.7029614392815928e-58
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ARSA,Arylsulfatase A,46846,13018,1.14 [1.10-1.18],9.173003291895275e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ARSB,Arylsulfatase B,46592,12934,1.09 [1.06-1.12],4.4272045489222127e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ASGR1,Asialoglycoprotein receptor 1,46475,12883,1.79 [1.70-1.89],2.1534025254141883e-111
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ASGR2,Asialoglycoprotein receptor 2,40826,11287,1.25 [1.17-1.34],3.277102892792001e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ASS1,Argininosuccinate synthase,39453,10882,1.08 [1.05-1.11],1.6419523491061818e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ATOX1,Copper transport protein ATOX1,46971,13049,1.07 [1.05-1.10],7.921276701060813e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ATRAID,All-trans retinoic acid-induced differentiation factor,40627,11257,1.20 [1.13-1.26],4.2003947484349295e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",B2M,Beta-2-microglobulin,40860,11301,1.25 [1.20-1.31],2.253481043910254e-23
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",B3GNT7,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7",39719,10981,1.22 [1.16-1.28],1.2067423266463501e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",B4GALT1,"Beta-1,4-galactosyltransferase 1",47037,13058,1.47 [1.39-1.56],3.082316915249896e-40
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BAIAP2,Brain-specific angiogenesis inhibitor 1-associated protein 2,45697,12673,1.16 [1.13-1.19],3.574923877286548e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BAMBI,BMP and activin membrane-bound inhibitor homolog,45697,12673,1.19 [1.13-1.26],1.3682267476144972e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BCAN,Brevican core protein,46475,12883,0.81 [0.77-0.84],2.0400019982098503e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BCAT1,"Branched-chain-amino-acid aminotransferase, cytosolic",40798,11275,1.26 [1.19-1.34],7.251984138432857e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BMPER,BMP-binding endothelial regulator protein,39910,11023,1.65 [1.53-1.79],9.515198338633182e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BSG,Basigin,47255,13108,1.36 [1.25-1.47],1.9944500810061345e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BST2,Bone marrow stromal antigen 2,47239,13096,1.24 [1.21-1.27],9.366601171314421e-54
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BTN2A1,Butyrophilin subfamily 2 member A1,47037,13058,1.28 [1.20-1.36],5.9417837169525785e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",BTN3A2,Butyrophilin subfamily 3 member A2,46761,12964,1.24 [1.19-1.29],2.3315144154822853e-24
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",C19orf12,Protein C19orf12,45729,12690,1.09 [1.07-1.11],9.914535876396762e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",C1QTNF1,Complement C1q tumor necrosis factor-related protein 1,47015,13074,1.18 [1.13-1.22],3.6278161303650064e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",C1QTNF9,Complement C1q and tumor necrosis factor-related protein 9A,39836,11006,0.85 [0.82-0.88],1.81652634033701e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",C2,Complement C2,46940,13057,1.29 [1.20-1.38],1.1879715847047638e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",C3,Complement C3,38748,10710,1.18 [1.13-1.22],4.489104990617205e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",C7,Complement component C7,39883,11042,1.44 [1.36-1.53],3.2535317317808117e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CA12,Carbonic anhydrase 12,46592,12934,1.25 [1.19-1.31],2.7162624442725623e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CA14,Carbonic anhydrase 14,47219,13113,0.71 [0.68-0.75],3.291017619408968e-50
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CA5A,"Carbonic anhydrase 5A, mitochondrial",45953,12750,1.11 [1.09-1.13],1.1177500360084322e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CA6,Carbonic anhydrase 6,46697,12983,0.91 [0.89-0.93],1.9878561102754693e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CALB1,Calbindin,46592,12934,1.14 [1.09-1.18],1.296556551322536e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CALCA,Calcitonin,46397,12863,1.13 [1.10-1.16],1.9226361585797496e-23
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CANT1,Soluble calcium-activated nucleotidase 1,46660,12943,1.49 [1.38-1.62],4.38112417533011e-24
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CAPG,Macrophage-capping protein,46467,12905,1.11 [1.08-1.14],1.3743773293139637e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CBS,Cystathionine beta-synthase,39719,10981,1.14 [1.10-1.18],2.440801426767852e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCDC80,Coiled-coil domain-containing protein 80,46802,12992,1.20 [1.14-1.25],1.309821871339986e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL14,C-C motif chemokine 14,46700,13001,1.22 [1.18-1.27],3.605025406064282e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL15,C-C motif chemokine 15,47390,13166,1.30 [1.26-1.35],2.3635872204086846e-51
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL16,C-C motif chemokine 16,47390,13166,1.24 [1.20-1.28],3.1074481851799483e-43
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL18,C-C motif chemokine 18,46185,12854,1.08 [1.06-1.11],3.393670328702022e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL20,C-C motif chemokine 20,47336,13136,1.10 [1.08-1.11],1.040075076260934e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL21,C-C motif chemokine 21,47037,13058,1.25 [1.21-1.29],1.4472908393874874e-41
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL22,C-C motif chemokine 22,46338,12883,1.12 [1.09-1.16],3.304549318504368e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL23,C-C motif chemokine 23,47037,13058,1.18 [1.13-1.22],1.14990568297745e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL27,C-C motif chemokine 27,46802,12992,1.08 [1.06-1.11],8.775035666464231e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL28,C-C motif chemokine 28,46606,12924,1.09 [1.06-1.12],1.4190437740133287e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL3,C-C motif chemokine 3,46761,12964,1.13 [1.10-1.15],5.21809577733991e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL4,C-C motif chemokine 4,46877,13022,1.08 [1.06-1.10],3.5271412614630893e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL5,C-C motif chemokine 5,47015,13074,1.06 [1.04-1.08],6.40155007201601e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCL7,C-C motif chemokine 7,46761,12964,1.14 [1.12-1.17],1.465087681480393e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCN1,CCN family member 1,46513,12908,1.07 [1.05-1.09],7.39890757782172e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCN3,CCN family member 3,47314,13145,1.31 [1.25-1.37],1.5013879529574432e-30
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CCN4,CCN family member 4,47219,13113,1.22 [1.17-1.26],5.318527514607863e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD14,Monocyte differentiation antigen CD14,45874,12790,1.15 [1.11-1.20],3.734801822753922e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD163,Scavenger receptor cysteine-rich type 1 protein M130,47015,13074,1.20 [1.15-1.24],6.383503361038404e-23
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD1C,T-cell surface glycoprotein CD1c,46971,13049,0.77 [0.73-0.82],2.0508411271896256e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD248,Endosialin,40795,11277,0.84 [0.81-0.88],1.4046801656266074e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD27,CD27 antigen,46971,13049,1.23 [1.18-1.28],3.898059219982797e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD274,Programmed cell death 1 ligand 1,46475,12883,1.32 [1.26-1.38],1.0001541273686699e-33
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD276,CD276 antigen,46797,12998,1.18 [1.13-1.24],3.709667193348842e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD28,T-cell-specific surface glycoprotein CD28,45697,12673,1.16 [1.11-1.21],5.2223573633260086e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD300A,CMRF35-like molecule 8,39910,11023,1.22 [1.15-1.30],1.4306160059614223e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD300C,CMRF35-like molecule 6,47239,13096,1.20 [1.15-1.26],1.1688428664572633e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD300E,CMRF35-like molecule 2,47072,13076,1.27 [1.22-1.32],2.235099911265208e-33
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD300LG,CMRF35-like molecule 9,46846,13018,0.87 [0.83-0.90],6.57898927779737e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD302,CD302 antigen,46592,12934,1.42 [1.35-1.49],1.1686535654807636e-39
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD34,Hematopoietic progenitor cell antigen CD34,47087,13057,0.72 [0.68-0.77],4.4775602104274906e-23
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD38,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,46592,12934,1.29 [1.23-1.36],3.97621561319072e-23
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD4,T-cell surface glycoprotein CD4,46686,12944,1.36 [1.30-1.42],4.836484179193651e-41
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD40,Tumor necrosis factor receptor superfamily member 5,46796,13003,1.16 [1.12-1.20],1.5782482400531078e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD46,Membrane cofactor protein,46555,12958,1.22 [1.15-1.29],3.135749239588281e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD48,CD48 antigen,46956,13039,1.20 [1.14-1.26],1.4738622122836235e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD5,T-cell surface glycoprotein CD5,47149,13093,1.18 [1.13-1.23],9.724994616242096e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD59,CD59 glycoprotein,45114,12555,1.52 [1.41-1.63],3.844355318225088e-30
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD72,B-cell differentiation antigen CD72,39910,11023,1.15 [1.10-1.20],4.352251952946501e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD74,HLA class II histocompatibility antigen gamma chain,47239,13096,1.28 [1.23-1.34],6.455727945433517e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD79B,B-cell antigen receptor complex-associated protein beta chain,47336,13136,1.15 [1.11-1.19],1.20899314623689e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD80,T-lymphocyte activation antigen CD80,40798,11275,1.35 [1.28-1.42],1.3663905804312166e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD83,CD83 antigen,46761,12964,1.25 [1.19-1.31],9.069688194617246e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CD99L2,CD99 antigen-like protein 2,46846,13018,1.33 [1.24-1.42],3.144113180032767e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CDCP1,CUB domain-containing protein 1,46475,12883,1.21 [1.18-1.24],2.1703920566550792e-39
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CDH1,Cadherin-1,45278,12594,1.17 [1.12-1.21],2.569583618150787e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CDH2,Cadherin-2,46802,12992,1.36 [1.30-1.42],1.5210977821544011e-43
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CDH5,Cadherin-5,47390,13166,0.83 [0.79-0.87],7.462573766544641e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CDHR2,Cadherin-related family member 2,46592,12934,1.10 [1.08-1.13],1.815503445027606e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CDKN1A,Cyclin-dependent kinase inhibitor 1,46592,12934,1.05 [1.03-1.06],8.803611957304505e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CEACAM1,Carcinoembryonic antigen-related cell adhesion molecule 1,46899,13027,1.29 [1.20-1.38],1.8558629537349112e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CEACAM5,Carcinoembryonic antigen-related cell adhesion molecule 5,45102,12523,1.09 [1.07-1.12],1.212108503000044e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CEACAM8,Carcinoembryonic antigen-related cell adhesion molecule 8,45953,12750,1.17 [1.14-1.21],4.983222221657967e-24
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CES1,Liver carboxylesterase 1,46926,13026,1.09 [1.07-1.11],1.6845822521369766e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CFB,Complement factor B,40123,11091,1.36 [1.29-1.44],2.056442166686758e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CFC1,Cryptic protein,45697,12673,1.13 [1.09-1.17],7.908130118188391e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CFH,Complement factor H,38468,10639,1.49 [1.38-1.62],5.983375249030562e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CFI,Complement factor I,40860,11301,1.73 [1.58-1.89],1.152062885935921e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CHAD,Chondroadherin,39910,11023,0.84 [0.81-0.87],5.982734648503007e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CHCHD10,"Coiled-coil-helix-coiled-coil-helix domain-containing protein 10, mitochondrial",40700,11252,1.40 [1.34-1.46],8.661102573539945e-52
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CHCHD6,MICOS complex subunit MIC25,40607,11238,1.34 [1.26-1.41],5.6485399903408586e-24
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CHGA,Chromogranin-A,40795,11277,1.12 [1.10-1.15],1.869273167774404e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CHI3L1,Chitinase-3-like protein 1,45819,12759,1.18 [1.16-1.20],6.293837217504369e-65
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CHL1,Neural cell adhesion molecule L1-like protein,46950,13052,0.82 [0.78-0.87],2.9623491955402213e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CKAP4,Cytoskeleton-associated protein 4,47096,13071,1.31 [1.24-1.39],5.664756921858509e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CLEC3B,Tetranectin,39909,11017,0.66 [0.60-0.72],5.35286345459137e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CLEC4D,C-type lectin domain family 4 member D,46761,12964,1.13 [1.10-1.15],2.1200509756047164e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CLEC4G,C-type lectin domain family 4 member G,46761,12964,1.30 [1.24-1.37],2.742844221751913e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CLEC5A,C-type lectin domain family 5 member A,46642,12957,1.25 [1.18-1.32],4.4070399230329824e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CLEC6A,C-type lectin domain family 6 member A,45697,12673,1.16 [1.12-1.19],1.5799596609650482e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CLGN,Calmegin,39672,10962,1.14 [1.09-1.18],1.7553760854332902e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CLMP,CXADR-like membrane protein,47219,13113,1.31 [1.22-1.42],2.5713045498961048e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CLUL1,Clusterin-like protein 1,46724,12971,0.88 [0.85-0.91],7.866738626569102e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CNTN1,Contactin-1,47390,13166,0.83 [0.79-0.88],3.315128769344778e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CNTN3,Contactin-3,46846,13018,1.18 [1.13-1.24],2.7938779389436208e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CNTN5,Contactin-5,46940,13019,0.78 [0.75-0.82],2.1290106132200055e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",COL18A1,Collagen alpha-1(XVIII) chain,47000,13071,1.92 [1.79-2.05],5.22353777366177e-78
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",COL1A1,Collagen alpha-1(I) chain,47390,13166,0.82 [0.77-0.87],3.236467118884369e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",COL5A1,Collagen alpha-1(V) chain,39910,11023,1.18 [1.13-1.24],2.864757836649372e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",COL6A3,Collagen alpha-3(VI) chain,47390,13166,1.43 [1.36-1.49],2.3231092095773027e-51
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",COLEC12,Collectin-12,46797,12998,1.52 [1.43-1.62],1.2335516737099147e-40
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CPA1,Carboxypeptidase A1,47390,13166,1.08 [1.06-1.11],4.0388191195886764e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CPB1,Carboxypeptidase B,47390,13166,1.09 [1.06-1.12],3.1579848436972613e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CPB2,Carboxypeptidase B2,40782,11280,1.29 [1.19-1.40],4.977019773059806e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CPE,Carboxypeptidase E,46853,12984,0.85 [0.82-0.88],6.377874671567724e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CPM,Carboxypeptidase M,47007,13037,1.43 [1.37-1.49],1.2083210009988248e-57
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CPXM2,Inactive carboxypeptidase-like protein X2,40798,11275,1.33 [1.24-1.43],1.7265982281934401e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CRELD1,Protein disulfide isomerase CRELD1,39910,11023,1.36 [1.29-1.43],2.367660006194528e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CRH,Corticoliberin,45622,12655,0.94 [0.92-0.95],4.694421162724554e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CRHBP,Corticotropin-releasing factor-binding protein,46797,12998,1.28 [1.21-1.35],1.0748941151273053e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CRIM1,Cysteine-rich motor neuron 1 protein,47037,13058,1.52 [1.41-1.64],1.951701977752428e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CRIP2,Cysteine-rich protein 2,46475,12883,1.27 [1.22-1.32],3.2533218147897773e-32
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CRLF1,Cytokine receptor-like factor 1,47037,13058,1.25 [1.17-1.33],3.177543292201763e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CSF1,Macrophage colony-stimulating factor 1,47037,13058,1.41 [1.33-1.50],2.1900017493948453e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CST3,Cystatin-C,46938,13044,1.58 [1.49-1.67],3.903029118806677e-56
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CST7,Cystatin-F,46877,13022,1.06 [1.04-1.07],1.7583106007484609e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CSTB,Cystatin-B,46146,12836,1.20 [1.15-1.24],9.810894611162409e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTHRC1,Collagen triple helix repeat-containing protein 1,40795,11277,1.30 [1.22-1.38],6.327485181074613e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTSB,Cathepsin B,46854,13034,0.87 [0.84-0.89],3.7786100797069916e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTSC,Dipeptidyl peptidase 1,46727,12964,1.12 [1.08-1.16],2.709968524503413e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTSD,Cathepsin D,43777,12181,1.31 [1.26-1.36],1.5989768942637978e-49
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTSF,Cathepsin F,46971,13049,1.17 [1.13-1.22],8.994202446942502e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTSL,Cathepsin L1,46802,12992,1.36 [1.27-1.45],1.232897009591943e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTSO,Cathepsin O,47336,13136,1.31 [1.25-1.38],1.875805545538557e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTSS,Cathepsin S,36872,10247,1.42 [1.31-1.53],1.949142371383018e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CTSZ,Cathepsin Z,46866,13036,1.26 [1.20-1.33],2.774775707068973e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CXADR,Coxsackievirus and adenovirus receptor,46761,12964,1.23 [1.19-1.26],1.421501488012806e-40
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CXCL10,C-X-C motif chemokine 10,47037,13058,1.08 [1.06-1.11],1.2310898947158993e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CXCL11,C-X-C motif chemokine 11,47239,13096,1.06 [1.04-1.08],1.2093679122104723e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CXCL13,C-X-C motif chemokine 13,47239,13096,1.11 [1.08-1.14],2.01982061210189e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CXCL16,C-X-C motif chemokine 16,47309,13152,1.23 [1.15-1.32],8.371865111126164e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CXCL17,C-X-C motif chemokine 17,47336,13136,1.18 [1.14-1.23],1.3140935842510791e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",CXCL9,C-X-C motif chemokine 9,47037,13058,1.12 [1.09-1.14],3.3821122361869135e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DAG1,Dystroglycan,47037,13058,1.15 [1.11-1.19],1.3268142753516642e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DBI,Acyl-CoA-binding protein,46622,12957,1.07 [1.05-1.09],9.721341912660423e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DCBLD2,"Discoidin, CUB and LCCL domain-containing protein 2",46971,13049,1.37 [1.31-1.43],3.774306494238506e-43
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DCXR,L-xylulose reductase,46971,13049,1.12 [1.09-1.15],3.1325130641972616e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DDAH1,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 1",46592,12934,1.22 [1.18-1.26],3.658182645802717e-30
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DEFA1_DEFA1B,Neutrophil defensin 1,45886,12748,1.13 [1.10-1.17],1.29938878269955e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DIPK2B,Divergent protein kinase domain 2B,39910,11023,0.80 [0.75-0.86],2.2477016779969567e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DLL1,Delta-like protein 1,46971,13049,1.33 [1.26-1.40],3.3641558805883185e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DMP1,Dentin matrix acidic phosphoprotein 1,39719,10981,0.87 [0.84-0.89],7.437664226764265e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DNER,Delta and Notch-like epidermal growth factor-related receptor,46724,12967,0.80 [0.75-0.85],6.012635906745015e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DNMBP,Dynamin-binding protein,46475,12883,1.08 [1.06-1.11],3.612950281374101e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DPP7,Dipeptidyl peptidase 2,46424,12894,1.09 [1.06-1.11],3.3601185349417663e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DPY30,Protein dpy-30 homolog,47076,13063,1.13 [1.10-1.16],3.042813180032885e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DTNB,Dystrobrevin beta,40533,11220,1.30 [1.25-1.36],1.785309619728367e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",DTX3,Probable E3 ubiquitin-protein ligase DTX3,46592,12934,1.30 [1.22-1.39],4.0512057528103136e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EBI3_IL27,Interleukin-27,47150,13084,1.23 [1.17-1.29],1.6217816584852545e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ECHDC3,"Enoyl-CoA hydratase domain-containing protein 3, mitochondrial",40798,11275,1.11 [1.09-1.14],2.7776117412017213e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ECHS1,"Enoyl-CoA hydratase, mitochondrial",39719,10981,1.07 [1.05-1.10],1.2387124246512577e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EDA2R,Tumor necrosis factor receptor superfamily member 27,47219,13113,1.27 [1.22-1.33],7.880277675146086e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EDN1,Endothelin-1,39719,10981,1.49 [1.40-1.59],1.025190435781312e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EFEMP1,EGF-containing fibulin-like extracellular matrix protein 1,46935,13061,1.20 [1.14-1.27],7.955355623291184e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EFNA1,Ephrin-A1,46769,12996,1.40 [1.32-1.48],3.23282339079434e-30
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EFNA4,Ephrin-A4,46396,12861,1.47 [1.40-1.55],1.5153628929423723e-47
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EGFL7,Epidermal growth factor-like protein 7,45697,12673,1.16 [1.12-1.21],3.4904237000925235e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EGFR,Epidermal growth factor receptor,47390,13166,0.69 [0.63-0.76],4.561077761009613e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EGLN1,Egl nine homolog 1,46761,12964,1.10 [1.08-1.13],3.0961884528063247e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EIF4G1,Eukaryotic translation initiation factor 4 gamma 1,47336,13136,1.05 [1.04-1.07],1.9323818790828592e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ELN,Elastin,40798,11275,1.29 [1.22-1.36],1.4938583217255245e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ENPP5,Ectonucleotide pyrophosphatase/phosphodiesterase family member 5,47037,13058,0.88 [0.85-0.91],5.455080677776318e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ENPP7,Ectonucleotide pyrophosphatase/phosphodiesterase family member 7,45384,12590,1.08 [1.06-1.10],2.3884791242383264e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EPHA1,Ephrin type-A receptor 1,46957,13035,1.23 [1.17-1.29],2.797254758447741e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EPHA2,Ephrin type-A receptor 2,45111,12502,1.29 [1.22-1.36],4.850092243647618e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EPHB4,Ephrin type-B receptor 4,47390,13166,1.28 [1.20-1.36],5.343725920806572e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EPO,Erythropoietin,46761,12964,1.09 [1.07-1.11],1.30052329934909e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EPS8L2,Epidermal growth factor receptor kinase substrate 8-like protein 2,47145,13092,1.28 [1.22-1.35],1.347799539774122e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ERBB2,Receptor tyrosine-protein kinase erbB-2,46971,13049,1.29 [1.21-1.37],1.102560917499526e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ERBB3,Receptor tyrosine-protein kinase erbB-3,46637,12958,1.29 [1.19-1.39],4.1534934996027906e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ERMAP,Erythroid membrane-associated protein,39626,10928,1.16 [1.12-1.21],7.393397234331216e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ESAM,Endothelial cell-selective adhesion molecule,47390,13166,1.19 [1.13-1.25],7.634212529742879e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",EZR,Ezrin,47239,13096,1.23 [1.16-1.31],8.179425467170847e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",F11R,Junctional adhesion molecule A,46846,13018,1.11 [1.08-1.14],3.673732116757725e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",F2R,Proteinase-activated receptor 1,46956,13039,1.09 [1.06-1.12],9.121911554485531e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",F9,Coagulation factor IX,46940,13057,1.97 [1.81-2.15],8.627163913572761e-54
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FABP1,"Fatty acid-binding protein, liver",46797,12998,1.18 [1.16-1.20],1.9070223803556672e-86
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FABP3,"Fatty acid-binding protein, heart",40798,11275,1.28 [1.23-1.32],3.7798957860237577e-44
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FABP4,"Fatty acid-binding protein, adipocyte",47390,13166,1.25 [1.22-1.29],1.3184124085540172e-46
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FABP5,Fatty acid-binding protein 5,47086,13061,1.10 [1.08-1.13],9.539719223738373e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FAM20A,Pseudokinase FAM20A,40798,11275,1.57 [1.48-1.67],5.935566701421883e-48
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FAM3B,Protein FAM3B,46592,12934,1.21 [1.15-1.26],1.8721557126554327e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FAM3C,Protein FAM3C,46733,12975,1.43 [1.35-1.51],9.481746909951418e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FASLG,Tumor necrosis factor ligand superfamily member 6,47336,13136,0.79 [0.76-0.83],7.984178859170866e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FBP1,"Fructose-1,6-bisphosphatase 1",46802,12992,1.11 [1.08-1.13],2.530490803033576e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FCAR,Immunoglobulin alpha Fc receptor,46761,12964,1.13 [1.09-1.16],3.8859919666685227e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FCN1,Ficolin-1,40751,11260,1.12 [1.08-1.15],2.4913620674779637e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FCRLB,Fc receptor-like B,45697,12673,1.11 [1.09-1.14],5.4106186923643655e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FETUB,Fetuin-B,46940,13057,1.20 [1.14-1.26],7.426133188834233e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FGF21,Fibroblast growth factor 21,47150,13084,1.10 [1.09-1.12],6.616634221760025e-51
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FGF23,Fibroblast growth factor 23,47143,13084,1.21 [1.18-1.24],8.529026199759639e-47
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FGF5,Fibroblast growth factor 5,45940,12716,1.18 [1.13-1.24],5.018776816891547e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FGFBP1,Fibroblast growth factor-binding protein 1,46971,13049,0.64 [0.61-0.68],4.88417858086828e-74
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FGFR2,Fibroblast growth factor receptor 2,46971,13049,1.56 [1.46-1.67],9.30916305410045e-37
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FGL1,Fibrinogen-like protein 1,40826,11287,1.14 [1.11-1.18],1.0397697983526523e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FIS1,Mitochondrial fission 1 protein,46797,12999,1.07 [1.05-1.09],2.8783544454727194e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FKBP4,Peptidyl-prolyl cis-trans isomerase FKBP4,46475,12883,1.14 [1.10-1.19],2.520702338605393e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FLT4,Vascular endothelial growth factor receptor 3,46971,13049,1.16 [1.11-1.22],1.7868877268486372e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FOLR2,Folate receptor beta,47239,13096,1.18 [1.12-1.25],9.61730111220488e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FSTL1,Follistatin-related protein 1,39719,10981,1.33 [1.22-1.44],7.460793501141632e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FSTL3,Follistatin-related protein 3,46725,12976,1.54 [1.47-1.62],5.786727686957794e-64
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FTCD,Formimidoyltransferase-cyclodeaminase,40626,11234,1.12 [1.10-1.14],1.111595541952656e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FUOM,Fucose mutarotase,39910,11023,1.18 [1.15-1.22],2.7562590251140413e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",FURIN,Furin,46971,13049,1.43 [1.36-1.50],1.656733599880085e-50
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GALNT10,Polypeptide N-acetylgalactosaminyltransferase 10,46592,12934,1.43 [1.35-1.51],3.447399500552895e-36
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GAS6,Growth arrest-specific protein 6,47079,13091,1.21 [1.14-1.29],7.93319781597042e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GAST,Gastrin,40700,11252,1.10 [1.09-1.11],1.4417541884504689e-49
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GBP1,Guanylate-binding protein 1,40629,11230,1.09 [1.06-1.12],5.653057674302873e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GCG,Pro-glucagon,45697,12673,1.05 [1.04-1.07],2.106416989640688e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GCHFR,GTP cyclohydrolase 1 feedback regulatory protein,38920,10735,1.15 [1.11-1.19],1.4518245624422942e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GDF15,Growth/differentiation factor 15,47390,13166,1.58 [1.54-1.63],1.3842942850459082e-198
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GFER,FAD-linked sulfhydryl oxidase ALR,45697,12673,1.11 [1.09-1.14],9.68286041219929e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GFRA1,GDNF family receptor alpha-1,47150,13084,1.62 [1.53-1.71],5.371647086703941e-63
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GFRAL,GDNF family receptor alpha-like,39478,10906,0.86 [0.84-0.89],4.7699774374899996e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GGT1,Glutathione hydrolase 1 proenzyme,46769,12996,1.30 [1.26-1.34],1.939762167644834e-69
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GGT5,Glutathione hydrolase 5 proenzyme,46475,12883,1.35 [1.26-1.44],7.116687036467815e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GIPC2,PDZ domain-containing protein GIPC2,40700,11252,1.38 [1.30-1.46],1.2658273938952583e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GLA,Alpha-galactosidase A,39833,11004,1.26 [1.20-1.32],1.7441396969646005e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GM2A,Ganglioside GM2 activator,39809,10983,1.18 [1.13-1.23],2.4503292799490257e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GOLM2,Protein GOLM2,47239,13096,1.43 [1.34-1.53],1.5271846575913654e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GPD1,Glycerol-3-phosphate dehydrogenase,40607,11238,1.21 [1.17-1.25],6.4948757663684635e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GPR37,Prosaposin receptor GPR37,45953,12750,1.19 [1.16-1.22],4.6158943939943284e-43
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GPRC5C,G-protein coupled receptor family C group 5 member C,40607,11238,1.16 [1.13-1.19],1.6311265260247254e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GRN,Progranulin,46617,12954,1.37 [1.28-1.46],4.6890308013469e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GRPEL1,"GrpE protein homolog 1, mitochondrial",46592,12934,1.16 [1.13-1.19],9.500356472457699e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GSN,Gelsolin,40670,11246,0.60 [0.56-0.65],6.320924611785434e-41
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GSR,"Glutathione reductase, mitochondrial",40594,11221,1.33 [1.22-1.44],1.7200349013975782e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GSTA1,Glutathione S-transferase A1,46731,12972,1.11 [1.09-1.13],1.3004309144403015e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GSTA3,Glutathione S-transferase A3,45697,12673,1.09 [1.07-1.11],8.589030122489997e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GUCA2A,Guanylin,46615,12964,1.20 [1.14-1.25],3.568092976042146e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",GUSB,Beta-glucuronidase,47019,13065,1.12 [1.09-1.15],1.3183814196820884e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HAO1,Hydroxyacid oxidase 1,47219,13113,1.06 [1.05-1.08],4.876425248884076e-23
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HAVCR1,Hepatitis A virus cellular receptor 1,47149,13093,1.44 [1.41-1.48],1.1710748269070798e-199
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HAVCR2,Hepatitis A virus cellular receptor 2,46846,13018,1.32 [1.26-1.38],4.946752098532119e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HEG1,Protein HEG homolog 1,39910,11023,1.50 [1.40-1.61],2.4129567362321363e-32
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HGF,Hepatocyte growth factor,47336,13136,1.46 [1.39-1.52],8.12066810419253e-66
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HHEX,Hematopoietically-expressed homeobox protein HHEX,40700,11252,1.10 [1.07-1.12],5.669988097757452e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HIP1R,Huntingtin-interacting protein 1-related protein,40621,11232,1.18 [1.14-1.22],1.2632059828201776e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HJV,Hemojuvelin,40718,11252,1.20 [1.16-1.25],1.6486647728679082e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HLA-E,"HLA class I histocompatibility antigen, alpha chain E",46761,12964,1.35 [1.28-1.42],2.735979404933897e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HNMT,Histamine N-methyltransferase,46252,12818,1.21 [1.17-1.25],1.800522554077304e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HPGDS,Hematopoietic prostaglandin D synthase,45697,12673,0.86 [0.82-0.89],8.964539387506858e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HPSE,Heparanase,40266,11131,1.07 [1.05-1.09],1.324778861627605e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HS3ST3B1,Heparan sulfate glucosamine 3-O-sulfotransferase 3B1,46592,12934,1.14 [1.09-1.19],8.61710389064736e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HSD11B1,Corticosteroid 11-beta-dehydrogenase isozyme 1,46761,12964,0.85 [0.82-0.89],3.374780162847235e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HSPB6,Heat shock protein beta-6,47219,13113,1.34 [1.28-1.39],1.366414212840758e-46
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HSPG2,Basement membrane-specific heparan sulfate proteoglycan core protein,46473,12940,1.40 [1.32-1.49],6.421325298545527e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HTRA2,"Serine protease HTRA2, mitochondrial",46971,13049,1.08 [1.06-1.11],6.501600441711601e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",HYAL1,Hyaluronidase-1,46562,12943,1.55 [1.45-1.65],3.452523649350931e-37
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ICAM1,Intercellular adhesion molecule 1,46626,12973,1.38 [1.31-1.45],3.8151934229920536e-32
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IDUA,Alpha-L-iduronidase,47219,13113,1.14 [1.10-1.18],6.4784018596374815e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IFI30,Gamma-interferon-inducible lysosomal thiol reductase,39656,11001,1.37 [1.31-1.44],1.8338823889028238e-41
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IFNGR2,Interferon gamma receptor 2,46475,12883,1.13 [1.10-1.16],3.590343171468744e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IFNLR1,Interferon lambda receptor 1,46761,12964,1.17 [1.13-1.22],7.765111214247118e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGDCC4,Immunoglobulin superfamily DCC subclass member 4,40795,11277,0.76 [0.71-0.81],4.4311326691795167e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGF2R,Cation-independent mannose-6-phosphate receptor,46846,13018,1.55 [1.45-1.66],4.755313983824702e-39
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGFBP4,Insulin-like growth factor-binding protein 4,46244,12844,1.48 [1.43-1.54],6.700782553881505e-96
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGFBP6,Insulin-like growth factor-binding protein 6,46622,12974,1.21 [1.15-1.28],9.755148033098103e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGFBP7,Insulin-like growth factor-binding protein 7,47390,13166,1.48 [1.41-1.55],1.543651097966491e-63
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGFBPL1,Insulin-like growth factor-binding protein-like 1,46802,12992,1.44 [1.38-1.51],3.7840915882816417e-57
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGLC2,Immunoglobulin lambda constant 2,40786,11275,1.24 [1.17-1.32],1.5432596730478092e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGSF3,Immunoglobulin superfamily member 3,46592,12934,1.27 [1.22-1.32],3.2877718099597025e-30
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGSF8,Immunoglobulin superfamily member 8,46802,12992,1.38 [1.31-1.45],3.4382609517006506e-35
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IGSF9,Protein turtle homolog A,40798,11275,1.16 [1.14-1.19],8.77206863819599e-45
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL10RB,Interleukin-10 receptor subunit beta,47037,13058,1.42 [1.34-1.49],1.2849581918032196e-39
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL12A_IL12B,Interleukin-12,46592,12934,1.07 [1.05-1.09],2.1439855793799296e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL12B,Interleukin-12 subunit beta,47336,13136,1.09 [1.06-1.13],5.771073207964592e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL15,Interleukin-15,46761,12964,1.26 [1.20-1.32],4.573715638255857e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL15RA,Interleukin-15 receptor subunit alpha,45940,12716,1.18 [1.13-1.24],1.3478807806067788e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL16,Pro-interleukin-16,47336,13136,1.12 [1.08-1.16],1.5155598094500158e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL17C,Interleukin-17C,45940,12716,1.07 [1.05-1.10],7.564329072316717e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL17RB,Interleukin-17 receptor B,46174,12828,0.89 [0.87-0.92],8.093048552648007e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL18,Interleukin-18,46640,12950,1.17 [1.13-1.20],5.0858891813505273e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL18BP,Interleukin-18-binding protein,47015,13074,1.33 [1.26-1.40],1.3945373717185586e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL18R1,Interleukin-18 receptor 1,47336,13136,1.40 [1.33-1.46],3.9738121502810495e-46
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL19,Interleukin-19,45642,12654,1.10 [1.08-1.13],2.7711161581626263e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL1R1,Interleukin-1 receptor type 1,46769,12996,1.24 [1.16-1.33],3.8430735196546605e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL1RAP,Interleukin-1 receptor accessory protein,46846,13018,0.88 [0.85-0.91],2.819832599565537e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL1RL1,Interleukin-1 receptor-like 1,47228,13129,1.22 [1.18-1.27],4.697549197266879e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL1RN,Interleukin-1 receptor antagonist protein,46720,12973,1.22 [1.18-1.25],9.481798319904292e-49
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL2RA,Interleukin-2 receptor subunit alpha,46470,12897,1.22 [1.18-1.27],8.004800323050675e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL4R,Interleukin-4 receptor subunit alpha,46761,12964,1.21 [1.16-1.27],8.665832195015289e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL6,Interleukin-6,46592,12934,1.14 [1.12-1.16],4.634596374978785e-44
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IL6ST,Interleukin-6 receptor subunit beta,46802,12992,1.32 [1.21-1.44],3.4132178072813673e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IMMT,MICOS complex subunit MIC60,40607,11238,1.29 [1.24-1.34],1.707311290290208e-42
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",INHBB,Inhibin beta B chain,39910,11023,1.15 [1.11-1.20],2.4305478001779607e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",INHBC,Inhibin beta C chain,46846,13018,1.24 [1.19-1.29],3.1038224339923203e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",INSL5,Insulin-like peptide INSL5,40627,11257,1.08 [1.06-1.10],7.198415476000723e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",IQGAP2,Ras GTPase-activating-like protein IQGAP2,46592,12934,1.10 [1.07-1.13],5.252554053866664e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ITGA11,Integrin alpha-11,46761,12964,0.73 [0.70-0.77],7.78553934065479e-41
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ITGA5,Integrin alpha-5,46846,13018,1.33 [1.25-1.42],9.773579453989096e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ITGAM,Integrin alpha-M,46846,13018,0.84 [0.80-0.88],1.869001787606992e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ITGAV,Integrin alpha-V,47219,13113,0.60 [0.55-0.66],9.976309319247332e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ITGBL1,Integrin beta-like protein 1,40795,11277,1.29 [1.23-1.35],1.3458392539326556e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KCTD5,BTB/POZ domain-containing protein KCTD5,39925,11047,1.15 [1.10-1.19],3.615940134092749e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KDR,Vascular endothelial growth factor receptor 2,46971,13049,1.22 [1.14-1.30],4.855805596498189e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KHK,Ketohexokinase,39719,10981,1.18 [1.15-1.22],2.497836983356382e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KIT,Mast/stem cell growth factor receptor Kit,46940,13057,0.75 [0.71-0.79],2.7289765144285808e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KITLG,Kit ligand,46802,12992,0.85 [0.82-0.89],9.102642064286121e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KLK11,Kallikrein-11,46525,12923,1.22 [1.16-1.28],4.605165253800597e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KLK4,Kallikrein-4,47219,13113,1.09 [1.06-1.11],7.277588604521286e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KLRB1,Killer cell lectin-like receptor subfamily B member 1,47336,13136,1.19 [1.14-1.24],5.2210454813393856e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KRT18,"Keratin, type I cytoskeletal 18",46592,12934,1.14 [1.12-1.16],2.3485419743347985e-44
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KRT19,"Keratin, type I cytoskeletal 19",46681,12944,1.14 [1.12-1.17],6.4454688817350834e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KRT8,"Keratin, type II cytoskeletal 8",39474,10909,1.08 [1.06-1.10],7.511666995179146e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",KYNU,Kynureninase,47336,13136,1.25 [1.21-1.29],1.406343967129104e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LAIR1,Leukocyte-associated immunoglobulin-like receptor 1,46797,12998,1.32 [1.28-1.38],7.857625883726859e-49
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LAMB1,Laminin subunit beta-1,39719,10981,1.25 [1.18-1.33],5.010053533755287e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LAMP2,Lysosome-associated membrane glycoprotein 2,45416,12593,1.36 [1.25-1.47],2.295149466482104e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LAMP3,Lysosome-associated membrane glycoprotein 3,47255,13108,1.12 [1.09-1.15],6.55738613000399e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LAYN,Layilin,46397,12863,1.19 [1.13-1.24],2.475360267304423e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LBP,Lipopolysaccharide-binding protein,47015,13074,1.11 [1.08-1.14],5.081146784590453e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LBR,Delta(14)-sterol reductase LBR,47239,13096,1.10 [1.07-1.12],1.215046758715994e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LCN2,Neutrophil gelatinase-associated lipocalin,45421,12633,1.21 [1.16-1.26],7.017248465918687e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LECT2,Leukocyte cell-derived chemotaxin-2,40798,11275,1.13 [1.10-1.17],7.378673821433141e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LEP,Leptin,46802,12992,1.15 [1.12-1.17],8.11736040758836e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LETM1,Mitochondrial proton/calcium exchanger protein,40718,11252,1.12 [1.08-1.16],2.7734513066576803e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LGALS1,Galectin-1,46802,12992,1.22 [1.17-1.28],1.0501895760073374e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LGALS3,Galectin-3,46934,13052,1.26 [1.20-1.33],3.766762507861932e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LGALS3BP,Galectin-3-binding protein,40860,11301,1.26 [1.20-1.33],8.245134827999125e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LGALS4,Galectin-4,46797,12998,1.39 [1.35-1.43],2.2842772439632427e-121
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LGALS8,Galectin-8,47239,13096,1.09 [1.06-1.12],3.4312612540474776e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LGALS9,Galectin-9,46796,13003,1.59 [1.51-1.67],9.893628218901511e-76
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LGMN,Legumain,47037,13058,1.29 [1.24-1.35],9.543864080434252e-32
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LIFR,Leukemia inhibitory factor receptor,46761,12964,1.40 [1.31-1.49],6.402953508622579e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LILRA5,Leukocyte immunoglobulin-like receptor subfamily A member 5,46733,12975,1.44 [1.37-1.51],8.446918094445204e-48
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LILRB2,Leukocyte immunoglobulin-like receptor subfamily B member 2,47153,13109,1.15 [1.10-1.21],5.263580907377625e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LILRB4,Leukocyte immunoglobulin-like receptor subfamily B member 4,45940,12716,1.35 [1.31-1.40],1.4208786394469269e-61
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LMNB2,Lamin-B2,40700,11252,1.56 [1.47-1.66],8.902936348122599e-45
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LMOD1,Leiomodin-1,40718,11252,1.17 [1.12-1.23],1.9413698130758062e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LPL,Lipoprotein lipase,46802,12992,0.84 [0.82-0.87],7.166990023012368e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LRIG1,Leucine-rich repeats and immunoglobulin-like domains protein 1,47080,13064,1.15 [1.10-1.21],3.532627859075142e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LRP11,Low-density lipoprotein receptor-related protein 11,46802,12992,1.21 [1.16-1.26],2.894724366321738e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LRRN1,Leucine-rich repeat neuronal protein 1,45940,12716,0.76 [0.73-0.79],4.6602208663234515e-39
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LRTM2,Leucine-rich repeat and transmembrane domain-containing protein 2,40718,11252,0.79 [0.73-0.84],4.31774945042328e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LTBP2,Latent-transforming growth factor beta-binding protein 2,47390,13166,1.29 [1.23-1.36],2.1912136709921832e-24
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LTBP3,Latent-transforming growth factor beta-binding protein 3,45697,12673,1.09 [1.06-1.12],7.06235860224466e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LTBR,Tumor necrosis factor receptor superfamily member 3,46557,12939,1.22 [1.16-1.30],2.9991001082114442e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LY6D,Lymphocyte antigen 6D,46564,12923,1.18 [1.13-1.23],5.086503490439485e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",LY96,Lymphocyte antigen 96,46475,12883,1.19 [1.14-1.24],3.819721633630238e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MAD1L1,Mitotic spindle assembly checkpoint protein MAD1,46326,12840,1.17 [1.14-1.20],1.1198910838325635e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MAMDC4,Apical endosomal glycoprotein,40607,11238,1.20 [1.16-1.24],9.72881763084301e-30
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MAP2,Microtubule-associated protein 2,40700,11252,1.14 [1.09-1.18],2.341288683046164e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MARCO,Macrophage receptor MARCO,46802,12992,1.22 [1.15-1.29],1.1808935376344824e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MATN2,Matrilin-2,46877,13017,1.21 [1.15-1.27],1.8483589143228546e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MB,Myoglobin,47390,13166,1.13 [1.10-1.16],3.184748932432736e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MDK,Midkine,46832,13006,1.17 [1.14-1.21],5.457981057029578e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MEGF9,Multiple epidermal growth factor-like domains protein 9,47228,13129,1.29 [1.20-1.40],4.321308240724024e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MENT,Protein MENT,39910,11023,0.75 [0.70-0.82],3.479371639877244e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MERTK,Tyrosine-protein kinase Mer,47336,13136,1.34 [1.26-1.42],2.028777440823032e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MET,Hepatocyte growth factor receptor,46939,13024,0.69 [0.64-0.75],9.673731048522335e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MFGE8,Lactadherin,46846,13018,1.23 [1.19-1.27],1.9782647502462064e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MME,Neprilysin,46592,12934,1.13 [1.11-1.15],3.0011586682328483e-37
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MMP1,Interstitial collagenase,45110,12561,1.06 [1.04-1.08],5.625034297074907e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MMP12,Macrophage metalloelastase,46857,13006,1.24 [1.21-1.28],8.652135446967255e-48
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MMP3,Stromelysin-1,46846,13018,1.12 [1.09-1.16],8.812910106542886e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MMP7,Matrilysin,45884,12730,1.43 [1.38-1.48],1.8687478687073225e-91
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MMP8,Neutrophil collagenase,47163,13082,1.09 [1.07-1.11],3.953900335823429e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MMP9,Matrix metalloproteinase-9,46772,12992,1.14 [1.11-1.17],1.853990489057917e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MOCS2,Molybdopterin synthase catalytic subunit,39910,11023,1.09 [1.06-1.12],1.946123944041896e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MRC1,Macrophage mannose receptor 1,40826,11287,1.29 [1.21-1.37],4.262335844104391e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MSLN,Mesothelin,46516,12896,1.10 [1.07-1.13],1.0791909506483116e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MSR1,Macrophage scavenger receptor types I and II,47239,13096,1.25 [1.21-1.29],2.449826512421634e-37
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MTDH,Protein LYRIC,39626,10928,1.07 [1.05-1.09],1.2226298793305172e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MTUS1,Microtubule-associated tumor suppressor 1,40062,11073,1.15 [1.11-1.18],5.957516130690488e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MUC13,Mucin-13,45729,12690,1.22 [1.18-1.26],2.6458049240600755e-35
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MVK,Mevalonate kinase,45940,12716,1.18 [1.15-1.20],6.5085078288091796e-62
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MXRA8,Matrix remodeling-associated protein 8,39910,11023,0.68 [0.64-0.72],3.5263355768853294e-36
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MYBPC1,"Myosin-binding protein C, slow-type",40798,11275,1.12 [1.09-1.15],2.4762828854595823e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MYL3,Myosin light chain 3,39719,10981,1.12 [1.10-1.15],2.1025769454724182e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",MZB1,Marginal zone B- and B1-cell-specific protein,46958,13036,1.20 [1.17-1.24],1.241524688637316e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NADK,NAD kinase,46802,12992,1.10 [1.08-1.13],1.261684550805081e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NAGPA,N-acetylglucosamine-1-phosphodiester alpha-N-acetylglucosaminidase,39910,11023,1.34 [1.23-1.46],1.0460645237641362e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NBL1,Neuroblastoma suppressor of tumorigenicity 1,46971,13049,1.27 [1.20-1.35],5.4492934320398665e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NCAM2,Neural cell adhesion molecule 2,46846,13018,0.80 [0.75-0.85],3.450126410367351e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NCAN,Neurocan core protein,47239,13096,0.84 [0.80-0.87],1.945156894439905e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NCS1,Neuronal calcium sensor 1,47219,13113,1.39 [1.31-1.46],3.3278118193392047e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NECTIN2,Nectin-2,46733,12975,1.46 [1.39-1.55],1.7358476112189742e-43
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NECTIN4,Nectin-4,46971,13049,1.18 [1.12-1.25],2.0035204862039547e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NEFL,Neurofilament light polypeptide,45579,12644,1.17 [1.13-1.21],1.114089796517536e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NELL1,Protein kinase C-binding protein NELL1,46971,13049,0.80 [0.77-0.83],1.833320263761245e-32
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NFASC,Neurofascin,47336,13136,1.45 [1.37-1.52],4.68203706636869e-41
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NFATC3,"Nuclear factor of activated T-cells, cytoplasmic 3",45940,12716,1.11 [1.08-1.14],4.877820283647986e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NHLRC3,NHL repeat-containing protein 3,38949,10741,1.54 [1.45-1.63],3.9786027713930177e-44
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NOMO1,Nodal modulator 1,46846,13018,1.29 [1.21-1.38],1.5049561261698102e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NOS1,"Nitric oxide synthase, brain",45729,12690,1.15 [1.11-1.18],1.806527126202856e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NOS3,"Nitric oxide synthase, endothelial",45729,12690,1.16 [1.13-1.19],1.7503399672576342e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NPC2,NPC intracellular cholesterol transporter 2,40114,11072,1.47 [1.39-1.55],7.534242025887639e-47
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NPDC1,Neural proliferation differentiation and control protein 1,46802,12992,1.39 [1.33-1.47],2.134987215389377e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NPL,N-acetylneuraminate lyase,40798,11275,1.37 [1.31-1.42],2.568414224738039e-56
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NPPB,Natriuretic peptides B,45953,12750,1.08 [1.07-1.09],5.526404299847696e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NPPC,C-type natriuretic peptide,46761,12964,1.16 [1.12-1.20],2.8796220701452137e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NPTX2,Neuronal pentraxin-2,40795,11277,1.21 [1.14-1.28],1.566159189389718e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NPY,Pro-neuropeptide Y,47219,13113,1.09 [1.07-1.12],8.554477854331829e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NRP1,Neuropilin-1,47095,13087,1.29 [1.22-1.36],7.703439815613005e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NT5C1A,Cytosolic 5'-nucleotidase 1A,40700,11252,1.38 [1.31-1.44],4.2181605036933313e-39
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NTproBNP,N-terminal prohormone of brain natriuretic peptide,46802,12992,1.15 [1.14-1.17],4.8560137736220796e-76
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NUCB2,Nucleobindin-2,47147,13083,1.24 [1.19-1.29],5.680303180840681e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",NUDT5,ADP-sugar pyrophosphatase,46846,13018,1.10 [1.07-1.13],6.28257016394304e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",OCLN,Occludin,40718,11252,1.43 [1.37-1.49],1.515558105793895e-64
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",OGN,Mimecan,46846,13018,1.23 [1.18-1.28],1.5461558819427659e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",OMD,Osteomodulin,47037,13058,0.82 [0.80-0.85],2.8042951686595667e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",OMG,Oligodendrocyte-myelin glycoprotein,46592,12934,0.93 [0.91-0.95],1.5240259585359894e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ORM1,Alpha-1-acid glycoprotein 1,40715,11261,1.46 [1.34-1.60],5.348658670269378e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",OSCAR,Osteoclast-associated immunoglobulin-like receptor,46877,13017,1.24 [1.18-1.30],1.6122562567696596e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",OSM,Oncostatin-M,46533,12912,1.11 [1.09-1.14],1.3830274052754165e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",OXT,Oxytocin-neurophysin 1,47239,13096,1.06 [1.05-1.07],1.4572935867977855e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PALM2,Paralemmin-2,40700,11252,1.54 [1.48-1.62],9.714848539490815e-78
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PAMR1,Inactive serine protease PAMR1,46846,13018,1.26 [1.19-1.34],7.165364350322067e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PBLD,Phenazine biosynthesis-like domain-containing protein,45729,12690,1.11 [1.08-1.14],1.567935402876287e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PCBD1,Pterin-4-alpha-carbinolamine dehydratase,39831,11005,1.28 [1.23-1.33],5.287639984708999e-40
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PCSK9,Proprotein convertase subtilisin/kexin type 9,47390,13166,1.34 [1.29-1.39],5.2260936089740906e-49
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PCYT2,Ethanolamine-phosphate cytidylyltransferase,40627,11257,1.08 [1.05-1.10],6.023059335165748e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PDCD1LG2,Programmed cell death 1 ligand 2,46592,12934,1.17 [1.11-1.23],3.4555953857539513e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PDZK1,Na(+)/H(+) exchange regulatory cofactor NHE-RF3,39626,10928,1.28 [1.23-1.33],3.693982699727484e-36
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PENK,Proenkephalin-A,39910,11023,1.32 [1.24-1.40],1.3220946856035629e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PGA4,Pepsin A-4,40826,11287,1.12 [1.09-1.15],3.1298753152150695e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PGF,Placenta growth factor,47336,13136,1.70 [1.61-1.80],2.45404625304038e-79
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PGLYRP1,Peptidoglycan recognition protein 1,47153,13109,1.20 [1.16-1.25],3.882187047038648e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PHOSPHO1,Phosphoethanolamine/phosphocholine phosphatase,46475,12883,1.26 [1.19-1.33],1.190195700664763e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PI16,Peptidase inhibitor 16,40826,11287,0.77 [0.71-0.83],1.1771031230698436e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PI3,Elafin,46197,12866,1.11 [1.08-1.14],8.40989823195054e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PIGR,Polymeric immunoglobulin receptor,46240,12842,1.43 [1.37-1.49],4.5227586638959265e-59
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PIK3IP1,Phosphoinositide-3-kinase-interacting protein 1,46846,13018,1.36 [1.28-1.45],1.4387650062202732e-24
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PILRA,Paired immunoglobulin-like type 2 receptor alpha,46846,13018,1.25 [1.21-1.30],3.445782079081917e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PILRB,Paired immunoglobulin-like type 2 receptor beta,46802,12992,1.15 [1.12-1.18],1.2375181820384484e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PLA2G15,Phospholipase A2 group XV,46971,13049,1.47 [1.39-1.56],4.312787513697848e-40
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PLA2G7,Platelet-activating factor acetylhydrolase,46846,13018,0.70 [0.66-0.73],1.128140732178935e-52
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PLAT,Tissue-type plasminogen activator,47228,13129,1.18 [1.15-1.22],1.7533025537525942e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PLAUR,Urokinase plasminogen activator surface receptor,46485,12916,1.65 [1.56-1.75],2.278555625152457e-66
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PLG,Plasminogen,39821,11014,1.32 [1.22-1.44],3.786602670845467e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PLIN3,Perilipin-3,46802,12992,1.14 [1.10-1.18],3.984547316075032e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PLTP,Phospholipid transfer protein,47237,13126,0.87 [0.84-0.91],4.1906756570897784e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PLXNB2,Plexin-B2,47153,13107,1.41 [1.32-1.50],5.736778489681487e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",POF1B,Protein POF1B,39626,10928,1.16 [1.12-1.21],1.9091505127058927e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",POLR2F,"DNA-directed RNA polymerases I, II, and III subunit RPABC2",46592,12934,1.18 [1.13-1.23],2.0109056041639425e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",POMC,Pro-opiomelanocortin,39719,10981,0.92 [0.90-0.94],3.7905535063722784e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PON3,Serum paraoxonase/lactonase 3,47037,13058,0.75 [0.73-0.78],2.024836562769445e-49
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PPL,Periplakin,39626,10928,1.20 [1.13-1.26],7.174156154742731e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PPP1R14D,Protein phosphatase 1 regulatory subunit 14D,40718,11252,1.15 [1.10-1.20],8.894653195264909e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PPP3R1,Calcineurin subunit B type 1,46475,12883,1.16 [1.12-1.21],4.806302246038113e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PRAP1,Proline-rich acidic protein 1,40795,11277,1.57 [1.50-1.64],6.674238710627849e-79
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PRCP,Lysosomal Pro-X carboxypeptidase,47105,13086,1.27 [1.21-1.33],2.5804368991573383e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PRSS2,Trypsin-2,47015,13074,1.15 [1.11-1.18],3.420481967565411e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PRSS8,Prostasin,46645,12946,1.57 [1.51-1.63],6.0247170494771115e-127
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PSAP,Prosaposin,40419,11162,1.33 [1.25-1.41],1.798259832251175e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTGDS,Prostaglandin-H2 D-isomerase,46482,12936,1.41 [1.34-1.49],1.459443711585861e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTGR1,Prostaglandin reductase 1,40798,11275,1.10 [1.08-1.13],2.764280049630641e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTH1R,Parathyroid hormone/parathyroid hormone-related peptide receptor,46761,12964,1.16 [1.12-1.20],5.97709018705878e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTK7,Inactive tyrosine-protein kinase 7,45729,12690,1.15 [1.10-1.20],1.1689413859921658e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTN,Pleiotrophin,45953,12750,1.21 [1.17-1.25],1.1576696098763203e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTPN1,Tyrosine-protein phosphatase non-receptor type 1,46475,12883,1.07 [1.05-1.09],1.05138755124449e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTPRB,Receptor-type tyrosine-protein phosphatase beta,40798,11275,1.45 [1.37-1.54],2.1793606706336074e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTPRS,Receptor-type tyrosine-protein phosphatase S,47390,13166,0.81 [0.76-0.86],1.8531181741616907e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PTS,6-pyruvoyl tetrahydrobiopterin synthase,45511,12630,1.12 [1.09-1.16],4.345560128713245e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",PVR,Poliovirus receptor,47239,13096,1.26 [1.21-1.31],4.1834051478819545e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",QPCT,Glutaminyl-peptide cyclotransferase,46863,13025,1.22 [1.15-1.29],1.7946636537678035e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RARRES2,Retinoic acid receptor responder protein 2,47095,13087,1.27 [1.23-1.31],9.869259674009024e-51
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RBFOX3,RNA binding protein fox-1 homolog 3,40718,11252,1.36 [1.30-1.42],7.168597146128048e-46
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RBP2,Retinol-binding protein 2,46592,12934,1.09 [1.07-1.11],6.169683828820305e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RBP5,Retinol-binding protein 5,46592,12934,1.31 [1.27-1.34],3.9275558217790213e-87
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RBP7,Retinoid-binding protein 7,40627,11257,1.09 [1.06-1.12],9.99607341302707e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",REG1A,Lithostathine-1-alpha,46553,12941,1.15 [1.11-1.18],1.2494215122415014e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",REG1B,Lithostathine-1-beta,47390,13166,1.12 [1.09-1.15],1.940036666395423e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",REG3A,Regenerating islet-derived protein 3-alpha,47390,13166,1.10 [1.07-1.13],5.732864983573342e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",REG4,Regenerating islet-derived protein 4,46877,13017,1.25 [1.21-1.29],3.783166697776384e-43
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RELT,Tumor necrosis factor receptor superfamily member 19L,46846,13018,1.49 [1.41-1.57],8.756718069556382e-44
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",REN,Renin,46802,12992,1.22 [1.20-1.25],2.3855993917596245e-84
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RGMA,Repulsive guidance molecule A,47239,13096,0.86 [0.82-0.90],9.148779260279499e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RIDA,2-iminobutanoate/2-iminopropanoate deaminase,39910,11023,1.21 [1.17-1.25],1.3545164389798807e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RNASE1,Ribonuclease pancreatic,40826,11287,1.64 [1.53-1.75],3.2603340934651423e-46
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RNASE4,Ribonuclease 4,39485,10902,1.49 [1.40-1.59],3.280089201248194e-36
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RNASE6,Ribonuclease K6,40540,11206,1.43 [1.36-1.50],3.7862025063538e-43
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RNASET2,Ribonuclease T2,47173,13104,1.49 [1.40-1.57],3.2469500692192485e-42
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RNF149,E3 ubiquitin-protein ligase RNF149,39719,10981,1.34 [1.26-1.42],3.2921582874889546e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RRM2,Ribonucleoside-diphosphate reductase subunit M2,45697,12673,1.14 [1.11-1.17],4.6522989934481534e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",RTN4R,Reticulon-4 receptor,47219,13113,1.40 [1.34-1.47],6.028905717545221e-54
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",S100P,Protein S100-P,45953,12750,1.10 [1.07-1.13],4.974080809770761e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SCARA5,Scavenger receptor class A member 5,47239,13096,1.23 [1.16-1.29],1.1367720380572565e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SCARB2,Lysosome membrane protein 2,45606,12626,1.60 [1.52-1.69],4.995732861709274e-70
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SCARF1,Scavenger receptor class F member 1,47390,13166,1.17 [1.13-1.21],5.751182913958894e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SCARF2,Scavenger receptor class F member 2,47239,13096,1.20 [1.13-1.27],2.3104345044491168e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SCG2,Secretogranin-2,47008,13034,1.17 [1.12-1.23],1.682244444453945e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SCLY,Selenocysteine lyase,47080,13064,1.26 [1.22-1.30],1.4376721889934674e-45
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SCPEP1,Retinoid-inducible serine carboxypeptidase,39575,10934,1.16 [1.12-1.20],6.247512879670266e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SCRG1,Scrapie-responsive protein 1,40798,11275,1.23 [1.16-1.32],3.0905443712770333e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SEL1L,Protein sel-1 homolog 1,39719,10981,1.22 [1.16-1.28],2.6690490099158943e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SELE,E-selectin,47390,13166,1.22 [1.18-1.26],3.104093889122104e-37
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SEMA3F,Semaphorin-3F,46802,12992,1.33 [1.25-1.41],1.3523509749683771e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SEPTIN8,Septin-8,40626,11232,1.40 [1.33-1.48],4.901359686755554e-35
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SERPIND1,Heparin cofactor 2,40782,11280,1.52 [1.42-1.62],2.036668153266789e-36
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SERPINE1,Plasminogen activator inhibitor 1,47390,13166,1.10 [1.07-1.12],5.796848134494991e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SERPINF1,Pigment epithelium-derived factor,40248,11139,1.52 [1.42-1.63],6.518132986163e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SERPING1,Plasma protease C1 inhibitor,40782,11280,1.50 [1.36-1.65],6.2747500603076195e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SETMAR,Histone-lysine N-methyltransferase SETMAR,46321,12845,1.24 [1.18-1.30],1.0150615621705356e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SFRP1,Secreted frizzled-related protein 1,46317,12841,1.19 [1.15-1.23],3.928218281003388e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SHBG,Sex hormone-binding globulin,40826,11287,0.87 [0.84-0.90],6.277413312118388e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SHISA5,Protein shisa-5,40795,11277,1.52 [1.42-1.62],2.963098647625984e-37
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SHMT1,"Serine hydroxymethyltransferase, cytosolic",46956,13039,1.06 [1.04-1.08],2.93418633804939e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SIAE,Sialate O-acetylesterase,46894,13036,1.16 [1.12-1.20],3.2524030949316282e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SIGLEC1,Sialoadhesin,47037,13058,1.31 [1.26-1.36],5.064914973145623e-47
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SIGLEC10,Sialic acid-binding Ig-like lectin 10,46761,12964,1.29 [1.23-1.35],7.818558768099545e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SIGLEC7,Sialic acid-binding Ig-like lectin 7,46802,12992,1.36 [1.28-1.44],3.6756174721600426e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SIGLEC8,Sialic acid-binding Ig-like lectin 8,39719,10981,1.20 [1.15-1.25],2.4349647603371948e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SIRPB1,Signal-regulatory protein beta-1,46717,12975,1.15 [1.11-1.19],1.873488526022258e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SLAMF1,Signaling lymphocytic activation molecule,45940,12716,1.10 [1.07-1.13],1.2111239644983216e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SLAMF7,SLAM family member 7,46761,12964,1.09 [1.06-1.12],4.1521576020759134e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SLAMF8,SLAM family member 8,45697,12673,1.14 [1.10-1.17],4.47684833246182e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SLC39A5,Zinc transporter ZIP5,46761,12964,1.11 [1.08-1.14],7.989889611918967e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SMOC1,SPARC-related modular calcium-binding protein 1,47219,13113,1.29 [1.23-1.35],3.0541523660016304e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SMOC2,SPARC-related modular calcium-binding protein 2,47037,13058,1.20 [1.16-1.25],2.392921742045501e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SMPD1,Sphingomyelin phosphodiesterase,47008,13033,1.16 [1.13-1.20],1.1577221297173116e-21
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SNCG,Gamma-synuclein,46475,12883,1.13 [1.10-1.15],2.257649379911908e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SOD2,"Superoxide dismutase [Mn], mitochondrial",46846,13018,1.19 [1.14-1.24],1.0679232254577397e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SORCS2,VPS10 domain-containing receptor SorCS2,45697,12673,1.24 [1.18-1.30],3.586744463896175e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SORD,Sorbitol dehydrogenase,47000,13040,1.10 [1.08-1.13],7.623121510618287e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SORT1,Sortilin,46733,12975,1.16 [1.11-1.21],4.3948090560968e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SPINK1,Serine protease inhibitor Kazal-type 1,46846,13018,1.33 [1.28-1.38],1.4378603415560763e-53
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SPINK4,Serine protease inhibitor Kazal-type 4,46761,12964,1.12 [1.09-1.14],6.443703388087524e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SPINT1,Kunitz-type protease inhibitor 1,46694,12972,1.26 [1.18-1.34],8.306148379913897e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SPINT2,Kunitz-type protease inhibitor 2,47037,13058,1.19 [1.14-1.23],6.09718920661307e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SPON1,Spondin-1,46877,13017,1.27 [1.21-1.33],7.703657462120642e-23
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SPON2,Spondin-2,46577,12942,1.42 [1.36-1.49],2.994007313760245e-50
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SSC5D,Soluble scavenger receptor cysteine-rich domain-containing protein SSC5D,47015,13074,1.16 [1.12-1.20],2.1098470575941544e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ST6GAL1,"Beta-galactoside alpha-2,6-sialyltransferase 1",47390,13166,1.37 [1.31-1.44],2.3528872820362465e-36
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",STAB2,Stabilin-2,40795,11277,1.41 [1.32-1.50],1.9897190003430926e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SULT2A1,Bile salt sulfotransferase,46761,12964,1.17 [1.14-1.20],3.4509230636272997e-35
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SUOX,"Sulfite oxidase, mitochondrial",40718,11252,1.13 [1.10-1.16],1.812210532079082e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",SUSD2,Sushi domain-containing protein 2,46846,13018,1.21 [1.15-1.27],2.680170239234463e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TAFA5,Chemokine-like protein TAFA-5,46592,12934,1.22 [1.17-1.28],2.821734276064901e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TALDO1,Transaldolase,40642,11228,1.14 [1.09-1.18],3.547498855543093e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TCN2,Transcobalamin-2,47315,13146,1.30 [1.24-1.37],8.261173154161373e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TCOF1,Treacle protein,40798,11275,1.18 [1.12-1.25],6.024592750244655e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TCTN3,Tectonic-3,40798,11275,1.33 [1.25-1.41],1.5590333386591834e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TFF1,Trefoil factor 1,46615,12940,1.13 [1.11-1.15],9.166633805023508e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TFF2,Trefoil factor 2,46956,13039,1.21 [1.18-1.25],3.995946524248813e-45
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TFF3,Trefoil factor 3,46794,12986,1.30 [1.26-1.35],2.6774054917182003e-62
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TGFA,Protransforming growth factor alpha,46761,12964,1.29 [1.25-1.33],6.102708424312123e-54
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TGFB1,Transforming growth factor beta-1 proprotein,47255,13108,1.23 [1.18-1.28],2.1063575345635824e-25
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TGFBR2,TGF-beta receptor type-2,46971,13049,1.31 [1.25-1.38],2.156964985012154e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",THBS2,Thrombospondin-2,46846,13018,1.22 [1.17-1.27],2.197794303402337e-22
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",THOP1,Thimet oligopeptidase,46581,12933,1.18 [1.13-1.24],1.105146649115616e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TIMP1,Metalloproteinase inhibitor 1,46325,12876,1.53 [1.45-1.61],8.858158360303294e-56
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TINAGL1,Tubulointerstitial nephritis antigen-like,46657,12957,1.30 [1.21-1.39],9.839466509054968e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TMSB10,Thymosin beta-10,46846,13018,1.08 [1.06-1.11],7.481846136631134e-14
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNF,Tumor necrosis factor,45881,12734,1.23 [1.18-1.27],1.5479655420700686e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF10A,Tumor necrosis factor receptor superfamily member 10A,46475,12883,1.57 [1.50-1.64],1.8902280355183432e-97
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF10B,Tumor necrosis factor receptor superfamily member 10B,46475,12883,1.22 [1.19-1.25],2.1574519482802453e-48
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF11A,Tumor necrosis factor receptor superfamily member 11A,47336,13136,1.40 [1.35-1.46],9.162144979289948e-59
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF11B,Tumor necrosis factor receptor superfamily member 11B,46797,12998,1.37 [1.30-1.44],5.905240461520519e-33
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF12A,Tumor necrosis factor receptor superfamily member 12A,46971,13049,1.44 [1.38-1.50],8.873064239807088e-59
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF13B,Tumor necrosis factor receptor superfamily member 13B,46877,13017,1.25 [1.20-1.30],3.2115114409004123e-24
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF14,Tumor necrosis factor receptor superfamily member 14,46877,13017,1.38 [1.31-1.46],2.088879144297196e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF19,Tumor necrosis factor receptor superfamily member 19,47219,13113,1.21 [1.15-1.27],9.92010146634403e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF1A,Tumor necrosis factor receptor superfamily member 1A,46846,13018,1.57 [1.49-1.66],5.706052687835727e-61
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF1B,Tumor necrosis factor receptor superfamily member 1B,46846,13018,1.31 [1.26-1.36],6.565055563577556e-46
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF4,Tumor necrosis factor receptor superfamily member 4,47255,13108,1.18 [1.13-1.23],4.777262285198573e-15
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF6B,Tumor necrosis factor receptor superfamily member 6B,46475,12883,1.21 [1.18-1.24],4.1010763010218056e-44
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFRSF9,Tumor necrosis factor receptor superfamily member 9,46475,12883,1.18 [1.14-1.22],3.8106657587410336e-18
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFSF10,Tumor necrosis factor ligand superfamily member 10,47336,13136,0.81 [0.76-0.86],4.913834624280319e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFSF12,Tumor necrosis factor ligand superfamily member 12,47336,13136,0.83 [0.78-0.87],6.3668669736139205e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFSF13,Tumor necrosis factor ligand superfamily member 13,47037,13058,1.40 [1.32-1.48],2.0241841496821346e-29
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFSF13B,Tumor necrosis factor ligand superfamily member 13B,47309,13152,1.29 [1.22-1.36],5.915945829216858e-19
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNFSF14,Tumor necrosis factor ligand superfamily member 14,46475,12883,1.10 [1.07-1.13],8.162202533464365e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TNNI3,"Troponin I, cardiac muscle",45953,12750,1.07 [1.04-1.09],2.1788911244352363e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TPP1,Tripeptidyl-peptidase 1,46487,12910,1.24 [1.20-1.28],7.546093939677667e-38
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TREM2,Triggering receptor expressed on myeloid cells 2,46797,12998,1.19 [1.16-1.23],3.583864066089923e-32
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TRIAP1,TP53-regulated inhibitor of apoptosis 1,47219,13113,1.09 [1.06-1.11],3.358811699281278e-11
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TTR,Transthyretin,40412,11179,1.26 [1.17-1.35],7.254606305153411e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TXNDC15,Thioredoxin domain-containing protein 15,46971,13049,1.22 [1.15-1.29],6.277089939754887e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TXNDC5,Thioredoxin domain-containing protein 5,47239,13096,1.09 [1.06-1.11],3.605921133425607e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TXNRD1,"Thioredoxin reductase 1, cytoplasmic",46846,13018,1.12 [1.09-1.16],4.071546299420498e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",TYMP,Thymidine phosphorylase,46495,12916,1.11 [1.08-1.14],1.0719751612336616e-17
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",UBE2L6,Ubiquitin/ISG15-conjugating enzyme E2 L6,40798,11275,1.10 [1.07-1.13],4.213637670427591e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ULBP2,UL16-binding protein 2,46475,12883,1.16 [1.11-1.21],2.0325390108279388e-12
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",UMOD,Uromodulin,47247,13118,0.85 [0.83-0.88],8.185649263741504e-28
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",UPB1,Beta-ureidopropionase,40798,11275,1.12 [1.10-1.14],2.945613424901433e-31
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VCAM1,Vascular cell adhesion protein 1,46940,13057,1.24 [1.17-1.31],1.9166621804338138e-13
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VEGFA,Vascular endothelial growth factor A,47175,13093,1.15 [1.12-1.18],8.468330731975649e-26
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VMO1,Vitelline membrane outer layer protein 1 homolog,46592,12934,1.10 [1.08-1.13],1.647338575097686e-16
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VSIG2,V-set and immunoglobulin domain-containing protein 2,40607,11238,1.27 [1.23-1.31],1.8306439673478612e-58
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VSIG4,V-set and immunoglobulin domain-containing protein 4,46789,12999,1.43 [1.37-1.48],1.0390941563820506e-68
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VSIR,V-type immunoglobulin domain-containing suppressor of T-cell activation,46731,12972,1.08 [1.05-1.11],9.163186088304819e-10
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VSNL1,Visinin-like protein 1,40700,11252,1.24 [1.19-1.30],1.2463363017730931e-20
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VWA1,von Willebrand factor A domain-containing protein 1,47150,13084,1.25 [1.20-1.30],4.065639074910536e-32
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",VWC2,Brorin,46318,12841,1.29 [1.24-1.34],1.1286543334624941e-34
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",WARS,"Tryptophan--tRNA ligase, cytoplasmic",46846,13018,1.26 [1.21-1.31],1.0378587989933534e-27
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",WFDC2,WAP four-disulfide core domain protein 2,44451,12349,1.50 [1.44-1.56],6.685429124658009e-86
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",YAP1,Transcriptional coactivator YAP1,40700,11252,1.57 [1.47-1.68],2.012591783859581e-39
+Chapter IX Diseases of the circulatory system,"Hypertension, essential",ZNRD2,Protein ZNRD2,40627,11257,1.08 [1.06-1.11],8.592499850655133e-10

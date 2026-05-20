@@ -1,0 +1,216 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ACE2,Angiotensin-converting enzyme 2,49881,3057,1.27 [1.20-1.34],1.0669469721151572e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ACVRL1,Serine/threonine-protein kinase receptor R3,50337,3071,1.68 [1.49-1.90],1.6369917285267482e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ADA2,Adenosine deaminase 2,50515,3100,1.30 [1.21-1.40],1.6914575599364194e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ADAM9,Disintegrin and metalloproteinase domain-containing protein 9,44009,2661,1.51 [1.34-1.69],4.501763428019609e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ADAMTS8,A disintegrin and metalloproteinase with thrombospondin motifs 8,50975,3119,0.76 [0.71-0.81],6.663307195846741e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ADM,Pro-adrenomedullin,51247,3130,1.73 [1.53-1.95],9.219217395242681e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,AGR2,Anterior gradient protein 2 homolog,49221,2996,1.12 [1.09-1.16],6.321060611773426e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,AGR3,Anterior gradient protein 3,49535,3023,1.20 [1.14-1.27],1.4321674329896348e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,AGRN,Agrin,51035,3122,1.46 [1.34-1.59],1.130381609038348e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,AMBP,Protein AMBP,51174,3126,2.03 [1.74-2.37],4.796727882203469e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ANGPTL7,Angiopoietin-related protein 7,51247,3130,1.31 [1.20-1.42],1.4001546773934458e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ANXA10,Annexin A10,49627,3021,1.18 [1.14-1.22],1.4799490258574716e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,AREG,Amphiregulin,50577,3084,1.35 [1.26-1.43],2.107515753161976e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ASGR1,Asialoglycoprotein receptor 1,50421,3075,1.69 [1.53-1.87],4.4255561423388925e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ASGR2,Asialoglycoprotein receptor 2,44232,2677,1.62 [1.41-1.85],4.861931832832443e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ATRAID,All-trans retinoic acid-induced differentiation factor,44009,2661,1.34 [1.22-1.47],9.903111489508581e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,B4GALT1,"Beta-1,4-galactosyltransferase 1",51035,3122,1.52 [1.36-1.70],2.12784386736782e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,BAIAP2,Brain-specific angiogenesis inhibitor 1-associated protein 2,49617,3028,1.16 [1.11-1.22],7.405873689819771e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,BRK1,Protein BRICK1,49627,3021,1.25 [1.17-1.35],3.5805346020376144e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,BSG,Basigin,51282,3141,1.65 [1.41-1.92],4.6024294885445847e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,BST2,Bone marrow stromal antigen 2,51265,3127,1.26 [1.19-1.32],1.476100251509105e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,BTN3A2,Butyrophilin subfamily 3 member A2,50740,3115,1.36 [1.25-1.47],1.9133367027095933e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CA6,Carbonic anhydrase 6,50670,3103,0.85 [0.81-0.89],1.9921389653570768e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CCDC80,Coiled-coil domain-containing protein 80,50816,3103,1.36 [1.25-1.49],4.067242723017204e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CCER2,Coiled-coil domain-containing glutamate-rich protein 2,43025,2591,1.29 [1.22-1.36],3.615956324445801e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CCL21,C-C motif chemokine 21,51035,3122,1.23 [1.15-1.31],6.004379029738689e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CCN3,CCN family member 3,51356,3149,1.32 [1.21-1.45],5.940071821998812e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD14,Monocyte differentiation antigen CD14,49784,3055,1.29 [1.20-1.39],3.859680698689272e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD163,Scavenger receptor cysteine-rich type 1 protein M130,51017,3129,1.27 [1.18-1.36],4.2178528414243424e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD27,CD27 antigen,50975,3119,1.33 [1.23-1.43],1.1186877600983405e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD274,Programmed cell death 1 ligand 1,50421,3075,1.37 [1.26-1.49],1.3987883679895866e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD300C,CMRF35-like molecule 6,51265,3127,1.36 [1.25-1.49],1.0458444661730892e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD300E,CMRF35-like molecule 2,51081,3117,1.36 [1.26-1.47],1.5126436379636368e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD302,CD302 antigen,50577,3084,1.67 [1.52-1.85],2.9715669102420422e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD4,T-cell surface glycoprotein CD4,50658,3107,1.41 [1.30-1.54],2.782709747211654e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD59,CD59 glycoprotein,48979,3005,1.58 [1.39-1.81],9.154077679893456e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD74,HLA class II histocompatibility antigen gamma chain,51265,3127,1.42 [1.30-1.55],1.119017148763528e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD79B,B-cell antigen receptor complex-associated protein beta chain,51365,3146,1.25 [1.16-1.33],2.752172087146748e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CD83,CD83 antigen,50740,3115,1.51 [1.38-1.65],1.1466067249435208e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CDCP1,CUB domain-containing protein 1,50421,3075,1.33 [1.26-1.41],1.4228015385710404e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CEACAM5,Carcinoembryonic antigen-related cell adhesion molecule 5,48977,2987,1.19 [1.13-1.24],8.831301747626583e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CHCHD10,"Coiled-coil-helix-coiled-coil-helix domain-containing protein 10, mitochondrial",44086,2666,1.47 [1.35-1.59],1.190511188019804e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CHGA,Chromogranin-A,44195,2666,1.22 [1.17-1.26],8.131306041132039e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CHI3L1,Chitinase-3-like protein 1,49695,3056,1.16 [1.12-1.21],1.7653051562255715e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CKAP4,Cytoskeleton-associated protein 4,51118,3129,1.63 [1.46-1.81],1.6601137875062e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CLEC4D,C-type lectin domain family 4 member D,50740,3115,1.17 [1.11-1.23],9.38919336797807e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CLMP,CXADR-like membrane protein,51247,3130,1.73 [1.49-2.00],3.5805646343018577e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CNTN5,Contactin-5,50942,3112,0.75 [0.69-0.82],8.917222748732162e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,COL18A1,Collagen alpha-1(XVIII) chain,51025,3127,1.75 [1.53-2.01],1.9104721443728991e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,COL6A3,Collagen alpha-3(VI) chain,51441,3151,1.51 [1.39-1.65],3.415632765243625e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,COLEC12,Collectin-12,50782,3107,1.59 [1.41-1.79],1.9400148138148912e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CPM,Carboxypeptidase M,51017,3114,1.50 [1.37-1.64],1.7622431468033684e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CRELD1,Protein disulfide isomerase CRELD1,43233,2613,1.44 [1.30-1.58],5.196444075536258e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CSF1,Macrophage colony-stimulating factor 1,51035,3122,1.66 [1.49-1.86],3.931166019391792e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CST3,Cystatin-C,50932,3124,1.49 [1.33-1.66],5.691153953189375e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CSTB,Cystatin-B,50122,3075,1.28 [1.19-1.37],5.048252022308644e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CTSL,Cathepsin L1,50816,3103,1.80 [1.59-2.05],5.546869623120014e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CTSZ,Cathepsin Z,50852,3120,1.47 [1.33-1.63],1.1963028208188492e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CXADR,Coxsackievirus and adenovirus receptor,50740,3115,1.34 [1.27-1.42],4.0279725080927e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,CXCL9,C-X-C motif chemokine 9,51035,3122,1.20 [1.15-1.25],5.519850381199176e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,DCBLD2,"Discoidin, CUB and LCCL domain-containing protein 2",50975,3119,1.34 [1.23-1.47],9.254627936166956e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,DDAH1,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 1",50577,3084,1.28 [1.20-1.37],5.806191178545648e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,DLL1,Delta-like protein 1,50975,3119,1.42 [1.28-1.58],3.235472557455176e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,DPY30,Protein dpy-30 homolog,51090,3119,1.19 [1.14-1.25],1.3467925125457025e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,DSC2,Desmocollin-2,50256,3082,1.36 [1.25-1.49],1.4056275405282836e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,DTNB,Dystrobrevin beta,43901,2658,1.34 [1.24-1.45],3.4077945866574925e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,EDA2R,Tumor necrosis factor receptor superfamily member 27,51247,3130,1.42 [1.31-1.54],1.0201233079197844e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,EFCAB14,EF-hand calcium-binding domain-containing protein 14,44009,2661,1.43 [1.27-1.60],7.814127385876353e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,EFNA1,Ephrin-A1,50746,3106,1.67 [1.50-1.87],1.0785637818855559e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,EFNA4,Ephrin-A4,50337,3071,1.64 [1.49-1.81],5.29930813366524e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ELN,Elastin,44194,2673,1.53 [1.38-1.69],4.851665417085138e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,EPHA2,Ephrin type-A receptor 2,48973,2980,1.58 [1.43-1.73],9.995743705380688e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,EPHB4,Ephrin type-B receptor 4,51441,3151,1.50 [1.33-1.69],4.7771830094555937e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,EPS8L2,Epidermal growth factor receptor kinase substrate 8-like protein 2,51163,3125,1.38 [1.25-1.52],2.8214969512087486e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ESAM,Endothelial cell-selective adhesion molecule,51441,3151,1.36 [1.24-1.50],1.6531459965877842e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,FABP1,"Fatty acid-binding protein, liver",50782,3107,1.12 [1.08-1.16],7.318223416368656e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,FABP3,"Fatty acid-binding protein, heart",44194,2673,1.26 [1.17-1.35],8.017500648769269e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,FABP4,"Fatty acid-binding protein, adipocyte",51441,3151,1.27 [1.19-1.35],1.0600632591942887e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,FAM3C,Protein FAM3C,50740,3101,1.53 [1.38-1.69],1.5672615397653386e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,FGF23,Fibroblast growth factor 23,51163,3125,1.17 [1.11-1.23],3.3158329723906067e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,FGFR2,Fibroblast growth factor receptor 2,50975,3119,1.74 [1.52-2.00],2.0310008887493035e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,FOLR1,Folate receptor alpha,50744,3099,1.54 [1.39-1.72],1.159811143085384e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,FSTL3,Follistatin-related protein 3,50707,3102,1.56 [1.42-1.71],8.510195872199897e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,GAST,Gastrin,44086,2666,1.16 [1.13-1.19],5.1434565536494464e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,GDF15,Growth/differentiation factor 15,51441,3151,1.53 [1.45-1.61],6.667277304788915e-58
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,GFRA1,GDNF family receptor alpha-1,51174,3124,1.80 [1.62-2.00],5.6473083077916944e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,GGT1,Glutathione hydrolase 1 proenzyme,50746,3106,1.23 [1.16-1.30],1.6986219534398444e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,GPR37,Prosaposin receptor GPR37,49881,3057,1.20 [1.14-1.26],4.935319051589752e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,GRPEL1,"GrpE protein homolog 1, mitochondrial",50577,3084,1.25 [1.20-1.32],4.3992859379586553e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,GUCA2A,Guanylin,50577,3096,1.42 [1.30-1.56],8.22864239746861e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,HAVCR1,Hepatitis A virus cellular receptor 1,51174,3126,1.26 [1.20-1.32],3.487375304288419e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,HAVCR2,Hepatitis A virus cellular receptor 2,50829,3112,1.59 [1.46-1.73],1.3721830197349326e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,HSPB6,Heat shock protein beta-6,51247,3130,1.29 [1.19-1.40],5.12995366197526e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ICAM1,Intercellular adhesion molecule 1,50598,3104,1.45 [1.31-1.61],3.4707679536719733e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IFI30,Gamma-interferon-inducible lysosomal thiol reductase,42945,2602,1.42 [1.30-1.55],1.0337546015076512e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IFNL1,Interferon lambda-1,49627,3021,1.24 [1.16-1.33],6.833808873194897e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IGF2R,Cation-independent mannose-6-phosphate receptor,50829,3112,1.53 [1.34-1.75],4.9182202938774e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IGFBP4,Insulin-like growth factor-binding protein 4,50180,3089,1.46 [1.36-1.56],7.818810266140117e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IGFBPL1,Insulin-like growth factor-binding protein-like 1,50816,3103,1.38 [1.26-1.51],2.2961349614140155e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IGSF8,Immunoglobulin superfamily member 8,50816,3103,1.46 [1.32-1.61],9.981275043994273e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IL10RB,Interleukin-10 receptor subunit beta,51035,3122,1.46 [1.32-1.62],3.508446215158781e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IL15,Interleukin-15,50740,3115,1.41 [1.28-1.54],5.031084516401316e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IL18BP,Interleukin-18-binding protein,51017,3129,1.62 [1.48-1.79],4.818659638341957e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IL18R1,Interleukin-18 receptor 1,51365,3146,1.51 [1.38-1.66],6.179137836279984e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IL1R1,Interleukin-1 receptor type 1,50746,3106,1.54 [1.35-1.77],3.1673688719628857e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IL1RN,Interleukin-1 receptor antagonist protein,50701,3103,1.24 [1.18-1.31],6.660535715289181e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IL4R,Interleukin-4 receptor subunit alpha,50740,3115,1.48 [1.36-1.60],7.00632623729089e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IL6,Interleukin-6,50577,3084,1.13 [1.09-1.17],9.166973745411491e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,IMMT,MICOS complex subunit MIC60,43985,2659,1.33 [1.24-1.43],6.013514824210343e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ITGA11,Integrin alpha-11,50740,3115,0.75 [0.68-0.82],4.981910156240765e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ITGAV,Integrin alpha-V,51247,3130,0.54 [0.45-0.65],7.754353752935434e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,KRT18,"Keratin, type I cytoskeletal 18",50577,3084,1.13 [1.09-1.17],2.0899416975216395e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,KRT19,"Keratin, type I cytoskeletal 19",50656,3111,1.18 [1.13-1.23],1.1186031788441285e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LAIR1,Leukocyte-associated immunoglobulin-like receptor 1,50782,3107,1.34 [1.24-1.44],7.252144623638401e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LAMP3,Lysosome-associated membrane glycoprotein 3,51282,3141,1.22 [1.15-1.29],3.5598597554182585e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LAYN,Layilin,50337,3071,1.49 [1.37-1.63],5.388301776795234e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LGALS1,Galectin-1,50816,3103,1.33 [1.22-1.46],3.2201723188687524e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LGALS3,Galectin-3,50946,3114,1.54 [1.39-1.71],2.3562233958785103e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LGALS4,Galectin-4,50782,3107,1.34 [1.27-1.42],6.858410169662162e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LGALS9,Galectin-9,50786,3106,1.64 [1.49-1.80],1.8605672935035628e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LILRA5,Leukocyte immunoglobulin-like receptor subfamily A member 5,50740,3101,1.37 [1.24-1.51],3.3297329424048357e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LILRB4,Leukocyte immunoglobulin-like receptor subfamily B member 4,49849,3042,1.27 [1.18-1.36],1.1922759705077838e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LMNB2,Lamin-B2,44086,2666,1.60 [1.42-1.80],1.7391606506405396e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LMOD1,Leiomodin-1,44116,2663,1.33 [1.22-1.46],3.1736114166427327e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LRP11,Low-density lipoprotein receptor-related protein 11,50816,3103,1.37 [1.25-1.49],1.641127588745845e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LRRN1,Leucine-rich repeat neuronal protein 1,49849,3042,0.68 [0.63-0.74],2.746186475390462e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LTBP2,Latent-transforming growth factor beta-binding protein 2,51441,3151,1.42 [1.29-1.57],1.6452334482013416e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,LTBR,Tumor necrosis factor receptor superfamily member 3,50533,3091,1.44 [1.29-1.61],3.6204052931938696e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,MAD1L1,Mitotic spindle assembly checkpoint protein MAD1,50253,3066,1.22 [1.15-1.28],9.69447889562962e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,MDK,Midkine,50824,3107,1.19 [1.13-1.26],6.736599583048571e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,MERTK,Tyrosine-protein kinase Mer,51365,3146,1.65 [1.46-1.86],4.215884271386584e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,MMP7,Matrilysin,49804,3053,1.25 [1.17-1.34],1.0261277397989587e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,MRC1,Macrophage mannose receptor 1,44232,2677,1.56 [1.38-1.77],3.4472745027733176e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,MSLN,Mesothelin,50493,3075,1.19 [1.13-1.26],5.564906398294026e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,MSR1,Macrophage scavenger receptor types I and II,51265,3127,1.28 [1.19-1.37],5.096817913292831e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NBL1,Neuroblastoma suppressor of tumorigenicity 1,50975,3119,1.50 [1.34-1.69],9.039484046073372e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NCR3LG1,Natural cytotoxicity triggering receptor 3 ligand 1,44009,2661,1.56 [1.41-1.74],8.408277354529912e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NCS1,Neuronal calcium sensor 1,51247,3130,1.77 [1.59-1.97],9.441384696007312e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NECTIN2,Nectin-2,50740,3101,1.66 [1.50-1.84],1.7489726040073275e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NEFL,Neurofilament light polypeptide,49469,3007,1.42 [1.33-1.52],1.3608106177213942e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NHLRC3,NHL repeat-containing protein 3,42189,2538,1.52 [1.34-1.71],2.0798417868580268e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NPC2,NPC intracellular cholesterol transporter 2,43454,2620,1.53 [1.38-1.69],7.464061513535913e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NPDC1,Neural proliferation differentiation and control protein 1,50816,3103,1.46 [1.33-1.60],1.5578586442334884e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NT5C1A,Cytosolic 5'-nucleotidase 1A,44086,2666,1.45 [1.32-1.59],1.517840563969673e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,NUCB2,Nucleobindin-2,51164,3122,1.31 [1.21-1.43],7.208654604474409e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,OCLN,Occludin,44116,2663,1.57 [1.45-1.69],3.982599609617526e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,OSCAR,Osteoclast-associated immunoglobulin-like receptor,50867,3111,1.37 [1.25-1.51],3.7962692510647e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PAG1,Phosphoprotein associated with glycosphingolipid-enriched microdomains 1,49881,3057,1.20 [1.13-1.26],8.986537402086885e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PALM,Paralemmin-1,43766,2650,1.49 [1.32-1.67],2.4041640142634248e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PALM2,Paralemmin-2,44086,2666,1.61 [1.48-1.76],1.7618959287947106e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PDCD1,Programmed cell death protein 1,51162,3123,1.28 [1.19-1.37],9.504693213725516e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PDCD1LG2,Programmed cell death 1 ligand 2,50577,3084,1.37 [1.24-1.51],2.3147015071271551e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PGA4,Pepsin A-4,44232,2677,1.21 [1.15-1.28],3.270815376452713e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PGF,Placenta growth factor,51365,3146,1.44 [1.30-1.60],9.327747627212822e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PHOSPHO1,Phosphoethanolamine/phosphocholine phosphatase,50421,3075,1.42 [1.28-1.58],1.2549082836956102e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PIGR,Polymeric immunoglobulin receptor,50174,3078,1.55 [1.43-1.68],3.0506564250682807e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PIK3IP1,Phosphoinositide-3-kinase-interacting protein 1,50829,3112,1.53 [1.37-1.71],5.443025584686575e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PILRA,Paired immunoglobulin-like type 2 receptor alpha,50829,3112,1.36 [1.26-1.46],4.864500430786595e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PILRB,Paired immunoglobulin-like type 2 receptor beta,50816,3103,1.22 [1.15-1.29],1.1685543833366282e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PLA2G15,Phospholipase A2 group XV,50975,3119,1.53 [1.36-1.72],5.729909776724326e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PLAUR,Urokinase plasminogen activator surface receptor,50453,3086,1.87 [1.68-2.09],3.892010734768998e-29
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,POLR2F,"DNA-directed RNA polymerases I, II, and III subunit RPABC2",50577,3084,1.28 [1.18-1.38],8.436217196439191e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PRAP1,Proline-rich acidic protein 1,44195,2666,1.43 [1.30-1.57],2.9504006500144837e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PRL,Prolactin,51265,3127,1.14 [1.09-1.18],3.6468579406245456e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PRSS8,Prostasin,50619,3100,1.40 [1.30-1.51],2.8023219935105376e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,PSAP,Prosaposin,43785,2643,1.48 [1.32-1.66],2.4953310015018472e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,RARRES2,Retinoic acid receptor responder protein 2,51101,3134,1.27 [1.19-1.35],2.7998656820846876e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,RBFOX3,RNA binding protein fox-1 homolog 3,44116,2663,1.55 [1.43-1.67],1.3459432623770163e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,RBP5,Retinol-binding protein 5,50577,3084,1.19 [1.13-1.26],1.6841784052892967e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,RNASE1,Ribonuclease pancreatic,44232,2677,1.64 [1.44-1.86],2.88344957097066e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,RNASE4,Ribonuclease 4,42763,2558,1.63 [1.44-1.84],6.712256703693519e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,RNASE6,Ribonuclease K6,43916,2654,1.49 [1.35-1.63],9.771387604161764e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,RNASET2,Ribonuclease T2,51200,3133,1.61 [1.44-1.80],3.260635798209166e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,RNF149,E3 ubiquitin-protein ligase RNF149,43025,2591,1.57 [1.41-1.76],2.4838061895350808e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SCARB2,Lysosome membrane protein 2,49457,3025,1.59 [1.44-1.75],7.985605847077855e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SCRG1,Scrapie-responsive protein 1,44194,2673,1.49 [1.32-1.68],1.624083636577799e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SEPTIN8,Septin-8,44004,2656,1.44 [1.30-1.59],2.265914311870492e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SHISA5,Protein shisa-5,44195,2666,1.67 [1.48-1.89],2.1225305752663691e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SIGLEC1,Sialoadhesin,51035,3122,1.31 [1.22-1.41],4.827294821855599e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SMPD1,Sphingomyelin phosphodiesterase,51014,3109,1.24 [1.16-1.32],1.3341378084907532e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SOD2,"Superoxide dismutase [Mn], mitochondrial",50829,3112,1.31 [1.22-1.42],2.9455283781937703e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SORCS2,VPS10 domain-containing receptor SorCS2,49617,3028,1.34 [1.23-1.46],1.114669568610843e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SPINK1,Serine protease inhibitor Kazal-type 1,50829,3112,1.32 [1.23-1.41],1.0977816979415392e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SPINK4,Serine protease inhibitor Kazal-type 4,50740,3115,1.19 [1.14-1.25],1.434598139222491e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,SPON2,Spondin-2,50571,3093,1.40 [1.28-1.53],3.896580968566655e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TAFA5,Chemokine-like protein TAFA-5,50577,3084,1.34 [1.23-1.46],3.1215156172627164e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TFF1,Trefoil factor 1,50582,3102,1.16 [1.12-1.21],4.939094483295549e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TFF2,Trefoil factor 2,50951,3118,1.24 [1.18-1.31],1.292486479589645e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TFF3,Trefoil factor 3,50767,3117,1.29 [1.22-1.36],5.879068772530464e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TGFA,Protransforming growth factor alpha,50740,3115,1.32 [1.24-1.40],3.904858341856067e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TGFB1,Transforming growth factor beta-1 proprotein,51282,3141,1.32 [1.22-1.42],7.146782721491956e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TGFBR2,TGF-beta receptor type-2,50975,3119,1.47 [1.35-1.61],3.24783165004082e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TIMP1,Metalloproteinase inhibitor 1,50264,3088,1.51 [1.35-1.67],3.492164429115743e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNF,Tumor necrosis factor,49806,3050,1.25 [1.17-1.33],6.557712994960374e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF10A,Tumor necrosis factor receptor superfamily member 10A,50421,3075,1.62 [1.49-1.76],3.121616043507153e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF10B,Tumor necrosis factor receptor superfamily member 10B,50421,3075,1.29 [1.24-1.35],2.2334327755814983e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF11A,Tumor necrosis factor receptor superfamily member 11A,51365,3146,1.39 [1.28-1.50],1.6570088950830662e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF11B,Tumor necrosis factor receptor superfamily member 11B,50782,3107,1.38 [1.25-1.53],5.631654160242194e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF12A,Tumor necrosis factor receptor superfamily member 12A,50975,3119,1.50 [1.38-1.64],5.061487630978113e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF14,Tumor necrosis factor receptor superfamily member 14,50867,3111,1.56 [1.42-1.73],8.824331643545313e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF1A,Tumor necrosis factor receptor superfamily member 1A,50829,3112,1.69 [1.53-1.87],1.2407295822448074e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF1B,Tumor necrosis factor receptor superfamily member 1B,50829,3112,1.38 [1.30-1.47],8.71243633719864e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF4,Tumor necrosis factor receptor superfamily member 4,51282,3141,1.30 [1.20-1.41],1.4728528189793322e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFRSF9,Tumor necrosis factor receptor superfamily member 9,50421,3075,1.26 [1.17-1.36],5.369107482919375e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFSF11,Tumor necrosis factor ligand superfamily member 11,50740,3115,0.84 [0.80-0.88],2.56017264646304e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFSF13,Tumor necrosis factor ligand superfamily member 13,51035,3122,1.52 [1.36-1.71],7.810580034662856e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TNFSF13B,Tumor necrosis factor ligand superfamily member 13B,51357,3146,1.47 [1.32-1.63],2.517521061749918e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TREM2,Triggering receptor expressed on myeloid cells 2,50782,3107,1.25 [1.18-1.33],4.4437265658994696e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,TSPAN8,Tetraspanin-8,44009,2661,1.13 [1.09-1.18],9.326333014080388e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,ULBP2,UL16-binding protein 2,50421,3075,1.36 [1.25-1.48],1.171170846296962e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,VSIG2,V-set and immunoglobulin domain-containing protein 2,43985,2659,1.39 [1.31-1.46],2.577962049702505e-31
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,VSIG4,V-set and immunoglobulin domain-containing protein 4,50760,3107,1.41 [1.31-1.53],5.331142874703057e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,WFDC2,WAP four-disulfide core domain protein 2,48254,2953,1.50 [1.39-1.62],4.3637549556563917e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,WFIKKN1,"WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 1",50256,3066,0.76 [0.70-0.82],5.972406916273438e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Depression,YAP1,Transcriptional coactivator YAP1,44086,2666,1.88 [1.66-2.12],5.1386734167955084e-24

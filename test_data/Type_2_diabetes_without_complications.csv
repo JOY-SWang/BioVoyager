@@ -1,0 +1,881 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ABCA2,ATP-binding cassette sub-family A member 2,42287,3106,1.47 [1.35-1.60],6.683776172386356e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ABL1,Tyrosine-protein kinase ABL1,50008,3649,1.18 [1.13-1.23],3.3213183213450324e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ACAA1,"3-ketoacyl-CoA thiolase, peroxisomal",49060,3565,1.36 [1.32-1.40],2.945603627831283e-79
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ACAN,Aggrecan core protein,49760,3628,0.48 [0.43-0.53],1.7745318586203765e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ACE,Angiotensin-converting enzyme,43751,3210,1.71 [1.51-1.94],1.27081375869356e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ACE2,Angiotensin-converting enzyme 2,49323,3609,1.80 [1.72-1.88],4.3001009974138914e-160
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ACP5,Tartrate-resistant acid phosphatase type 5,50455,3692,2.12 [1.97-2.27],8.116128721748055e-98
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ACY1,Aminoacylase-1,50238,3669,1.95 [1.88-2.03],2.6430030902391057e-237
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ACY3,N-acyl-aromatic-L-amino acid amidohydrolase,42287,3106,1.62 [1.54-1.71],9.93062037775396e-72
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADA,Adenosine deaminase,50792,3709,1.30 [1.21-1.41],1.1038788907746833e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADA2,Adenosine deaminase 2,49951,3644,2.05 [1.93-2.19],3.829078197695784e-114
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADAM12,Disintegrin and metalloproteinase domain-containing protein 12,42452,3109,1.47 [1.35-1.60],4.52323203222926e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADAM8,Disintegrin and metalloproteinase domain-containing protein 8,50605,3694,1.52 [1.38-1.68],2.647868303893569e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADAM9,Disintegrin and metalloproteinase domain-containing protein 9,43539,3194,1.62 [1.46-1.79],3.1345141914061264e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADAMTS13,A disintegrin and metalloproteinase with thrombospondin motifs 13,50857,3718,2.09 [1.85-2.36],1.2600992962108568e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADAMTS15,A disintegrin and metalloproteinase with thrombospondin motifs 15,50008,3649,1.34 [1.25-1.44],2.2217692683137787e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADAMTSL2,ADAMTS-like protein 2,43726,3217,3.48 [3.24-3.74],3.0888953095212495e-251
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADGRB3,Adhesion G protein-coupled receptor B3,49774,3640,1.33 [1.22-1.45],1.3824478148790969e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADGRD1,Adhesion G-protein coupled receptor D1,42761,3137,1.89 [1.74-2.04],4.020317814291196e-55
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADGRE1,Adhesion G protein-coupled receptor E1,43539,3194,1.22 [1.15-1.29],3.586553442888961e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADGRE2,Adhesion G protein-coupled receptor E2,50453,3677,1.90 [1.73-2.10],5.11329375829735e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADGRE5,Adhesion G protein-coupled receptor E5,50610,3703,1.92 [1.77-2.08],8.449942835004928e-55
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADGRG1,Adhesion G-protein coupled receptor G1,50008,3649,1.53 [1.49-1.57],1.2690889652923281e-213
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADGRG2,Adhesion G-protein coupled receptor G2,50238,3669,0.49 [0.46-0.53],1.1766192529914087e-75
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADH1B,All-trans-retinol dehydrogenase,42761,3137,1.42 [1.37-1.47],2.457938421680157e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADH4,All-trans-retinol dehydrogenase [NAD(+)] ADH4,49323,3609,1.53 [1.48-1.58],1.6616710930258634e-132
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADIPOQ,Adiponectin,43788,3214,0.53 [0.50-0.55],3.491331792670013e-150
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ADM,Pro-adrenomedullin,50668,3699,1.75 [1.56-1.96],4.253745514372336e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AFM,Afamin,43788,3214,4.77 [4.05-5.62],4.8938710209917245e-78
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AGR2,Anterior gradient protein 2 homolog,48685,3548,1.18 [1.15-1.21],4.725056446482542e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AGR3,Anterior gradient protein 3,48976,3558,1.37 [1.31-1.44],8.466982227877465e-45
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AGRN,Agrin,50453,3677,1.94 [1.81-2.08],1.899556722039407e-78
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AGRP,Agouti-related protein,50792,3709,1.30 [1.23-1.38],1.5407943184104726e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AGXT,Serine--pyruvate aminotransferase,50238,3669,1.45 [1.40-1.50],1.8362728125109227e-102
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AHSG,Alpha-2-HS-glycoprotein,43751,3210,1.78 [1.57-2.01],1.5229354450308932e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AIFM1,"Apoptosis-inducing factor 1, mitochondrial",49925,3644,1.18 [1.15-1.21],9.016858005144123e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AKAP12,A-kinase anchor protein 12,42761,3137,0.56 [0.47-0.67],9.318887303435943e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AKR1B10,Aldo-keto reductase family 1 member B10,42513,3125,1.37 [1.32-1.43],1.854800291994264e-50
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AKR1C4,Aldo-keto reductase family 1 member C4,49323,3609,1.20 [1.14-1.25],1.7334136864397606e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AKR7L,Aflatoxin B1 aldehyde reductase member 4,42452,3109,1.41 [1.35-1.46],6.012831968741001e-64
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ALCAM,CD166 antigen,50857,3718,2.50 [2.18-2.87],4.0240235374971394e-39
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ALDH1A1,Retinal dehydrogenase 1,50252,3681,1.58 [1.51-1.65],2.580474224198717e-89
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ALDH3A1,"Aldehyde dehydrogenase, dimeric NADP-preferring",50085,3656,1.32 [1.28-1.37],3.190204957486364e-66
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ALDH5A1,"Succinate-semialdehyde dehydrogenase, mitochondrial",43640,3195,1.25 [1.17-1.33],9.61342731302962e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ALPP,"Alkaline phosphatase, placental type",50008,3649,1.11 [1.08-1.14],5.442697048261623e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AMBP,Protein AMBP,50596,3696,2.43 [2.11-2.79],8.99319891813667e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AMIGO2,Amphoterin-induced protein 2,50008,3649,2.05 [1.81-2.32],5.671216304108392e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AMOT,Angiomotin,42761,3137,1.64 [1.51-1.78],4.463449686873324e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AMY1A_AMY1B_AMY1C,Alpha-amylase 1A_Alpha-amylase 1B_Alpha-amylase 1C,40977,3001,0.78 [0.72-0.84],3.160571528740248e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AMY2A,Pancreatic alpha-amylase,48298,3520,0.76 [0.71-0.81],3.461913399319426e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AMY2B,Alpha-amylase 2B,46816,3409,0.74 [0.70-0.79],5.1158539466640284e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANG,Angiogenin,50115,3665,1.36 [1.25-1.47],4.755546631181785e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANGPT2,Angiopoietin-2,50668,3699,2.01 [1.87-2.16],3.715379213534896e-80
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANGPTL2,Angiopoietin-related protein 2,50290,3667,1.87 [1.74-2.01],6.48855338690965e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANGPTL3,Angiopoietin-related protein 3,50281,3675,0.55 [0.50-0.59],3.383246630150265e-54
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANGPTL4,Angiopoietin-related protein 4,50372,3673,1.44 [1.35-1.54],1.817455200976651e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANGPTL7,Angiopoietin-related protein 7,50668,3699,1.95 [1.82-2.09],1.8173652630582145e-82
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANPEP,Aminopeptidase N,50363,3671,1.50 [1.36-1.66],6.07334789861223e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANXA10,Annexin A10,49082,3568,1.14 [1.10-1.18],1.6294851377795986e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ANXA2,Annexin A2,41906,3074,1.18 [1.13-1.24],7.284579792976198e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AOC3,Membrane primary amine oxidase,50445,3682,2.51 [2.29-2.75],9.865329120024666e-86
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AP1G2,AP-1 complex subunit gamma-like 2,43518,3190,1.15 [1.10-1.20],2.784564447787371e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APBB1IP,Amyloid beta A4 precursor protein-binding family B member 1-interacting protein,50008,3649,1.30 [1.23-1.38],1.1168800517300022e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APEX1,DNA-(apurinic or apyrimidinic site) endonuclease,50512,3690,1.21 [1.16-1.27],2.0552376675654024e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APLP1,Amyloid-like protein 1,50238,3669,0.77 [0.73-0.82],1.6816446100724309e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APOA1,Apolipoprotein A-I,43788,3214,0.39 [0.33-0.44],4.320384994264224e-40
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APOA4,Apolipoprotein A-IV,43788,3214,1.63 [1.51-1.76],2.508583100822969e-34
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APOC1,Apolipoprotein C-I,43706,3207,0.44 [0.40-0.48],7.201584219646051e-74
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APOD,Apolipoprotein D,41821,3083,0.34 [0.31-0.38],4.369867801759006e-92
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APOF,Apolipoprotein F,43751,3210,0.49 [0.46-0.52],8.362417449643727e-110
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,APOM,Apolipoprotein M,50363,3678,0.34 [0.31-0.38],6.1208109381043615e-105
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,AREG,Amphiregulin,50008,3649,1.86 [1.77-1.97],1.495998201504241e-112
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ARSA,Arylsulfatase A,50252,3681,1.42 [1.34-1.51],2.1757408397944685e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ARSB,Arylsulfatase B,50008,3649,1.22 [1.16-1.28],2.2439126660935803e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ART3,Ecto-ADP-ribosyltransferase 3,50445,3682,0.73 [0.68-0.80],9.967909079569821e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ASAH1,Acid ceramidase,43317,3193,1.33 [1.25-1.41],1.2213541594884195e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ASAH2,Neutral ceramidase,49859,3646,1.70 [1.60-1.81],3.2733286915056195e-60
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ASGR1,Asialoglycoprotein receptor 1,49859,3646,3.04 [2.81-3.29],7.876751533790665e-169
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ASS1,Argininosuccinate synthase,42287,3106,1.36 [1.31-1.42],1.7432472504849896e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ATRN,"Attractin, Isoform 2",43788,3214,4.12 [3.43-4.96],6.919542642941451e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,B2M,Beta-2-microglobulin,43788,3214,1.29 [1.20-1.40],1.0018727941690491e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,B3GNT7,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7",42553,3118,2.48 [2.26-2.72],7.7282829688449885e-81
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,B4GALT1,"Beta-1,4-galactosyltransferase 1",50453,3677,1.73 [1.57-1.92],1.3462366434076794e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BAIAP2,Brain-specific angiogenesis inhibitor 1-associated protein 2,49060,3565,1.58 [1.53-1.64],5.109270257719498e-127
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BAP18,Chromatin complexes subunit BAP18,43613,3190,1.19 [1.14-1.24],1.1015818593276321e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BCAM,Basal cell adhesion molecule,50252,3681,1.48 [1.33-1.66],9.070873900005892e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BCAN,Brevican core protein,49859,3646,0.49 [0.45-0.53],4.514845609435211e-62
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BCHE,Cholinesterase,42933,3148,2.03 [1.78-2.31],1.2287018899582384e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BCL2L15,Bcl-2-like protein 15,42452,3109,1.20 [1.13-1.26],2.659061867662652e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BGLAP,Osteocalcin,43726,3217,0.87 [0.84-0.91],1.9901011199821774e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BMP4,Bone morphogenetic protein 4,49774,3640,1.21 [1.14-1.29],3.37484763651302e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BMP6,Bone morphogenetic protein 6,49243,3605,1.29 [1.20-1.39],3.2245915428360894e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BMPER,BMP-binding endothelial regulator protein,42761,3137,3.17 [2.87-3.49],6.057566530280858e-116
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BPIFB1,BPI fold-containing family B member 1,50132,3669,0.82 [0.79-0.86],6.03897891915734e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BPIFB2,BPI fold-containing family B member 2,43641,3199,1.37 [1.31-1.43],3.675357915584479e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BST2,Bone marrow stromal antigen 2,50687,3698,1.43 [1.37-1.50],1.731116171314065e-57
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BTD,Biotinidase,43788,3214,2.29 [1.94-2.71],2.329368975185849e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BTN2A1,Butyrophilin subfamily 2 member A1,50453,3677,1.65 [1.49-1.83],1.2361748356606468e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,BTN3A2,Butyrophilin subfamily 3 member A2,50168,3665,1.27 [1.18-1.37],5.127621353795981e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,C19orf12,Protein C19orf12,49082,3568,1.40 [1.36-1.45],1.2396195219450465e-93
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,C1QTNF1,Complement C1q tumor necrosis factor-related protein 1,50445,3682,1.93 [1.83-2.04],5.691220588457017e-118
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,C1RL,Complement C1r subcomponent-like protein,43711,3207,2.01 [1.69-2.40],4.4013839576065335e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,C2,Complement C2,50363,3678,3.86 [3.34-4.46],7.09885298938787e-75
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,C3,Complement C3,41530,3031,1.47 [1.38-1.56],1.6362452630011774e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,C7,Complement component C7,42735,3137,2.55 [2.30-2.83],4.2397141098497955e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,C9,Complement component C9,43751,3210,0.77 [0.73-0.82],7.123798335576775e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CA12,Carbonic anhydrase 12,50008,3649,1.49 [1.37-1.62],5.397729937059641e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CA14,Carbonic anhydrase 14,50668,3699,0.46 [0.42-0.49],6.359522719856111e-81
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CA5A,"Carbonic anhydrase 5A, mitochondrial",49323,3609,1.26 [1.23-1.30],5.7462999548265836e-55
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CA6,Carbonic anhydrase 6,50099,3666,0.80 [0.76-0.84],2.804694873139736e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CA9,Carbonic anhydrase 9,50668,3699,1.31 [1.24-1.39],1.1578349998708311e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CALB2,Calretinin,49082,3568,1.30 [1.21-1.40],1.9447079764823299e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CALCA,Calcitonin,49776,3638,1.27 [1.22-1.33],1.0860370703270713e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CANT1,Soluble calcium-activated nucleotidase 1,50086,3655,1.85 [1.61-2.13],1.653849442707465e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CBLIF,Cobalamin binding intrinsic factor,50163,3667,1.27 [1.23-1.32],4.730250563092104e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CBLN4,Cerebellin-4,50668,3699,1.46 [1.35-1.57],4.618490037093804e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CBS,Cystathionine beta-synthase,42553,3118,1.54 [1.46-1.62],4.424741979999293e-58
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL11,Eotaxin,50792,3709,1.60 [1.48-1.73],2.8014912895122158e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL15,C-C motif chemokine 15,50857,3718,1.78 [1.68-1.89],1.525865083291349e-81
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL16,C-C motif chemokine 16,50857,3718,1.47 [1.39-1.55],1.6415254621255053e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL19,C-C motif chemokine 19,50687,3698,1.08 [1.06-1.10],2.6731989121684586e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL20,C-C motif chemokine 20,50792,3709,1.27 [1.24-1.31],1.4997873770661737e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL21,C-C motif chemokine 21,50453,3677,1.42 [1.35-1.50],2.2275909152666487e-40
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL22,C-C motif chemokine 22,49723,3632,1.29 [1.22-1.36],2.317906114206891e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL25,C-C motif chemokine 25,50792,3709,1.31 [1.23-1.39],3.867288646942916e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL3,C-C motif chemokine 3,50168,3665,1.18 [1.14-1.21],3.8083487780889406e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCL7,C-C motif chemokine 7,50168,3665,1.28 [1.22-1.33],4.7849620868805194e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCN1,CCN family member 1,49926,3645,1.19 [1.14-1.23],2.947007889847035e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CCN4,CCN family member 4,50668,3699,1.48 [1.39-1.58],9.31529544729347e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD101,Immunoglobulin superfamily member 2,43539,3194,1.44 [1.33-1.56],8.0554813450293015e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD109,CD109 antigen,50252,3681,1.61 [1.48-1.76],4.217514299083631e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD14,Monocyte differentiation antigen CD14,49223,3612,1.37 [1.27-1.46],7.961500599180209e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD163,Scavenger receptor cysteine-rich type 1 protein M130,50445,3682,1.83 [1.72-1.94],1.8439916210404345e-82
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD164,Sialomucin core protein 24,50252,3681,1.44 [1.35-1.55],2.399418879924909e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD1C,T-cell surface glycoprotein CD1c,50396,3675,0.67 [0.60-0.75],1.2202020082560338e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD207,C-type lectin domain family 4 member K,49143,3585,1.41 [1.31-1.53],4.6853605954972085e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD22,B-cell receptor CD22,50792,3709,1.51 [1.41-1.60],5.596396472957573e-37
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD244,Natural killer cell receptor 2B4,50792,3709,1.69 [1.52-1.87],4.635025798381606e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD248,Endosialin,43726,3217,0.61 [0.56-0.66],1.247788949309434e-31
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD27,CD27 antigen,50396,3675,1.52 [1.42-1.62],2.8662257519286847e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD274,Programmed cell death 1 ligand 1,49859,3646,1.52 [1.40-1.64],2.3775454635995864e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD276,CD276 antigen,50204,3657,1.65 [1.52-1.80],1.6064981917042368e-31
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD28,T-cell-specific surface glycoprotein CD28,49060,3565,1.57 [1.47-1.69],1.3639778226646574e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD2AP,CD2-associated protein,50238,3669,1.15 [1.10-1.21],2.062301227028265e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD300A,CMRF35-like molecule 8,42761,3137,1.52 [1.36-1.70],7.119179098397024e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD300C,CMRF35-like molecule 6,50687,3698,1.47 [1.36-1.59],1.6649236537045752e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD300E,CMRF35-like molecule 2,50506,3687,1.37 [1.28-1.47],1.00724820547444e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD300LG,CMRF35-like molecule 9,50252,3681,0.53 [0.49-0.58],1.214008542869433e-53
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD302,CD302 antigen,50008,3649,1.51 [1.38-1.65],1.6212069363681141e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD34,Hematopoietic progenitor cell antigen CD34,50528,3688,0.48 [0.43-0.54],5.471151067047285e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD36,Platelet glycoprotein 4,42452,3109,1.28 [1.20-1.38],6.715469099896416e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD38,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,50008,3649,1.52 [1.39-1.66],3.18462182373859e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD4,T-cell surface glycoprotein CD4,50087,3659,1.56 [1.46-1.67],1.3455362299803676e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD40,Tumor necrosis factor receptor superfamily member 5,50207,3663,1.25 [1.18-1.32],6.455402818882392e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD48,CD48 antigen,50372,3673,1.74 [1.58-1.91],6.5926117790894635e-31
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD5,T-cell surface glycoprotein CD5,50596,3696,1.66 [1.56-1.77],3.0315657032203823e-55
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD59,CD59 glycoprotein,48431,3537,1.48 [1.31-1.67],4.0163514693585007e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD6,T-cell differentiation antigen CD6,50709,3703,1.27 [1.21-1.35],3.495606794729558e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD63,CD63 antigen,49774,3640,1.32 [1.25-1.40],5.8192484868734656e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD7,T-cell antigen CD7,42370,3098,1.27 [1.18-1.37],9.717839313384955e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD72,B-cell differentiation antigen CD72,42761,3137,1.43 [1.32-1.54],4.573610979403349e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD74,HLA class II histocompatibility antigen gamma chain,50687,3698,1.78 [1.65-1.93],2.727843915640669e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD79B,B-cell antigen receptor complex-associated protein beta chain,50792,3709,1.28 [1.20-1.36],7.89919485513924e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD80,T-lymphocyte activation antigen CD80,43722,3201,2.42 [2.24-2.62],1.6619998167790773e-104
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD83,CD83 antigen,50168,3665,1.73 [1.60-1.88],7.756424056998297e-42
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CD8A,T-cell surface glycoprotein CD8 alpha chain,50687,3698,1.42 [1.34-1.49],1.16114309296964e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDCP1,CUB domain-containing protein 1,49859,3646,1.71 [1.63-1.79],1.0240279240896435e-114
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDH1,Cadherin-1,48566,3529,1.68 [1.60-1.77],1.7091107311451564e-85
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDH15,Cadherin-15,50604,3690,1.42 [1.37-1.47],7.57081418135533e-76
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDH17,Cadherin-17,50238,3669,1.38 [1.33-1.44],2.335413797510529e-58
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDH2,Cadherin-2,50238,3669,2.91 [2.70-3.13],1.150390193687852e-170
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDH6,Cadherin-6,50238,3669,1.35 [1.25-1.45],2.8941647917637368e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDHR2,Cadherin-related family member 2,50008,3649,1.64 [1.58-1.72],5.620594944607553e-113
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDHR5,Cadherin-related family member 5,50238,3669,1.37 [1.27-1.48],5.223325912085897e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDKN1A,Cyclin-dependent kinase inhibitor 1,50008,3649,1.11 [1.08-1.14],2.58161601700305e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CDON,Cell adhesion molecule-related/down-regulated by oncogenes,50288,3666,1.70 [1.53-1.90],4.238342546691974e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CEACAM1,Carcinoembryonic antigen-related cell adhesion molecule 1,50319,3668,1.97 [1.75-2.22],3.84940013374569e-29
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CEACAM5,Carcinoembryonic antigen-related cell adhesion molecule 5,48425,3526,1.22 [1.17-1.28],9.015102856798242e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CEACAM6,Carcinoembryonic antigen-related cell adhesion molecule 6,43726,3217,1.41 [1.31-1.51],1.5793131593902824e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CEACAM8,Carcinoembryonic antigen-related cell adhesion molecule 8,49323,3609,1.25 [1.18-1.32],3.595173262554456e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CEMIP2,Cell surface hyaluronidase,42452,3109,1.56 [1.46-1.66],9.743782556070657e-44
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CEP20,Centrosomal protein 20,49060,3565,1.14 [1.09-1.18],1.2727405714157256e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CES1,Liver carboxylesterase 1,50361,3679,1.50 [1.45-1.54],9.52273188436636e-166
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CES2,Cocaine esterase,50008,3649,1.48 [1.41-1.55],4.201266717564009e-61
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CES3,Carboxylesterase 3,50008,3649,1.20 [1.16-1.25],1.5150387754971385e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CFB,Complement factor B,42985,3148,2.38 [2.14-2.65],2.626844495421257e-56
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CFC1,Cryptic protein,49060,3565,1.29 [1.22-1.37],5.684543801642922e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CFH,Complement factor H,41225,3013,3.64 [3.16-4.21],3.864537379710613e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CFHR4,Complement factor H-related protein 4,43704,3209,0.85 [0.81-0.89],1.1694398104801318e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CFI,Complement factor I,43788,3214,4.75 [4.02-5.60],7.435814816163407e-76
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CGREF1,Cell growth regulator with EF hand domain protein 1,50238,3669,1.50 [1.40-1.60],3.2841714201576304e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CHAD,Chondroadherin,42761,3137,0.54 [0.50-0.58],1.6271938692190131e-75
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CHCHD10,"Coiled-coil-helix-coiled-coil-helix domain-containing protein 10, mitochondrial",43613,3190,1.78 [1.67-1.90],4.816271541565735e-70
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CHCHD6,MICOS complex subunit MIC25,43518,3190,1.55 [1.42-1.68],5.690981601945984e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CHGA,Chromogranin-A,43726,3217,1.15 [1.11-1.18],2.6055871981673407e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CHI3L1,Chitinase-3-like protein 1,49143,3579,1.30 [1.26-1.34],8.360995354734386e-56
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CHL1,Neural cell adhesion molecule L1-like protein,50372,3679,0.66 [0.60-0.73],1.8561902174372048e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CHRDL2,Chordin-like protein 2,50238,3669,1.31 [1.24-1.38],1.1085499762117266e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CILP,Cartilage intermediate layer protein 1,43726,3217,1.73 [1.63-1.85],2.691175517954179e-65
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CKAP4,Cytoskeleton-associated protein 4,50545,3694,1.51 [1.37-1.67],8.688077472635054e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CKB,Creatine kinase B-type,43726,3217,0.57 [0.54-0.60],4.918109521569021e-80
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CLEC3B,Tetranectin,42762,3132,0.39 [0.33-0.46],1.2266955829123008e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CLEC4A,C-type lectin domain family 4 member A,50168,3665,0.64 [0.59-0.69],1.425182268289125e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CLEC4D,C-type lectin domain family 4 member D,50168,3665,1.28 [1.22-1.34],8.00697194589501e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CLEC6A,C-type lectin domain family 6 member A,49060,3565,1.34 [1.26-1.42],1.4430189869859745e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CLSTN2,Calsyntenin-2,50792,3709,1.50 [1.41-1.60],1.9614186774249664e-34
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CLSTN3,Calsyntenin-3,43613,3190,1.73 [1.56-1.91],1.575300908931642e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CLUL1,Clusterin-like protein 1,50157,3662,0.68 [0.64-0.73],1.2766684977037882e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CNTN2,Contactin-2,50668,3699,1.31 [1.23-1.39],1.7499109969859807e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CNTN3,Contactin-3,50252,3681,2.79 [2.54-3.06],3.5504531613867485e-102
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CNTN4,Contactin-4,50252,3681,1.80 [1.60-2.03],7.77320002629856e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CNTN5,Contactin-5,50369,3673,0.76 [0.70-0.82],6.82032248215918e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,COL15A1,Collagen alpha-1(XV) chain,43726,3217,0.62 [0.55-0.70],9.19124937067364e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,COL18A1,Collagen alpha-1(XVIII) chain,50449,3685,1.94 [1.72-2.19],4.897906471473551e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,COL1A1,Collagen alpha-1(I) chain,50857,3718,0.65 [0.58-0.74],5.068099126615086e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,COL3A1,Collagen alpha-1(III) chain,43726,3217,2.26 [1.98-2.57],7.1160307171115135e-34
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,COL5A1,Collagen alpha-1(V) chain,42761,3137,1.70 [1.58-1.83],2.938858325384642e-46
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,COL6A3,Collagen alpha-3(VI) chain,50857,3718,1.73 [1.60-1.87],5.3856536539150335e-46
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,COL9A1,Collagen alpha-1(IX) chain,50168,3665,0.81 [0.76-0.87],1.7910135704638496e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,COLEC12,Collectin-12,50204,3657,1.77 [1.59-1.97],4.217849402537403e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CPA2,Carboxypeptidase A2,50519,3685,1.34 [1.28-1.40],6.386048698437916e-42
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CPE,Carboxypeptidase E,50274,3661,0.75 [0.70-0.81],4.7952678221007085e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CPM,Carboxypeptidase M,50439,3673,3.37 [3.13-3.62],1.8653739825878232e-238
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CPQ,Carboxypeptidase Q,43645,3214,1.54 [1.41-1.69],1.4140572352117194e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CPVL,Probable serine carboxypeptidase CPVL,50584,3693,1.30 [1.21-1.40],4.561005620707852e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CPXM2,Inactive carboxypeptidase-like protein X2,43722,3201,1.63 [1.45-1.84],1.6633314638574769e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CR1,Complement receptor type 1,43584,3199,1.54 [1.40-1.68],8.371370625169912e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CR2,Complement receptor type 2,50445,3682,1.44 [1.36-1.53],5.147218277661996e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRELD1,Protein disulfide isomerase CRELD1,42761,3137,2.37 [2.17-2.59],8.2237618930317425e-81
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRELD2,Protein disulfide isomerase CRELD2,50372,3673,1.24 [1.18-1.31],4.9997687009644935e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRH,Corticoliberin,48979,3560,0.81 [0.78-0.84],2.4069209639275928e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRHBP,Corticotropin-releasing factor-binding protein,50204,3657,2.79 [2.51-3.09],8.723949330152402e-84
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRIP2,Cysteine-rich protein 2,49859,3646,1.55 [1.45-1.65],1.47680452765461e-39
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRISP2,Cysteine-rich secretory protein 2,50668,3699,0.85 [0.81-0.89],7.600670662597186e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRISP3,Cysteine-rich secretory protein 3,43341,3176,0.60 [0.53-0.68],4.2260164632039556e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRLF1,Cytokine receptor-like factor 1,50453,3677,1.67 [1.49-1.88],1.0042965777165053e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRNN,Cornulin,48802,3562,0.83 [0.80-0.87],2.311741481493986e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CRTAC1,Cartilage acidic protein 1,50857,3718,0.58 [0.53-0.63],1.0365698575755287e-31
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CSF1,Macrophage colony-stimulating factor 1,50453,3677,2.09 [1.89-2.31],5.878811660611567e-46
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CSF1R,Macrophage colony-stimulating factor 1 receptor,43751,3210,1.75 [1.62-1.89],3.4240423035760167e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CSF2,Granulocyte-macrophage colony-stimulating factor,42287,3106,1.32 [1.22-1.44],6.409590411492169e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CSF2RA,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha,49859,3646,1.19 [1.14-1.25],5.72176596937526e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CST3,Cystatin-C,50364,3670,1.64 [1.49-1.81],4.773190712009118e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CST6,Cystatin-M,48913,3565,0.83 [0.78-0.88],9.972309870105136e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CST7,Cystatin-F,50288,3667,1.13 [1.10-1.16],6.315558146350793e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CSTB,Cystatin-B,49543,3620,1.30 [1.21-1.39],2.6213745757916846e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTBS,Di-N-acetylchitobiase,43117,3155,2.56 [2.28-2.89],1.4206454605954948e-54
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTHRC1,Collagen triple helix repeat-containing protein 1,43726,3217,1.56 [1.39-1.74],7.19986044434846e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTRC,Chymotrypsin-C,50208,3663,0.84 [0.80-0.88],1.3068124418326086e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTRL,Chymotrypsin-like protease CTRL-1,43613,3190,0.86 [0.82-0.90],3.8011304804727647e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTSB,Cathepsin B,50288,3670,0.74 [0.70-0.79],7.941188085998129e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTSC,Dipeptidyl peptidase 1,50118,3654,1.34 [1.26-1.43],1.2920603329682535e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTSD,Cathepsin D,46952,3435,2.07 [1.97-2.18],4.1926544767040187e-184
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTSE,Cathepsin E,42761,3137,1.41 [1.33-1.51],1.818314536275957e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTSL,Cathepsin L1,50238,3669,1.81 [1.62-2.04],2.6870608904410805e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTSO,Cathepsin O,50792,3709,2.95 [2.73-3.19],6.880662200810061e-161
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTSS,Cathepsin S,39484,2892,2.87 [2.49-3.31],1.390742907079153e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CTSZ,Cathepsin Z,50280,3668,2.16 [1.98-2.35],2.007808701037434e-67
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CXADR,Coxsackievirus and adenovirus receptor,50168,3665,1.22 [1.15-1.29],5.150383794753012e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CXCL13,C-X-C motif chemokine 13,50687,3698,1.18 [1.14-1.22],8.06281095301433e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CXCL16,C-X-C motif chemokine 16,50773,3714,1.69 [1.50-1.90],1.2664342065466897e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CXCL17,C-X-C motif chemokine 17,50792,3709,1.38 [1.30-1.47],3.231549427169635e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CXCL6,C-X-C motif chemokine 6,50792,3709,1.18 [1.14-1.23],6.896007251379452e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CXCL8,Interleukin-8,49861,3637,1.18 [1.14-1.23],6.657853472511036e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,CYTL1,Cytokine-like protein 1,43726,3217,0.55 [0.48-0.64],6.111206619886184e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DAG1,Dystroglycan,50453,3677,1.53 [1.44-1.62],1.302613882362588e-42
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DCBLD2,"Discoidin, CUB and LCCL domain-containing protein 2",50396,3675,1.75 [1.62-1.90],7.09455105587807e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DCXR,L-xylulose reductase,50396,3675,1.56 [1.49-1.64],4.673058969468188e-70
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DDAH1,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 1",50008,3649,1.56 [1.47-1.65],1.2066581891576929e-49
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DDR1,Epithelial discoidin domain-containing receptor 1,50687,3698,2.02 [1.80-2.27],3.0463923091853757e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DDT,D-dopachrome decarboxylase,43726,3217,1.37 [1.27-1.47],2.8906706895558614e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DEFB103A_DEFB103B,Beta-defensin 103,42128,3088,1.31 [1.23-1.40],6.72700137425881e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DEFB4A_DEFB4B,Beta-defensin 4A,49525,3624,1.09 [1.07-1.11],2.404310518043812e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DHPS,Deoxyhypusine synthase,43518,3190,1.29 [1.21-1.37],2.283410011410899e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DIPK2B,Divergent protein kinase domain 2B,42761,3137,0.66 [0.59-0.75],1.9254018048757697e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DKK4,Dickkopf-related protein 4,49775,3640,1.50 [1.42-1.59],2.7490605213103895e-44
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DLK1,Protein delta homolog 1,50857,3718,1.20 [1.14-1.26],5.335672234862822e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DLL1,Delta-like protein 1,50396,3675,1.58 [1.44-1.74],6.334201536805322e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DMP1,Dentin matrix acidic phosphoprotein 1,42553,3118,0.63 [0.60-0.65],1.3714600500611233e-96
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DNPEP,Aspartyl aminopeptidase,43613,3190,1.26 [1.19-1.34],1.5595945490148212e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DPP10,Inactive dipeptidyl peptidase 10,50168,3665,1.57 [1.46-1.68],9.26085862781628e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DPP6,Dipeptidyl aminopeptidase-like protein 6,50008,3649,1.92 [1.77-2.09],7.827101410186531e-54
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DPP7,Dipeptidyl peptidase 2,49830,3639,1.26 [1.20-1.32],3.244356068586136e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DPY30,Protein dpy-30 homolog,50512,3690,1.37 [1.32-1.43],1.7213343494184996e-49
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DSC2,Desmocollin-2,49689,3638,1.66 [1.53-1.80],4.324794276541888e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DSCAM,Down syndrome cell adhesion molecule,43640,3195,1.97 [1.80-2.16],2.699826142462264e-49
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DSG2,Desmoglein-2,50252,3681,0.59 [0.53-0.65],1.4941196282788529e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DSG4,Desmoglein-4,49849,3634,0.80 [0.75-0.85],1.2859202100872352e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,DTNB,Dystrobrevin beta,43436,3183,1.64 [1.53-1.75],1.7755121518823474e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ECHDC3,"Enoyl-CoA hydratase domain-containing protein 3, mitochondrial",43722,3201,1.34 [1.29-1.40],1.2621749951496478e-49
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ECHS1,"Enoyl-CoA hydratase, mitochondrial",42553,3118,1.20 [1.16-1.24],1.7640460161863045e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EDA2R,Tumor necrosis factor receptor superfamily member 27,50668,3699,1.42 [1.32-1.53],1.8548149523317522e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EDIL3,EGF-like repeat and discoidin I-like domain-containing protein 3,49323,3609,1.34 [1.23-1.45],1.8733409244929903e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EDN1,Endothelin-1,42553,3118,1.47 [1.31-1.65],3.926368800158949e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EEF1D,Elongation factor 1-delta,43722,3201,1.14 [1.10-1.18],1.3604921861015838e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EFNA1,Ephrin-A1,50170,3678,1.56 [1.42-1.72],3.828589400062634e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EFNA4,Ephrin-A4,49774,3640,2.21 [2.05-2.39],1.051780087479806e-87
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EGFL7,Epidermal growth factor-like protein 7,49060,3565,1.26 [1.18-1.35],7.622290050037779e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EGLN1,Egl nine homolog 1,50168,3665,1.26 [1.21-1.31],6.865615027110419e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EIF4G1,Eukaryotic translation initiation factor 4 gamma 1,50792,3709,1.12 [1.09-1.16],9.009957476551085e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ELOA,Elongin-A,50008,3649,1.22 [1.16-1.27],2.091822396615229e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ENO3,Beta-enolase,42553,3118,1.32 [1.25-1.38],8.15878252088265e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ENPP2,Ectonucleotide pyrophosphatase/phosphodiesterase family member 2,50857,3718,1.56 [1.41-1.72],8.978645731280246e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ENPP7,Ectonucleotide pyrophosphatase/phosphodiesterase family member 7,48684,3532,1.35 [1.31-1.40],7.835175256635761e-66
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ENTPD2,Ectonucleoside triphosphate diphosphohydrolase 2,49060,3565,1.47 [1.39-1.57],2.864027327165288e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ENTPD5,Ectonucleoside triphosphate diphosphohydrolase 5,49323,3609,0.53 [0.46-0.60],7.342199937508842e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ENTPD6,Ectonucleoside triphosphate diphosphohydrolase 6,49323,3609,1.59 [1.41-1.79],2.5685486592513203e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ENTR1,Endosome-associated-trafficking regulator 1,42553,3118,1.27 [1.21-1.34],8.935518820210307e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EPHA1,Ephrin type-A receptor 1,50370,3670,1.43 [1.31-1.57],4.643363679781738e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EPHA2,Ephrin type-A receptor 2,48418,3524,1.60 [1.47-1.75],8.993415706778226e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EPO,Erythropoietin,50168,3665,1.18 [1.14-1.22],3.0234020924684988e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EPS8L2,Epidermal growth factor receptor kinase substrate 8-like protein 2,50587,3697,1.96 [1.81-2.13],1.0328648202191484e-60
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ERBB2,Receptor tyrosine-protein kinase erbB-2,50396,3675,2.94 [2.63-3.29],4.3136973999980925e-81
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ERBB3,Receptor tyrosine-protein kinase erbB-3,50040,3649,1.58 [1.37-1.83],6.65132797939751e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ERBB4,Receptor tyrosine-protein kinase erbB-4,50396,3675,1.70 [1.51-1.91],1.288937014361995e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ERMAP,Erythroid membrane-associated protein,42452,3109,1.37 [1.27-1.48],2.8293744736548387e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ERN1,Serine/threonine-protein kinase/endoribonuclease IRE1,43518,3190,1.40 [1.29-1.52],1.983969467780265e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ERP44,Endoplasmic reticulum resident protein 44,49926,3645,1.45 [1.30-1.62],7.590363266139875e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ESM1,Endothelial cell-specific molecule 1,50204,3657,0.66 [0.60-0.71],2.6758953850798484e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,EZR,Ezrin,50687,3698,1.81 [1.62-2.02],7.747700503184913e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,F11R,Junctional adhesion molecule A,50252,3681,1.29 [1.23-1.35],2.582856957929084e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,F7,Coagulation factor VII,50362,3676,1.66 [1.51-1.83],4.543242069297264e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,F9,Coagulation factor IX,50363,3678,3.96 [3.40-4.62],3.471567534750937e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FABP1,"Fatty acid-binding protein, liver",50204,3657,1.45 [1.41-1.49],4.417972179773834e-152
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FABP3,"Fatty acid-binding protein, heart",43722,3201,1.44 [1.36-1.53],3.786483989781998e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FABP4,"Fatty acid-binding protein, adipocyte",50857,3718,1.65 [1.57-1.73],3.037020461735704e-81
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FABP5,Fatty acid-binding protein 5,50523,3690,1.23 [1.18-1.28],1.808605495398417e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FAM20A,Pseudokinase FAM20A,43722,3201,2.39 [2.18-2.63],6.847195033693635e-73
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FAM3B,Protein FAM3B,50008,3649,1.59 [1.47-1.73],8.028733982669626e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FAM3C,Protein FAM3C,50163,3667,2.08 [1.89-2.28],1.1116498338178907e-53
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FAM3D,Protein FAM3D,43539,3194,1.28 [1.23-1.33],7.709913339418444e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FAS,Tumor necrosis factor receptor superfamily member 6,50690,3708,1.43 [1.34-1.52],1.1891986027618908e-29
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FASLG,Tumor necrosis factor ligand superfamily member 6,50792,3709,0.62 [0.57-0.67],4.1334300523953166e-34
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FBP1,"Fructose-1,6-bisphosphatase 1",50238,3669,1.30 [1.25-1.34],2.714915355672566e-44
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FCAMR,High affinity immunoglobulin alpha and immunoglobulin mu Fc receptor,43722,3201,1.67 [1.60-1.74],1.2124916880050691e-117
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FCAR,Immunoglobulin alpha Fc receptor,50168,3665,1.41 [1.33-1.49],1.896830168365799e-29
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FCER2,Low affinity immunoglobulin epsilon Fc receptor,50252,3681,1.19 [1.12-1.25],5.191953900198802e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FCN1,Ficolin-1,43666,3204,1.34 [1.26-1.43],1.739764940806594e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FCRL5,Fc receptor-like protein 5,50252,3681,1.23 [1.17-1.29],9.291326439125055e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FCRLB,Fc receptor-like B,49060,3565,1.20 [1.15-1.25],5.030375087602218e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FETUB,Fetuin-B,50363,3678,1.58 [1.43-1.74],2.1988453093475846e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FGF19,Fibroblast growth factor 19,50453,3677,0.89 [0.86-0.92],3.8400239183873644e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FGF21,Fibroblast growth factor 21,50593,3692,1.29 [1.26-1.31],7.747816471355593e-107
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FGF23,Fibroblast growth factor 23,50587,3688,1.34 [1.29-1.40],7.899590454005814e-45
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FGFBP1,Fibroblast growth factor-binding protein 1,50396,3675,0.36 [0.33-0.39],1.2094758465695943e-136
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FGFBP3,Fibroblast growth factor-binding protein 3,43613,3190,0.72 [0.66-0.79],7.513358027385208e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FGFR2,Fibroblast growth factor receptor 2,50396,3675,4.25 [3.83-4.73],2.679938846423656e-159
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FGL1,Fibrinogen-like protein 1,43751,3210,1.18 [1.12-1.24],6.478184352598528e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FGR,Tyrosine-protein kinase Fgr,49082,3568,1.17 [1.13-1.22],6.669455471002706e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FKBP4,Peptidyl-prolyl cis-trans isomerase FKBP4,49859,3646,1.33 [1.25-1.43],1.8545195275884642e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FLRT2,Leucine-rich repeat transmembrane protein FLRT2,49859,3646,1.43 [1.29-1.58],3.705214644906293e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FLT3LG,Fms-related tyrosine kinase 3 ligand,50792,3709,1.42 [1.30-1.54],4.9509469940721e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FMNL1,Formin-like protein 1,49082,3568,1.17 [1.13-1.21],2.38481194377837e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FSTL1,Follistatin-related protein 1,42553,3118,1.87 [1.62-2.17],5.1815614431737234e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FSTL3,Follistatin-related protein 3,50126,3657,1.63 [1.50-1.78],9.55398579693886e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FTCD,Formimidoyltransferase-cyclodeaminase,43531,3183,1.53 [1.48-1.58],1.9320999544618823e-135
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FUOM,Fucose mutarotase,42761,3137,1.66 [1.59-1.74],1.1076035580344715e-101
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FURIN,Furin,50396,3675,2.43 [2.22-2.64],3.729236529093021e-89
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,FUT3_FUT5,3-galactosyl-N-acetylglucosaminide 4-alpha-L-fucosyltransferase FUT3_4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase FUT5,50687,3698,1.21 [1.14-1.29],3.596850094607215e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GAL,Galanin peptides,50453,3677,0.81 [0.77-0.85],1.516542518966363e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GALNT10,Polypeptide N-acetylgalactosaminyltransferase 10,50008,3649,2.43 [2.20-2.67],7.296523324923353e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GALNT3,Polypeptide N-acetylgalactosaminyltransferase 3,49283,3574,1.43 [1.33-1.52],6.309388787333859e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GALNT7,N-acetylgalactosaminyltransferase 7,50008,3649,1.85 [1.61-2.13],9.663318256710916e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GAPDH,Glyceraldehyde-3-phosphate dehydrogenase,41827,3055,1.75 [1.54-1.98],1.4075800202218623e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GAS2,Growth arrest-specific protein 2,42925,3150,1.23 [1.17-1.29],5.577772344235197e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GAS6,Growth arrest-specific protein 6,50529,3697,1.44 [1.29-1.61],2.5533204796785817e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GAST,Gastrin,43613,3190,1.13 [1.11-1.16],1.294427138515391e-29
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GBP1,Guanylate-binding protein 1,43535,3187,1.20 [1.14-1.27],1.1326441135116246e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GCG,Pro-glucagon,49060,3565,1.29 [1.26-1.32],2.141049839014907e-95
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GCHFR,GTP cyclohydrolase 1 feedback regulatory protein,41714,3054,1.30 [1.22-1.38],5.1699697721038086e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GCNT1,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase",50008,3649,1.50 [1.38-1.63],4.710725912505958e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GDF15,Growth/differentiation factor 15,50857,3718,2.36 [2.28-2.45],0.0
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GDF2,Growth/differentiation factor 2,50238,3669,1.34 [1.23-1.45],1.4353006188741113e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GDNF,Glial cell line-derived neurotrophic factor,49082,3568,1.52 [1.41-1.63],9.020285607022691e-31
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GFER,FAD-linked sulfhydryl oxidase ALR,49060,3565,1.25 [1.19-1.31],3.2331889394436293e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GFRA1,GDNF family receptor alpha-1,50593,3692,2.56 [2.33-2.81],2.773538241316363e-85
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GGH,Gamma-glutamyl hydrolase,49389,3606,1.71 [1.58-1.85],2.093869200238438e-42
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GGT1,Glutathione hydrolase 1 proenzyme,50170,3678,1.78 [1.69-1.86],1.4491094088070939e-125
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GGT5,Glutathione hydrolase 5 proenzyme,49859,3646,2.35 [2.12-2.62],6.209490071798801e-56
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GHR,Growth hormone receptor,42761,3137,2.13 [1.88-2.41],5.5816890688279406e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GHRL,Appetite-regulating hormone,50238,3669,0.84 [0.81-0.87],3.2093008711382182e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GIGYF2,GRB10-interacting GYF protein 2,43640,3195,1.15 [1.10-1.20],2.667941159576144e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GIMAP7,GTPase IMAP family member 7,42761,3137,0.69 [0.61-0.78],6.425704677203812e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GIP,Gastric inhibitory polypeptide,42553,3118,1.21 [1.14-1.29],7.81265704901324e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GIPC2,PDZ domain-containing protein GIPC2,43613,3190,1.71 [1.54-1.89],4.217767460762416e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GLA,Alpha-galactosidase A,42684,3133,2.26 [2.09-2.45],9.521060058386463e-91
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GLB1,Beta-galactosidase,49859,3646,1.60 [1.50-1.71],4.432008429710156e-44
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GLO1,Lactoylglutathione lyase,49323,3609,1.19 [1.13-1.25],1.043383937122299e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GOLM2,Protein GOLM2,50687,3698,2.75 [2.52-3.00],1.857387760907632e-113
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GOT1,"Aspartate aminotransferase, cytoplasmic",43726,3217,1.33 [1.24-1.43],2.351475692323899e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GPA33,Cell surface A33 antigen,50008,3649,0.92 [0.90-0.94],1.2307741468705866e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GPD1,Glycerol-3-phosphate dehydrogenase,43518,3190,1.84 [1.75-1.94],5.27372713369695e-123
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GPI,Glucose-6-phosphate isomerase,43751,3210,1.30 [1.21-1.39],3.79509567786227e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GPKOW,G-patch domain and KOW motifs-containing protein,49082,3568,1.42 [1.32-1.53],6.288457760293069e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GPNMB,Transmembrane glycoprotein NMB,48875,3572,1.87 [1.69-2.08],5.061851488963389e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GPR37,Prosaposin receptor GPR37,49323,3609,1.38 [1.32-1.44],6.821593012389591e-45
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GPRC5C,G-protein coupled receptor family C group 5 member C,43518,3190,1.45 [1.38-1.51],2.3598351418066622e-60
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GRHPR,Glyoxylate reductase/hydroxypyruvate reductase,43722,3201,1.28 [1.22-1.35],1.6036016629169936e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GRN,Progranulin,50008,3667,2.00 [1.79-2.24],2.7628953528110344e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GRPEL1,"GrpE protein homolog 1, mitochondrial",50008,3649,1.41 [1.35-1.47],3.4838015320403375e-56
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GSN,Gelsolin,43585,3200,0.39 [0.36-0.42],3.358803603062163e-117
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GSTA1,Glutathione S-transferase A1,50161,3662,1.47 [1.42-1.51],1.9898715362478176e-137
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GSTA3,Glutathione S-transferase A3,49060,3565,1.43 [1.38-1.47],1.4699783403122694e-102
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GUSB,Beta-glucuronidase,50455,3692,1.80 [1.73-1.88],1.1533003737816471e-166
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,GZMA,Granzyme A,50792,3709,1.49 [1.38-1.61],1.1913276845233197e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HAO1,Hydroxyacid oxidase 1,50668,3699,1.29 [1.27-1.32],2.610251593839759e-123
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HAVCR1,Hepatitis A virus cellular receptor 1,50596,3696,1.74 [1.68-1.81],2.066677692649901e-175
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HAVCR2,Hepatitis A virus cellular receptor 2,50252,3681,1.70 [1.58-1.84],8.262499703013904e-42
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HDGFL2,Hepatoma-derived growth factor-related protein 2,43613,3190,1.19 [1.13-1.25],6.403616995033347e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HEG1,Protein HEG homolog 1,42761,3137,3.43 [3.05-3.85],3.678476259156471e-95
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HEPH,Hephaestin,43722,3201,3.33 [2.92-3.81],9.13218325960017e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HEXIM1,Protein HEXIM1,50168,3665,1.12 [1.08-1.16],7.342655574682064e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HGF,Hepatocyte growth factor,50792,3709,2.78 [2.60-2.97],6.493360594969362e-197
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HHEX,Hematopoietically-expressed homeobox protein HHEX,43613,3190,1.23 [1.17-1.28],5.581762860258202e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HIP1R,Huntingtin-interacting protein 1-related protein,43529,3184,1.50 [1.43-1.58],4.637421359336411e-61
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HJV,Hemojuvelin,43640,3195,1.42 [1.34-1.50],4.170773641932457e-34
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HLA-DRA,"HLA class II histocompatibility antigen, DR alpha chain",50018,3658,1.33 [1.23-1.44],4.975019740302707e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HMCN2,Hemicentin-2,42685,3133,1.30 [1.23-1.38],6.772515303530331e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HNMT,Histamine N-methyltransferase,49620,3630,1.51 [1.42-1.60],3.83286904609205e-44
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HNRNPUL1,Heterogeneous nuclear ribonucleoprotein U-like protein 1,43640,3195,1.24 [1.17-1.32],1.898938978900387e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HPGDS,Hematopoietic prostaglandin D synthase,49060,3565,0.75 [0.69-0.81],2.552730960118784e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HRG,Histidine-rich glycoprotein,43545,3194,1.46 [1.31-1.62],3.118196887415476e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HS6ST2,Heparan-sulfate 6-O-sulfotransferase 2,42452,3109,1.37 [1.25-1.50],6.256091723274857e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HSD11B1,Corticosteroid 11-beta-dehydrogenase isozyme 1,50168,3665,0.46 [0.43-0.49],1.460369707200906e-106
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HSD17B14,17-beta-hydroxysteroid dehydrogenase 14,43613,3190,1.36 [1.29-1.43],4.006475918222018e-31
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HSPB6,Heat shock protein beta-6,50668,3699,1.35 [1.26-1.45],1.55440162669722e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,HYAL1,Hyaluronidase-1,49964,3638,2.13 [1.90-2.40],5.180019351640953e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ICAM1,Intercellular adhesion molecule 1,50033,3655,2.50 [2.29-2.74],7.587113196830127e-93
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ICAM4,Intercellular adhesion molecule 4,50168,3665,0.75 [0.71-0.79],1.0057826047137012e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ICAM5,Intercellular adhesion molecule 5,50238,3669,1.23 [1.15-1.31],2.1717676547774517e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IDUA,Alpha-L-iduronidase,50668,3699,1.78 [1.67-1.90],4.1574604531791727e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IFI30,Gamma-interferon-inducible lysosomal thiol reductase,42493,3114,1.88 [1.74-2.03],8.324533902333631e-58
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IFNGR2,Interferon gamma receptor 2,49859,3646,1.49 [1.41-1.57],4.0328889249275466e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IFNLR1,Interferon lambda receptor 1,50168,3665,1.37 [1.28-1.47],1.1562953083303524e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGF2R,Cation-independent mannose-6-phosphate receptor,50252,3681,2.83 [2.51-3.19],4.940067535151308e-66
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGFBP1,Insulin-like growth factor-binding protein 1,50777,3715,0.76 [0.74-0.78],1.794352757069415e-110
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGFBP2,Insulin-like growth factor-binding protein 2,50777,3713,0.62 [0.59-0.65],1.6862413151130978e-93
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGFBP4,Insulin-like growth factor-binding protein 4,49611,3635,1.49 [1.40-1.58],3.205379192705567e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGFBP7,Insulin-like growth factor-binding protein 7,50857,3718,1.86 [1.73-1.99],2.593988773994101e-65
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGFBPL1,Insulin-like growth factor-binding protein-like 1,50238,3669,1.97 [1.82-2.12],1.3763436936343657e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGLC2,Immunoglobulin lambda constant 2,43714,3206,1.39 [1.26-1.54],3.483833270129549e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGSF3,Immunoglobulin superfamily member 3,50008,3649,2.36 [2.26-2.47],0.0
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGSF8,Immunoglobulin superfamily member 8,50238,3669,1.98 [1.82-2.16],8.679763807496772e-54
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IGSF9,Protein turtle homolog A,43722,3201,1.83 [1.77-1.90],9.533084226438716e-256
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL10RB,Interleukin-10 receptor subunit beta,50453,3677,2.00 [1.85-2.16],6.424960744398011e-70
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL12A_IL12B,Interleukin-12,50008,3649,1.23 [1.19-1.28],3.802936830775984e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL12B,Interleukin-12 subunit beta,50792,3709,1.33 [1.27-1.40],1.7041512495904544e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL12RB1,Interleukin-12 receptor subunit beta-1,49283,3574,1.49 [1.38-1.60],3.919712255756959e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL13RA1,Interleukin-13 receptor subunit alpha-1,49614,3618,1.99 [1.75-2.27],7.36563678047225e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL16,Pro-interleukin-16,50792,3709,1.27 [1.20-1.36],5.1639063305028884e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL17C,Interleukin-17C,49283,3574,1.18 [1.14-1.23],8.85351305943783e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL17RB,Interleukin-17 receptor B,49538,3627,0.70 [0.66-0.74],2.533123297175219e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL18,Interleukin-18,50037,3648,1.50 [1.42-1.59],6.292197660534277e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL18BP,Interleukin-18-binding protein,50445,3682,1.79 [1.65-1.95],4.3345147788321967e-41
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL18R1,Interleukin-18 receptor 1,50792,3709,3.68 [3.41-3.98],2.6161748752156215e-237
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL19,Interleukin-19,48982,3586,1.17 [1.12-1.21],1.3955498351374588e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL1R1,Interleukin-1 receptor type 1,50170,3678,2.44 [2.18-2.75],3.7328919635239134e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL1R2,Interleukin-1 receptor type 2,50121,3651,4.05 [3.50-4.69],5.180178842737757e-79
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL1RL1,Interleukin-1 receptor-like 1,50690,3708,1.47 [1.38-1.56],8.109360131153547e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL1RN,Interleukin-1 receptor antagonist protein,50124,3653,1.72 [1.65-1.78],2.2296978474772668e-167
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL2RA,Interleukin-2 receptor subunit alpha,49882,3650,1.29 [1.21-1.38],2.409429775102728e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL4R,Interleukin-4 receptor subunit alpha,50168,3665,1.34 [1.24-1.44],8.162993595457162e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL6,Interleukin-6,50008,3649,1.25 [1.21-1.29],2.8718599603934173e-44
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL6ST,Interleukin-6 receptor subunit beta,50238,3669,2.20 [1.92-2.53],6.23085413737293e-29
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IL7R,Interleukin-7 receptor subunit alpha,50252,3681,0.81 [0.77-0.86],5.19256228425351e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IMMT,MICOS complex subunit MIC60,43518,3190,1.59 [1.50-1.68],1.6227443587482272e-53
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,INHBB,Inhibin beta B chain,42761,3137,1.28 [1.20-1.36],1.878415464155205e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,INHBC,Inhibin beta C chain,50252,3681,2.28 [2.10-2.46],2.234399403706181e-93
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,INPP5D,"Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 1",42553,3118,1.26 [1.19-1.33],8.895633124961327e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,INSL3,Insulin-like 3,43613,3190,0.87 [0.84-0.91],3.1188941147071653e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,INSL5,Insulin-like peptide INSL5,43539,3194,1.17 [1.14-1.21],4.590075944975401e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,IQGAP2,Ras GTPase-activating-like protein IQGAP2,50008,3649,1.25 [1.18-1.31],7.507001110869886e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGA11,Integrin alpha-11,50168,3665,0.63 [0.58-0.68],7.120811145310612e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGA5,Integrin alpha-5,50252,3681,3.26 [2.93-3.63],3.3697416903544968e-102
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGAL,Integrin alpha-L,42452,3109,1.35 [1.24-1.46],5.362819738873304e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGAM,Integrin alpha-M,50252,3681,1.45 [1.33-1.59],1.9236221366293503e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGAV,Integrin alpha-V,50668,3699,0.36 [0.31-0.43],6.141957792907974e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGB2,Integrin beta-2,49946,3662,1.94 [1.76-2.14],5.991957854491848e-42
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGB6,Integrin beta-6,49283,3574,1.43 [1.29-1.57],1.4769673455087609e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGB7,Integrin beta-7,50668,3699,1.29 [1.22-1.37],1.5469549498860942e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ITGBL1,Integrin beta-like protein 1,43726,3217,2.07 [1.93-2.22],2.0087063532749038e-91
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KCTD5,BTB/POZ domain-containing protein KCTD5,42788,3131,1.39 [1.31-1.48],4.942629562187759e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KHK,Ketohexokinase,42553,3118,1.68 [1.59-1.77],3.535885730443956e-77
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KIAA0319,Dyslexia-associated protein KIAA0319,43613,3190,0.64 [0.57-0.72],3.4290946992949033e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KIF22,Kinesin-like protein KIF22,42287,3106,1.11 [1.08-1.14],5.991123813905415e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KIT,Mast/stem cell growth factor receptor Kit,50363,3678,0.62 [0.56-0.68],1.971885227993732e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KITLG,Kit ligand,50238,3669,0.57 [0.53-0.61],5.121775199498709e-52
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KLB,Beta-klotho,49082,3568,0.88 [0.84-0.92],5.18223731114421e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KLK14,Kallikrein-14,50668,3699,0.76 [0.72-0.81],1.477725815769581e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KLK7,Kallikrein-7,41664,3056,0.74 [0.68-0.81],2.0515120526990862e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KLRB1,Killer cell lectin-like receptor subfamily B member 1,50792,3709,1.92 [1.79-2.06],1.657356096553287e-73
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KLRD1,Natural killer cells antigen CD94,50792,3709,1.23 [1.16-1.31],2.6167514143142123e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KLRF1,Killer cell lectin-like receptor subfamily F member 1,42452,3109,1.24 [1.17-1.32],6.982087714305289e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KRT18,"Keratin, type I cytoskeletal 18",50008,3649,1.51 [1.47-1.55],1.2805610807751077e-179
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KRT19,"Keratin, type I cytoskeletal 19",50085,3656,1.32 [1.27-1.37],4.0516457234323206e-41
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KRT8,"Keratin, type II cytoskeletal 8",42308,3098,1.34 [1.30-1.37],1.267768168043227e-112
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,KYNU,Kynureninase,50792,3709,1.77 [1.67-1.87],1.0339291274950169e-83
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LAG3,Lymphocyte activation gene 3 protein,50008,3649,1.29 [1.21-1.38],6.342584227484654e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LAIR1,Leukocyte-associated immunoglobulin-like receptor 1,50204,3657,1.37 [1.29-1.45],1.4275598366344838e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LAMB1,Laminin subunit beta-1,42553,3118,2.37 [2.12-2.66],1.850817025978307e-50
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LAMP1,Lysosome-associated membrane glycoprotein 1,42504,3133,1.45 [1.36-1.55],2.3464514525571924e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LAMP2,Lysosome-associated membrane glycoprotein 2,48716,3565,3.08 [2.65-3.58],2.9163727023559363e-49
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LAP3,Cytosol aminopeptidase,49283,3574,1.22 [1.15-1.29],1.3815173552651319e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LAT2,Linker for activation of T-cells family member 2,50008,3649,1.08 [1.05-1.10],5.567543904447295e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LATS1,Serine/threonine-protein kinase LATS1,42452,3109,1.13 [1.09-1.18],7.483079819262585e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LAYN,Layilin,49776,3638,1.38 [1.27-1.50],3.458300572414656e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LBP,Lipopolysaccharide-binding protein,50445,3682,1.31 [1.24-1.37],6.16922217670796e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LBR,Delta(14)-sterol reductase LBR,50687,3698,1.21 [1.16-1.25],1.7686431498224604e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LCAT,Phosphatidylcholine-sterol acyltransferase,43751,3210,2.22 [1.90-2.61],4.839214370010137e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LCN15,Lipocalin-15,43640,3195,1.16 [1.11-1.22],6.351141864592652e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LDLR,Low-density lipoprotein receptor,50367,3678,1.41 [1.34-1.49],5.1543743231877e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LECT2,Leukocyte cell-derived chemotaxin-2,43722,3201,1.21 [1.15-1.27],8.67337327814515e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LEP,Leptin,50238,3669,1.31 [1.26-1.38],4.461906461565408e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LETM1,Mitochondrial proton/calcium exchanger protein,43640,3195,1.27 [1.20-1.34],1.883520510437464e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LGALS3BP,Galectin-3-binding protein,43788,3214,1.88 [1.74-2.03],7.743962204188707e-60
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LGALS4,Galectin-4,50204,3657,2.22 [2.12-2.32],2.508572268440556e-265
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LGALS9,Galectin-9,50207,3663,1.88 [1.73-2.05],6.734241785988882e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LGMN,Legumain,50453,3677,1.54 [1.43-1.67],1.808313819570952e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LIF,Leukemia inhibitory factor,49082,3568,1.20 [1.14-1.26],3.886771443579815e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LIFR,Leukemia inhibitory factor receptor,50168,3665,2.53 [2.28-2.81],1.034417075534943e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LILRA2,Leukocyte immunoglobulin-like receptor subfamily A member 2,50252,3681,1.31 [1.21-1.42],3.304353399106961e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LILRA5,Leukocyte immunoglobulin-like receptor subfamily A member 5,50163,3667,1.74 [1.60-1.91],1.383267200254347e-34
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LILRB1,Leukocyte immunoglobulin-like receptor subfamily B member 1,50857,3718,1.77 [1.59-1.96],1.0714268002365268e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LILRB2,Leukocyte immunoglobulin-like receptor subfamily B member 2,50610,3703,1.46 [1.34-1.59],1.0868594083535408e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LILRB4,Leukocyte immunoglobulin-like receptor subfamily B member 4,49283,3574,1.32 [1.24-1.41],3.074077213894648e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LMNB2,Lamin-B2,43613,3190,1.45 [1.30-1.63],1.4777590827919959e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LONP1,"Lon protease homolog, mitochondrial",42553,3118,1.13 [1.09-1.17],5.56907150952859e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LPL,Lipoprotein lipase,50238,3669,0.52 [0.50-0.54],5.590254146516913e-190
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LPO,Lactoperoxidase,48591,3561,1.40 [1.33-1.46],8.278796005002135e-46
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LRCH4,Leucine-rich repeat and calponin homology domain-containing protein 4,42287,3106,1.23 [1.17-1.29],1.0337612473830369e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LRIG3,Leucine-rich repeats and immunoglobulin-like domains protein 3,42303,3100,1.46 [1.32-1.62],2.728320234901751e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LRP11,Low-density lipoprotein receptor-related protein 11,50238,3669,1.48 [1.37-1.60],3.802367097945989e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LRRC25,Leucine-rich repeat-containing protein 25,50008,3649,1.27 [1.18-1.36],7.836814568974417e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LSP1,Lymphocyte-specific protein 1,50168,3665,1.38 [1.28-1.48],2.1794271480779243e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LTBP3,Latent-transforming growth factor beta-binding protein 3,49060,3565,1.32 [1.26-1.38],2.650571230161441e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LY9,T-lymphocyte surface antigen Ly-9,49651,3617,1.49 [1.36-1.65],3.002808065824109e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LY96,Lymphocyte antigen 96,49859,3646,1.45 [1.34-1.56],3.9590071065190424e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,LYPD3,Ly6/PLAUR domain-containing protein 3,49999,3640,1.50 [1.38-1.63],9.100343793277605e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MAD1L1,Mitotic spindle assembly checkpoint protein MAD1,49695,3632,1.34 [1.28-1.40],2.4377164109679102e-39
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MAMDC4,Apical endosomal glycoprotein,43518,3190,1.51 [1.43-1.60],1.0404315265994692e-48
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MAN2B2,Epididymis-specific alpha-mannosidase,43722,3201,1.45 [1.37-1.54],2.3016679710661874e-37
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MARCO,Macrophage receptor MARCO,50238,3669,1.71 [1.53-1.92],2.3950354313634977e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MASP1,Mannan-binding lectin serine protease 1,49776,3638,2.31 [2.04-2.61],7.339089454078307e-40
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MATN3,Matrilin-3,49774,3640,0.49 [0.45-0.53],1.02381656199337e-63
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MCAM,Cell surface glycoprotein MUC18,50445,3682,0.68 [0.62-0.74],1.3449990305714e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MDGA1,MAM domain-containing glycosylphosphatidylinositol anchor protein 1,49859,3646,1.16 [1.11-1.20],6.456474399267306e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MDK,Midkine,50242,3666,1.26 [1.20-1.33],1.5813432939883065e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MEGF9,Multiple epidermal growth factor-like domains protein 9,50690,3708,1.91 [1.69-2.17],5.541281119850154e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MENT,Protein MENT,42761,3137,0.30 [0.27-0.35],2.2384847870743968e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MEP1A,Meprin A subunit alpha,43539,3194,1.34 [1.29-1.40],7.83941503454564e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MEPE,Matrix extracellular phosphoglycoprotein,50204,3657,0.67 [0.60-0.75],3.715372995510465e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MET,Hepatocyte growth factor receptor,50373,3684,0.30 [0.26-0.35],2.9319593599547623e-63
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MFAP4,Microfibril-associated glycoprotein 4,42761,3137,1.92 [1.73-2.13],7.817208272140953e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MFGE8,Lactadherin,50252,3681,2.06 [1.94-2.18],2.322422264144555e-133
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MICB_MICA,MHC class I polypeptide-related sequence A_MHC class I polypeptide-related sequence B,50168,3665,1.07 [1.05-1.10],2.5662724852159926e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MILR1,Allergin-1,49283,3574,1.28 [1.21-1.36],5.376034219922561e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MLN,Promotilin,50168,3665,1.13 [1.09-1.17],4.129618313237961e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MME,Neprilysin,50008,3649,1.44 [1.39-1.49],4.156430958638039e-103
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MMP12,Macrophage metalloelastase,50281,3675,1.52 [1.45-1.60],7.291133347749986e-58
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MMP7,Matrilysin,49246,3605,1.69 [1.59-1.80],5.423569655496496e-60
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MMP8,Neutrophil collagenase,50605,3694,1.23 [1.18-1.28],2.4473426612737687e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MMP9,Matrix metalloproteinase-9,50168,3675,1.30 [1.24-1.37],2.324693325944223e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MPO,Myeloperoxidase,50252,3681,1.30 [1.23-1.38],7.616339480402141e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MRC1,Macrophage mannose receptor 1,43751,3210,2.17 [1.94-2.42],9.887207100778557e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MSR1,Macrophage scavenger receptor types I and II,50687,3698,1.86 [1.76-1.98],4.054246897016443e-93
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MTDH,Protein LYRIC,42452,3109,1.14 [1.10-1.19],3.213134491762599e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MTUS1,Microtubule-associated tumor suppressor 1,42925,3150,1.43 [1.36-1.50],4.505737727565004e-45
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MUC13,Mucin-13,49082,3568,2.13 [2.03-2.24],2.4050654254002805e-186
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MVK,Mevalonate kinase,49283,3574,1.50 [1.45-1.55],3.400253552409287e-136
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MXRA8,Matrix remodeling-associated protein 8,42761,3137,0.29 [0.26-0.32],6.334280985537852e-134
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MYBPC1,"Myosin-binding protein C, slow-type",43722,3201,1.16 [1.11-1.22],1.4173440067711548e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MYDGF,Myeloid-derived growth factor,43722,3201,1.11 [1.07-1.15],9.648817206660348e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MYOC,Myocilin,50252,3681,0.79 [0.74-0.84],4.929538273547489e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,MZB1,Marginal zone B- and B1-cell-specific protein,50369,3670,1.26 [1.19-1.33],9.104967603882336e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NADK,NAD kinase,50238,3669,1.22 [1.16-1.28],2.4645308423584374e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NAGPA,N-acetylglucosamine-1-phosphodiester alpha-N-acetylglucosaminidase,42761,3137,3.25 [2.80-3.77],5.222597007493547e-54
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NAMPT,Nicotinamide phosphoribosyltransferase,49060,3565,1.17 [1.12-1.23],1.9980444337155208e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NBL1,Neuroblastoma suppressor of tumorigenicity 1,50396,3675,1.53 [1.37-1.70],7.642889911176709e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NCAN,Neurocan core protein,50687,3698,0.57 [0.53-0.62],1.050933920315946e-48
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NCR1,Natural cytotoxicity triggering receptor 1,50097,3662,1.28 [1.19-1.39],2.1506448886954003e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NCR3LG1,Natural cytotoxicity triggering receptor 3 ligand 1,43539,3194,1.39 [1.26-1.53],1.3732194029432631e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NCS1,Neuronal calcium sensor 1,50668,3699,1.61 [1.46-1.78],7.838615811301562e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NECTIN2,Nectin-2,50163,3667,1.97 [1.80-2.16],5.3901330913000894e-49
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NEFL,Neurofilament light polypeptide,48929,3558,1.26 [1.19-1.34],9.23997386611752e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NELL1,Protein kinase C-binding protein NELL1,50396,3675,0.77 [0.72-0.82],6.232977165561732e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NFASC,Neurofascin,50792,3709,5.53 [5.07-6.03],0.0
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NFATC3,"Nuclear factor of activated T-cells, cytoplasmic 3",49283,3574,1.35 [1.29-1.41],3.0454190554225677e-41
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NHLRC3,NHL repeat-containing protein 3,41729,3054,3.24 [2.90-3.62],1.0742325063664298e-96
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NIT2,Omega-amidase NIT2,43557,3186,1.25 [1.20-1.31],5.677853802868584e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NME3,Nucleoside diphosphate kinase 3,50288,3666,0.58 [0.51-0.66],5.03049304023403e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NMNAT1,Nicotinamide/nicotinic acid mononucleotide adenylyltransferase 1,49859,3646,1.16 [1.12-1.20],4.87152929994183e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NOMO1,Nodal modulator 1,50252,3681,2.40 [2.15-2.68],3.7225548761913446e-54
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NOS3,"Nitric oxide synthase, endothelial",49082,3568,1.41 [1.35-1.47],6.99719949761572e-61
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NOTCH1,Neurogenic locus notch homolog protein 1,50857,3718,1.87 [1.57-2.24],6.113515639561279e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NOTCH3,Neurogenic locus notch homolog protein 3,50857,3718,0.58 [0.53-0.63],2.994993988727564e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NPC2,NPC intracellular cholesterol transporter 2,42985,3167,1.84 [1.70-2.00],9.202223165223571e-49
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NPL,N-acetylneuraminate lyase,43722,3201,1.54 [1.44-1.65],9.091743930641129e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NPPC,C-type natriuretic peptide,50168,3665,1.27 [1.20-1.34],2.226622121147048e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NPTX1,Neuronal pentraxin-1,50252,3681,1.30 [1.21-1.39],1.167672508222171e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NPY,Pro-neuropeptide Y,50668,3699,1.55 [1.48-1.63],6.320025832155472e-74
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NRCAM,Neuronal cell adhesion molecule,50238,3669,2.34 [2.15-2.55],2.44583550993628e-86
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NRP1,Neuropilin-1,50528,3687,1.87 [1.69-2.07],6.66171732147374e-34
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NT5C1A,Cytosolic 5'-nucleotidase 1A,43613,3190,1.50 [1.38-1.62],4.2705391583014156e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NT5E,5'-nucleotidase,50396,3675,1.34 [1.28-1.40],3.5510952552269566e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NTRK2,BDNF/NT-3 growth factors receptor,50238,3669,1.54 [1.38-1.73],4.46306293819418e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NTRK3,NT-3 growth factor receptor,50687,3698,0.39 [0.34-0.44],1.9940820723479863e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NUCB2,Nucleobindin-2,50586,3695,1.31 [1.21-1.41],4.163880769372328e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,NUDT5,ADP-sugar pyrophosphatase,50252,3681,1.23 [1.16-1.30],2.8159118788585405e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OBP2B,Odorant-binding protein 2b,49693,3637,0.82 [0.78-0.86],1.2428994171393264e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OCLN,Occludin,43640,3195,1.86 [1.74-1.98],2.2353658951493428e-77
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OLFM4,Olfactomedin-4,41166,3014,1.19 [1.15-1.22],2.577406118657601e-29
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OLR1,Oxidized low-density lipoprotein receptor 1,49748,3638,1.19 [1.14-1.24],1.0094749923698673e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OMD,Osteomodulin,50453,3677,0.59 [0.55-0.63],9.383708651392768e-61
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OMG,Oligodendrocyte-myelin glycoprotein,50008,3649,0.87 [0.84-0.91],3.7301688265242647e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OPTC,Opticin,50008,3649,0.73 [0.68-0.78],6.034866165087287e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OSCAR,Osteoclast-associated immunoglobulin-like receptor,50288,3666,1.33 [1.22-1.44],6.681474650963629e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OSM,Oncostatin-M,49929,3649,1.33 [1.28-1.39],1.7071515189038813e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OSMR,Oncostatin-M-specific receptor subunit beta,50528,3687,1.93 [1.68-2.22],8.364799939449949e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,OXT,Oxytocin-neurophysin 1,50687,3698,1.19 [1.16-1.21],4.903436375113855e-60
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,P4HB,Protein disulfide-isomerase,49998,3647,1.48 [1.38-1.60],1.9833748111388165e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PAG1,Phosphoprotein associated with glycosphingolipid-enriched microdomains 1,49323,3609,1.38 [1.32-1.45],5.972762091944963e-41
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PALM2,Paralemmin-2,43613,3190,2.05 [1.91-2.20],3.0361101390298293e-90
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PAMR1,Inactive serine protease PAMR1,50252,3681,2.74 [2.46-3.04],7.931163601826682e-78
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PARP1,Poly [ADP-ribose] polymerase 1,50168,3665,1.18 [1.13-1.23],4.426217958986442e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PAXX,Protein PAXX,42761,3137,1.26 [1.17-1.35],5.010011660014932e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PBLD,Phenazine biosynthesis-like domain-containing protein,49082,3568,1.43 [1.36-1.51],8.076211109880873e-46
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PCBD1,Pterin-4-alpha-carbinolamine dehydratase,42680,3132,1.92 [1.81-2.03],1.9816464805612962e-112
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PCDH17,Protocadherin-17,50238,3669,1.89 [1.76-2.02],2.347343494401937e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PCDH9,Protocadherin-9,43539,3194,1.65 [1.50-1.82],1.1909901467475713e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PCSK9,Proprotein convertase subtilisin/kexin type 9,50857,3718,1.85 [1.72-1.98],6.839703117996582e-65
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PCYT2,Ethanolamine-phosphate cytidylyltransferase,43539,3194,1.19 [1.14-1.24],2.68289418577278e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PDCD1,Programmed cell death protein 1,50585,3694,1.32 [1.24-1.40],7.575821369418186e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PDCD1LG2,Programmed cell death 1 ligand 2,50008,3649,1.53 [1.40-1.67],7.78408838688018e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PDGFRA,Platelet-derived growth factor receptor alpha,50238,3669,1.42 [1.29-1.57],4.1531528185988095e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PDZK1,Na(+)/H(+) exchange regulatory cofactor NHE-RF3,42452,3109,1.97 [1.87-2.08],9.198002461856129e-132
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PECAM1,Platelet endothelial cell adhesion molecule,50252,3681,1.40 [1.28-1.54],7.67447435917956e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PGF,Placenta growth factor,50792,3709,1.95 [1.79-2.13],2.111693891391272e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PHYKPL,5-phosphohydroxy-L-lysine phospho-lyase,42761,3137,1.39 [1.28-1.51],1.163842192675669e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PIGR,Polymeric immunoglobulin receptor,49601,3630,2.69 [2.51-2.88],4.429506893426851e-171
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PIK3IP1,Phosphoinositide-3-kinase-interacting protein 1,50252,3681,1.63 [1.48-1.79],4.123077217268015e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PILRA,Paired immunoglobulin-like type 2 receptor alpha,50252,3681,1.62 [1.51-1.74],3.042907356891537e-42
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PILRB,Paired immunoglobulin-like type 2 receptor beta,50238,3669,1.38 [1.31-1.46],5.689856713266329e-32
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PKD1,Polycystin-1,43722,3201,2.26 [1.99-2.57],1.2743142990227506e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLA2G15,Phospholipase A2 group XV,50396,3675,2.82 [2.56-3.11],9.957926483433457e-94
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLA2G1B,Phospholipase A2,50775,3714,0.65 [0.61-0.69],2.5234638092325488e-39
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLA2G7,Platelet-activating factor acetylhydrolase,50252,3681,0.51 [0.47-0.55],6.737468464865923e-64
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLAT,Tissue-type plasminogen activator,50690,3708,1.49 [1.41-1.58],1.1974486875016976e-44
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLAUR,Urokinase plasminogen activator surface receptor,49875,3640,2.31 [2.10-2.55],2.8905017871598384e-62
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLEKHO1,Pleckstrin homology domain-containing family O member 1,43613,3190,1.18 [1.12-1.23],2.387757656431544e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLIN1,Perilipin-1,49082,3568,1.40 [1.30-1.50],6.4530964131053945e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLIN3,Perilipin-3,50238,3669,1.23 [1.15-1.32],7.014460876987903e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLSCR3,Phospholipid scramblase 3,43531,3180,1.25 [1.18-1.32],3.3087387814933e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLTP,Phospholipid transfer protein,50694,3705,0.56 [0.52-0.61],7.076694560142892e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLXDC2,Plexin domain-containing protein 2,43613,3190,1.54 [1.39-1.70],4.710210518712756e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PLXNB2,Plexin-B2,50609,3699,6.12 [5.55-6.75],9.817674301534815e-293
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PNLIPRP1,Inactive pancreatic lipase-related protein 1,43613,3190,1.15 [1.11-1.20],1.025845299800014e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PODXL2,Podocalyxin-like protein 2,50396,3675,0.71 [0.64-0.78],3.329429192996475e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,POF1B,Protein POF1B,42452,3109,1.40 [1.31-1.49],5.0161169824800165e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,POLR2F,"DNA-directed RNA polymerases I, II, and III subunit RPABC2",50008,3649,1.30 [1.21-1.39],5.127613451258179e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PON1,Serum paraoxonase/arylesterase 1,43751,3210,0.58 [0.52-0.64],2.9585159698519173e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PON2,Serum paraoxonase/arylesterase 2,49323,3609,1.43 [1.32-1.55],2.544393517087084e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PON3,Serum paraoxonase/lactonase 3,50453,3677,0.62 [0.59-0.64],3.1031208967712706e-140
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,POSTN,Periostin,43726,3217,0.71 [0.65-0.78],7.169455434890401e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PPY,Pancreatic prohormone,50167,3657,1.10 [1.07-1.13],9.700313102043951e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PRAP1,Proline-rich acidic protein 1,43726,3217,4.45 [4.06-4.88],1.8963552878911154e-219
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PRCP,Lysosomal Pro-X carboxypeptidase,50540,3698,3.08 [2.91-3.25],0.0
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PREB,Prolactin regulatory element-binding protein,49283,3574,1.35 [1.24-1.47],1.969003611696698e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PRKAR2A,cAMP-dependent protein kinase type II-alpha regulatory subunit,43531,3184,1.15 [1.10-1.20],1.1853045645889267e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PRKRA,Interferon-inducible double-stranded RNA-dependent protein kinase activator A,49060,3565,1.19 [1.14-1.24],4.20092147544474e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PRSS8,Prostasin,50039,3647,2.61 [2.45-2.78],9.009173727766233e-197
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PRTG,Protogenin,50668,3699,1.51 [1.35-1.69],6.381814801294384e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PRUNE2,Protein prune homolog 2,42925,3150,1.50 [1.36-1.65],5.598556240271571e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PSAP,Prosaposin,43311,3190,1.70 [1.55-1.87],9.462615772328951e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PSAPL1,Proactivator polypeptide-like 1,43539,3194,0.74 [0.69-0.79],1.9375343787910065e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PSIP1,PC4 and SFRS1-interacting protein,50168,3665,1.17 [1.12-1.21],2.8885049548353496e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PSRC1,Proline/serine-rich coiled-coil protein 1,49060,3565,1.17 [1.12-1.22],2.0206974118988896e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTGDS,Prostaglandin-H2 D-isomerase,49867,3637,1.59 [1.46-1.73],1.820132703396204e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTGR1,Prostaglandin reductase 1,43722,3201,1.42 [1.37-1.48],2.0736489018946105e-78
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTH1R,Parathyroid hormone/parathyroid hormone-related peptide receptor,50168,3665,1.26 [1.18-1.34],4.618108139672197e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTK7,Inactive tyrosine-protein kinase 7,49082,3568,1.32 [1.22-1.42],2.3281642977239367e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTN,Pleiotrophin,49323,3609,1.20 [1.13-1.27],3.9623037181708976e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTP4A3,Protein tyrosine phosphatase type IVA 3,42452,3109,1.33 [1.25-1.40],1.6291813147553528e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTPRB,Receptor-type tyrosine-protein phosphatase beta,43722,3201,2.50 [2.26-2.76],1.894299068215249e-72
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTPRC,Receptor-type tyrosine-protein phosphatase C,43726,3217,1.99 [1.74-2.27],1.940649043360465e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTPRF,Receptor-type tyrosine-protein phosphatase F,50857,3718,0.46 [0.42-0.51],9.882477477909213e-53
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTPRH,Receptor-type tyrosine-protein phosphatase H,43539,3194,1.32 [1.23-1.41],1.2307512245807436e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTPRK,Receptor-type tyrosine-protein phosphatase kappa,43539,3194,1.70 [1.53-1.90],1.3909460335146725e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTPRM,Receptor-type tyrosine-protein phosphatase mu,50087,3657,1.78 [1.58-2.00],6.2212965714938885e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTPRS,Receptor-type tyrosine-protein phosphatase S,50857,3718,0.43 [0.38-0.48],2.9852391738098094e-45
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PTS,6-pyruvoyl tetrahydrobiopterin synthase,48850,3551,1.70 [1.63-1.78],4.010226548651837e-140
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PVR,Poliovirus receptor,50687,3698,1.79 [1.68-1.92],2.0345046764955736e-64
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PXN,Paxillin,49082,3568,1.21 [1.14-1.27],2.025013623157278e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,PYY,Peptide YY,42287,3106,1.35 [1.31-1.40],1.432369638673075e-74
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,QDPR,Dihydropteridine reductase,49996,3654,1.39 [1.30-1.49],2.9928563836712016e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,QPCT,Glutaminyl-peptide cyclotransferase,50289,3679,1.65 [1.48-1.83],7.994652403365434e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,QSOX1,Sulfhydryl oxidase 1,42902,3139,1.35 [1.28-1.43],2.6009777182218267e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RAB6A,Ras-related protein Rab-6A,50168,3665,0.77 [0.72-0.82],1.6261566420374273e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RARRES2,Retinoic acid receptor responder protein 2,50528,3687,1.49 [1.42-1.57],8.399504849204267e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RBFOX3,RNA binding protein fox-1 homolog 3,43640,3195,1.60 [1.50-1.71],9.65487277318705e-44
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RBKS,Ribokinase,49075,3598,1.33 [1.26-1.41],3.576796522120998e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RBP2,Retinol-binding protein 2,50008,3649,1.17 [1.13-1.21],2.0200752787572883e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RBP5,Retinol-binding protein 5,50008,3649,1.80 [1.73-1.88],9.692323497981597e-154
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RBP7,Retinoid-binding protein 7,43539,3194,1.23 [1.17-1.29],6.113775434797077e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,REG1A,Lithostathine-1-alpha,49951,3650,1.47 [1.39-1.55],1.6417345712181216e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,REG1B,Lithostathine-1-beta,50857,3718,1.32 [1.26-1.38],1.7881291261065798e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,REG4,Regenerating islet-derived protein 4,50288,3666,1.74 [1.65-1.84],2.11392862251698e-89
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,REN,Renin,50238,3669,1.50 [1.46-1.55],1.743615783413645e-158
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RET,Proto-oncogene tyrosine-protein kinase receptor Ret,50008,3649,2.40 [2.23-2.59],2.9154142336548363e-119
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RIDA,2-iminobutanoate/2-iminopropanoate deaminase,42761,3137,1.74 [1.64-1.84],1.6083512032745498e-83
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RNASE1,Ribonuclease pancreatic,43751,3210,1.70 [1.51-1.90],1.1848363118561637e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RNASE4,Ribonuclease 4,42300,3089,2.04 [1.84-2.25],1.0386899724554448e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RNASE6,Ribonuclease K6,43441,3184,1.65 [1.53-1.77],4.190865266853711e-40
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RNASET2,Ribonuclease T2,50615,3705,1.99 [1.81-2.19],4.671195062129904e-45
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RNF149,E3 ubiquitin-protein ligase RNF149,42553,3118,1.70 [1.54-1.87],1.8670407077209832e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ROBO1,Roundabout homolog 1,50288,3666,2.63 [2.37-2.91],1.9834075474274532e-73
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ROBO2,Roundabout homolog 2,50687,3698,1.55 [1.37-1.75],1.743301669082311e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RRM2,Ribonucleoside-diphosphate reductase subunit M2,49060,3565,1.20 [1.14-1.26],1.4388150448702444e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,RTN4R,Reticulon-4 receptor,50668,3699,2.49 [2.37-2.62],2.7178892522372484e-291
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,S100P,Protein S100-P,49323,3609,1.23 [1.18-1.29],4.7197640458222275e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SAT2,Thialysine N-epsilon-acetyltransferase,42925,3150,1.18 [1.12-1.23],6.03367815360368e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SBSN,Suprabasin,43645,3209,0.67 [0.61-0.74],2.3010929270783613e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SCAMP3,Secretory carrier-associated membrane protein 3,50008,3649,1.15 [1.11-1.19],1.8905453537499016e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SCARA5,Scavenger receptor class A member 5,50687,3698,2.07 [1.89-2.27],1.5471600848003763e-54
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SCARB2,Lysosome membrane protein 2,48912,3581,1.72 [1.59-1.87],6.889298317302854e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SCG2,Secretogranin-2,50439,3685,1.69 [1.55-1.84],3.1115141845620826e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SCGN,Secretagogin,49283,3574,1.33 [1.25-1.42],8.0177302467871e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SCLY,Selenocysteine lyase,50521,3689,1.81 [1.71-1.91],2.8796870158958656e-101
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SCPEP1,Retinoid-inducible serine carboxypeptidase,42393,3107,1.46 [1.37-1.56],2.0869385697572444e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SDC1,Syndecan-1,50238,3669,1.42 [1.32-1.52],7.326603110398615e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SEL1L,Protein sel-1 homolog 1,42553,3118,1.45 [1.34-1.57],7.295587626310708e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SELE,E-selectin,50857,3718,2.01 [1.90-2.13],1.5586910128744074e-124
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SELL,L-selectin,43788,3214,0.59 [0.51-0.68],5.274041861094557e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SELP,P-selectin,50445,3682,1.21 [1.15-1.27],6.756284181499848e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SELPLG,P-selectin glycoprotein ligand 1,50168,3665,2.38 [2.16-2.62],9.336241858182356e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SEMA3F,Semaphorin-3F,50238,3669,1.78 [1.60-1.99],3.477649500329761e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SEMA7A,Semaphorin-7A,50690,3708,2.03 [1.88-2.19],2.140248977409624e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SERPINA12,Serpin A12,48790,3578,1.10 [1.07-1.12],5.33463841104275e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SERPINA4,Kallistatin,42985,3140,2.06 [1.78-2.37],4.217362655301362e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SERPINA5,Plasma serine protease inhibitor,43151,3163,1.45 [1.33-1.58],1.758298228725367e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SERPINA7,Thyroxine-binding globulin,43788,3214,2.06 [1.73-2.45],3.061406549406904e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SERPINA9,Serpin A9,49768,3632,1.23 [1.18-1.28],1.3857627905545084e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SERPIND1,Heparin cofactor 2,43706,3207,2.52 [2.24-2.83],1.959192797157266e-53
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SERPINE1,Plasminogen activator inhibitor 1,50857,3718,1.27 [1.22-1.33],2.9372872539097207e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SERPINF1,Pigment epithelium-derived factor,43125,3165,3.00 [2.70-3.33],6.4536924080547876e-93
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SFRP1,Secreted frizzled-related protein 1,49690,3634,1.23 [1.15-1.31],2.12944243935928e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SFRP4,Secreted frizzled-related protein 4,42761,3137,1.48 [1.36-1.61],1.999244010394348e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SGSH,N-sulphoglucosamine sulphohydrolase,42983,3152,1.38 [1.31-1.46],9.443589737616471e-31
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SHBG,Sex hormone-binding globulin,43751,3210,0.51 [0.48-0.54],7.940510174685142e-116
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SHISA5,Protein shisa-5,43726,3217,1.72 [1.54-1.91],9.219807037823997e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SHMT1,"Serine hydroxymethyltransferase, cytosolic",50372,3673,1.17 [1.13-1.21],2.7240859572533923e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIAE,Sialate O-acetylesterase,50311,3671,1.40 [1.31-1.48],2.5990942645394638e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIGLEC1,Sialoadhesin,50453,3677,1.64 [1.54-1.75],1.7039786773589605e-50
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIGLEC10,Sialic acid-binding Ig-like lectin 10,50168,3665,1.75 [1.62-1.88],1.819989597319505e-50
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIGLEC6,Sialic acid-binding Ig-like lectin 6,50668,3699,1.79 [1.65-1.94],5.612489832170242e-45
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIGLEC7,Sialic acid-binding Ig-like lectin 7,50238,3669,2.99 [2.72-3.28],1.3775519582733766e-117
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIGLEC8,Sialic acid-binding Ig-like lectin 8,42553,3118,1.63 [1.51-1.75],6.2284146591459885e-40
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIGLEC9,Sialic acid-binding Ig-like lectin 9,50596,3696,1.63 [1.49-1.79],1.3101249023009084e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIRPB1,Signal-regulatory protein beta-1,50121,3650,1.40 [1.31-1.49],1.6770502761029207e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SIT1,Signaling threshold-regulating transmembrane adapter 1,49283,3574,1.64 [1.56-1.73],3.0564550643145063e-80
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SKAP1,Src kinase-associated phosphoprotein 1,49776,3638,1.24 [1.19-1.29],7.822115354989043e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLAMF1,Signaling lymphocytic activation molecule,49283,3574,1.31 [1.25-1.38],1.1129048312655686e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLAMF6,SLAM family member 6,49060,3565,1.38 [1.28-1.49],2.99426588264832e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLAMF7,SLAM family member 7,50168,3665,1.18 [1.12-1.24],4.212943404678421e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLAMF8,SLAM family member 8,49060,3565,1.47 [1.39-1.55],1.1724793302524808e-39
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLC16A1,Monocarboxylate transporter 1,49082,3568,1.16 [1.11-1.22],5.683610172959553e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLC27A4,Long-chain fatty acid transport protein 4,49082,3568,1.14 [1.09-1.19],2.7389340629084563e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLC9A3R2,Na(+)/H(+) exchange regulatory cofactor NHE-RF2,43539,3194,1.23 [1.17-1.29],3.262548042069224e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLIT2,Slit homolog 2 protein,49082,3568,1.25 [1.19-1.32],1.4385454980799672e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLITRK1,SLIT and NTRK-like protein 1,42452,3109,0.68 [0.61-0.76],1.5009166006261916e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SLITRK2,SLIT and NTRK-like protein 2,50668,3699,1.39 [1.29-1.49],3.750641991112769e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SMAD1,Mothers against decapentaplegic homolog 1,49060,3565,1.12 [1.08-1.16],1.1404588027830446e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SMNDC1,Survival of motor neuron-related-splicing factor 30,43539,3194,1.17 [1.12-1.23],1.1291450692032636e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SMOC1,SPARC-related modular calcium-binding protein 1,50668,3699,1.82 [1.68-1.97],1.6490015009924234e-48
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SMOC2,SPARC-related modular calcium-binding protein 2,50453,3677,1.32 [1.22-1.41],7.285717423474035e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SMPD1,Sphingomyelin phosphodiesterase,50438,3675,1.39 [1.32-1.47],1.5049902462560073e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SNCG,Gamma-synuclein,49859,3646,1.24 [1.19-1.30],4.249284529419943e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SNRPB2,U2 small nuclear ribonucleoprotein B'',43613,3190,1.25 [1.18-1.32],7.89705210949893e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SOD2,"Superoxide dismutase [Mn], mitochondrial",50252,3681,1.29 [1.20-1.38],6.887140702446226e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SORBS1,Sorbin and SH3 domain-containing protein 1,43640,3195,1.24 [1.16-1.33],5.65639373157766e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SORCS2,VPS10 domain-containing receptor SorCS2,49060,3565,1.30 [1.20-1.41],2.608985434033586e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SORD,Sorbitol dehydrogenase,50439,3681,1.48 [1.41-1.54],1.6938987941239997e-71
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SORT1,Sortilin,50163,3667,1.48 [1.38-1.60],7.035734225858706e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SOST,Sclerostin,50163,3667,1.34 [1.24-1.44],1.283004578049198e-14
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SPARCL1,SPARC-like protein 1,50285,3667,0.67 [0.60-0.74],2.9002957075625653e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SPINK1,Serine protease inhibitor Kazal-type 1,50252,3681,1.59 [1.50-1.68],6.425664430684828e-57
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SPINK4,Serine protease inhibitor Kazal-type 4,50168,3665,1.45 [1.39-1.51],6.802347716814817e-72
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SPINT1,Kunitz-type protease inhibitor 1,50085,3668,1.89 [1.71-2.09],9.137686787806444e-37
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SPINT2,Kunitz-type protease inhibitor 2,50453,3677,1.39 [1.30-1.50],4.642428090968288e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SPON1,Spondin-1,50288,3666,1.67 [1.55-1.80],7.30752698488103e-39
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SPON2,Spondin-2,49996,3653,1.98 [1.82-2.14],1.1630482790908409e-61
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SRP14,Signal recognition particle 14 kDa protein,50008,3649,1.23 [1.17-1.28],3.979968295174173e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SSC4D,Scavenger receptor cysteine-rich domain-containing group B protein,50163,3667,1.18 [1.15-1.21],1.1958894115939673e-45
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SSC5D,Soluble scavenger receptor cysteine-rich domain-containing protein SSC5D,50445,3682,1.95 [1.83-2.09],9.697531358656594e-86
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ST6GAL1,"Beta-galactoside alpha-2,6-sialyltransferase 1",50857,3718,1.75 [1.61-1.91],5.254591478905161e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,STAB2,Stabilin-2,43726,3217,2.36 [2.11-2.64],2.860384388493186e-50
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,STC1,Stanniocalcin-1,50687,3698,1.54 [1.46-1.64],5.981563269613044e-48
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,STX4,Syntaxin-4,50008,3649,1.17 [1.12-1.22],1.6182107990928913e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SULT2A1,Bile salt sulfotransferase,50168,3665,1.47 [1.42-1.53],1.2864723404425683e-93
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SUMF2,Inactive C-alpha-formylglycine-generating enzyme 2,50687,3698,1.31 [1.24-1.39],1.6761640052717598e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SUOX,"Sulfite oxidase, mitochondrial",43640,3195,1.45 [1.38-1.52],3.9412440912555124e-56
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,SUSD5,Sushi domain-containing protein 5,42524,3122,0.58 [0.53-0.64],2.322110430804486e-27
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TALDO1,Transaldolase,43560,3208,1.43 [1.33-1.53],4.926630345861185e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TAX1BP1,Tax1-binding protein 1,43613,3190,1.20 [1.14-1.26],3.7665439461713506e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TCN2,Transcobalamin-2,50777,3713,1.71 [1.57-1.86],3.7857169448483874e-35
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TCOF1,Treacle protein,43722,3201,1.61 [1.48-1.74],1.2207748173740476e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TCTN3,Tectonic-3,43722,3201,1.96 [1.76-2.19],8.204029795988085e-33
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TDRKH,Tudor and KH domain-containing protein,49082,3568,1.12 [1.08-1.16],7.023246725359761e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TEK,Angiopoietin-1 receptor,50396,3675,2.69 [2.37-3.06],3.169697798902337e-52
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TF,Serotransferrin,43788,3214,1.95 [1.67-2.27],1.6428863578111416e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TFF1,Trefoil factor 1,50005,3664,1.26 [1.22-1.30],7.538253625873614e-46
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TFF2,Trefoil factor 2,50372,3673,1.51 [1.44-1.58],2.6105267749295603e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TFF3,Trefoil factor 3,50203,3657,1.44 [1.37-1.52],2.7925191749531875e-41
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TFPI2,Tissue factor pathway inhibitor 2,50241,3667,1.29 [1.21-1.36],3.8186641820812077e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TGFA,Protransforming growth factor alpha,50168,3665,1.58 [1.49-1.67],1.3165528275742902e-57
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TGFB1,Transforming growth factor beta-1 proprotein,50709,3703,1.57 [1.47-1.68],5.4711202001601355e-39
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TGFBR2,TGF-beta receptor type-2,50396,3675,1.42 [1.31-1.54],7.680616196038465e-18
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TGFBR3,Transforming growth factor beta receptor type 3,50857,3718,0.70 [0.64-0.76],2.7482016490596883e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,THBS2,Thrombospondin-2,50252,3681,2.17 [2.05-2.30],2.4829709791039563e-148
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,THBS4,Thrombospondin-4,50281,3675,1.35 [1.27-1.44],1.5660428627852634e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,THOP1,Thimet oligopeptidase,50000,3657,1.71 [1.57-1.86],3.1063520128992035e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TIMP1,Metalloproteinase inhibitor 1,49705,3622,2.14 [1.95-2.33],6.420277300894668e-63
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TIMP3,Metalloproteinase inhibitor 3,50453,3677,1.09 [1.07-1.12],3.364026860970617e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TIMP4,Metalloproteinase inhibitor 4,50252,3681,0.67 [0.62-0.73],1.6617438503444296e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TLR1,Toll-like receptor 1,42452,3109,1.46 [1.30-1.65],8.262095354782032e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TLR3,Toll-like receptor 3,50792,3709,1.34 [1.28-1.41],4.668278819507924e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TMPRSS15,Enteropeptidase,50008,3649,1.33 [1.29-1.37],6.067540926084492e-66
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNF,Tumor necrosis factor,49246,3605,1.38 [1.31-1.47],5.1200173387496475e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF10A,Tumor necrosis factor receptor superfamily member 10A,49859,3646,2.08 [1.96-2.20],3.3527187659809914e-136
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF10B,Tumor necrosis factor receptor superfamily member 10B,49859,3646,1.37 [1.32-1.41],1.4934716917289348e-67
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF11A,Tumor necrosis factor receptor superfamily member 11A,50792,3709,2.11 [1.98-2.26],3.531166243131333e-111
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF11B,Tumor necrosis factor receptor superfamily member 11B,50204,3657,2.27 [2.08-2.47],6.956342963226075e-77
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF12A,Tumor necrosis factor receptor superfamily member 12A,50396,3675,1.95 [1.81-2.10],1.0037033875565324e-69
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF14,Tumor necrosis factor receptor superfamily member 14,50288,3666,1.78 [1.63-1.94],4.274847106237348e-37
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF1A,Tumor necrosis factor receptor superfamily member 1A,50252,3681,2.15 [1.98-2.34],1.8412546852311643e-70
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF1B,Tumor necrosis factor receptor superfamily member 1B,50252,3681,1.50 [1.42-1.58],3.8072500026905937e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF4,Tumor necrosis factor receptor superfamily member 4,50709,3703,1.54 [1.44-1.65],9.370662020982596e-34
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF6B,Tumor necrosis factor receptor superfamily member 6B,49859,3646,1.35 [1.29-1.41],7.681874647963127e-38
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFRSF9,Tumor necrosis factor receptor superfamily member 9,49859,3646,1.39 [1.30-1.47],7.848874047693367e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFSF10,Tumor necrosis factor ligand superfamily member 10,50792,3709,0.55 [0.49-0.62],3.0453089758257553e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFSF11,Tumor necrosis factor ligand superfamily member 11,50168,3665,0.80 [0.76-0.84],7.662795756208922e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFSF12,Tumor necrosis factor ligand superfamily member 12,50792,3709,0.50 [0.45-0.55],2.72149769961486e-41
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFSF13,Tumor necrosis factor ligand superfamily member 13,50453,3677,1.65 [1.49-1.84],1.3790628648749093e-21
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFSF13B,Tumor necrosis factor ligand superfamily member 13B,50773,3714,1.63 [1.48-1.79],1.1392158421025382e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFSF14,Tumor necrosis factor ligand superfamily member 14,49859,3646,1.26 [1.20-1.33],1.3295435465398351e-20
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNFSF8,Tumor necrosis factor ligand superfamily member 8,43726,3217,1.54 [1.41-1.68],2.9597491388394262e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TNN,Tenascin-N,43726,3217,1.47 [1.36-1.58],1.35945167377192e-23
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TOMM20,Mitochondrial import receptor subunit TOM20 homolog,43722,3201,1.16 [1.11-1.21],4.395757619841136e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TOP2B,DNA topoisomerase 2-beta,42452,3109,1.16 [1.11-1.21],4.196853928939456e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TP53I3,Quinone oxidoreductase PIG3,41833,3056,1.39 [1.31-1.48],1.3266933595780047e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TPK1,Thiamin pyrophosphokinase 1,43722,3201,0.59 [0.52-0.67],5.2684651694351926e-17
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TPP1,Tripeptidyl-peptidase 1,49870,3634,1.54 [1.46-1.63],8.630271753159434e-60
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TPR,Nucleoprotein TPR,42287,3106,1.23 [1.16-1.30],2.1020310808139775e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TREH,Trehalase,43726,3217,1.52 [1.45-1.59],4.3113009066660514e-67
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TREM2,Triggering receptor expressed on myeloid cells 2,50204,3657,1.47 [1.40-1.55],3.974425499380876e-50
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TXLNA,Alpha-taxilin,49859,3646,1.13 [1.09-1.17],8.161373476235906e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TXNDC5,Thioredoxin domain-containing protein 5,50687,3698,1.15 [1.10-1.20],6.405429682718847e-11
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TXNRD1,"Thioredoxin reductase 1, cytoplasmic",50252,3681,1.35 [1.27-1.44],2.0030981285510703e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,TYMP,Thymidine phosphorylase,49916,3639,1.15 [1.10-1.20],5.30866693306829e-10
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ULBP2,UL16-binding protein 2,49859,3646,1.61 [1.50-1.73],3.6074761867800695e-42
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,UMOD,Uromodulin,50700,3704,0.69 [0.65-0.72],9.593926063997022e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,UPB1,Beta-ureidopropionase,43722,3201,1.51 [1.47-1.56],1.135263878047629e-160
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VAT1,Synaptic vesicle membrane protein VAT-1 homolog,50008,3649,0.45 [0.39-0.53],8.1093824826077105e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VCAM1,Vascular cell adhesion protein 1,50363,3678,1.65 [1.49-1.83],1.934468914236276e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VEGFA,Vascular endothelial growth factor A,50628,3695,1.27 [1.21-1.33],1.305773542627563e-22
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VMO1,Vitelline membrane outer layer protein 1 homolog,50008,3649,1.38 [1.32-1.45],3.123440305684233e-43
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VNN1,Pantetheinase,43751,3210,1.44 [1.37-1.51],1.0239781804909931e-47
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VNN2,Vascular non-inflammatory molecule 2,50008,3649,1.35 [1.26-1.44],6.902831798449296e-19
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VSIG2,V-set and immunoglobulin domain-containing protein 2,43518,3190,1.52 [1.45-1.59],1.92648545783472e-72
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VSIG4,V-set and immunoglobulin domain-containing protein 4,50188,3678,1.66 [1.55-1.77],8.73946916966225e-51
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VSNL1,Visinin-like protein 1,43613,3190,1.45 [1.35-1.56],5.4704690267951724e-24
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VSTM2L,V-set and transmembrane domain-containing protein 2-like protein,49323,3609,1.25 [1.20-1.31],6.06049315658449e-26
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,VWA1,von Willebrand factor A domain-containing protein 1,50593,3692,1.47 [1.37-1.57],4.346072171254283e-28
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,WFDC2,WAP four-disulfide core domain protein 2,47688,3482,1.49 [1.39-1.60],1.4459023261403545e-30
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,WFIKKN2,"WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2",50288,3666,0.64 [0.59-0.70],3.2613848386847405e-25
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,WIF1,Wnt inhibitory factor 1,50668,3699,0.58 [0.53-0.63],5.6667008483356685e-36
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,XCL1,Lymphotactin,50668,3699,1.22 [1.16-1.28],3.567841017309427e-16
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,YAP1,Transcriptional coactivator YAP1,43613,3190,1.57 [1.40-1.76],8.739907575912916e-15
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ZBTB17,Zinc finger and BTB domain-containing protein 17,49323,3609,1.24 [1.17-1.31],1.87986464723286e-12
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ZHX2,Zinc fingers and homeoboxes protein 2,43613,3190,1.33 [1.23-1.44],6.380778888268358e-13
+"Chapter IV Endocrine, nutritional and metabolic diseases",Type 2 diabetes without complications,ZNRD2,Protein ZNRD2,43539,3194,1.21 [1.16-1.27],1.810915790722721e-16

@@ -1,0 +1,679 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ACE2,Angiotensin-converting enzyme 2,50173,2143,1.45 [1.36-1.54],7.1523254904196155e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ACTA2,"Actin, aortic smooth muscle",50173,2143,1.65 [1.55-1.75],4.1874578684012124e-60
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ACVRL1,Serine/threonine-protein kinase receptor R3,50628,2167,3.94 [3.50-4.43],2.2445111323416247e-115
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADA2,Adenosine deaminase 2,50808,2184,1.80 [1.66-1.95],2.7813034047370747e-47
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADAM12,Disintegrin and metalloproteinase domain-containing protein 12,43150,1801,2.01 [1.83-2.21],2.273122245035357e-49
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADAM8,Disintegrin and metalloproteinase domain-containing protein 8,51474,2212,1.80 [1.60-2.02],5.954511624877814e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADAM9,Disintegrin and metalloproteinase domain-containing protein 9,44243,1855,2.11 [1.86-2.40],4.935569150091104e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADAMTS15,A disintegrin and metalloproteinase with thrombospondin motifs 15,50873,2174,1.41 [1.29-1.55],1.1458928307206486e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADAMTS4,A disintegrin and metalloproteinase with thrombospondin motifs 4,43150,1801,1.58 [1.40-1.77],6.9906560162061445e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADAMTSL2,ADAMTS-like protein 2,44440,1867,2.09 [1.88-2.34],1.6455795309366754e-39
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADGRB3,Adhesion G protein-coupled receptor B3,50628,2167,1.51 [1.35-1.69],1.929712281941046e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADGRD1,Adhesion G-protein coupled receptor D1,43464,1829,1.47 [1.32-1.64],4.825865081364191e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADGRG1,Adhesion G-protein coupled receptor G1,50873,2174,1.21 [1.16-1.26],1.4994454851087027e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADGRG2,Adhesion G-protein coupled receptor G2,51109,2203,0.54 [0.47-0.61],3.534572921734664e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ADM,Pro-adrenomedullin,51543,2216,5.92 [5.12-6.85],6.488884677013198e-126
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",AGR2,Anterior gradient protein 2 homolog,49509,2127,1.24 [1.20-1.29],3.527282875285907e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",AGRN,Agrin,51334,2205,2.10 [1.93-2.29],3.582965788752358e-66
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",AGRP,Agouti-related protein,51672,2222,1.36 [1.26-1.46],1.7105332640572216e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ALCAM,CD166 antigen,51739,2227,2.01 [1.67-2.41],8.468952050696512e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",AMBP,Protein AMBP,51469,2212,3.97 [3.34-4.72],6.067212159338112e-55
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ANG,Angiogenin,50975,2193,1.58 [1.43-1.76],4.949846368655697e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ANGPT2,Angiopoietin-2,51543,2216,3.04 [2.79-3.32],7.255665761799629e-136
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ANGPTL1,Angiopoietin-related protein 1,50367,2160,1.74 [1.53-1.99],6.101558523008628e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ANGPTL4,Angiopoietin-related protein 4,51251,2201,2.00 [1.84-2.17],2.6954797311397725e-60
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ANXA10,Annexin A10,49913,2147,1.19 [1.14-1.24],1.2610681294589036e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ANXA5,Annexin A5,49747,2140,1.54 [1.37-1.73],7.338150802362686e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",AOC3,Membrane primary amine oxidase,51311,2207,1.84 [1.63-2.09],6.540922019687044e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",APBB1IP,Amyloid beta A4 precursor protein-binding family B member 1-interacting protein,50873,2174,1.28 [1.19-1.38],1.6898600956420826e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",APOA2,Apolipoprotein A-II,44474,1870,1.37 [1.25-1.49],1.4779059986175389e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",APOC1,Apolipoprotein C-I,44422,1864,0.58 [0.51-0.66],9.692912520449345e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",APOM,Apolipoprotein M,51228,2201,0.54 [0.47-0.61],4.26215285681247e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",AREG,Amphiregulin,50873,2174,2.03 [1.90-2.18],6.821693531488976e-90
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ASGR1,Asialoglycoprotein receptor 1,50713,2170,2.58 [2.33-2.85],2.945405398001604e-75
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ASGR2,Asialoglycoprotein receptor 2,44474,1870,2.17 [1.86-2.54],2.0575104641815987e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ATRAID,All-trans retinoic acid-induced differentiation factor,44243,1855,1.65 [1.53-1.79],5.6897206223672e-38
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",B2M,Beta-2-microglobulin,44506,1866,1.67 [1.57-1.77],2.6900977497353456e-63
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",B3GNT7,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7",43248,1813,1.74 [1.54-1.96],9.643020937828545e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",B4GALT1,"Beta-1,4-galactosyltransferase 1",51334,2205,2.68 [2.37-3.04],5.2946984085947996e-55
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BAIAP2,Brain-specific angiogenesis inhibitor 1-associated protein 2,49905,2138,1.25 [1.18-1.32],2.9149569668146665e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BAMBI,BMP and activin membrane-bound inhibitor homolog,49905,2138,2.04 [1.83-2.27],1.359784664259863e-38
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BCAM,Basal cell adhesion molecule,51122,2202,1.94 [1.68-2.23],1.1733467733278802e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BCAN,Brevican core protein,50713,2170,0.56 [0.50-0.62],2.1754090562571662e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BCAT1,"Branched-chain-amino-acid aminotransferase, cytosolic",44430,1861,1.53 [1.35-1.75],1.0141337318302872e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BCL2L15,Bcl-2-like protein 15,43150,1801,1.26 [1.18-1.35],1.944609792854792e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BMP10,Bone morphogenetic protein 10,43464,1829,1.73 [1.47-2.02],1.4691648615516792e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BMPER,BMP-binding endothelial regulator protein,43464,1829,2.66 [2.29-3.09],2.033914780784539e-37
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BNIP3L,BCL2/adenovirus E1B 19 kDa protein-interacting protein 3-like,43150,1801,1.41 [1.29-1.56],9.704976984433285e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BRK1,Protein BRICK1,49913,2147,1.37 [1.27-1.49],3.6676591005323015e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BSG,Basigin,51587,2218,2.71 [2.28-3.22],1.316395050602483e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BST2,Bone marrow stromal antigen 2,51558,2213,1.46 [1.38-1.55],6.344579276082042e-38
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BTN2A1,Butyrophilin subfamily 2 member A1,51334,2205,2.28 [2.02-2.58],7.538749174501678e-40
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",BTN3A2,Butyrophilin subfamily 3 member A2,51039,2186,1.79 [1.65-1.94],1.865149485868042e-46
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",C1QA,Complement C1q subcomponent subunit A,51418,2214,2.42 [2.07-2.84],6.542956530711846e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",C1QTNF1,Complement C1q tumor necrosis factor-related protein 1,51311,2207,1.41 [1.30-1.53],1.1134879275694972e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",C7,Complement component C7,43435,1828,2.43 [2.13-2.78],7.957379886609673e-39
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CA12,Carbonic anhydrase 12,50873,2174,1.67 [1.50-1.86],4.762604022965389e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CA6,Carbonic anhydrase 6,50964,2195,0.76 [0.71-0.80],9.839440605956185e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CA9,Carbonic anhydrase 9,51543,2216,1.36 [1.27-1.46],9.534332208897186e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CALB1,Calbindin,50873,2174,1.34 [1.23-1.47],1.6179040326790743e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CALB2,Calretinin,49913,2147,1.41 [1.30-1.53],1.6586552702255327e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CALCA,Calcitonin,50630,2167,1.33 [1.27-1.40],4.06595415929238e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CALCB,Calcitonin gene-related peptide 2,44326,1857,1.42 [1.30-1.56],4.095322128991786e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CANT1,Soluble calcium-activated nucleotidase 1,50953,2195,2.08 [1.74-2.50],2.275430885612772e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CAPG,Macrophage-capping protein,50730,2189,1.33 [1.26-1.42],8.90842597148722e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCDC80,Coiled-coil domain-containing protein 80,51109,2203,1.69 [1.53-1.85],1.925424206112469e-27
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL11,Eotaxin,51672,2222,1.48 [1.34-1.63],2.9628719888358485e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL14,C-C motif chemokine 14,50975,2193,1.72 [1.60-1.85],5.724216654637534e-50
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL15,C-C motif chemokine 15,51739,2227,1.78 [1.65-1.92],2.085107495905932e-50
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL16,C-C motif chemokine 16,51739,2227,1.50 [1.40-1.62],1.121002882977148e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL17,C-C motif chemokine 17,50999,2194,1.16 [1.12-1.21],2.756262278219462e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL18,C-C motif chemokine 18,50406,2175,1.20 [1.15-1.26],1.2038448726255814e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL19,C-C motif chemokine 19,51558,2213,1.09 [1.06-1.11],2.49284803516171e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL20,C-C motif chemokine 20,51672,2222,1.22 [1.18-1.26],3.2151382664282743e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL21,C-C motif chemokine 21,51334,2205,1.51 [1.42-1.61],3.149462836264009e-36
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL23,C-C motif chemokine 23,51334,2205,1.58 [1.45-1.72],3.816951511200736e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL25,C-C motif chemokine 25,51672,2222,1.37 [1.27-1.48],8.63495608877031e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL3,C-C motif chemokine 3,51039,2186,1.27 [1.22-1.32],8.715737887491938e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCL7,C-C motif chemokine 7,51039,2186,1.35 [1.28-1.42],3.3701274475382346e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCN3,CCN family member 3,51655,2226,2.04 [1.85-2.24],1.8022979319853518e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCN4,CCN family member 4,51543,2216,1.66 [1.53-1.81],5.678389018799997e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CCN5,CCN family member 5,51122,2202,1.59 [1.45-1.75],3.6690394583981073e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD14,Monocyte differentiation antigen CD14,50071,2169,1.54 [1.41-1.67],5.064712771398322e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD160,CD160 antigen,51672,2222,1.55 [1.44-1.67],8.857222164108416e-32
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD163,Scavenger receptor cysteine-rich type 1 protein M130,51311,2207,1.37 [1.26-1.49],1.4143774330166804e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD1C,T-cell surface glycoprotein CD1c,51272,2205,0.62 [0.54-0.72],2.08638605313059e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD207,C-type lectin domain family 4 member K,49994,2130,1.38 [1.26-1.53],6.882099892036964e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD27,CD27 antigen,51272,2205,2.08 [1.92-2.24],6.958314366989782e-81
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD274,Programmed cell death 1 ligand 1,50713,2170,1.99 [1.82-2.18],5.762578521910648e-52
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD276,CD276 antigen,51081,2197,1.77 [1.59-1.96],1.458496329360181e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD300A,CMRF35-like molecule 8,43464,1829,2.23 [1.94-2.57],2.5260048713551533e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD300C,CMRF35-like molecule 6,51558,2213,1.93 [1.75-2.13],1.6488824135949323e-38
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD300E,CMRF35-like molecule 2,51378,2210,2.21 [2.04-2.39],5.196606926746846e-85
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD300LF,CMRF35-like molecule 1,51543,2216,1.43 [1.34-1.53],6.851601861669503e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD300LG,CMRF35-like molecule 9,51122,2202,1.40 [1.27-1.54],2.420759611885204e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD302,CD302 antigen,50873,2174,2.82 [2.57-3.11],5.359607121513682e-101
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD38,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,50873,2174,1.99 [1.78-2.22],1.997822571037332e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD4,T-cell surface glycoprotein CD4,50958,2182,1.82 [1.68-1.97],5.3217363076124706e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD40,Tumor necrosis factor receptor superfamily member 5,51084,2196,1.37 [1.28-1.48],2.2354588516564306e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD46,Membrane cofactor protein,50807,2185,1.74 [1.55-1.96],6.648770706177885e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD48,CD48 antigen,51251,2201,1.66 [1.47-1.87],1.176513831018774e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD5,T-cell surface glycoprotein CD5,51469,2212,1.43 [1.30-1.56],1.6852035819253042e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD59,CD59 glycoprotein,49255,2122,3.00 [2.67-3.37],1.3760102248082347e-75
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD7,T-cell antigen CD7,43066,1798,1.51 [1.38-1.66],2.054804887581183e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD72,B-cell differentiation antigen CD72,43464,1829,1.53 [1.39-1.68],2.864747465275678e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD74,HLA class II histocompatibility antigen gamma chain,51558,2213,2.50 [2.27-2.75],2.5200184084364008e-79
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD79B,B-cell antigen receptor complex-associated protein beta chain,51672,2222,1.79 [1.68-1.92],4.5871805733682494e-64
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD80,T-lymphocyte activation antigen CD80,44430,1861,2.19 [1.96-2.44],6.617743425640739e-45
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD83,CD83 antigen,51039,2186,2.08 [1.88-2.29],8.637075618589563e-49
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD93,Complement component C1q receptor,49181,2127,1.86 [1.66-2.09],1.17667123391309e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD99,CD99 antigen,51122,2202,2.71 [2.27-3.23],2.5731607697584928e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CD99L2,CD99 antigen-like protein 2,51122,2202,2.27 [1.95-2.63],9.49780092179634e-27
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CDCP1,CUB domain-containing protein 1,50713,2170,1.54 [1.45-1.64],9.14628190345373e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CDH1,Cadherin-1,49411,2130,1.42 [1.31-1.54],1.2496134229277664e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CDH2,Cadherin-2,51109,2203,1.69 [1.53-1.88],1.717269691886764e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CDH3,Cadherin-3,51558,2213,1.61 [1.46-1.77],3.0460383631904965e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CDH6,Cadherin-6,51109,2203,1.44 [1.31-1.58],5.057308449188112e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CDNF,Cerebral dopamine neurotrophic factor,50873,2174,1.54 [1.41-1.69],5.529798552659724e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CDSN,Corneodesmosin,51512,2215,1.40 [1.29-1.52],5.203752580274527e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CEACAM5,Carcinoembryonic antigen-related cell adhesion molecule 5,49263,2109,1.31 [1.24-1.39],2.2703644781838242e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CEACAM6,Carcinoembryonic antigen-related cell adhesion molecule 6,44440,1867,1.54 [1.42-1.67],5.9882627098835276e-27
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CEACAM8,Carcinoembryonic antigen-related cell adhesion molecule 8,50173,2143,1.50 [1.40-1.61],5.213494770274129e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CFC1,Cryptic protein,49905,2138,1.32 [1.22-1.42],6.810368077443933e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CFD,Complement factor D,44506,1866,2.54 [2.18-2.95],4.269330217325663e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CFP,Properdin,44506,1866,0.43 [0.35-0.54],1.619426348801963e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CGA,Glycoprotein hormones alpha chain,51122,2202,1.28 [1.21-1.36],8.003208429793651e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CGREF1,Cell growth regulator with EF hand domain protein 1,51109,2203,1.47 [1.35-1.60],8.859746944928406e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CHCHD10,"Coiled-coil-helix-coiled-coil-helix domain-containing protein 10, mitochondrial",44326,1857,2.09 [1.94-2.25],6.302179731019228e-85
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CHCHD6,MICOS complex subunit MIC25,44224,1857,1.77 [1.58-1.98],3.756921932332248e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CHGA,Chromogranin-A,44440,1867,1.31 [1.26-1.36],1.7374918235024954e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CHGB,Secretogranin-1,51390,2205,1.58 [1.45-1.72],8.197308902965977e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CHI3L1,Chitinase-3-like protein 1,49981,2148,1.38 [1.32-1.44],8.339203459226073e-55
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CHRDL1,Chordin-like protein 1,51251,2201,2.28 [2.03-2.55],4.896851649741276e-46
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CILP,Cartilage intermediate layer protein 1,44440,1867,1.48 [1.36-1.61],4.827552587324585e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CKAP4,Cytoskeleton-associated protein 4,51421,2213,2.68 [2.46-2.93],1.015622940958948e-104
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CKB,Creatine kinase B-type,44440,1867,1.57 [1.46-1.69],1.0249789406627202e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLEC11A,C-type lectin domain family 11 member A,51039,2199,1.30 [1.20-1.41],3.42902514008553e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLEC14A,C-type lectin domain family 14 member A,51122,2202,2.46 [2.21-2.73],1.6588645105977919e-62
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLEC1A,C-type lectin domain family 1 member A,50173,2143,1.90 [1.71-2.11],2.536782066878099e-32
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLEC3B,Tetranectin,43462,1826,0.36 [0.29-0.45],3.2743275959497925e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLEC4D,C-type lectin domain family 4 member D,51039,2186,1.45 [1.37-1.53],3.656675651454544e-36
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLEC5A,C-type lectin domain family 5 member A,50942,2198,2.34 [2.09-2.62],1.552973248380308e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLEC6A,C-type lectin domain family 6 member A,49905,2138,1.54 [1.43-1.66],2.4281590822567619e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLEC7A,C-type lectin domain family 7 member A,51672,2222,1.39 [1.29-1.50],4.061760024532425e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLGN,Calmegin,43213,1817,1.34 [1.22-1.46],8.645039230324731e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLMP,CXADR-like membrane protein,51543,2216,3.10 [2.65-3.62],1.9637250672109235e-46
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLSTN2,Calsyntenin-2,51672,2222,1.73 [1.60-1.87],6.396173733461024e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CLSTN3,Calsyntenin-3,44326,1857,1.65 [1.44-1.88],2.361223909326295e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CNTN3,Contactin-3,51122,2202,0.68 [0.60-0.76],1.4798252433439784e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CNTN5,Contactin-5,51234,2203,0.66 [0.59-0.73],1.5541616069759109e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",COL15A1,Collagen alpha-1(XV) chain,44440,1867,1.72 [1.47-2.01],5.9746069751920295e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",COL18A1,Collagen alpha-1(XVIII) chain,51323,2214,5.05 [4.36-5.85],3.629877081727372e-103
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",COL3A1,Collagen alpha-1(III) chain,44440,1867,1.84 [1.54-2.20],2.6183597448509838e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",COL4A1,Collagen alpha-1(IV) chain,51109,2203,2.14 [1.96-2.33],2.6781673422152692e-67
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",COL5A1,Collagen alpha-1(V) chain,43464,1829,1.64 [1.49-1.81],5.184167110476145e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",COL6A3,Collagen alpha-3(VI) chain,51739,2227,2.61 [2.40-2.84],5.039949421978161e-107
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",COLEC12,Collectin-12,51081,2197,3.39 [3.00-3.82],1.0765677317829954e-86
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CPXM2,Inactive carboxypeptidase-like protein X2,44430,1861,2.07 [1.81-2.36],3.120539947696864e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CRELD1,Protein disulfide isomerase CRELD1,43464,1829,1.74 [1.55-1.95],1.3871446345674323e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CRELD2,Protein disulfide isomerase CRELD2,51251,2201,1.31 [1.22-1.40],6.734746696669052e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CRHBP,Corticotropin-releasing factor-binding protein,51081,2197,1.72 [1.51-1.97],2.9855417679893427e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CRIM1,Cysteine-rich motor neuron 1 protein,51334,2205,4.93 [4.18-5.81],5.986286328161585e-80
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CRIP2,Cysteine-rich protein 2,50713,2170,1.49 [1.37-1.62],1.4492225446943638e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CRLF1,Cytokine receptor-like factor 1,51334,2205,1.60 [1.38-1.86],6.505712865035505e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CRTAM,Cytotoxic and regulatory T-cell molecule,50713,2170,1.31 [1.22-1.41],7.285693487370587e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CSF1,Macrophage colony-stimulating factor 1,51334,2205,2.98 [2.63-3.38],1.1023432273523806e-65
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CSPG4,Chondroitin sulfate proteoglycan 4,44440,1867,1.65 [1.44-1.88],1.8223950365544161e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CST3,Cystatin-C,51226,2202,2.91 [2.61-3.24],2.862303444264645e-83
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CST7,Cystatin-F,51167,2200,1.12 [1.08-1.16],7.211192622578249e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CSTB,Cystatin-B,50410,2164,1.73 [1.59-1.88],1.9094100335624048e-39
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CTHRC1,Collagen triple helix repeat-containing protein 1,44440,1867,2.60 [2.28-2.96],7.60618074930132e-46
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CTSD,Cathepsin D,47776,2056,1.40 [1.29-1.52],3.0882395363278235e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CTSL,Cathepsin L1,51109,2203,2.69 [2.34-3.10],1.9646405577441352e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CTSO,Cathepsin O,51672,2222,1.55 [1.38-1.74],4.6741129280318753e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CTSS,Cathepsin S,40165,1737,2.18 [1.80-2.63],4.715897327080744e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CTSV,Cathepsin L2,51374,2211,0.70 [0.64-0.77],3.235791749323802e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CTSZ,Cathepsin Z,51144,2199,1.65 [1.47-1.84],6.8666611565074695e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CX3CL1,Fractalkine,50713,2170,1.65 [1.49-1.83],9.095228249000396e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CXADR,Coxsackievirus and adenovirus receptor,51039,2186,1.45 [1.36-1.56],4.298757293085512e-27
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CXCL10,C-X-C motif chemokine 10,51334,2205,1.30 [1.24-1.37],6.254207140978362e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CXCL11,C-X-C motif chemokine 11,51558,2213,1.22 [1.17-1.27],2.1855888992372035e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CXCL13,C-X-C motif chemokine 13,51558,2213,1.26 [1.21-1.32],2.524581835542316e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CXCL16,C-X-C motif chemokine 16,51655,2225,2.40 [2.06-2.79],4.025194386011289e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CXCL17,C-X-C motif chemokine 17,51672,2222,1.64 [1.52-1.77],4.855473026357904e-39
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",CXCL9,C-X-C motif chemokine 9,51334,2205,1.46 [1.39-1.53],1.1143520322940258e-53
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DCBLD2,"Discoidin, CUB and LCCL domain-containing protein 2",51272,2205,1.74 [1.57-1.93],2.584717726868874e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DCN,Decorin,50173,2143,1.75 [1.50-2.05],1.7254403296093369e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DCTPP1,dCTP pyrophosphatase 1,51109,2203,1.67 [1.49-1.88],7.844706357727423e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DDAH1,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 1",50873,2174,1.43 [1.32-1.54],6.982683477883193e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DDR1,Epithelial discoidin domain-containing receptor 1,51558,2213,1.90 [1.64-2.22],1.1022384234045412e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DEFA1_DEFA1B,Neutrophil defensin 1,50074,2155,1.51 [1.43-1.59],5.305032200049521e-50
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DEFB4A_DEFB4B,Beta-defensin 4A,50387,2156,1.08 [1.06-1.11],7.312811060295334e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DKK3,Dickkopf-related protein 3,51739,2227,1.62 [1.43-1.83],1.2765157171591172e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DKK4,Dickkopf-related protein 4,50630,2167,1.39 [1.29-1.50],2.469603754858193e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DLL1,Delta-like protein 1,51272,2205,2.79 [2.50-3.12],4.390427953757735e-75
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DMD,Dystrophin,43248,1813,1.29 [1.19-1.39],1.1413442037685964e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DNER,Delta and Notch-like epidermal growth factor-related receptor,51001,2188,0.53 [0.46-0.62],4.561938743283509e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DNMBP,Dynamin-binding protein,50713,2170,1.23 [1.16-1.30],1.0596092289859834e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DPP4,Dipeptidyl peptidase 4,50149,2154,0.56 [0.49-0.64],3.262721244060227e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DPT,Dermatopontin,51739,2227,2.19 [1.87-2.56],8.515707556321725e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DPY30,Protein dpy-30 homolog,51383,2210,1.34 [1.27-1.42],3.1861201750421025e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DRAXIN,Draxin,50713,2170,1.39 [1.28-1.52],1.522518758814542e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DSC2,Desmocollin-2,50552,2176,2.03 [1.86-2.22],8.001702646467714e-54
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DTNB,Dystrobrevin beta,44142,1853,1.81 [1.66-1.97],2.62569553514334e-41
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",DTX3,Probable E3 ubiquitin-protein ligase DTX3,50873,2174,2.35 [2.08-2.67],1.242197365949356e-41
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EBI3_IL27,Interleukin-27,51467,2213,2.17 [1.93-2.43],3.6591964823793558e-40
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ECHS1,"Enoyl-CoA hydratase, mitochondrial",43248,1813,1.16 [1.11-1.21],4.671872005159659e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EDA2R,Tumor necrosis factor receptor superfamily member 27,51543,2216,2.71 [2.51-2.94],4.288874750262573e-136
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EDAR,Tumor necrosis factor receptor superfamily member EDAR,51039,2186,0.88 [0.84-0.91],7.11330948596057e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EDN1,Endothelin-1,43248,1813,3.51 [3.07-4.02],8.373790391634256e-75
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EFCAB14,EF-hand calcium-binding domain-containing protein 14,44243,1855,1.76 [1.60-1.94],6.319152621901551e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EFEMP1,EGF-containing fibulin-like extracellular matrix protein 1,51228,2205,2.68 [2.40-2.98],2.1159712047408536e-71
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EFHD1,EF-hand domain-containing protein D1,44349,1851,1.62 [1.46-1.79],6.4998444247344986e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EFNA1,Ephrin-A1,51038,2197,3.11 [2.80-3.45],2.4506045816541878e-99
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EFNA4,Ephrin-A4,50628,2167,2.84 [2.60-3.10],3.1460842522220173e-121
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EGFL7,Epidermal growth factor-like protein 7,49905,2138,1.55 [1.43-1.69],1.366526276365922e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EGFLAM,Pikachurin,44243,1855,1.59 [1.40-1.80],9.40472301710233e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EGFR,Epidermal growth factor receptor,51739,2227,0.24 [0.19-0.29],1.0278857722994464e-45
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EGLN1,Egl nine homolog 1,51039,2186,1.24 [1.17-1.30],3.838199448778974e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ELN,Elastin,44430,1861,2.12 [1.89-2.39],4.720562385808717e-35
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ENAH,Protein enabled homolog,50146,2158,1.32 [1.22-1.42],5.193473129489173e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ENPP2,Ectonucleotide pyrophosphatase/phosphodiesterase family member 2,51739,2227,1.61 [1.41-1.83],9.760457662767149e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ENPP5,Ectonucleotide pyrophosphatase/phosphodiesterase family member 5,51334,2205,0.72 [0.67-0.78],7.7829771864593665e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EPHA1,Ephrin type-A receptor 1,51250,2203,1.44 [1.29-1.62],5.221396993786823e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EPHA2,Ephrin type-A receptor 2,49261,2098,2.35 [2.16-2.56],1.221527552760754e-87
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EPHB4,Ephrin type-B receptor 4,51739,2227,2.74 [2.42-3.11],6.815395565770062e-55
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EPHB6,Ephrin type-B receptor 6,50630,2167,1.68 [1.50-1.88],8.023236831758466e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EPO,Erythropoietin,51039,2186,1.33 [1.28-1.38],1.10493463572229e-44
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",EPS8L2,Epidermal growth factor receptor kinase substrate 8-like protein 2,51459,2213,1.73 [1.55-1.93],3.3269304045986343e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ERMAP,Erythroid membrane-associated protein,43150,1801,1.45 [1.31-1.60],4.209032552531424e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ESAM,Endothelial cell-selective adhesion molecule,51739,2227,1.93 [1.73-2.15],8.153561889897676e-33
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ESM1,Endothelial cell-specific molecule 1,51081,2197,1.65 [1.48-1.83],8.963782976023091e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",F10,Coagulation factor X,44474,1870,0.50 [0.43-0.59],6.6254630680747e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",F3,Tissue factor,51227,2203,1.58 [1.38-1.81],4.1245647462826986e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",F7,Coagulation factor VII,51226,2204,0.66 [0.59-0.74],6.554166397064677e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FABP1,"Fatty acid-binding protein, liver",51081,2197,1.34 [1.29-1.39],1.801803417111306e-55
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FABP2,"Fatty acid-binding protein, intestinal",51109,2203,1.22 [1.16-1.27],4.354382166637265e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FABP3,"Fatty acid-binding protein, heart",44430,1861,1.77 [1.65-1.90],3.5359279366660745e-58
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FABP4,"Fatty acid-binding protein, adipocyte",51739,2227,1.77 [1.66-1.89],7.087924763828271e-69
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FABP5,Fatty acid-binding protein 5,51391,2206,1.23 [1.16-1.30],7.19246076010065e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FABP6,Gastrotropin,50094,2137,1.21 [1.14-1.28],9.939671658491275e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FAM20A,Pseudokinase FAM20A,44430,1861,1.79 [1.55-2.07],9.203984194745033e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FAM3B,Protein FAM3B,50873,2174,1.79 [1.60-1.99],4.145134250729093e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FAM3C,Protein FAM3C,51033,2197,2.64 [2.36-2.95],1.976882606351458e-63
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FAM3D,Protein FAM3D,44243,1855,1.21 [1.15-1.27],6.821532926181759e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FAP,Prolyl endopeptidase FAP,51739,2227,0.64 [0.56-0.73],3.6402693149335597e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FAS,Tumor necrosis factor receptor superfamily member 6,51570,2222,1.47 [1.36-1.60],4.525921794483001e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FBLN2,Fibulin-2,44440,1867,2.00 [1.76-2.27],3.244388547839142e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FCER2,Low affinity immunoglobulin epsilon Fc receptor,51122,2202,1.27 [1.19-1.35],8.238931792106142e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FCN1,Ficolin-1,44389,1862,1.32 [1.21-1.44],3.8374499760645214e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FCRLB,Fc receptor-like B,49905,2138,1.24 [1.18-1.31],1.5634525855180968e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FGA,Fibrinogen alpha chain,43449,1824,1.58 [1.37-1.83],4.3677342107757616e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FGF21,Fibroblast growth factor 21,51467,2213,1.14 [1.11-1.18],1.7405663019154878e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FGF23,Fibroblast growth factor 23,51459,2214,1.62 [1.55-1.70],1.2506168012396057e-95
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FGF5,Fibroblast growth factor 5,50146,2158,1.62 [1.46-1.80],5.170921001932644e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FGFBP1,Fibroblast growth factor-binding protein 1,51272,2205,0.57 [0.52-0.64],4.8972996648510266e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FGFR2,Fibroblast growth factor receptor 2,51272,2205,2.55 [2.19-2.97],7.578710670845455e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FGL1,Fibrinogen-like protein 1,44474,1870,1.61 [1.51-1.72],1.2350641122463686e-46
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FLRT2,Leucine-rich repeat transmembrane protein FLRT2,50713,2170,2.08 [1.84-2.36],5.007537224213319e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FLT1,Vascular endothelial growth factor receptor 1,50790,2172,1.77 [1.53-2.04],4.802580008022365e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FOLR1,Folate receptor alpha,51036,2185,2.05 [1.84-2.29],3.5475954217382464e-39
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FOLR2,Folate receptor beta,51558,2213,1.75 [1.55-1.98],1.2399633322315473e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FST,Follistatin,51251,2201,1.28 [1.19-1.38],5.77026520384006e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FSTL1,Follistatin-related protein 1,43248,1813,3.16 [2.69-3.71],4.73272585061853e-45
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FSTL3,Follistatin-related protein 3,51001,2188,2.95 [2.68-3.24],4.119541600322558e-109
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FURIN,Furin,51272,2205,1.48 [1.32-1.66],1.373230682317492e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",FUT3_FUT5,3-galactosyl-N-acetylglucosaminide 4-alpha-L-fucosyltransferase FUT3_4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase FUT5,51558,2213,1.43 [1.32-1.55],6.549806073188135e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GALNT10,Polypeptide N-acetylgalactosaminyltransferase 10,50873,2174,1.66 [1.45-1.90],6.30852054569501e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GALNT5,Polypeptide N-acetylgalactosaminyltransferase 5,44430,1861,1.58 [1.37-1.83],4.763539865253814e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GAS6,Growth arrest-specific protein 6,51404,2215,1.75 [1.51-2.03],1.6635942625874077e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GAST,Gastrin,44326,1857,1.18 [1.15-1.22],1.8287547804010078e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GCG,Pro-glucagon,49905,2138,1.12 [1.09-1.15],1.783195303390786e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GCHFR,GTP cyclohydrolase 1 feedback regulatory protein,42398,1772,1.39 [1.28-1.50],7.521706748117766e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GCNT1,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase",50873,2174,1.64 [1.47-1.82],1.4506061949328906e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GDF15,Growth/differentiation factor 15,51739,2227,2.30 [2.19-2.42],2.55529389277338e-227
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GDNF,Glial cell line-derived neurotrophic factor,49913,2147,1.44 [1.31-1.58],1.4037913706104032e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GFRA1,GDNF family receptor alpha-1,51467,2213,2.78 [2.47-3.12],3.0214585687864226e-66
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GGT1,Glutathione hydrolase 1 proenzyme,51038,2197,1.28 [1.20-1.37],1.6867973265525077e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GGT5,Glutathione hydrolase 5 proenzyme,50713,2170,2.60 [2.27-2.98],2.5821258101151878e-42
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GHR,Growth hormone receptor,43464,1829,0.55 [0.47-0.64],1.1005630081434416e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GIPC2,PDZ domain-containing protein GIPC2,44326,1857,2.36 [2.09-2.66],2.282224251359807e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GM2A,Ganglioside GM2 activator,43367,1819,1.61 [1.50-1.72],1.2441772241394998e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GOLM2,Protein GOLM2,51558,2213,2.02 [1.78-2.30],6.864306023659274e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GPKOW,G-patch domain and KOW motifs-containing protein,49913,2147,1.47 [1.34-1.62],1.445029941029235e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GPNMB,Transmembrane glycoprotein NMB,49722,2155,1.52 [1.33-1.74],5.430857857800799e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GPR37,Prosaposin receptor GPR37,50173,2143,1.57 [1.48-1.66],2.359996759212273e-54
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GRN,Progranulin,50871,2187,2.20 [1.91-2.55],8.57219421561145e-27
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GRPEL1,"GrpE protein homolog 1, mitochondrial",50873,2174,1.33 [1.25-1.41],2.268493332277795e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GSN,Gelsolin,44306,1860,0.54 [0.45-0.64],5.290962578232983e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GSR,"Glutathione reductase, mitochondrial",44222,1853,2.02 [1.66-2.45],1.310255303495472e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",GUCA2A,Guanylin,50869,2195,2.07 [1.88-2.28],2.226484454460917e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HAVCR1,Hepatitis A virus cellular receptor 1,51469,2212,1.70 [1.62-1.79],1.9859662009771787e-99
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HAVCR2,Hepatitis A virus cellular receptor 2,51122,2202,2.21 [2.02-2.43],3.4192657707266384e-62
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HEPH,Hephaestin,44430,1861,1.77 [1.49-2.11],1.1313238787372854e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HGF,Hepatocyte growth factor,51672,2222,2.06 [1.87-2.27],3.2886067899672317e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HIP1R,Huntingtin-interacting protein 1-related protein,44242,1855,1.40 [1.30-1.49],7.8434477874282185e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HLA-E,"HLA class I histocompatibility antigen, alpha chain E",51039,2186,2.53 [2.27-2.81],1.0681059789036108e-65
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HNMT,Histamine N-methyltransferase,50472,2160,1.50 [1.39-1.62],6.710694517112139e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HPGDS,Hematopoietic prostaglandin D synthase,49905,2138,0.67 [0.60-0.74],4.2770754530595614e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HRC,Sarcoplasmic reticulum histidine-rich calcium-binding protein,43248,1813,1.75 [1.61-1.90],2.2083868185695963e-39
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HSPA2,Heat shock-related 70 kDa protein 2,44224,1857,1.44 [1.30-1.61],9.88170019998932e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HSPB6,Heat shock protein beta-6,51543,2216,2.00 [1.84-2.18],1.590844191538115e-57
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HSPG2,Basement membrane-specific heparan sulfate proteoglycan core protein,50726,2181,2.83 [2.54-3.14],1.7448274195325158e-82
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HYAL1,Hyaluronidase-1,50826,2181,1.88 [1.62-2.18],1.5944867868957952e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",HYOU1,Hypoxia up-regulated protein 1,51739,2227,2.07 [1.76-2.43],3.3148262806554924e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ICAM1,Intercellular adhesion molecule 1,50891,2190,1.88 [1.67-2.12],2.338629684288422e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ICAM5,Intercellular adhesion molecule 5,51109,2203,1.57 [1.45-1.71],1.6621678551080963e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IFI30,Gamma-interferon-inducible lysosomal thiol reductase,43178,1806,2.05 [1.86-2.27],2.9954693172335597e-46
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IFNG,Interferon gamma,50146,2158,1.14 [1.10-1.17],3.720182061240182e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IFNGR1,Interferon gamma receptor 1,51334,2205,2.07 [1.77-2.42],6.997028110693273e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IFNL1,Interferon lambda-1,49913,2147,1.29 [1.20-1.40],1.2684100800849906e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGDCC4,Immunoglobulin superfamily DCC subclass member 4,44440,1867,0.56 [0.48-0.65],2.4646056385348853e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGF1R,Insulin-like growth factor 1 receptor,50873,2174,1.84 [1.61-2.09],2.205298153813311e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGF2R,Cation-independent mannose-6-phosphate receptor,51122,2202,1.91 [1.63-2.24],1.6785183903218296e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGFBP1,Insulin-like growth factor-binding protein 1,51655,2224,1.15 [1.11-1.18],3.098410303560404e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGFBP2,Insulin-like growth factor-binding protein 2,51657,2223,1.59 [1.49-1.69],3.2648036661269064e-51
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGFBP3,Insulin-like growth factor-binding protein 3,51311,2207,0.72 [0.64-0.80],6.64044986991231e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGFBP4,Insulin-like growth factor-binding protein 4,50472,2170,2.33 [2.19-2.48],1.1520094403668109e-163
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGFBP6,Insulin-like growth factor-binding protein 6,50890,2187,1.77 [1.59-1.97],2.7337723151031514e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGFBP7,Insulin-like growth factor-binding protein 7,51739,2227,2.33 [2.17-2.50],5.015525929199447e-123
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGFBPL1,Insulin-like growth factor-binding protein-like 1,51109,2203,2.15 [1.95-2.36],3.6787944756238108e-56
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGLC2,Immunoglobulin lambda constant 2,44429,1862,1.79 [1.62-1.97],2.5053646423588416e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGSF3,Immunoglobulin superfamily member 3,50873,2174,1.52 [1.40-1.66],3.6000406334148025e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IGSF8,Immunoglobulin superfamily member 8,51109,2203,1.95 [1.75-2.17],7.72206234153393e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL10,Interleukin-10,50146,2158,1.19 [1.14-1.24],2.108426796565203e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL10RB,Interleukin-10 receptor subunit beta,51334,2205,2.04 [1.84-2.27],1.1123695689113268e-40
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL12A_IL12B,Interleukin-12,50873,2174,1.30 [1.24-1.36],3.802863920574594e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL12B,Interleukin-12 subunit beta,51672,2222,1.45 [1.35-1.54],7.798521066196411e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL12RB1,Interleukin-12 receptor subunit beta-1,50146,2158,1.62 [1.48-1.78],4.404916384348558e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL15,Interleukin-15,51039,2186,1.82 [1.64-2.02],3.6674926288146944e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL15RA,Interleukin-15 receptor subunit alpha,50146,2158,1.95 [1.75-2.17],1.002916191399667e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL16,Pro-interleukin-16,51672,2222,1.29 [1.19-1.40],2.4938179965827047e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL17C,Interleukin-17C,50146,2158,1.29 [1.24-1.35],1.0893216366258753e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL17D,Interleukin-17D,50146,2158,1.32 [1.21-1.43],6.511550470171515e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL18,Interleukin-18,50915,2189,1.37 [1.27-1.48],2.53728071982005e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL18BP,Interleukin-18-binding protein,51311,2207,2.24 [2.02-2.48],1.718548974618921e-52
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL18R1,Interleukin-18 receptor 1,51672,2222,1.55 [1.39-1.73],3.631081794133879e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL19,Interleukin-19,49828,2146,1.31 [1.25-1.37],1.4792768381625652e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL1R1,Interleukin-1 receptor type 1,51038,2197,2.41 [2.08-2.80],8.731534743423394e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL1RL1,Interleukin-1 receptor-like 1,51570,2222,1.59 [1.46-1.72],6.9935086082034075e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL1RN,Interleukin-1 receptor antagonist protein,51000,2194,1.36 [1.28-1.44],4.2059145554174214e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL22,Interleukin-22,44224,1857,1.26 [1.19-1.33],3.979122387263575e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL2RA,Interleukin-2 receptor subunit alpha,50742,2191,1.83 [1.70-1.98],2.4940388865672535e-56
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL4R,Interleukin-4 receptor subunit alpha,51039,2186,1.86 [1.70-2.03],2.1772541523747924e-42
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL6,Interleukin-6,50873,2174,1.32 [1.27-1.37],1.6337387109338206e-52
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IL6ST,Interleukin-6 receptor subunit beta,51109,2203,2.24 [1.84-2.72],7.067309484534526e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",IMMT,MICOS complex subunit MIC60,44224,1857,1.51 [1.39-1.63],3.507128943947955e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",INHBB,Inhibin beta B chain,43464,1829,1.83 [1.69-1.98],5.461177692571665e-54
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",INSL4,Early placenta insulin-like peptide,44224,1857,1.34 [1.25-1.43],1.9301955769746112e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",INSL5,Insulin-like peptide INSL5,44243,1855,1.18 [1.13-1.23],1.3153474808261254e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ITGA11,Integrin alpha-11,51039,2186,0.58 [0.52-0.65],3.0223492745139525e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ITGA5,Integrin alpha-5,51122,2202,1.96 [1.69-2.26],8.721489614807044e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ITGAV,Integrin alpha-V,51543,2216,0.41 [0.33-0.52],4.652995515068856e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ITGBL1,Integrin beta-like protein 1,44440,1867,1.77 [1.61-1.94],2.88935654337211e-32
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ITIH3,Inter-alpha-trypsin inhibitor heavy chain H3,51311,2207,1.81 [1.63-2.00],4.9902963767324275e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",JAM2,Junctional adhesion molecule B,51558,2213,2.43 [2.15-2.73],1.2604613143019159e-47
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",JAM3,Junctional adhesion molecule C,43464,1829,1.32 [1.21-1.43],6.470614276700388e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",JUN,Transcription factor AP-1,50146,2158,1.25 [1.17-1.33],6.317727996612585e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KIF1C,Kinesin-like protein KIF1C,42976,1787,1.48 [1.35-1.63],9.87064247685248e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KIT,Mast/stem cell growth factor receptor Kit,51228,2201,0.63 [0.55-0.71],2.9093307457731774e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KLK11,Kallikrein-11,50783,2186,1.82 [1.67-1.97],1.2714960378903158e-47
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KLK4,Kallikrein-4,51543,2216,1.51 [1.44-1.59],5.350326780209871e-62
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KLK8,Kallikrein-8,49403,2128,1.50 [1.35-1.65],2.4000901245083802e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KLRB1,Killer cell lectin-like receptor subfamily B member 1,51672,2222,1.66 [1.52-1.82],4.577240455527432e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KLRD1,Natural killer cells antigen CD94,51672,2222,1.31 [1.21-1.41],2.604718750574061e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KRT18,"Keratin, type I cytoskeletal 18",50873,2174,1.16 [1.11-1.21],7.134626332897552e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",KRT19,"Keratin, type I cytoskeletal 19",50954,2181,1.45 [1.38-1.52],6.451227206343151e-49
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LAG3,Lymphocyte activation gene 3 protein,50873,2174,1.66 [1.53-1.80],1.3868181442776962e-35
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LAIR1,Leukocyte-associated immunoglobulin-like receptor 1,51081,2197,1.99 [1.86-2.13],4.715092868664416e-85
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LAIR2,Leukocyte-associated immunoglobulin-like receptor 2,50713,2170,1.14 [1.10-1.19],3.685080164044654e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LAMA4,Laminin subunit alpha-4,51334,2205,1.72 [1.54-1.91],8.875135138141755e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LAMP3,Lysosome-associated membrane glycoprotein 3,51587,2218,1.60 [1.50-1.72],3.202139036121957e-41
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LAYN,Layilin,50630,2167,2.61 [2.39-2.84],1.3789378558176803e-105
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LBP,Lipopolysaccharide-binding protein,51311,2207,1.27 [1.19-1.35],3.4042152049954293e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LBR,Delta(14)-sterol reductase LBR,51558,2213,1.19 [1.13-1.25],1.022749356124168e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LCN15,Lipocalin-15,44349,1851,1.23 [1.16-1.31],3.000007850557604e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LCN2,Neutrophil gelatinase-associated lipocalin,49569,2134,1.83 [1.69-1.99],1.1430568297051539e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LECT2,Leukocyte cell-derived chemotaxin-2,44430,1861,1.27 [1.19-1.35],4.835927997915963e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LETM1,Mitochondrial proton/calcium exchanger protein,44349,1851,1.29 [1.19-1.39],1.5572176628022835e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LGALS1,Galectin-1,51109,2203,1.84 [1.66-2.03],9.43313388707253e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LGALS3,Galectin-3,51239,2204,1.68 [1.49-1.90],9.223581208571398e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LGALS4,Galectin-4,51081,2197,1.70 [1.60-1.80],3.0602794945946283e-66
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LGALS7_LGALS7B,Galectin-7,50963,2191,1.37 [1.27-1.49],1.0508255877607222e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LGALS9,Galectin-9,51084,2196,2.84 [2.56-3.16],3.851970477880493e-83
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LGMN,Legumain,51334,2205,1.51 [1.36-1.67],2.653468862441969e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LIFR,Leukemia inhibitory factor receptor,51039,2186,2.06 [1.78-2.38],2.9018430593319977e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LILRA5,Leukocyte immunoglobulin-like receptor subfamily A member 5,51033,2197,2.04 [1.82-2.29],1.3718642242251446e-33
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LILRB2,Leukocyte immunoglobulin-like receptor subfamily B member 2,51488,2218,1.44 [1.29-1.61],1.0329988681897107e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LILRB4,Leukocyte immunoglobulin-like receptor subfamily B member 4,50146,2158,2.02 [1.87-2.19],5.008916745896021e-69
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LMNB2,Lamin-B2,44326,1857,2.67 [2.36-3.02],2.0892967177562067e-55
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LMOD1,Leiomodin-1,44349,1851,1.82 [1.66-1.98],1.1485699230236564e-40
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LPCAT2,Lysophosphatidylcholine acyltransferase 2,50873,2174,1.24 [1.16-1.32],1.2618008978038002e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LRG1,Leucine-rich alpha-2-glycoprotein,44506,1866,2.29 [1.96-2.68],7.469868617750312e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LRIG1,Leucine-rich repeats and immunoglobulin-like domains protein 1,51393,2209,1.65 [1.49-1.84],6.5082565016491916e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LRP11,Low-density lipoprotein receptor-related protein 11,51109,2203,1.83 [1.66-2.02],2.3961564095201492e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LRRC25,Leucine-rich repeat-containing protein 25,50873,2174,1.40 [1.28-1.53],5.0912571043527576e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LRRN1,Leucine-rich repeat neuronal protein 1,50146,2158,0.55 [0.50-0.60],5.047072465873823e-35
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LRTM2,Leucine-rich repeat and transmembrane domain-containing protein 2,44349,1851,0.56 [0.47-0.67],2.841209874028464e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LTBP2,Latent-transforming growth factor beta-binding protein 2,51739,2227,3.37 [3.05-3.73],2.6258367997503585e-123
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LTBP3,Latent-transforming growth factor beta-binding protein 3,49905,2138,1.29 [1.21-1.37],4.760668407996117e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LTBR,Tumor necrosis factor receptor superfamily member 3,50830,2190,2.52 [2.25-2.81],1.0810493957699281e-60
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LY6D,Lymphocyte antigen 6D,50833,2185,1.75 [1.61-1.89],3.1350276022952286e-42
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LY9,T-lymphocyte surface antigen Ly-9,50515,2173,1.62 [1.43-1.83],1.3395761190062574e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",LY96,Lymphocyte antigen 96,50713,2170,1.65 [1.50-1.81],3.5175783255334687e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MAD1L1,Mitotic spindle assembly checkpoint protein MAD1,50547,2161,1.40 [1.33-1.47],2.8313774666336225e-35
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MAMDC2,MAM domain-containing protein 2,44430,1861,2.18 [1.94-2.44],5.29756927823807e-41
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MANSC1,MANSC domain-containing protein 1,51272,2205,1.89 [1.66-2.15],4.766726538808231e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MATN2,Matrilin-2,51166,2199,2.14 [1.89-2.42],4.818366717949397e-33
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MB,Myoglobin,51739,2227,1.36 [1.27-1.44],3.2917966798625277e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MCFD2,Multiple coagulation factor deficiency protein 2,50869,2192,1.35 [1.24-1.47],2.238721467141228e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MDK,Midkine,51117,2195,1.41 [1.32-1.49],3.976018021045602e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MEP1B,Meprin A subunit beta,51109,2203,0.89 [0.86-0.91],1.0034256300904434e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MFAP4,Microfibril-associated glycoprotein 4,43464,1829,2.33 [2.03-2.67],2.0373122984011773e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MFAP5,Microfibrillar-associated protein 5,51739,2227,1.48 [1.35-1.62],6.938563758198492e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MIA,Melanoma-derived growth regulatory protein,51272,2205,1.37 [1.24-1.51],1.6403098929921358e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MILR1,Allergin-1,50146,2158,1.44 [1.34-1.55],5.673865450805576e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MMP1,Interstitial collagenase,49260,2129,1.15 [1.11-1.21],9.829372238595872e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MMP10,Stromelysin-2,50999,2188,1.31 [1.23-1.39],1.2520898597102438e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MMP12,Macrophage metalloelastase,51148,2198,1.72 [1.62-1.83],2.21474328463108e-63
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MMP3,Stromelysin-1,51122,2202,1.43 [1.33-1.53],1.2514940171447896e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MMP7,Matrilysin,50094,2141,1.91 [1.77-2.07],1.4970911472863474e-56
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MMP8,Neutrophil collagenase,51474,2212,1.22 [1.16-1.28],5.521469415116341e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MMP9,Matrix metalloproteinase-9,51038,2194,1.29 [1.21-1.37],1.1566454640129514e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MPO,Myeloperoxidase,51122,2202,1.39 [1.29-1.49],2.790724523042821e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MRC1,Macrophage mannose receptor 1,44474,1870,2.06 [1.78-2.38],2.7281381377547893e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MSLN,Mesothelin,50791,2168,1.37 [1.29-1.45],2.64109433149856e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MSMB,Beta-microseminoprotein,50992,2202,1.18 [1.12-1.25],3.2742596921410957e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MSR1,Macrophage scavenger receptor types I and II,51558,2213,1.80 [1.66-1.94],4.1682864187317527e-47
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MTUS1,Microtubule-associated tumor suppressor 1,43622,1828,1.26 [1.18-1.36],1.5501460147576955e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MUC13,Mucin-13,49913,2147,1.34 [1.25-1.43],1.877901304673062e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MVK,Mevalonate kinase,50146,2158,1.16 [1.11-1.22],3.803022532847356e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MYBPC1,"Myosin-binding protein C, slow-type",44430,1861,1.29 [1.22-1.36],1.0012567891679069e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MYLPF,"Myosin regulatory light chain 2, skeletal muscle isoform",43213,1817,1.33 [1.24-1.43],1.883915012024909e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",MZB1,Marginal zone B- and B1-cell-specific protein,51249,2203,1.58 [1.48-1.69],1.7347121854347534e-41
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NBL1,Neuroblastoma suppressor of tumorigenicity 1,51272,2205,2.94 [2.59-3.33],1.4806368158691945e-62
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NCAN,Neurocan core protein,51558,2213,0.72 [0.66-0.80],3.301670764173658e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NCR1,Natural cytotoxicity triggering receptor 1,50965,2182,1.73 [1.57-1.90],7.415497040628039e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NCR3LG1,Natural cytotoxicity triggering receptor 3 ligand 1,44243,1855,1.93 [1.71-2.17],2.3849054589371708e-27
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NCS1,Neuronal calcium sensor 1,51543,2216,1.81 [1.59-2.06],7.361131805009104e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NDUFS6,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial",49905,2138,1.16 [1.11-1.21],1.561412124623903e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NECTIN2,Nectin-2,51033,2197,2.67 [2.40-2.98],1.3884236763978758e-72
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NECTIN4,Nectin-4,51272,2205,2.04 [1.86-2.23],3.4101003419396255e-51
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NEFL,Neurofilament light polypeptide,49755,2143,1.69 [1.58-1.80],9.320196830518376e-52
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NELL1,Protein kinase C-binding protein NELL1,51272,2205,0.66 [0.60-0.72],1.9747978274033604e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NFASC,Neurofascin,51672,2222,2.18 [1.93-2.46],3.093879650652704e-37
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NHLRC3,NHL repeat-containing protein 3,42413,1773,1.75 [1.51-2.03],5.3484016252621534e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NID1,Nidogen-1,51143,2198,1.36 [1.23-1.49],8.59470865959896e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NOS1,"Nitric oxide synthase, brain",49913,2147,1.47 [1.38-1.56],3.9740702187643135e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NOS3,"Nitric oxide synthase, endothelial",49913,2147,1.32 [1.25-1.40],5.287134753066949e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NOTCH3,Neurogenic locus notch homolog protein 3,51739,2227,1.72 [1.54-1.91],7.811984088362063e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NPC2,NPC intracellular cholesterol transporter 2,43696,1830,2.43 [2.24-2.63],4.574962088965305e-106
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NPDC1,Neural proliferation differentiation and control protein 1,51109,2203,2.36 [2.16-2.56],2.186932223539514e-87
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NPL,N-acetylneuraminate lyase,44430,1861,1.55 [1.41-1.69],4.9346457264567425e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NPPB,Natriuretic peptides B,50173,2143,1.49 [1.45-1.53],2.883258791099067e-174
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NPPC,C-type natriuretic peptide,51039,2186,1.29 [1.20-1.38],2.498821690790131e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NRCAM,Neuronal cell adhesion molecule,51109,2203,1.56 [1.38-1.76],2.5320673656731616e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NRP1,Neuropilin-1,51395,2209,2.11 [1.85-2.40],4.4507921159172996e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NRP2,Neuropilin-2,51122,2202,1.79 [1.59-2.02],1.1232105468153136e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NT5C1A,Cytosolic 5'-nucleotidase 1A,44326,1857,1.90 [1.75-2.06],6.0402519023735135e-55
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NTproBNP,N-terminal prohormone of brain natriuretic peptide,51109,2203,1.74 [1.70-1.79],0.0
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",NUCB2,Nucleobindin-2,51459,2213,1.74 [1.58-1.91],1.9834571553782254e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",OCLN,Occludin,44349,1851,2.13 [1.97-2.30],9.738284632366375e-80
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",OGFR,Opioid growth factor receptor,50873,2174,1.44 [1.29-1.61],3.0088902380758423e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",OGN,Mimecan,51122,2202,1.92 [1.77-2.07],2.6318199853506945e-57
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",OLR1,Oxidized low-density lipoprotein receptor 1,50614,2183,1.22 [1.15-1.29],2.794988048452908e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",OMG,Oligodendrocyte-myelin glycoprotein,50873,2174,0.80 [0.75-0.84],1.2237432681657598e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ORM1,Alpha-1-acid glycoprotein 1,44347,1862,2.16 [1.75-2.67],7.180111629801055e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",OSCAR,Osteoclast-associated immunoglobulin-like receptor,51166,2199,1.79 [1.61-2.00],1.978009547908812e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",OSM,Oncostatin-M,50797,2179,1.23 [1.17-1.30],1.1494175832046751e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",OSMR,Oncostatin-M-specific receptor subunit beta,51395,2209,2.22 [1.85-2.65],2.177990585430794e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PALM,Paralemmin-1,44002,1842,1.72 [1.51-1.95],3.771553946887779e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PALM2,Paralemmin-2,44326,1857,2.13 [1.95-2.34],1.8833032963386e-58
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PAM,Peptidyl-glycine alpha-amidating monooxygenase,51489,2218,1.88 [1.63-2.16],2.489376986298506e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PCDH17,Protocadherin-17,51109,2203,1.39 [1.26-1.53],4.015170073996349e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PCSK9,Proprotein convertase subtilisin/kexin type 9,51739,2227,1.40 [1.27-1.53],1.4028281286148802e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PDCD1,Programmed cell death protein 1,51459,2213,1.49 [1.38-1.61],2.893583085762505e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PDCD1LG2,Programmed cell death 1 ligand 2,50873,2174,1.63 [1.46-1.82],7.099107585676261e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PDGFRA,Platelet-derived growth factor receptor alpha,51109,2203,1.79 [1.58-2.04],1.5065715501592928e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PDIA3,Protein disulfide-isomerase A3,43464,1829,1.71 [1.49-1.96],1.2878261458175021e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PENK,Proenkephalin-A,43464,1829,1.81 [1.62-2.01],4.092299689991528e-27
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PGA4,Pepsin A-4,44474,1870,1.23 [1.17-1.31],4.55136234150313e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PGF,Placenta growth factor,51672,2222,2.81 [2.58-3.07],4.992185806914717e-120
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PGLYRP1,Peptidoglycan recognition protein 1,51488,2218,1.58 [1.46-1.71],7.447360356764288e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PHLDB1,Pleckstrin homology-like domain family B member 1,44243,1855,1.34 [1.24-1.46],4.0313306440418386e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PHOSPHO1,Phosphoethanolamine/phosphocholine phosphatase,50713,2170,1.78 [1.58-2.00],1.2861803621951277e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PI3,Elafin,50429,2171,1.47 [1.38-1.55],1.3380541131530752e-38
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PIGR,Polymeric immunoglobulin receptor,50457,2162,2.15 [1.96-2.37],2.7886962847365244e-56
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PIK3IP1,Phosphoinositide-3-kinase-interacting protein 1,51122,2202,2.83 [2.54-3.14],5.253895089048683e-83
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PILRA,Paired immunoglobulin-like type 2 receptor alpha,51122,2202,1.86 [1.70-2.04],3.807623198435649e-42
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PILRB,Paired immunoglobulin-like type 2 receptor beta,51109,2203,1.45 [1.36-1.56],9.746167402418162e-26
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PKD1,Polycystin-1,44430,1861,1.75 [1.48-2.07],4.6502978719941946e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PKD2,Polycystin-2,42976,1787,1.26 [1.18-1.36],1.4949519344902384e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PLA2G10,Group 10 secretory phospholipase A2,50713,2170,1.24 [1.16-1.32],1.0087531035882411e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PLA2G15,Phospholipase A2 group XV,51272,2205,1.95 [1.71-2.23],5.120979867447477e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PLA2G2A,"Phospholipase A2, membrane associated",51005,2193,1.32 [1.25-1.39],2.845976450302783e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PLAUR,Urokinase plasminogen activator surface receptor,50746,2181,3.99 [3.55-4.48],8.856237161366156e-121
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PLIN3,Perilipin-3,51109,2203,1.34 [1.23-1.46],7.571514328021129e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PLXNB2,Plexin-B2,51487,2219,2.27 [1.97-2.61],6.073862201642324e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",POF1B,Protein POF1B,43150,1801,1.48 [1.37-1.60],1.862549697996796e-23
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",POLR2F,"DNA-directed RNA polymerases I, II, and III subunit RPABC2",50873,2174,1.57 [1.45-1.69],3.750486150660654e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PON1,Serum paraoxonase/arylesterase 1,44474,1870,0.64 [0.55-0.73],4.5906456340389326e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PON3,Serum paraoxonase/lactonase 3,51334,2205,0.74 [0.67-0.81],4.532623680436665e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PPP1R14D,Protein phosphatase 1 regulatory subunit 14D,44349,1851,1.51 [1.37-1.65],1.4177263000526802e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PRAP1,Proline-rich acidic protein 1,44440,1867,1.91 [1.70-2.14],6.559020607809149e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PRELP,Prolargin,51081,2197,1.78 [1.51-2.09],2.563533335337903e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PRG2,Bone marrow proteoglycan,44440,1867,1.52 [1.40-1.64],4.3003887922519016e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PRL,Prolactin,51558,2213,1.18 [1.13-1.24],4.629136679163424e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PROS1,Vitamin K-dependent protein S,44506,1866,0.47 [0.39-0.56],4.038610598020705e-18
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PRSS2,Trypsin-2,51311,2207,1.36 [1.27-1.44],2.401893961485352e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PRSS8,Prostasin,50915,2186,1.94 [1.78-2.11],2.8391177529616593e-53
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PRTN3,Myeloblastin,49825,2141,1.35 [1.27-1.45],3.43713209423508e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PSAP,Prosaposin,44023,1846,2.16 [1.95-2.39],2.244011256189898e-50
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PSG1,Pregnancy-specific beta-1-glycoprotein 1,50713,2170,1.15 [1.11-1.19],1.7734945793545144e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PTGDS,Prostaglandin-H2 D-isomerase,50727,2182,2.15 [1.95-2.37],5.804086382107401e-54
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PTH1R,Parathyroid hormone/parathyroid hormone-related peptide receptor,51039,2186,1.33 [1.23-1.43],2.126062111859653e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PTK7,Inactive tyrosine-protein kinase 7,49913,2147,1.58 [1.44-1.75],3.0037975032284797e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PTN,Pleiotrophin,50173,2143,1.39 [1.29-1.49],2.879650876069395e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PTPRN2,Receptor-type tyrosine-protein phosphatase N2,50547,2164,1.92 [1.73-2.14],2.271351686045267e-33
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PTX3,Pentraxin-related protein PTX3,51039,2186,1.38 [1.27-1.51],1.1044009186938633e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PVR,Poliovirus receptor,51558,2213,1.46 [1.33-1.60],6.148665435510455e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",PYY,Peptide YY,42976,1787,1.19 [1.14-1.24],7.404566405894669e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",QPCT,Glutaminyl-peptide cyclotransferase,51162,2199,2.07 [1.81-2.36],7.81735040146379e-27
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RAB6A,Ras-related protein Rab-6A,51039,2186,0.73 [0.67-0.79],4.186384408898843e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RARRES2,Retinoic acid receptor responder protein 2,51395,2209,1.50 [1.40-1.60],5.149481586134892e-32
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RBFOX3,RNA binding protein fox-1 homolog 3,44349,1851,1.95 [1.82-2.09],5.069395865639227e-80
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RBP2,Retinol-binding protein 2,50873,2174,1.34 [1.28-1.40],1.856372617090011e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RBP5,Retinol-binding protein 5,50873,2174,1.49 [1.40-1.59],7.829850137539746e-38
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RBP7,Retinoid-binding protein 7,44243,1855,1.31 [1.23-1.39],3.662483883029513e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",REG1A,Lithostathine-1-alpha,50807,2183,1.66 [1.56-1.76],1.2025883662656638e-60
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",REG1B,Lithostathine-1-beta,51739,2227,1.48 [1.40-1.56],1.7974080710558414e-45
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",REG3A,Regenerating islet-derived protein 3-alpha,51739,2227,1.48 [1.40-1.55],2.306093973258524e-49
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",REG4,Regenerating islet-derived protein 4,51166,2199,1.67 [1.56-1.78],6.860991645313209e-51
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RELT,Tumor necrosis factor receptor superfamily member 19L,51122,2202,2.95 [2.66-3.27],6.847577453924755e-94
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",REN,Renin,51109,2203,1.44 [1.39-1.49],3.309128643274309e-78
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RET,Proto-oncogene tyrosine-protein kinase receptor Ret,50873,2174,0.73 [0.66-0.80],6.903892396679594e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RETN,Resistin,50994,2195,1.59 [1.47-1.72],2.570446738723702e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RGMB,RGM domain family member B,51558,2213,1.54 [1.35-1.75],1.0964464078646402e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RNASE1,Ribonuclease pancreatic,44474,1870,2.70 [2.45-2.98],1.338424919801504e-89
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RNASE10,Inactive ribonuclease-like protein 10,43248,1813,1.40 [1.29-1.51],6.421000733910477e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RNASE4,Ribonuclease 4,42998,1779,2.38 [2.11-2.69],3.1331668908112603e-44
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RNASE6,Ribonuclease K6,44155,1847,2.06 [1.91-2.21],6.537239837629319e-86
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RNASET2,Ribonuclease T2,51494,2210,2.40 [2.15-2.67],1.7240354453484276e-56
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RNF149,E3 ubiquitin-protein ligase RNF149,43248,1813,2.12 [1.90-2.36],4.721090500705922e-41
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ROBO2,Roundabout homolog 2,51558,2213,1.79 [1.53-2.10],7.424978159402141e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ROR1,Inactive tyrosine-protein kinase transmembrane receptor ROR1,51109,2203,1.48 [1.32-1.66],1.7617230366123222e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RRM2,Ribonucleoside-diphosphate reductase subunit M2,49905,2138,1.24 [1.17-1.32],4.043552732268245e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RSPO1,R-spondin-1,50713,2170,1.77 [1.61-1.96],6.32307240284495e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RSPO3,R-spondin-3,51543,2216,2.42 [2.16-2.71],1.4161597479825562e-53
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",RTBDN,Retbindin,50873,2174,1.47 [1.31-1.64],3.2922869155474435e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",S100P,Protein S100-P,50173,2143,1.28 [1.21-1.36],2.3256286300011308e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SCARA5,Scavenger receptor class A member 5,51558,2213,1.86 [1.66-2.10],1.1861677409073958e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SCARB2,Lysosome membrane protein 2,49747,2139,2.75 [2.53-3.00],2.736712305857508e-118
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SCARF1,Scavenger receptor class F member 1,51739,2227,1.49 [1.37-1.62],7.800331423159203e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SCARF2,Scavenger receptor class F member 2,51558,2213,2.43 [2.15-2.74],1.953572421687799e-46
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SCG2,Secretogranin-2,51309,2206,1.97 [1.77-2.19],4.885793754804396e-35
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SCGB3A1,Secretoglobin family 3A member 1,43464,1829,1.80 [1.52-2.14],2.001557102558761e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SCGN,Secretagogin,50146,2158,1.35 [1.25-1.46],1.1622162859202604e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SCRG1,Scrapie-responsive protein 1,44430,1861,1.90 [1.68-2.15],3.4389966805209374e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SDC1,Syndecan-1,51109,2203,1.69 [1.55-1.83],2.6260894069238913e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SDC4,Syndecan-4,51109,2203,0.77 [0.71-0.83],9.584373118928602e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SEL1L,Protein sel-1 homolog 1,43248,1813,1.69 [1.57-1.83],3.2046417791541907e-41
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SEMA3F,Semaphorin-3F,51109,2203,2.24 [1.96-2.57],3.1455463478211902e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SEMA7A,Semaphorin-7A,51570,2222,1.53 [1.36-1.72],6.450861713227485e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SEPTIN8,Septin-8,44241,1851,2.14 [1.94-2.36],3.445708965066626e-52
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SERPINA11,Serpin A11,51739,2227,1.53 [1.40-1.68],1.5237395237963722e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SERPINA3,Alpha-1-antichymotrypsin,44344,1854,2.34 [1.84-2.97],2.854418823067506e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SERPINB8,Serpin B8,51672,2222,1.25 [1.19-1.32],1.5018320517059175e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SEZ6L2,Seizure 6-like protein 2,50873,2174,1.75 [1.51-2.03],1.6978066537152002e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SFRP1,Secreted frizzled-related protein 1,50545,2164,1.52 [1.41-1.64],7.351794020843962e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SFTPA2,Pulmonary surfactant-associated protein A2,49905,2138,1.28 [1.19-1.37],2.98160525944714e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SFTPD,Pulmonary surfactant-associated protein D,51109,2203,1.30 [1.23-1.37],1.860778196176496e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SHISA5,Protein shisa-5,44440,1867,2.57 [2.37-2.79],5.4071534403487815e-112
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SIAE,Sialate O-acetylesterase,51187,2201,1.33 [1.23-1.44],2.940654284105649e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SIGLEC1,Sialoadhesin,51334,2205,1.73 [1.59-1.88],3.800969202529336e-37
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SIGLEC10,Sialic acid-binding Ig-like lectin 10,51039,2186,1.84 [1.69-2.01],7.106656520294675e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SIGLEC7,Sialic acid-binding Ig-like lectin 7,51109,2203,1.76 [1.55-2.01],1.4335082848157853e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SIGLEC8,Sialic acid-binding Ig-like lectin 8,43248,1813,1.58 [1.43-1.74],1.99898392225764e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SIRPB1,Signal-regulatory protein beta-1,50997,2195,1.64 [1.52-1.78],8.517594208236482e-37
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SLAMF1,Signaling lymphocytic activation molecule,50146,2158,1.31 [1.23-1.40],8.524646300930099e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SLAMF7,SLAM family member 7,51039,2186,1.29 [1.21-1.37],2.6403504230964816e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SLAMF8,SLAM family member 8,49905,2138,1.51 [1.41-1.63],6.976220289220835e-29
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SLC39A14,Zinc transporter ZIP14,49913,2147,1.47 [1.34-1.62],1.329335225308703e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SLC39A5,Zinc transporter ZIP5,51039,2186,1.22 [1.15-1.30],8.79839244654664e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SLURP1,Secreted Ly-6/uPAR-related protein 1,44113,1849,1.41 [1.28-1.54],1.7715071406838737e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SMOC1,SPARC-related modular calcium-binding protein 1,51543,2216,1.80 [1.63-1.99],9.926650757024624e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SMOC2,SPARC-related modular calcium-binding protein 2,51334,2205,1.74 [1.59-1.91],6.344473080454239e-33
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SMPD1,Sphingomyelin phosphodiesterase,51306,2203,1.29 [1.20-1.39],5.386819606738493e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SNCG,Gamma-synuclein,50713,2170,1.38 [1.30-1.46],2.773638622659677e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SNRPB2,U2 small nuclear ribonucleoprotein B'',44326,1857,1.30 [1.22-1.39],8.325622794990912e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SORBS1,Sorbin and SH3 domain-containing protein 1,44349,1851,1.33 [1.22-1.44],1.684193764038292e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SORCS2,VPS10 domain-containing receptor SorCS2,49905,2138,2.10 [1.91-2.31],9.31299271258996e-53
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SORT1,Sortilin,51033,2197,1.38 [1.25-1.53],1.0107404380190747e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SPINK1,Serine protease inhibitor Kazal-type 1,51122,2202,2.03 [1.90-2.17],8.413952433342007e-92
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SPINK4,Serine protease inhibitor Kazal-type 4,51039,2186,1.43 [1.36-1.51],9.351642239732154e-44
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SPINT1,Kunitz-type protease inhibitor 1,50953,2190,1.92 [1.69-2.18],3.211803644550769e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SPINT2,Kunitz-type protease inhibitor 2,51334,2205,1.64 [1.50-1.80],1.1041735569380828e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SPON1,Spondin-1,51166,2199,2.18 [2.01-2.36],2.047298862937156e-77
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SPON2,Spondin-2,50864,2193,2.69 [2.43-2.96],7.322747254667745e-87
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SPP1,Osteopontin,51657,2223,1.63 [1.51-1.76],4.5814666704717007e-35
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SRPX,Sushi repeat-containing protein SRPX,44430,1861,1.81 [1.60-2.04],1.5144935003924169e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SSC4D,Scavenger receptor cysteine-rich domain-containing group B protein,51033,2197,0.90 [0.88-0.93],7.496476448108278e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ST3GAL1,"CMP-N-acetylneuraminate-beta-galactosamide-alpha-2,3-sialyltransferase 1",50873,2174,1.32 [1.22-1.42],4.032866970611389e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ST6GAL1,"Beta-galactoside alpha-2,6-sialyltransferase 1",51739,2227,1.87 [1.69-2.06],2.659958199546131e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",STC1,Stanniocalcin-1,51558,2213,1.49 [1.38-1.60],4.15286837830118e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",STC2,Stanniocalcin-2,51054,2200,1.84 [1.57-2.15],2.0950977813247302e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",SUSD2,Sushi domain-containing protein 2,51122,2202,1.48 [1.31-1.67],3.3105547712230913e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TAFA5,Chemokine-like protein TAFA-5,50873,2174,1.98 [1.81-2.16],1.4862900747419796e-49
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TCN2,Transcobalamin-2,51657,2223,1.65 [1.48-1.84],1.7815351221673268e-19
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TCOF1,Treacle protein,44430,1861,1.55 [1.39-1.74],1.417338247941917e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TFF1,Trefoil factor 1,50869,2184,1.35 [1.30-1.41],3.6962175342827456e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TFF2,Trefoil factor 2,51251,2201,1.68 [1.59-1.78],4.6302508379388944e-73
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TFF3,Trefoil factor 3,51059,2186,1.77 [1.68-1.87],4.519771191003911e-100
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TFPI2,Tissue factor pathway inhibitor 2,51116,2199,1.44 [1.36-1.53],2.0043931287357e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TFRC,Transferrin receptor protein 1,51312,2206,1.58 [1.44-1.73],1.3185766788854038e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TGFA,Protransforming growth factor alpha,51039,2186,1.70 [1.58-1.82],8.624479885880339e-49
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TGFB1,Transforming growth factor beta-1 proprotein,51587,2218,1.54 [1.41-1.69],5.5367852716596714e-21
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TGFBR2,TGF-beta receptor type-2,51272,2205,2.12 [1.95-2.31],7.110840095340177e-65
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TGFBR3,Transforming growth factor beta receptor type 3,51739,2227,1.61 [1.43-1.82],6.154364963512892e-15
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TGOLN2,Trans-Golgi network integral membrane protein 2,44474,1870,1.66 [1.42-1.95],5.092900040450625e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",THBD,Thrombomodulin,51109,2203,1.51 [1.34-1.71],4.5013302588769584e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",THBS2,Thrombospondin-2,51122,2202,1.92 [1.77-2.08],2.3133996071100192e-57
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",THY1,Thy-1 membrane glycoprotein,51558,2213,2.04 [1.81-2.31],1.9396669925741155e-30
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TIMP1,Metalloproteinase inhibitor 1,50554,2165,2.63 [2.38-2.92],2.3792096697549964e-76
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TIMP2,Metalloproteinase inhibitor 2,44430,1861,1.43 [1.29-1.59],2.0534016461147728e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TIMP4,Metalloproteinase inhibitor 4,51122,2202,1.68 [1.55-1.83],1.426425095312244e-34
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TINAGL1,Tubulointerstitial nephritis antigen-like,50948,2194,2.42 [2.05-2.86],1.4799028154851115e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TMSB10,Thymosin beta-10,51122,2202,1.25 [1.19-1.31],1.014042441274171e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNC,Tenascin,51311,2207,1.55 [1.44-1.67],5.143891250153876e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNF,Tumor necrosis factor,50096,2138,1.59 [1.49-1.69],1.1602210979309956e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF10A,Tumor necrosis factor receptor superfamily member 10A,50713,2170,2.22 [2.07-2.39],2.1956646978927962e-110
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF10B,Tumor necrosis factor receptor superfamily member 10B,50713,2170,1.47 [1.41-1.52],3.724208548631916e-90
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF11A,Tumor necrosis factor receptor superfamily member 11A,51672,2222,2.10 [1.94-2.27],3.176389082180593e-72
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF11B,Tumor necrosis factor receptor superfamily member 11B,51081,2197,2.21 [1.97-2.48],4.811138858636658e-42
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF12A,Tumor necrosis factor receptor superfamily member 12A,51272,2205,2.68 [2.47-2.92],1.525014268373201e-115
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF13B,Tumor necrosis factor receptor superfamily member 13B,51166,2199,1.71 [1.58-1.84],4.615187024591553e-45
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF14,Tumor necrosis factor receptor superfamily member 14,51166,2199,2.46 [2.22-2.73],5.32937449967637e-64
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF17,Tumor necrosis factor receptor superfamily member 17,43464,1829,1.69 [1.52-1.88],1.038140544777967e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF19,Tumor necrosis factor receptor superfamily member 19,51543,2216,2.31 [2.11-2.53],1.2875463924387028e-71
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF1A,Tumor necrosis factor receptor superfamily member 1A,51122,2202,2.97 [2.69-3.27],1.019376394634688e-105
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF1B,Tumor necrosis factor receptor superfamily member 1B,51122,2202,1.77 [1.68-1.87],5.398440772672811e-98
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF21,Tumor necrosis factor receptor superfamily member 21,51558,2213,1.89 [1.67-2.14],6.2595937741285764e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF4,Tumor necrosis factor receptor superfamily member 4,51587,2218,2.24 [2.06-2.42],3.624972539725927e-87
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF6B,Tumor necrosis factor receptor superfamily member 6B,50713,2170,1.55 [1.47-1.63],6.135939239705401e-56
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF8,Tumor necrosis factor receptor superfamily member 8,51558,2213,1.52 [1.41-1.64],5.634183562996405e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFRSF9,Tumor necrosis factor receptor superfamily member 9,50713,2170,1.83 [1.73-1.94],1.3508268813346808e-91
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFSF13,Tumor necrosis factor ligand superfamily member 13,51334,2205,2.64 [2.32-3.00],3.952013567540645e-49
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNFSF13B,Tumor necrosis factor ligand superfamily member 13B,51655,2225,2.21 [1.99-2.46],2.865083644348535e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TNNI3,"Troponin I, cardiac muscle",50173,2143,1.28 [1.21-1.34],4.2241954665159654e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TPP1,Tripeptidyl-peptidase 1,50746,2178,1.35 [1.26-1.46],3.3335495287265817e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TREM2,Triggering receptor expressed on myeloid cells 2,51081,2197,1.48 [1.39-1.58],2.529703087001268e-31
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TRIAP1,TP53-regulated inhibitor of apoptosis 1,51543,2216,1.21 [1.14-1.28],6.19131372553162e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TXNDC15,Thioredoxin domain-containing protein 15,51272,2205,1.84 [1.62-2.09],3.9560421271455925e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",TXNDC5,Thioredoxin domain-containing protein 5,51558,2213,1.23 [1.17-1.30],1.5626836974831046e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ULBP2,UL16-binding protein 2,50713,2170,2.17 [1.99-2.37],2.230837670371724e-70
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",UMOD,Uromodulin,51577,2216,0.63 [0.59-0.67],4.707643731978756e-48
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",USP28,Ubiquitin carboxyl-terminal hydrolase 28,44326,1857,1.43 [1.31-1.57],3.464149520075721e-14
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VAMP5,Vesicle-associated membrane protein 5,50173,2143,1.24 [1.17-1.31],2.2457830272645946e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VCAM1,Vascular cell adhesion protein 1,51228,2201,2.52 [2.24-2.84],1.2097466920946388e-51
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VCAN,Versican core protein,51558,2213,1.56 [1.38-1.76],1.2964450912983368e-12
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VEGFA,Vascular endothelial growth factor A,51503,2216,1.40 [1.32-1.49],4.637799966917946e-28
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VEGFB,Vascular endothelial growth factor B,43150,1801,1.75 [1.50-2.04],5.217589286868537e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VEGFD,Vascular endothelial growth factor D,51587,2219,1.64 [1.49-1.82],7.244006044760287e-22
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VMO1,Vitelline membrane outer layer protein 1 homolog,50873,2174,1.29 [1.21-1.36],9.673582161620715e-17
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VSIG2,V-set and immunoglobulin domain-containing protein 2,44224,1857,1.50 [1.42-1.59],6.576374891402673e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VSIG4,V-set and immunoglobulin domain-containing protein 4,51054,2200,2.35 [2.17-2.53],2.5653321834462422e-105
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VWA1,von Willebrand factor A domain-containing protein 1,51467,2213,1.52 [1.39-1.66],1.622506201750771e-20
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VWC2,Brorin,50545,2164,1.90 [1.73-2.08],7.956022509374078e-43
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",VWF,von Willebrand factor,51739,2227,1.18 [1.13-1.25],6.004208027696237e-11
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",WARS,"Tryptophan--tRNA ligase, cytoplasmic",51122,2202,1.68 [1.53-1.86],1.565826281289965e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",WFDC1,WAP four-disulfide core domain protein 1,43331,1811,1.24 [1.16-1.32],1.2356220109321895e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",WFDC12,WAP four-disulfide core domain protein 12,51458,2212,1.27 [1.20-1.34],1.383596407197985e-16
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",WFDC2,WAP four-disulfide core domain protein 2,48511,2087,2.63 [2.47-2.81],1.903679885729163e-185
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",WFIKKN1,"WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 1",50546,2164,0.71 [0.65-0.78],6.025318759665641e-13
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",WNT9A,Protein Wnt-9a,50146,2158,2.06 [1.86-2.27],3.314500986773347e-45
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",XCL1,Lymphotactin,51543,2216,1.35 [1.28-1.43],1.2584934559834956e-25
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",XG,Glycoprotein Xg,51490,2214,1.72 [1.55-1.91],3.0401323066556363e-24
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",XPNPEP2,Xaa-Pro aminopeptidase 2,51272,2205,0.89 [0.86-0.92],2.1103225707838167e-10
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",YAP1,Transcriptional coactivator YAP1,44326,1857,2.87 [2.57-3.20],1.2977011779096264e-78
+Chapter IX Diseases of the circulatory system,"Heart failure, strict",ZBTB17,Zinc finger and BTB domain-containing protein 17,50173,2143,1.40 [1.30-1.50],9.568858558913822e-21

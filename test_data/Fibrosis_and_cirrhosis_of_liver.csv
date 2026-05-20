@@ -1,0 +1,625 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ABCA2,ATP-binding cassette sub-family A member 2,41910,214,2.36 [1.85-3.03],8.732440717429778e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ACAA1,"3-ketoacyl-CoA thiolase, peroxisomal",48672,238,2.32 [2.12-2.54],7.331589470837714e-76
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ACE2,Angiotensin-converting enzyme 2,48931,244,3.81 [3.34-4.34],1.2000333004941155e-90
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ACHE,Acetylcholinesterase,42402,222,3.29 [2.58-4.20],5.882665539274118e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ACP5,Tartrate-resistant acid phosphatase type 5,50054,258,2.76 [2.30-3.32],5.7134457287980495e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ACVRL1,Serine/threonine-protein kinase receptor R3,49375,245,4.53 [3.30-6.21],6.4495194353723485e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ACY1,Aminoacylase-1,49838,257,3.38 [2.95-3.87],1.7493988361165678e-69
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ACY3,N-acyl-aromatic-L-amino acid amidohydrolase,41910,214,2.79 [2.37-3.28],1.1013913226296194e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADA2,Adenosine deaminase 2,49542,255,5.80 [5.02-6.70],4.951838989390463e-126
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADAM15,Disintegrin and metalloproteinase domain-containing protein 15,48931,244,8.70 [6.24-12.13],2.8423241205336864e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADAM8,Disintegrin and metalloproteinase domain-containing protein 8,50199,254,3.41 [2.70-4.30],4.778413167582891e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADAM9,Disintegrin and metalloproteinase domain-containing protein 9,43161,218,3.90 [3.03-5.02],4.2723429227289286e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADAMTSL2,ADAMTS-like protein 2,43342,225,10.70 [8.89-12.87],3.8978787054577e-139
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADGRB3,Adhesion G protein-coupled receptor B3,49375,245,3.99 [3.01-5.29],8.39458607578597e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADGRD1,Adhesion G-protein coupled receptor D1,42402,222,2.81 [2.13-3.72],3.490138291794653e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADGRE1,Adhesion G protein-coupled receptor E1,43161,218,3.52 [3.00-4.14],3.966356520621952e-53
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADGRE2,Adhesion G protein-coupled receptor E2,50052,256,11.01 [8.59-14.10],2.2078804332605024e-80
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADGRE5,Adhesion G protein-coupled receptor E5,50212,259,5.02 [4.40-5.73],3.4086648190008944e-127
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADGRG1,Adhesion G-protein coupled receptor G1,49612,250,2.32 [2.12-2.54],3.2483257974459815e-73
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADH1B,All-trans-retinol dehydrogenase,42402,222,1.94 [1.71-2.20],8.515149143817016e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ADH4,All-trans-retinol dehydrogenase [NAD(+)] ADH4,48931,244,1.74 [1.53-1.98],3.7592319216237946e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AGRN,Agrin,50052,256,2.91 [2.40-3.53],1.636553071659381e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AGXT,Serine--pyruvate aminotransferase,49838,257,2.91 [2.61-3.26],4.636732642778622e-79
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AIFM1,"Apoptosis-inducing factor 1, mitochondrial",49531,250,1.37 [1.24-1.52],4.5637321297814047e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AKR1B10,Aldo-keto reductase family 1 member B10,42164,220,2.01 [1.80-2.25],1.6101467715348876e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AKR7L,Aflatoxin B1 aldehyde reductase member 4,42084,214,1.98 [1.76-2.22],4.281394581890972e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ALCAM,CD166 antigen,50458,259,5.41 [4.01-7.29],1.5403467828287027e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ALDH1A1,Retinal dehydrogenase 1,49862,252,2.48 [2.14-2.86],4.184444776968036e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ALDH2,"Aldehyde dehydrogenase, mitochondrial",43144,222,1.52 [1.35-1.73],3.647464738347892e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ALDH3A1,"Aldehyde dehydrogenase, dimeric NADP-preferring",49686,249,1.55 [1.40-1.71],6.452404116346832e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ALDH5A1,"Succinate-semialdehyde dehydrogenase, mitochondrial",43271,221,2.41 [2.04-2.86],2.1544416186710722e-24
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AMIGO2,Amphoterin-induced protein 2,49612,250,8.20 [6.05-11.13],1.1275689523393255e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AMOT,Angiomotin,42402,222,2.73 [2.10-3.56],6.860675234938738e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ANGPT2,Angiopoietin-2,50263,252,4.26 [3.40-5.35],3.997836894065963e-36
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ANGPTL1,Angiopoietin-related protein 1,49114,254,5.71 [4.07-8.03],8.547123766044438e-24
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ANGPTL2,Angiopoietin-related protein 2,49886,255,5.21 [4.14-6.55],4.906445772887917e-45
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ANGPTL4,Angiopoietin-related protein 4,49969,256,2.78 [2.19-3.52],4.084613362615795e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ANGPTL7,Angiopoietin-related protein 7,50263,252,2.77 [2.21-3.47],1.1300229354371856e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ANPEP,Aminopeptidase N,49958,257,8.10 [6.52-10.05],3.202992348184072e-80
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AOC3,Membrane primary amine oxidase,50038,257,6.42 [4.88-8.45],3.242963555334837e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,APOC1,Apolipoprotein C-I,43326,226,0.33 [0.24-0.46],7.486700389273225e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,APOF,Apolipoprotein F,43375,224,0.40 [0.34-0.47],2.7366281808752874e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,APOM,Apolipoprotein M,49957,257,0.38 [0.31-0.48],6.977116545316523e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AREG,Amphiregulin,49612,250,3.30 [2.84-3.83],4.8505813822882895e-55
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ARSA,Arylsulfatase A,49862,252,2.42 [2.04-2.86],4.92248438269802e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ASAH1,Acid ceramidase,42941,223,1.76 [1.51-2.05],6.692646344211228e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ASGR1,Asialoglycoprotein receptor 1,49457,246,3.44 [2.64-4.49],8.876307071200248e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ASPN,Asporin,43344,222,2.12 [1.68-2.68],2.2147033985497123e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ASS1,Argininosuccinate synthase,41910,214,1.98 [1.70-2.30],1.0973580126317538e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,AXL,Tyrosine-protein kinase receptor UFO,50038,257,5.95 [4.64-7.63],5.60367152895796e-45
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,B2M,Beta-2-microglobulin,43406,226,1.77 [1.54-2.03],9.43037734665933e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,B3GNT7,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7",42189,218,4.82 [3.48-6.67],2.9596772242151602e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,B4GALT1,"Beta-1,4-galactosyltransferase 1",50052,256,3.97 [2.87-5.49],9.82026466629186e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BAIAP2,Brain-specific angiogenesis inhibitor 1-associated protein 2,48672,238,2.27 [2.03-2.54],1.7317531116705282e-47
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BCAM,Basal cell adhesion molecule,49862,252,5.84 [4.81-7.09],5.11376400242222e-71
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BCHE,Cholinesterase,42581,218,0.42 [0.33-0.53],5.284138557210908e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BMP4,Bone morphogenetic protein 4,49375,245,2.05 [1.69-2.49],5.340826503405585e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BMP6,Bone morphogenetic protein 6,48851,244,2.72 [2.18-3.39],5.976126459882417e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BMPER,BMP-binding endothelial regulator protein,42402,222,4.98 [3.87-6.41],1.5147829605768179e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BSG,Basigin,50301,252,10.90 [7.45-15.94],7.112109728566812e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BST1,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 2,50283,254,3.50 [2.35-5.23],8.44193614380501e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BST2,Bone marrow stromal antigen 2,50283,254,3.40 [3.12-3.69],3.100726173467527e-180
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BTN2A1,Butyrophilin subfamily 2 member A1,50052,256,3.89 [2.87-5.27],2.144060362658548e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,BTN3A2,Butyrophilin subfamily 3 member A2,49769,249,2.00 [1.65-2.42],2.2254539425380108e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,C19orf12,Protein C19orf12,48689,240,1.89 [1.74-2.05],3.35689164904704e-55
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,C1QA,Complement C1q subcomponent subunit A,50134,252,6.88 [4.99-9.51],9.671855413109431e-32
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,C1QTNF1,Complement C1q tumor necrosis factor-related protein 1,50038,257,2.87 [2.46-3.36],2.621371159462417e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,C1QTNF5,Complement C1q tumor necrosis factor-related protein 5,42402,222,3.89 [2.84-5.32],2.534914752430105e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,C1QTNF6,Complement C1q tumor necrosis factor-related protein 6,43271,221,2.61 [2.13-3.20],1.3492015400205939e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,C7,Complement component C7,42360,220,23.21 [18.42-29.25],1.7005816427167603e-156
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CA5A,"Carbonic anhydrase 5A, mitochondrial",48931,244,1.99 [1.83-2.17],2.707584816077148e-54
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CA9,Carbonic anhydrase 9,50263,252,3.28 [2.81-3.82],1.9180626077998578e-52
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CALCA,Calcitonin,49372,245,1.86 [1.66-2.07],1.0357287302919739e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CANT1,Soluble calcium-activated nucleotidase 1,49689,257,9.66 [5.85-15.97],9.15398239157956e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CBS,Cystathionine beta-synthase,42189,218,2.73 [2.43-3.07],1.7184168640116096e-62
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CCDC80,Coiled-coil domain-containing protein 80,49838,257,2.39 [1.87-3.05],2.588937531344181e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CCL15,C-C motif chemokine 15,50458,259,2.36 [1.92-2.90],1.9728666309861108e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CCL19,C-C motif chemokine 19,50283,254,1.22 [1.14-1.30],8.474775561855252e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CCL20,C-C motif chemokine 20,50384,253,1.68 [1.56-1.81],2.036146261832628e-43
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CCL21,C-C motif chemokine 21,50052,256,1.98 [1.74-2.26],5.41805352170661e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CCL3,C-C motif chemokine 3,49769,249,1.45 [1.33-1.59],3.241352631277823e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CCN4,CCN family member 4,50263,252,2.47 [1.97-3.10],5.651816476404061e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD109,CD109 antigen,49862,252,3.35 [2.44-4.61],1.0870547756904777e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD14,Monocyte differentiation antigen CD14,48814,251,2.40 [2.00-2.87],2.807650131174165e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD160,CD160 antigen,50384,253,2.03 [1.65-2.48],7.971672729881676e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD163,Scavenger receptor cysteine-rich type 1 protein M130,50038,257,5.56 [4.65-6.64],7.879950615647813e-80
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD164,Sialomucin core protein 24,49862,252,1.77 [1.52-2.05],8.50141920864577e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD22,B-cell receptor CD22,50384,253,2.65 [2.22-3.16],1.072629050633121e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD244,Natural killer cell receptor 2B4,50384,253,4.67 [3.46-6.31],1.0257347781287697e-23
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD27,CD27 antigen,49997,253,2.95 [2.43-3.57],1.8307391507405343e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD274,Programmed cell death 1 ligand 1,49457,246,3.39 [2.83-4.06],1.7300537938344151e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD276,CD276 antigen,49803,255,3.37 [2.52-4.52],2.658267341404244e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD28,T-cell-specific surface glycoprotein CD28,48672,238,2.57 [2.24-2.95],1.7325307231171763e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD300A,CMRF35-like molecule 8,42402,222,4.35 [3.08-6.14],6.030825268811794e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD300C,CMRF35-like molecule 6,50283,254,4.34 [3.43-5.49],1.704776259317033e-34
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD300E,CMRF35-like molecule 2,50104,252,3.38 [2.75-4.15],4.507711718617729e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD300LF,CMRF35-like molecule 1,50263,252,2.17 [1.76-2.67],2.4033839785548226e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD302,CD302 antigen,49612,250,3.42 [2.67-4.39],2.523389826665061e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD4,T-cell surface glycoprotein CD4,49690,248,2.06 [1.70-2.50],2.0374632956109002e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD40,Tumor necrosis factor receptor superfamily member 5,49803,256,1.90 [1.58-2.30],2.0908105964710408e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD46,Membrane cofactor protein,49543,256,2.62 [1.97-3.47],3.2989867175552666e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD48,CD48 antigen,49969,256,6.76 [5.25-8.71],2.0222325091871163e-49
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD5,T-cell surface glycoprotein CD5,50192,251,2.13 [1.79-2.54],4.736614616052575e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD55,Complement decay-accelerating factor,48093,249,2.56 [1.96-3.34],4.9076283053523844e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD59,CD59 glycoprotein,48041,249,4.01 [3.00-5.34],4.098063170375658e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD5L,CD5 antigen-like,43172,225,3.26 [2.63-4.05],6.223470437040526e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD72,B-cell differentiation antigen CD72,42402,222,3.59 [2.99-4.32],3.8154341130277496e-42
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD74,HLA class II histocompatibility antigen gamma chain,50283,254,8.40 [6.81-10.36],3.1736397412520663e-88
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD79B,B-cell antigen receptor complex-associated protein beta chain,50384,253,2.77 [2.37-3.24],1.605536806869721e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD80,T-lymphocyte activation antigen CD80,43344,222,7.20 [6.03-8.61],7.867976044433308e-105
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD83,CD83 antigen,49769,249,4.35 [3.55-5.33],1.5067365444877422e-45
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD86,T-lymphocyte activation antigen CD86,43161,218,4.29 [3.05-6.05],7.178617828714315e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD8A,T-cell surface glycoprotein CD8 alpha chain,50283,254,2.07 [1.74-2.46],7.897786669948601e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CD93,Complement component C1q receptor,47934,248,2.91 [2.17-3.89],6.998094996052339e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CDCP1,CUB domain-containing protein 1,49457,246,3.22 [2.80-3.71],4.6535911281746383e-60
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CDH1,Cadherin-1,48186,247,2.11 [1.80-2.48],7.238270047505949e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CDH17,Cadherin-17,49838,257,1.61 [1.39-1.85],8.047935764936383e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CDH2,Cadherin-2,49838,257,6.99 [5.69-8.58],5.958866119272968e-77
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CDH3,Cadherin-3,50283,254,2.46 [1.90-3.19],7.922356422572032e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CDH5,Cadherin-5,50458,259,3.86 [2.84-5.25],6.2643173754304296e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CDH6,Cadherin-6,49838,257,4.99 [4.32-5.76],2.6565012801085208e-107
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CDHR2,Cadherin-related family member 2,49612,250,4.27 [3.60-5.07],6.9773945596351765e-62
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CEACAM1,Carcinoembryonic antigen-related cell adhesion molecule 1,49921,253,48.65 [36.62-64.64],3.285121859889637e-158
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CEACAM16,Carcinoembryonic antigen-related cell adhesion molecule 16,43161,218,0.55 [0.47-0.64],3.152130383402791e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CEACAM3,Carcinoembryonic antigen-related cell adhesion molecule 3,48672,238,1.70 [1.46-1.98],1.738857580389236e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CEACAM6,Carcinoembryonic antigen-related cell adhesion molecule 6,43342,225,1.90 [1.64-2.21],1.7534769166664472e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CES1,Liver carboxylesterase 1,49968,257,1.72 [1.55-1.90],3.019966638847871e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CFHR5,Complement factor H-related protein 5,42814,220,0.47 [0.39-0.58],6.187226418427584e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CHAD,Chondroadherin,42402,222,0.47 [0.37-0.59],5.245798238510415e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CHCHD10,"Coiled-coil-helix-coiled-coil-helix domain-containing protein 10, mitochondrial",43242,221,2.61 [2.25-3.04],6.748122527395113e-36
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CHCHD6,MICOS complex subunit MIC25,43144,222,2.54 [2.09-3.07],1.701939335933339e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CHI3L1,Chitinase-3-like protein 1,48731,254,2.30 [2.10-2.53],1.6009442124023515e-67
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CHRDL1,Chordin-like protein 1,49969,256,4.44 [3.29-5.98],1.8056917857009562e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CHRDL2,Chordin-like protein 2,49838,257,3.40 [2.86-4.05],5.551379652287372e-44
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CILP,Cartilage intermediate layer protein 1,43342,225,2.48 [2.02-3.05],6.129354195933767e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CKAP4,Cytoskeleton-associated protein 4,50136,252,4.18 [3.44-5.09],2.523124363669316e-46
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CLEC11A,C-type lectin domain family 11 member A,49777,251,3.21 [2.57-4.00],4.0517855703447664e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CLEC14A,C-type lectin domain family 14 member A,49862,252,3.13 [2.31-4.22],1.141993182323941e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CLEC1A,C-type lectin domain family 1 member A,48931,244,2.58 [1.93-3.45],2.0584683432533002e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CLEC5A,C-type lectin domain family 5 member A,49672,257,2.83 [2.07-3.88],8.024565625925497e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CLEC6A,C-type lectin domain family 6 member A,48672,238,3.04 [2.58-3.58],1.1413947204300316e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CLSTN2,Calsyntenin-2,50384,253,4.06 [3.52-4.69],4.086531759298296e-81
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CLSTN3,Calsyntenin-3,43242,221,3.88 [3.21-4.70],8.106635984797589e-44
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CNDP1,Beta-Ala-His dipeptidase,50038,257,0.43 [0.36-0.50],7.125200992241388e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CNTN4,Contactin-4,49862,252,6.02 [3.92-9.26],2.884771663825714e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CNTNAP2,Contactin-associated protein-like 2,49769,249,3.18 [2.67-3.79],1.2520221432581918e-38
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,COL18A1,Collagen alpha-1(XVIII) chain,50048,259,4.44 [2.90-6.80],7.630549882160745e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,COL3A1,Collagen alpha-1(III) chain,43342,225,5.33 [3.92-7.26],2.114865519201707e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,COL4A1,Collagen alpha-1(IV) chain,49838,257,6.05 [5.24-6.97],3.057149658071726e-134
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,COL6A3,Collagen alpha-3(VI) chain,50458,259,3.64 [2.93-4.52],2.4684273669201977e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,COQ7,"5-demethoxyubiquinone hydroxylase, mitochondrial",42189,218,2.56 [2.29-2.86],1.8089462104511366e-60
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CPM,Carboxypeptidase M,50039,251,4.77 [3.73-6.10],1.8090823003784761e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CPVL,Probable serine carboxypeptidase CPVL,50180,252,3.13 [2.36-4.16],2.0050448183858828e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CPXM2,Inactive carboxypeptidase-like protein X2,43344,222,3.17 [2.46-4.09],5.982724487875834e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CR1,Complement receptor type 1,43212,224,2.78 [2.43-3.18],2.1416421144679815e-50
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CR2,Complement receptor type 2,50038,257,2.35 [1.90-2.90],2.5549592505053855e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CREG1,Protein CREG1,49190,247,3.48 [2.85-4.23],2.529632973216586e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CRELD1,Protein disulfide isomerase CRELD1,42402,222,3.04 [2.21-4.19],9.618795020913871e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CRIM1,Cysteine-rich motor neuron 1 protein,50052,256,21.07 [16.10-27.58],3.6273028561517307e-109
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CRLF1,Cytokine receptor-like factor 1,50052,256,4.42 [2.89-6.75],6.146443053328844e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CRTAM,Cytotoxic and regulatory T-cell molecule,49457,246,3.07 [2.52-3.75],2.521731873317284e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CSF1,Macrophage colony-stimulating factor 1,50052,256,9.79 [7.25-13.22],5.27696564159144e-50
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CSF1R,Macrophage colony-stimulating factor 1 receptor,43375,224,4.28 [3.74-4.89],3.293017750581247e-101
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CSPG4,Chondroitin sulfate proteoglycan 4,43342,225,6.17 [4.40-8.65],3.736619141583234e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CST3,Cystatin-C,49958,257,3.15 [2.32-4.28],1.803823213523636e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CTHRC1,Collagen triple helix repeat-containing protein 1,43342,225,3.78 [2.75-5.20],2.855328312152806e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CTSB,Cathepsin B,49884,257,2.95 [2.53-3.43],1.256521577338083e-44
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CTSC,Dipeptidyl peptidase 1,49723,254,2.41 [1.97-2.95],1.3296704438287739e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CTSD,Cathepsin D,46586,244,3.33 [2.96-3.76],1.02965224210726e-85
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CTSL,Cathepsin L1,49838,257,7.82 [5.68-10.78],2.928131215088062e-36
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CTSO,Cathepsin O,50384,253,3.90 [2.98-5.10],2.414198709499668e-23
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CTSZ,Cathepsin Z,49874,257,6.21 [4.71-8.19],2.590080611725598e-38
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CXADR,Coxsackievirus and adenovirus receptor,49769,249,3.48 [3.07-3.94],2.4140962412676343e-84
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CXCL10,C-X-C motif chemokine 10,50052,256,1.81 [1.62-2.02],2.826393271362526e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CXCL11,C-X-C motif chemokine 11,50283,254,1.55 [1.41-1.69],2.200182114740479e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CXCL13,C-X-C motif chemokine 13,50283,254,1.55 [1.43-1.69],3.8523643341391215e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CXCL8,Interleukin-8,49451,250,1.72 [1.60-1.86],2.5357740953720525e-46
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,CXCL9,C-X-C motif chemokine 9,50052,256,1.92 [1.71-2.15],9.092720076621408e-30
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DAG1,Dystroglycan,50052,256,2.16 [1.72-2.71],2.571032005087792e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DCBLD2,"Discoidin, CUB and LCCL domain-containing protein 2",49997,253,2.72 [2.07-3.57],5.451173434912672e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DCTPP1,dCTP pyrophosphatase 1,49838,257,3.98 [3.01-5.27],5.487120941093279e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DCXR,L-xylulose reductase,49997,253,2.61 [2.21-3.08],8.387407567111288e-30
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DDAH1,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 1",49612,250,2.17 [1.79-2.63],5.011057205505005e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DDC,Aromatic-L-amino-acid decarboxylase,49764,257,2.74 [2.28-3.30],9.261017614917407e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DDR1,Epithelial discoidin domain-containing receptor 1,50283,254,11.24 [9.01-14.03],8.494039518302364e-102
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DHPS,Deoxyhypusine synthase,43144,222,1.77 [1.49-2.10],7.999638394463127e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DIPK2B,Divergent protein kinase domain 2B,42402,222,2.70 [2.11-3.44],1.2500581526944402e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DKK3,Dickkopf-related protein 3,50458,259,4.34 [3.08-6.13],7.214504703150322e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DLL1,Delta-like protein 1,49997,253,4.68 [3.51-6.24],6.352546672440191e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DPP10,Inactive dipeptidyl peptidase 10,49769,249,4.95 [4.37-5.61],2.2041702721785483e-138
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DPP4,Dipeptidyl peptidase 4,48900,255,4.47 [3.41-5.85],1.362885659034398e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DPP6,Dipeptidyl aminopeptidase-like protein 6,49612,250,3.01 [2.24-4.04],2.1392209388764945e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DPP7,Dipeptidyl peptidase 2,49436,255,1.84 [1.55-2.18],2.280071547322428e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DPT,Dermatopontin,50458,259,4.90 [3.08-7.80],1.9198603061453423e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DRAXIN,Draxin,49457,246,2.04 [1.63-2.57],7.578869349227193e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DSC2,Desmocollin-2,49307,248,3.23 [2.78-3.75],7.071689243779263e-53
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DSCAM,Down syndrome cell adhesion molecule,43271,221,3.34 [2.42-4.60],1.675027740308762e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,DTNB,Dystrobrevin beta,43061,221,2.48 [2.05-2.99],2.9993946367842964e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EBI3_IL27,Interleukin-27,50187,252,5.61 [4.57-6.90],1.6884575443437002e-60
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ECE1,Endothelin-converting enzyme 1,48689,240,2.14 [1.79-2.56],7.268042006462921e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ECHDC3,"Enoyl-CoA hydratase domain-containing protein 3, mitochondrial",43344,222,2.46 [2.22-2.71],5.302265379429927e-71
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ECHS1,"Enoyl-CoA hydratase, mitochondrial",42189,218,1.88 [1.67-2.11],1.7243529404187094e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EDA2R,Tumor necrosis factor receptor superfamily member 27,50263,252,3.38 [2.78-4.11],4.313767735765834e-34
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EDN1,Endothelin-1,42189,218,4.62 [3.29-6.48],1.0209258794829806e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EFEMP1,EGF-containing fibulin-like extracellular matrix protein 1,49955,257,7.27 [5.70-9.27],8.245538487500328e-58
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EFNA1,Ephrin-A1,49780,251,2.86 [2.09-3.92],6.250619827619668e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EFNA4,Ephrin-A4,49375,245,4.20 [3.43-5.14],3.248808265118348e-44
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EGFL7,Epidermal growth factor-like protein 7,48672,238,2.13 [1.76-2.58],1.3564054829551646e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EGFLAM,Pikachurin,43161,218,2.61 [1.98-3.45],1.1491312977943564e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ENG,Endoglin,50458,259,18.54 [13.82-24.88],1.7272374627410088e-84
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ENPP2,Ectonucleotide pyrophosphatase/phosphodiesterase family member 2,50458,259,9.88 [7.81-12.51],5.204836364523913e-81
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ENPP7,Ectonucleotide pyrophosphatase/phosphodiesterase family member 7,48301,248,3.29 [2.87-3.76],1.7021382761319883e-67
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ENTPD2,Ectonucleoside triphosphate diphosphohydrolase 2,48672,238,3.03 [2.73-3.37],1.5794291880134263e-95
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ENTPD6,Ectonucleoside triphosphate diphosphohydrolase 6,48931,244,8.28 [5.20-13.17],4.611650065931679e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ENTR1,Endosome-associated-trafficking regulator 1,42189,218,1.82 [1.56-2.12],5.1958506894036175e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EPHA2,Ephrin type-A receptor 2,48043,236,3.66 [3.12-4.29],1.0399484166777738e-57
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EPHA4,Ephrin type-A receptor 4,42402,222,4.49 [2.95-6.84],2.536170515194798e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EPHB4,Ephrin type-B receptor 4,50458,259,5.13 [3.82-6.88],1.164557244923916e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,EPS8L2,Epidermal growth factor receptor kinase substrate 8-like protein 2,50180,252,4.11 [3.40-4.97],5.944693692861851e-48
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ERBB2,Receptor tyrosine-protein kinase erbB-2,49997,253,8.19 [6.54-10.26],5.874056396009209e-75
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ESM1,Endothelial cell-specific molecule 1,49803,255,6.53 [4.97-8.58],2.0978254433632904e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,F11,Coagulation factor XI,42780,222,0.33 [0.24-0.44],6.156474967584197e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FABP1,"Fatty acid-binding protein, liver",49803,255,1.92 [1.75-2.10],7.863983415825519e-44
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FABP4,"Fatty acid-binding protein, adipocyte",50458,259,1.90 [1.59-2.27],1.92830574652425e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FAM3B,Protein FAM3B,49612,250,2.75 [2.00-3.78],4.0620952173279606e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FAS,Tumor necrosis factor receptor superfamily member 6,50290,259,2.13 [1.86-2.45],1.6997861365288748e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FBLN2,Fibulin-2,43342,225,6.64 [5.15-8.55],1.2622737781960611e-48
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FBP1,"Fructose-1,6-bisphosphatase 1",49838,257,1.95 [1.74-2.18],6.710653076589066e-32
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCAMR,High affinity immunoglobulin alpha and immunoglobulin mu Fc receptor,43344,222,3.17 [2.79-3.59],5.408674408643709e-72
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCAR,Immunoglobulin alpha Fc receptor,49769,249,2.40 [2.01-2.85],1.0072390613285205e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCER2,Low affinity immunoglobulin epsilon Fc receptor,49862,252,1.74 [1.51-2.00],1.2749172805469592e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCGR2A,Low affinity immunoglobulin gamma Fc region receptor II-a,49626,255,3.35 [2.63-4.27],1.2247006692026437e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCGR3B,Low affinity immunoglobulin gamma Fc region receptor III-B,49874,257,2.46 [1.93-3.13],3.121706004567328e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCN2,Ficolin-2,49630,255,0.47 [0.41-0.54],1.0744472774511684e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCRL1,Fc receptor-like protein 1,49838,257,2.07 [1.72-2.49],1.1769059626049622e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCRL2,Fc receptor-like protein 2,50147,253,1.95 [1.67-2.28],3.1608096599429e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCRL5,Fc receptor-like protein 5,49862,252,2.26 [1.91-2.67],1.8357794268459085e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCRL6,Fc receptor-like protein 6,49769,249,1.71 [1.45-2.02],1.453767466477708e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FCRLB,Fc receptor-like B,48672,238,1.59 [1.43-1.76],4.7613115042430594e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FGF21,Fibroblast growth factor 21,50187,252,1.42 [1.31-1.54],6.584308002036771e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FGF23,Fibroblast growth factor 23,50179,252,1.68 [1.49-1.89],2.6824419385392962e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FGFR2,Fibroblast growth factor receptor 2,49997,253,20.01 [15.41-25.98],6.322523450128514e-112
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FGL1,Fibrinogen-like protein 1,43375,224,1.96 [1.64-2.35],2.787316745694424e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FLRT2,Leucine-rich repeat transmembrane protein FLRT2,49457,246,5.16 [4.12-6.46],1.6143360260149923e-46
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FOLR2,Folate receptor beta,50283,254,4.66 [3.39-6.40],1.851162077703776e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FRZB,Secreted frizzled-related protein 3,49292,244,5.48 [3.38-8.86],4.526411822208226e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FSTL1,Follistatin-related protein 1,42189,218,7.05 [5.51-9.02],1.401506797790349e-54
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FSTL3,Follistatin-related protein 3,49725,255,7.06 [5.72-8.71],2.8021666204957295e-74
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FTCD,Formimidoyltransferase-cyclodeaminase,43159,220,2.06 [1.83-2.32],6.22662774717403e-33
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FUOM,Fucose mutarotase,42402,222,3.11 [2.74-3.53],3.002780469028128e-68
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,FUT3_FUT5,3-galactosyl-N-acetylglucosaminide 4-alpha-L-fucosyltransferase FUT3_4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase FUT5,50283,254,3.23 [2.67-3.91],2.3178791836453786e-33
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GALNT10,Polypeptide N-acetylgalactosaminyltransferase 10,49612,250,7.94 [6.10-10.34],1.4205187934279302e-53
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GALNT3,Polypeptide N-acetylgalactosaminyltransferase 3,48911,243,2.15 [1.74-2.66],1.8856580340715528e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GAS6,Growth arrest-specific protein 6,50134,259,19.66 [13.17-29.33],3.5003892725200285e-48
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GAST,Gastrin,43242,221,1.28 [1.19-1.38],1.194204937981913e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GBP1,Guanylate-binding protein 1,43162,221,2.23 [1.96-2.53],1.2142788313412151e-34
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GCHFR,GTP cyclohydrolase 1 feedback regulatory protein,41364,220,1.81 [1.53-2.15],4.563862001836378e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GCNT1,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase",49612,250,5.26 [4.08-6.80],4.085520630650069e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GDF15,Growth/differentiation factor 15,50458,259,2.84 [2.60-3.11],3.486691297924701e-117
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GDNF,Glial cell line-derived neurotrophic factor,48689,240,2.82 [2.36-3.38],8.903924777853888e-30
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GFER,FAD-linked sulfhydryl oxidase ALR,48672,238,1.73 [1.47-2.04],3.6656420415952696e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GFRA1,GDNF family receptor alpha-1,50187,252,4.38 [3.21-5.96],8.275860862459154e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GGT1,Glutathione hydrolase 1 proenzyme,49780,251,4.59 [4.07-5.18],4.6942866284646925e-135
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GGT5,Glutathione hydrolase 5 proenzyme,49457,246,7.18 [5.97-8.64],1.0473076222495317e-96
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GHRL,Appetite-regulating hormone,49838,257,0.67 [0.59-0.76],4.86105935176411e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GIPC2,PDZ domain-containing protein GIPC2,43242,221,2.88 [2.10-3.95],5.086402486481335e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GLA,Alpha-galactosidase A,42322,222,2.69 [2.03-3.58],8.689364928556186e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GLB1,Beta-galactosidase,49457,246,2.40 [1.89-3.05],9.972889592875557e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GM2A,Ganglioside GM2 activator,42288,220,1.74 [1.48-2.06],3.359718564587036e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GOLM2,Protein GOLM2,50283,254,4.04 [3.25-5.01],8.08969260148795e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GOT1,"Aspartate aminotransferase, cytoplasmic",43342,225,2.33 [2.06-2.63],1.105908399640949e-42
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GPC5,Glypican-5,49457,246,0.46 [0.38-0.57],3.672828786604673e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GPD1,Glycerol-3-phosphate dehydrogenase,43144,222,2.39 [2.01-2.84],3.475659089229709e-23
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GPNMB,Transmembrane glycoprotein NMB,48483,252,4.63 [3.23-6.65],8.456695952525831e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GPR37,Prosaposin receptor GPR37,48931,244,1.74 [1.47-2.05],5.353643374248271e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GPRC5C,G-protein coupled receptor family C group 5 member C,43144,222,2.17 [2.00-2.36],1.5761165107971353e-74
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GRN,Progranulin,49617,249,5.59 [4.28-7.29],8.014404614267475e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GRPEL1,"GrpE protein homolog 1, mitochondrial",49612,250,2.80 [2.54-3.08],1.6548275604783596e-98
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GSN,Gelsolin,43213,221,0.36 [0.27-0.49],7.36711686421713e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GSR,"Glutathione reductase, mitochondrial",43130,224,7.16 [5.13-10.01],9.198045461722198e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GSTA1,Glutathione S-transferase A1,49763,257,1.82 [1.63-2.02],2.120859748637036e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GSTA3,Glutathione S-transferase A3,48672,238,1.57 [1.39-1.77],1.02154694295537e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GUSB,Beta-glucuronidase,50054,258,2.18 [1.90-2.52],4.8648487607567966e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,GZMA,Granzyme A,50384,253,2.90 [2.38-3.53],6.01055679985951e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HAO1,Hydroxyacid oxidase 1,50263,252,1.91 [1.77-2.07],1.4414394212059424e-57
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HAVCR1,Hepatitis A virus cellular receptor 1,50192,251,2.56 [2.29-2.86],1.0832080466359931e-61
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HAVCR2,Hepatitis A virus cellular receptor 2,49862,252,5.00 [4.08-6.13],1.6500645888101772e-54
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HEG1,Protein HEG homolog 1,42402,222,14.25 [9.85-20.60],2.6644843832041308e-45
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HEPH,Hephaestin,43344,222,5.17 [3.16-8.47],6.871143191470866e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HGF,Hepatocyte growth factor,50384,253,5.87 [4.98-6.90],1.574937295452648e-100
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HIP1R,Huntingtin-interacting protein 1-related protein,43163,221,1.84 [1.66-2.05],1.909790513697453e-29
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HLA-DRA,"HLA class II histocompatibility antigen, DR alpha chain",49620,248,3.75 [3.00-4.70],5.552208778988872e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HLA-E,"HLA class I histocompatibility antigen, alpha chain E",49769,249,3.08 [2.30-4.12],3.4768603511582304e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HMOX1,Heme oxygenase 1,49275,257,2.52 [2.08-3.05],1.2518026770752157e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HMOX2,Heme oxygenase 2,48689,240,2.26 [2.01-2.54],2.0636070827094197e-42
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HNMT,Histamine N-methyltransferase,49219,244,3.05 [2.58-3.62],1.580000653190887e-38
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HPGDS,Hematopoietic prostaglandin D synthase,48672,238,0.37 [0.27-0.51],3.8378352944521705e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HS6ST1,Heparan-sulfate 6-O-sulfotransferase 1,50263,252,2.08 [1.76-2.47],4.5961150380488404e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HSPG2,Basement membrane-specific heparan sulfate proteoglycan core protein,49463,255,3.66 [2.83-4.72],2.935849156657244e-23
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,HYAL1,Hyaluronidase-1,49563,254,4.65 [3.50-6.18],2.546335278535405e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ICAM1,Intercellular adhesion molecule 1,49622,255,8.70 [7.28-10.39],8.47789185107628e-126
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ICAM2,Intercellular adhesion molecule 2,50458,259,4.19 [2.96-5.94],7.716122095391096e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ICAM3,Intercellular adhesion molecule 3,50458,259,6.82 [5.27-8.82],3.463817773599424e-48
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ICAM5,Intercellular adhesion molecule 5,49838,257,2.21 [1.75-2.79],2.434808385436509e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IDO1,"Indoleamine 2,3-dioxygenase 1",42189,218,1.66 [1.43-1.94],3.960341990247927e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IDUA,Alpha-L-iduronidase,50263,252,3.13 [2.42-4.06],5.094400172716145e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IFI30,Gamma-interferon-inducible lysosomal thiol reductase,42102,211,4.47 [3.70-5.39],5.004874175581287e-55
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IFNGR1,Interferon gamma receptor 1,50052,256,4.39 [3.59-5.37],6.444972052551621e-47
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IFNGR2,Interferon gamma receptor 2,49457,246,1.98 [1.63-2.40],2.8999303512215264e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IFNL1,Interferon lambda-1,48689,240,1.86 [1.56-2.22],7.507894407259456e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGF2R,Cation-independent mannose-6-phosphate receptor,49862,252,8.89 [6.05-13.08],1.1717768837253103e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGFBP1,Insulin-like growth factor-binding protein 1,50377,259,1.37 [1.26-1.50],3.780241777874579e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGFBP3,Insulin-like growth factor-binding protein 3,50038,257,0.36 [0.29-0.43],1.909988538229456e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGFBP4,Insulin-like growth factor-binding protein 4,49230,248,2.05 [1.70-2.48],5.089631030170573e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGFBP7,Insulin-like growth factor-binding protein 7,50458,259,3.88 [3.52-4.28],5.959336439789816e-167
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGFBPL1,Insulin-like growth factor-binding protein-like 1,49838,257,8.06 [6.61-9.84],8.488273305480162e-94
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGSF3,Immunoglobulin superfamily member 3,49612,250,2.54 [2.27-2.84],3.519100353895112e-59
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGSF8,Immunoglobulin superfamily member 8,49838,257,3.28 [2.62-4.11],3.7379919499853696e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IGSF9,Protein turtle homolog A,43344,222,2.09 [1.84-2.36],5.513646921038775e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL10,Interleukin-10,48911,243,1.41 [1.29-1.54],1.4788973288053612e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL10RB,Interleukin-10 receptor subunit beta,50052,256,3.39 [2.84-4.03],1.811279427401513e-42
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL12A_IL12B,Interleukin-12,49612,250,1.93 [1.72-2.17],1.2088166590845999e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL12B,Interleukin-12 subunit beta,50384,253,2.75 [2.28-3.30],1.3501417948745624e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL12RB1,Interleukin-12 receptor subunit beta-1,48911,243,2.48 [2.07-2.98],1.6309571609371225e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL15RA,Interleukin-15 receptor subunit alpha,48911,243,3.00 [2.21-4.06],1.4922326386685486e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL18,Interleukin-18,49636,255,2.45 [2.04-2.94],8.069242378347698e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL18BP,Interleukin-18-binding protein,50038,257,7.32 [6.10-8.80],3.7534321099317277e-100
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL18R1,Interleukin-18 receptor 1,50384,253,8.21 [6.28-10.71],6.066487291449931e-54
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL19,Interleukin-19,48598,252,1.60 [1.42-1.80],1.8479173743291646e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL1R1,Interleukin-1 receptor type 1,49780,251,7.79 [6.21-9.78],3.411145918239679e-70
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL1R2,Interleukin-1 receptor type 2,49719,255,16.33 [9.45-28.24],1.547110295952309e-23
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL1RAP,Interleukin-1 receptor accessory protein,49862,252,0.33 [0.24-0.44],4.6799764845552165e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL1RL1,Interleukin-1 receptor-like 1,50290,259,4.52 [3.66-5.57],4.527325049949697e-45
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL1RN,Interleukin-1 receptor antagonist protein,49723,256,2.03 [1.79-2.30],3.002434945399348e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL2RA,Interleukin-2 receptor subunit alpha,49487,256,2.87 [2.47-3.34],7.895321860943055e-43
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL32,Interleukin-32,49769,249,3.54 [3.15-3.99],2.11063471109975e-96
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL4R,Interleukin-4 receptor subunit alpha,49769,249,5.47 [4.71-6.34],2.419020889558832e-112
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL5RA,Interleukin-5 receptor subunit alpha,49769,249,1.76 [1.48-2.08],6.873653677967429e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL6,Interleukin-6,49612,250,1.51 [1.39-1.65],8.757478215579494e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IL6ST,Interleukin-6 receptor subunit beta,49838,257,8.89 [6.94-11.37],2.5269141868525416e-67
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,IMMT,MICOS complex subunit MIC60,43144,222,2.53 [2.24-2.87],6.7771140837340385e-49
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,INHBB,Inhibin beta B chain,42402,222,2.25 [1.83-2.77],1.3187902170941842e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,INSR,Insulin receptor,42084,214,8.50 [5.73-12.62],2.5735626721641943e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ITGA5,Integrin alpha-5,49862,252,20.96 [15.64-28.10],5.311143755644907e-92
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ITGB1,Integrin beta-1,49789,256,5.28 [4.08-6.84],1.4333001432046245e-36
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ITGB2,Integrin beta-2,49561,256,4.59 [3.79-5.56],1.2185599350650523e-54
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ITGB7,Integrin beta-7,50263,252,2.93 [2.44-3.53],5.5500768720863074e-30
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ITGBL1,Integrin beta-like protein 1,43342,225,4.18 [3.66-4.78],1.3140823880297409e-96
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ITIH3,Inter-alpha-trypsin inhibitor heavy chain H3,50038,257,2.68 [2.01-3.56],1.3630049556763927e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,JAM2,Junctional adhesion molecule B,50283,254,3.02 [2.17-4.20],5.0815359226450026e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KAZALD1,Kazal-type serine protease inhibitor domain-containing protein 1,49612,250,3.49 [2.71-4.49],2.9228259810290827e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KCTD5,BTB/POZ domain-containing protein KCTD5,42426,218,2.00 [1.73-2.32],9.036216259076059e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KDR,Vascular endothelial growth factor receptor 2,49997,253,0.38 [0.29-0.50],2.8669977346797205e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KEL,Kell blood group glycoprotein,48689,240,3.20 [2.36-4.35],8.525209927583884e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KHK,Ketohexokinase,42189,218,2.63 [2.14-3.23],3.557812442154345e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KITLG,Kit ligand,49838,257,0.37 [0.31-0.45],3.828463070888506e-24
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KLK11,Kallikrein-11,49515,252,2.08 [1.69-2.56],4.6157744515028745e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KLKB1,Plasma kallikrein,42527,222,0.32 [0.22-0.45],7.286147466153404e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KLRB1,Killer cell lectin-like receptor subfamily B member 1,50384,253,4.42 [3.50-5.60],2.433774428575238e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KLRD1,Natural killer cells antigen CD94,50384,253,2.19 [1.75-2.75],1.2097535900691671e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KRT18,"Keratin, type I cytoskeletal 18",49612,250,2.27 [2.08-2.48],8.305758653709911e-76
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KRT19,"Keratin, type I cytoskeletal 19",49686,249,1.69 [1.47-1.94],1.6442395188967606e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KRT8,"Keratin, type II cytoskeletal 8",41954,217,1.74 [1.63-1.87],1.6156101236118426e-56
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,KYNU,Kynureninase,50384,253,3.60 [2.96-4.38],1.3124604802284894e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LAG3,Lymphocyte activation gene 3 protein,49612,250,2.75 [2.43-3.11],4.002537982303502e-59
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LAIR1,Leukocyte-associated immunoglobulin-like receptor 1,49803,255,2.38 [1.99-2.85],3.035758892773493e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LAMB1,Laminin subunit beta-1,42189,218,6.42 [4.20-9.83],1.1037295634858362e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LAMP2,Lysosome-associated membrane glycoprotein 2,48336,245,6.34 [3.61-11.13],1.2364951565467514e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LAYN,Layilin,49372,245,3.49 [2.79-4.38],1.8010003796271678e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LCAT,Phosphatidylcholine-sterol acyltransferase,43375,224,0.34 [0.26-0.44],5.8950010241385885e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LEFTY2,Left-right determination factor 2,50187,252,2.21 [1.81-2.70],8.687870412688658e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LEPR,Leptin receptor,49838,257,2.51 [1.98-3.16],1.1378114850705666e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LGALS3BP,Galectin-3-binding protein,43406,226,3.17 [2.67-3.75],3.4061576871959753e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LGALS4,Galectin-4,49803,255,2.88 [2.47-3.35],3.645811107449853e-42
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LGALS9,Galectin-9,49803,256,5.54 [4.26-7.20],1.47457057861857e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LGMN,Legumain,50052,256,2.51 [1.89-3.32],1.7098706609087724e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LIFR,Leukemia inhibitory factor receptor,49769,249,6.66 [5.28-8.40],9.993877429910554e-58
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LILRA2,Leukocyte immunoglobulin-like receptor subfamily A member 2,49862,252,5.04 [3.64-6.98],1.5986108321370577e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LILRA5,Leukocyte immunoglobulin-like receptor subfamily A member 5,49764,257,3.65 [2.72-4.89],3.951781205053098e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LILRA6,Leukocyte immunoglobulin-like receptor subfamily A member 6,43344,222,1.84 [1.53-2.21],6.845580509274817e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LILRB1,Leukocyte immunoglobulin-like receptor subfamily B member 1,50458,259,10.12 [7.36-13.93],7.606475022649339e-46
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LILRB2,Leukocyte immunoglobulin-like receptor subfamily B member 2,50212,259,6.85 [5.10-9.21],3.0144675349978764e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LILRB4,Leukocyte immunoglobulin-like receptor subfamily B member 4,48911,243,2.23 [1.77-2.80],4.942486109762445e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LMNB2,Lamin-B2,43242,221,3.06 [2.24-4.18],1.8009988008277622e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LRP1,Prolow-density lipoprotein receptor-related protein 1,49612,250,3.21 [2.25-4.58],1.3410807000608058e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LRP11,Low-density lipoprotein receptor-related protein 11,49838,257,2.67 [2.04-3.50],8.3629529942656e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LRRC25,Leucine-rich repeat-containing protein 25,49612,250,2.57 [2.26-2.92],2.8159112427674554e-47
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LTA,Lymphotoxin-alpha,49769,249,2.20 [1.83-2.64],1.8713282865166265e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LTBP2,Latent-transforming growth factor beta-binding protein 2,50458,259,11.00 [8.97-13.48],6.754756381080983e-118
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LTBP3,Latent-transforming growth factor beta-binding protein 3,48672,238,1.78 [1.57-2.01],1.0505333794976608e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LTBR,Tumor necrosis factor receptor superfamily member 3,49553,255,5.59 [4.40-7.10],3.313860358807424e-45
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LY75,Lymphocyte antigen 75,49769,249,3.98 [2.90-5.45],8.482439967051692e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LY9,T-lymphocyte surface antigen Ly-9,49259,249,7.18 [5.57-9.25],1.9047059833138544e-52
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LY96,Lymphocyte antigen 96,49457,246,3.14 [2.62-3.76],7.215141591787672e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,LYPD8,Ly6/PLAUR domain-containing protein 8,48672,238,1.61 [1.41-1.84],7.883797077261793e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MAD1L1,Mitotic spindle assembly checkpoint protein MAD1,49291,245,1.63 [1.44-1.84],6.2760709515057044e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MAMDC2,MAM domain-containing protein 2,43344,222,5.14 [4.00-6.60],1.4045093125763682e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MANSC1,MANSC domain-containing protein 1,49997,253,3.36 [2.36-4.77],1.6152123687457672e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MARCO,Macrophage receptor MARCO,49838,257,10.98 [7.76-15.55],1.571208558679459e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MASP1,Mannan-binding lectin serine protease 1,49372,245,5.62 [3.50-9.03],1.020422002840805e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MATN2,Matrilin-2,49887,255,6.26 [4.49-8.71],1.6505696931992445e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MDK,Midkine,49846,253,1.82 [1.59-2.07],1.2031534360687145e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MEGF9,Multiple epidermal growth factor-like domains protein 9,50290,259,3.15 [2.38-4.19],1.7306432524580514e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MENT,Protein MENT,42402,222,0.31 [0.23-0.42],3.922212394990296e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MERTK,Tyrosine-protein kinase Mer,50384,253,8.22 [5.88-11.50],6.361329816364179e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MFAP4,Microfibril-associated glycoprotein 4,42402,222,19.39 [14.18-26.50],3.7904088553071726e-77
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MILR1,Allergin-1,48911,243,2.62 [2.19-3.13],4.690251931751504e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MME,Neprilysin,49612,250,2.71 [2.41-3.05],2.4084678200580158e-60
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MMP10,Stromelysin-2,49725,254,1.70 [1.46-1.99],1.70230584193139e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MMP12,Macrophage metalloelastase,49880,251,1.99 [1.66-2.38],7.268604907049968e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MMP7,Matrilysin,48852,243,3.79 [3.05-4.71],2.2321318484227278e-33
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MPO,Myeloperoxidase,49862,252,1.82 [1.52-2.19],1.5545495165855164e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MRC1,Macrophage mannose receptor 1,43375,224,9.27 [6.87-12.50],4.1887604940149423e-48
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MSR1,Macrophage scavenger receptor types I and II,50283,254,5.27 [4.42-6.29],1.5063238241556818e-75
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MTUS1,Microtubule-associated tumor suppressor 1,42552,215,2.12 [1.89-2.39],3.712764917498701e-36
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MUC13,Mucin-13,48689,240,3.25 [2.81-3.76],5.685437343344645e-57
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MVK,Mevalonate kinase,48911,243,1.85 [1.66-2.07],1.4294353277302676e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,MZB1,Marginal zone B- and B1-cell-specific protein,49970,255,2.59 [2.18-3.07],1.8044534134878742e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NAGPA,N-acetylglucosamine-1-phosphodiester alpha-N-acetylglucosaminidase,42402,222,7.85 [4.88-12.63],2.094091223363833e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NBL1,Neuroblastoma suppressor of tumorigenicity 1,49997,253,3.75 [2.63-5.34],2.6348461405514306e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NCR1,Natural cytotoxicity triggering receptor 1,49698,249,2.69 [2.06-3.51],4.4538425832634723e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NCR3LG1,Natural cytotoxicity triggering receptor 3 ligand 1,43161,218,5.01 [3.93-6.40],3.089359802205484e-38
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NECTIN2,Nectin-2,49764,257,5.47 [4.28-7.00],1.331420968350259e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NELL2,Protein kinase C-binding protein NELL2,50052,256,6.54 [5.02-8.52],5.875516751683042e-44
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NFASC,Neurofascin,50384,253,28.73 [21.62-38.18],1.3182971933751966e-118
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NFATC3,"Nuclear factor of activated T-cells, cytoplasmic 3",48911,243,1.89 [1.66-2.16],6.961177236482648e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NHLRC3,NHL repeat-containing protein 3,41368,218,10.67 [7.22-15.75],1.1264072804689267e-32
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NME3,Nucleoside diphosphate kinase 3,49887,255,2.57 [1.90-3.48],7.599144988411e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NOMO1,Nodal modulator 1,49862,252,4.16 [3.06-5.66],9.619208077452409e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NOS3,"Nitric oxide synthase, endothelial",48689,240,1.74 [1.54-1.96],5.235693862001851e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NOTCH1,Neurogenic locus notch homolog protein 1,50458,259,19.85 [11.70-33.66],1.46503302815927e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NOTCH3,Neurogenic locus notch homolog protein 3,50458,259,9.40 [7.30-12.10],1.7404078235852695e-67
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NPC2,NPC intracellular cholesterol transporter 2,42615,221,2.68 [2.18-3.29],3.5004666973684286e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NPDC1,Neural proliferation differentiation and control protein 1,49838,257,2.61 [2.08-3.27],1.1871893407575094e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NPL,N-acetylneuraminate lyase,43344,222,2.65 [2.13-3.29],1.5128212554241773e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NPTX1,Neuronal pentraxin-1,49862,252,2.39 [1.93-2.97],2.3750414696427945e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NPTX2,Neuronal pentraxin-2,43342,225,4.51 [3.23-6.30],1.09275880107307e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NRCAM,Neuronal cell adhesion molecule,49838,257,5.92 [4.54-7.72],1.8570845267043023e-39
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NRP1,Neuropilin-1,50123,257,7.14 [5.70-8.93],4.5715196499495336e-66
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NRP2,Neuropilin-2,49862,252,4.30 [3.47-5.32],8.748130005623532e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NT5C1A,Cytosolic 5'-nucleotidase 1A,43242,221,2.28 [1.91-2.72],3.382534469678677e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NT5E,5'-nucleotidase,49997,253,3.29 [2.91-3.74],2.6007313862280606e-77
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,NTproBNP,N-terminal prohormone of brain natriuretic peptide,49838,257,1.41 [1.30-1.53],1.2115045613459853e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,OCLN,Occludin,43271,221,3.53 [3.06-4.07],2.428582007803938e-68
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,OSCAR,Osteoclast-associated immunoglobulin-like receptor,49887,255,5.31 [3.90-7.23],2.536488786845916e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,OSMR,Oncostatin-M-specific receptor subunit beta,50123,257,8.83 [6.34-12.29],5.495290590458165e-38
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PALM2,Paralemmin-2,43242,221,4.21 [3.66-4.84],3.428927578861843e-90
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PAM,Peptidyl-glycine alpha-amidating monooxygenase,50211,258,5.72 [3.82-8.56],2.2435364881991438e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PCBD1,Pterin-4-alpha-carbinolamine dehydratase,42320,222,2.86 [2.39-3.42],1.5508191135184477e-30
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PCDH12,Protocadherin-12,43271,221,3.24 [2.44-4.30],5.093176782949049e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PCDH17,Protocadherin-17,49838,257,4.30 [3.81-4.86],2.620620904109254e-121
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PCDH9,Protocadherin-9,43161,218,3.75 [2.67-5.25],1.7479898409420423e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PCDHB15,Protocadherin beta-15,43144,222,2.17 [1.76-2.68],6.221302083493057e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PDCD1,Programmed cell death protein 1,50182,251,3.02 [2.62-3.48],9.253905308787453e-53
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PDCD1LG2,Programmed cell death 1 ligand 2,49612,250,3.02 [2.35-3.87],3.339242937417136e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PDCD6,Programmed cell death protein 6,49838,257,2.13 [1.68-2.71],4.1354444330019875e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PDGFRA,Platelet-derived growth factor receptor alpha,49838,257,7.64 [6.10-9.56],9.88024476325663e-71
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PDGFRB,Platelet-derived growth factor receptor beta,50458,259,3.41 [2.45-4.76],5.041080697559009e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PDZK1,Na(+)/H(+) exchange regulatory cofactor NHE-RF3,42084,214,3.14 [2.74-3.59],1.0737909621981488e-60
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PEAR1,Platelet endothelial aggregation receptor 1,50458,259,4.81 [3.00-7.72],6.775248264918349e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PHYKPL,5-phosphohydroxy-L-lysine phospho-lyase,42402,222,3.07 [2.33-4.03],8.396991173513109e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PIGR,Polymeric immunoglobulin receptor,49220,246,6.85 [5.88-7.97],1.2076073817445664e-136
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PIK3IP1,Phosphoinositide-3-kinase-interacting protein 1,49862,252,3.24 [2.42-4.36],4.953173132267396e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PILRA,Paired immunoglobulin-like type 2 receptor alpha,49862,252,4.96 [3.99-6.18],1.929215204885506e-46
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PILRB,Paired immunoglobulin-like type 2 receptor beta,49838,257,3.60 [2.89-4.49],2.508790598639004e-30
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PKD1,Polycystin-1,43344,222,13.34 [9.08-19.60],9.14641793725544e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PLA2G15,Phospholipase A2 group XV,49997,253,16.18 [12.50-20.95],4.116967808158813e-99
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PLAT,Tissue-type plasminogen activator,50290,259,2.12 [1.73-2.60],4.337580165351072e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PLAU,Urokinase-type plasminogen activator,49862,252,2.44 [2.20-2.70],3.494716412838432e-63
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PLAUR,Urokinase plasminogen activator surface receptor,49477,254,8.01 [5.96-10.78],5.295470212101472e-43
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PLXNB2,Plexin-B2,50211,259,11.90 [8.88-15.94],5.787808571209559e-62
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PODXL,Podocalyxin,49612,250,8.43 [4.48-15.88],4.198014197303216e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PON2,Serum paraoxonase/arylesterase 2,48931,244,4.11 [3.12-5.42],1.2964963319203877e-23
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PRCP,Lysosomal Pro-X carboxypeptidase,50141,258,3.90 [3.34-4.56],1.53465534969604e-65
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PREB,Prolactin regulatory element-binding protein,48911,243,2.10 [1.68-2.63],8.490953251475974e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PRG2,Bone marrow proteoglycan,43342,225,2.25 [1.82-2.78],4.268513810920493e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PROC,Vitamin K-dependent protein C,49957,257,0.39 [0.30-0.50],2.5425423504849348e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PRSS2,Trypsin-2,50038,257,1.66 [1.42-1.94],1.1825133917475492e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PRSS22,Brain-specific serine protease 4,42084,214,2.04 [1.76-2.36],1.653601615694701e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PRSS8,Prostasin,49643,256,2.88 [2.29-3.64],5.0029604854989935e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PRTG,Protogenin,50263,252,3.56 [2.86-4.44],1.2623860871854574e-29
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PRUNE2,Protein prune homolog 2,42552,215,2.24 [1.79-2.80],1.8535770479353776e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PSAP,Prosaposin,42941,223,2.94 [2.39-3.62],1.0164808524407815e-24
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTGDS,Prostaglandin-H2 D-isomerase,49460,254,3.23 [2.56-4.08],4.546851245992643e-23
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTGR1,Prostaglandin reductase 1,43344,222,1.82 [1.59-2.08],1.0497746356556932e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTN,Pleiotrophin,48931,244,2.22 [1.88-2.61],1.1211339554595456e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTPRC,Receptor-type tyrosine-protein phosphatase C,43342,225,5.76 [4.53-7.31],9.207982228354908e-47
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTPRH,Receptor-type tyrosine-protein phosphatase H,43161,218,3.09 [2.66-3.59],1.4178761004424174e-48
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTPRK,Receptor-type tyrosine-protein phosphatase kappa,43161,218,3.42 [2.73-4.27],6.0042618655128046e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTPRM,Receptor-type tyrosine-protein phosphatase mu,49690,249,7.73 [5.09-11.73],7.2556321793665045e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTS,6-pyruvoyl tetrahydrobiopterin synthase,48459,239,2.51 [2.23-2.83],9.004916925803631e-52
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PTX3,Pentraxin-related protein PTX3,49769,249,3.58 [2.66-4.84],6.883991364592154e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,PVR,Poliovirus receptor,50283,254,4.92 [4.09-5.93],3.076130677741814e-63
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,QPCT,Glutaminyl-peptide cyclotransferase,49892,257,3.85 [2.76-5.37],2.13835918146859e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,QSOX1,Sulfhydryl oxidase 1,42540,223,1.75 [1.55-1.98],3.5325763059329423e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RBFOX3,RNA binding protein fox-1 homolog 3,43271,221,2.27 [1.95-2.65],3.0710811564598083e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RBKS,Ribokinase,48671,242,2.39 [1.98-2.90],6.4350151383566735e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RBP5,Retinol-binding protein 5,49612,250,2.87 [2.50-3.29],4.637751930486029e-51
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RECK,Reversion-inducing cysteine-rich protein with Kazal motifs,42189,218,6.68 [3.94-11.33],1.8860296470761657e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RELT,Tumor necrosis factor receptor superfamily member 19L,49862,252,4.00 [3.06-5.24],6.3401615578615536e-24
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,REN,Renin,49838,257,1.63 [1.47-1.80],1.215033836833736e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RIDA,2-iminobutanoate/2-iminopropanoate deaminase,42402,222,2.73 [2.31-3.24],3.8696406120192776e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RNASE1,Ribonuclease pancreatic,43375,224,2.72 [2.07-3.58],8.391020068761492e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RNASE6,Ribonuclease K6,43063,224,2.14 [1.82-2.53],1.2367190638940746e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RNASET2,Ribonuclease T2,50220,259,4.13 [3.29-5.18],1.140992675129869e-34
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,RNF149,E3 ubiquitin-protein ligase RNF149,42189,218,2.86 [2.30-3.54],1.915572376309359e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ROBO1,Roundabout homolog 1,49887,255,13.09 [10.50-16.31],9.684784318833485e-116
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ROBO2,Roundabout homolog 2,50283,254,4.37 [2.87-6.64],5.103557546581325e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SCARB2,Lysosome membrane protein 2,48515,242,4.11 [3.38-4.99],5.729209151100411e-46
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SCARF2,Scavenger receptor class F member 2,50283,254,7.70 [5.99-9.90],2.569486314374554e-57
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SCLY,Selenocysteine lyase,50116,251,4.24 [3.57-5.05],9.058819134885717e-60
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SCP2,Non-specific lipid-transfer protein,48672,238,1.41 [1.28-1.57],3.8431641527431245e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SDC1,Syndecan-1,49838,257,3.64 [3.23-4.11],3.447782738518176e-97
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SDC4,Syndecan-4,49838,257,0.37 [0.30-0.45],7.128284484215738e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SDHB,Succinate dehydrogenase,43161,218,1.97 [1.79-2.18],6.71206795337408e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SEL1L,Protein sel-1 homolog 1,42189,218,2.03 [1.75-2.34],1.3430166052377528e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SELE,E-selectin,50458,259,4.66 [3.78-5.75],3.253774038398834e-47
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SEMA3F,Semaphorin-3F,49838,257,4.53 [3.10-6.60],4.2553487872743154e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SEMA4C,Semaphorin-4C,49612,250,2.17 [1.82-2.60],2.212447219526779e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SEMA7A,Semaphorin-7A,50290,259,3.43 [2.94-4.01],2.8548452180792086e-54
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SERPINA7,Thyroxine-binding globulin,43406,226,5.40 [3.15-9.25],7.86890541210956e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SERPINA9,Serpin A9,49377,249,2.04 [1.83-2.28],7.781158294858249e-36
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SEZ6,Seizure protein 6 homolog,42164,220,2.62 [2.04-3.35],3.013498198253336e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SEZ6L,Seizure 6-like protein,49997,253,3.11 [2.17-4.47],6.782674589005972e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SEZ6L2,Seizure 6-like protein 2,49612,250,5.16 [4.06-6.57],9.161888867500791e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SFRP1,Secreted frizzled-related protein 1,49292,244,1.95 [1.63-2.33],4.381270961749097e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SGSH,N-sulphoglucosamine sulphohydrolase,42615,220,1.93 [1.64-2.27],1.062563729807756e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SHBG,Sex hormone-binding globulin,43375,224,2.45 [1.90-3.16],4.612833154331939e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SHISA5,Protein shisa-5,43342,225,2.93 [2.37-3.61],8.674474739690778e-24
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIAE,Sialate O-acetylesterase,49913,253,2.12 [1.70-2.65],2.4131912618936643e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIGLEC1,Sialoadhesin,50052,256,4.51 [3.84-5.28],3.057253552577003e-77
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIGLEC10,Sialic acid-binding Ig-like lectin 10,49769,249,3.78 [3.32-4.29],6.784486164186676e-92
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIGLEC5,Sialic acid-binding Ig-like lectin 5,49862,252,1.74 [1.52-2.00],5.9808670182090864e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIGLEC6,Sialic acid-binding Ig-like lectin 6,50263,252,2.96 [2.35-3.72],1.360202812830103e-20
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIGLEC7,Sialic acid-binding Ig-like lectin 7,49838,257,6.31 [4.89-8.15],2.581157223206689e-45
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIGLEC8,Sialic acid-binding Ig-like lectin 8,42189,218,4.44 [3.56-5.53],6.627081399378947e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIGLEC9,Sialic acid-binding Ig-like lectin 9,50192,251,3.92 [2.74-5.61],7.790850719019415e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SIRPB1,Signal-regulatory protein beta-1,49719,255,3.05 [2.49-3.74],6.3580185222498364e-27
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SLAMF1,Signaling lymphocytic activation molecule,48911,243,2.30 [1.98-2.67],5.467919915797506e-28
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SLAMF6,SLAM family member 6,48672,238,2.45 [1.99-3.01],1.6268089209050948e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SLAMF7,SLAM family member 7,49769,249,2.34 [2.02-2.70],5.14421363025397e-30
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SLAMF8,SLAM family member 8,48672,238,4.02 [3.52-4.60],8.754296881521281e-93
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SLIT2,Slit homolog 2 protein,48689,240,1.78 [1.58-2.01],1.2178957091110157e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SMOC1,SPARC-related modular calcium-binding protein 1,50263,252,3.44 [2.73-4.35],2.249479769016762e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SMPD1,Sphingomyelin phosphodiesterase,50036,253,3.26 [2.75-3.85],6.484756178663702e-43
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SOD2,"Superoxide dismutase [Mn], mitochondrial",49862,252,4.13 [3.57-4.77],6.058994828846976e-81
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SORD,Sorbitol dehydrogenase,50036,251,1.75 [1.49-2.06],1.1458713825356684e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SORT1,Sortilin,49764,257,2.88 [2.20-3.76],1.4805606241937125e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SPINK1,Serine protease inhibitor Kazal-type 1,49862,252,2.00 [1.64-2.43],5.906048296960306e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SPINT1,Kunitz-type protease inhibitor 1,49701,251,4.12 [3.48-4.87],4.456765282410212e-61
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SPON1,Spondin-1,49887,255,3.44 [3.02-3.93],1.0539756624752912e-74
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SPON2,Spondin-2,49595,257,10.45 [8.27-13.20],4.1755941721398344e-86
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SPP1,Osteopontin,50380,259,2.45 [2.00-3.00],4.787222348641744e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SRPX,Sushi repeat-containing protein SRPX,43344,222,6.82 [5.52-8.41],1.0771151686284316e-71
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SSC4D,Scavenger receptor cysteine-rich domain-containing group B protein,49764,257,0.71 [0.64-0.78],2.496212956688419e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SSC5D,Soluble scavenger receptor cysteine-rich domain-containing protein SSC5D,50038,257,2.21 [1.72-2.84],5.98763950321692e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ST6GAL1,"Beta-galactoside alpha-2,6-sialyltransferase 1",50458,259,2.34 [1.83-3.00],1.8562552960417584e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,STC1,Stanniocalcin-1,50283,254,3.04 [2.55-3.61],7.169290355904988e-36
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SULT2A1,Bile salt sulfotransferase,49769,249,2.22 [2.02-2.45],1.1992864087363834e-59
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SUOX,"Sulfite oxidase, mitochondrial",43271,221,2.46 [2.14-2.82],1.4768963385382506e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,SUSD2,Sushi domain-containing protein 2,49862,252,3.18 [2.60-3.90],9.291976226869555e-29
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TACSTD2,Tumor-associated calcium signal transducer 2,44164,230,2.96 [2.54-3.46],8.913114039206018e-44
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TCOF1,Treacle protein,43344,222,2.35 [1.91-2.90],9.409109650231234e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TCTN3,Tectonic-3,43344,222,6.72 [4.55-9.92],9.600743592430134e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TEK,Angiopoietin-1 receptor,49997,253,15.49 [10.35-23.17],1.386133143953184e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TFF1,Trefoil factor 1,49620,250,1.47 [1.31-1.65],6.337607332371989e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TFF2,Trefoil factor 2,49969,256,2.41 [2.09-2.77],9.86645340121802e-34
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TFF3,Trefoil factor 3,49794,254,1.71 [1.46-1.99],1.47274363103488e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TFPI2,Tissue factor pathway inhibitor 2,49845,252,1.86 [1.69-2.06],9.449842491880435e-35
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TGFB1,Transforming growth factor beta-1 proprotein,50301,252,2.80 [2.35-3.33],6.9095248344141675e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TGFBI,Transforming growth factor-beta-induced protein ig-h3,49540,255,9.79 [7.54-12.70],6.309966864202186e-66
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TGFBR2,TGF-beta receptor type-2,49997,253,2.58 [2.06-3.22],1.4998148693244904e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,THBD,Thrombomodulin,49838,257,2.68 [1.98-3.63],1.5762938161454127e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,THBS2,Thrombospondin-2,49862,252,6.94 [6.13-7.85],1.4396755001087218e-205
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,THBS4,Thrombospondin-4,49873,256,2.54 [2.03-3.17],3.059147943004282e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,THOP1,Thimet oligopeptidase,49601,257,2.71 [2.07-3.56],6.466902415618549e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,THY1,Thy-1 membrane glycoprotein,50283,254,4.79 [3.54-6.48],2.660968007224767e-24
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TIE1,Tyrosine-protein kinase receptor Tie-1,50458,259,6.96 [4.68-10.34],7.996577472608381e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TIMP1,Metalloproteinase inhibitor 1,49297,253,4.14 [3.50-4.89],1.5743284080027643e-62
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TINAGL1,Tubulointerstitial nephritis antigen-like,49682,256,10.87 [7.17-16.48],2.560103349648231e-29
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TLR1,Toll-like receptor 1,42084,214,3.55 [2.59-4.85],2.34215990726692e-15
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TLR3,Toll-like receptor 3,50384,253,2.10 [1.70-2.59],5.7538741417921024e-12
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNC,Tenascin,50038,257,1.94 [1.57-2.40],6.672480678756871e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNF,Tumor necrosis factor,48853,244,1.90 [1.67-2.17],6.7255151003312285e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF10A,Tumor necrosis factor receptor superfamily member 10A,49457,246,3.16 [2.78-3.60],6.245781705816802e-68
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF10B,Tumor necrosis factor receptor superfamily member 10B,49457,246,1.59 [1.45-1.73],3.1776090251562543e-25
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF11A,Tumor necrosis factor receptor superfamily member 11A,50384,253,2.61 [2.10-3.25],3.547932700218874e-18
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF11B,Tumor necrosis factor receptor superfamily member 11B,49803,255,6.41 [5.22-7.87],4.390282067846495e-70
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF12A,Tumor necrosis factor receptor superfamily member 12A,49997,253,4.08 [3.33-5.00],1.1429850557997371e-41
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF13B,Tumor necrosis factor receptor superfamily member 13B,49887,255,2.21 [1.86-2.62],1.0093537334909152e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF14,Tumor necrosis factor receptor superfamily member 14,49887,255,3.70 [2.84-4.83],3.2927804112901043e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF1A,Tumor necrosis factor receptor superfamily member 1A,49862,252,4.94 [3.90-6.26],6.951494749644861e-40
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF1B,Tumor necrosis factor receptor superfamily member 1B,49862,252,2.11 [1.90-2.33],1.2569506533572089e-45
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF21,Tumor necrosis factor receptor superfamily member 21,50283,254,4.96 [3.79-6.50],4.010530660143099e-31
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF4,Tumor necrosis factor receptor superfamily member 4,50301,252,4.06 [3.40-4.86],2.8971730771498013e-53
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF6B,Tumor necrosis factor receptor superfamily member 6B,49457,246,2.43 [2.17-2.72],1.0911199897902684e-53
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF8,Tumor necrosis factor receptor superfamily member 8,50283,254,2.85 [2.43-3.35],2.030968888279104e-37
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFRSF9,Tumor necrosis factor receptor superfamily member 9,49457,246,2.50 [2.21-2.83],2.694206319370582e-47
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFSF11,Tumor necrosis factor ligand superfamily member 11,49769,249,0.45 [0.38-0.54],3.123160100578205e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFSF13,Tumor necrosis factor ligand superfamily member 13,50052,256,4.17 [2.96-5.88],4.090957369693269e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFSF13B,Tumor necrosis factor ligand superfamily member 13B,50374,259,5.22 [4.31-6.31],1.0836917860580994e-64
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TNFSF8,Tumor necrosis factor ligand superfamily member 8,43342,225,4.94 [4.11-5.94],5.6548865589499e-65
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TPP1,Tripeptidyl-peptidase 1,49479,253,2.48 [2.15-2.85],1.7926696670321048e-36
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TREM2,Triggering receptor expressed on myeloid cells 2,49803,255,2.83 [2.39-3.36],3.82001694483239e-33
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TSPAN8,Tetraspanin-8,43161,218,2.38 [2.12-2.67],2.2221107060767955e-49
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TXNDC15,Thioredoxin domain-containing protein 15,49997,253,3.80 [2.77-5.21],1.0065997145877311e-16
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,TYRO3,Tyrosine-protein kinase receptor TYRO3,49838,257,3.51 [2.39-5.17],1.6088131564843863e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ULBP2,UL16-binding protein 2,49457,246,3.80 [3.07-4.70],2.5707511619214087e-34
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,UPB1,Beta-ureidopropionase,43344,222,1.76 [1.58-1.95],1.0644935081153988e-26
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,UXS1,UDP-glucuronic acid decarboxylase 1,48672,238,1.63 [1.41-1.89],4.9818561934364174e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VCAM1,Vascular cell adhesion protein 1,49957,257,13.08 [10.72-15.95],2.9718416541485268e-142
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VCAN,Versican core protein,50283,254,3.45 [2.46-4.83],5.490301520405907e-13
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VNN1,Pantetheinase,43375,224,1.86 [1.54-2.26],3.0812405622761765e-10
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VSIG10,V-set and immunoglobulin domain-containing protein 10,43144,222,2.06 [1.72-2.48],1.0129611923097812e-14
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VSIG2,V-set and immunoglobulin domain-containing protein 2,43144,222,1.70 [1.45-1.99],7.016913734702022e-11
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VSIG4,V-set and immunoglobulin domain-containing protein 4,49795,251,2.89 [2.34-3.56],2.8586450235645283e-23
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VSNL1,Visinin-like protein 1,43242,221,2.36 [1.98-2.82],2.75185749853902e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VTCN1,V-set domain-containing T-cell activation inhibitor 1,48672,238,3.33 [2.81-3.95],1.1032273612923528e-43
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,VWA1,von Willebrand factor A domain-containing protein 1,50187,252,3.16 [2.49-4.00],1.7174478692006373e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,WARS,"Tryptophan--tRNA ligase, cytoplasmic",49862,252,3.10 [2.39-4.01],1.0726109106975189e-17
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,WFDC2,WAP four-disulfide core domain protein 2,47326,240,2.62 [2.16-3.17],2.0180967559238185e-22
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,XCL1,Lymphotactin,50263,252,1.80 [1.59-2.03],6.226697318945114e-21
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,YAP1,Transcriptional coactivator YAP1,43242,221,3.29 [2.54-4.26],1.4418558361852162e-19
+Chapter XI Diseases of the digestive system,Fibrosis and cirrhosis of liver,ZBTB17,Zinc finger and BTB domain-containing protein 17,48931,244,1.69 [1.44-1.98],1.9071973692522702e-10

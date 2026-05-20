@@ -1,0 +1,17 @@
+## Overview of the Enriched Pathways
+
+In Table 1, we rank the enriched biological pathways based on a combination of statistical significance, biological coherence, and relevance to Alzheimer disease. Notably, several of the strongest signals converge on synaptic and neuronal communication processes, including transmission across chemical synapses (REAC:R-HSA-112315, p = 0.002103704440645029), chemical synaptic transmission (GO:0007268, p = 0.014393306270160168), synaptic vesicle pathway (WP:WP2267, p = 0.012009274435675501), vesicle organization (GO:0016050, p = 0.017522469177414065), and neuronal system (REAC:R-HSA-112316, p = 0.005419267208860265). Together, these pathways support the well-established view from the literature that early synaptic dysfunction, impaired vesicle trafficking, and defective neurotransmitter release are central features of Alzheimer disease and closely linked to memory loss and cognitive decline. The enrichment of axon-related and neuronal differentiation pathways, including axon (GO:0030424, p = 0.015047975701690239) and cell lineage map for neuronal differentiation (WP:WP5417, p = 0.003930549795925289), further suggests disruption of neuronal connectivity and maintenance, which is consistent with evidence that axonal degeneration and altered neuronal identity contribute to disease progression. In parallel, enrichment of intermediate filament (GO:0005882, p = 0.015047975701690239) points to cytoskeletal abnormalities; this is biologically relevant because filament disorganization and broader cytoskeletal defects have been repeatedly implicated in neurodegeneration and neuronal structural instability in Alzheimer disease. The presence of receptor ligand activity (GO:0048018, p = 0.008580190793838793) suggests altered intercellular signaling, while the highly significant lipoprotein particle receptor binding pathway (GO:0070325, p = 0.0022547284074943743) is particularly notable given strong literature linking lipoprotein receptor pathways, especially those involving apolipoprotein signaling and lipid handling, to amyloid biology, neuronal survival, and Alzheimer disease risk. Overall, the pathway profile highlights a coherent disease theme centered on synaptic failure, vesicle and axonal dysfunction, cytoskeletal disruption, and altered receptor-mediated signaling, with the low p-values and repeated enrichment across Gene Ontology, WikiPathways, and Reactome providing convergent support for their relevance to Alzheimer disease.
+
+Table 1: Top Enriched Pathways from Each Source
+| Term ID | Pathway Name | Associated Proteins Counts | Weighted Score | p-value | Source |
+| --- | --- | --- | --- | --- | --- |
+| GO:0016050 | vesicle organization | 3 | 0.446 | 1.752e-02 | GO:BP |
+| GO:0005882 | intermediate filament | 2 | 0.433 | 1.505e-02 | GO:CC |
+| WP:WP5417 | Cell lineage map for neuronal differentiation | 3 | 0.411 | 3.931e-03 | WP |
+| GO:0007268 | chemical synaptic transmission | 4 | 0.407 | 1.439e-02 | GO:BP |
+| GO:0048018 | receptor ligand activity | 3 | 0.385 | 8.580e-03 | GO:MF |
+| WP:WP2267 | Synaptic vesicle pathway | 2 | 0.374 | 1.201e-02 | WP |
+| GO:0070325 | lipoprotein particle receptor binding | 2 | 0.270 | 2.255e-03 | GO:MF |
+| REAC:R-HSA-112316 | Neuronal System | 3 | 0.243 | 5.419e-03 | REAC |
+| REAC:R-HSA-112315 | Transmission across Chemical Synapses | 3 | 0.238 | 2.104e-03 | REAC |
+| GO:0030424 | axon | 3 | 0.234 | 1.505e-02 | GO:CC |

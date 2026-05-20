@@ -1,0 +1,1078 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ABCA2,ATP-binding cassette sub-family A member 2,41510,2258,2.10 [1.93-2.28],2.501312221849465e-65
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ABL1,Tyrosine-protein kinase ABL1,49101,3036,1.22 [1.17-1.28],6.4287649816735195e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACAA1,"3-ketoacyl-CoA thiolase, peroxisomal",48182,2972,1.13 [1.09-1.18],1.1430540353076712e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACAN,Aggrecan core protein,48862,3025,1.89 [1.69-2.13],4.3937680046351085e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACE,Angiotensin-converting enzyme,42940,2333,1.89 [1.63-2.18],1.1685276413272318e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACE2,Angiotensin-converting enzyme 2,48438,3007,1.28 [1.21-1.35],1.8811739713218464e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACP5,Tartrate-resistant acid phosphatase type 5,49550,3072,1.54 [1.40-1.70],1.9491585725692512e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACP6,Lysophosphatidic acid phosphatase type 6,49681,3068,1.44 [1.36-1.52],4.0951077470294447e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACRV1,Acrosomal protein SP-10,41676,2263,1.18 [1.13-1.24],1.1168257299262362e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACTA2,"Actin, aortic smooth muscle",48438,3007,2.02 [1.94-2.10],4.7088562123619456e-259
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACTN2,Alpha-actinin-2,41510,2258,1.42 [1.34-1.51],9.406710643111263e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACTN4,Alpha-actinin-4,48413,2997,1.37 [1.27-1.48],9.741395514665537e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ACVRL1,Serine/threonine-protein kinase receptor R3,48876,3013,14.99 [13.72-16.38],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADA,Adenosine deaminase,49875,3077,1.38 [1.27-1.50],6.804867157338229e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADA2,Adenosine deaminase 2,49043,3057,2.00 [1.87-2.14],3.3711052046540035e-91
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAM12,Disintegrin and metalloproteinase domain-containing protein 12,41676,2263,2.40 [2.26-2.54],2.732689514869648e-182
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAM15,Disintegrin and metalloproteinase domain-containing protein 15,48438,3007,1.48 [1.34-1.65],7.483273235415218e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAM22,Disintegrin and metalloproteinase domain-containing protein 22,48953,3016,4.70 [4.31-5.13],2.120801534759804e-265
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAM23,Disintegrin and metalloproteinase domain-containing protein 23,49875,3077,3.79 [3.41-4.21],1.3358666852666164e-134
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAM8,Disintegrin and metalloproteinase domain-containing protein 8,49688,3076,2.77 [2.54-3.02],9.290020818794196e-121
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAM9,Disintegrin and metalloproteinase domain-containing protein 9,42726,2335,4.16 [3.83-4.51],7.818723812573124e-258
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAMTS1,A disintegrin and metalloproteinase with thrombospondin motifs 1,41676,2263,1.70 [1.54-1.87],7.498469280489826e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAMTS13,A disintegrin and metalloproteinase with thrombospondin motifs 13,49944,3100,0.66 [0.58-0.75],3.606667063295707e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAMTS15,A disintegrin and metalloproteinase with thrombospondin motifs 15,49101,3036,3.22 [3.00-3.45],1.9356648328666307e-241
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAMTS16,A disintegrin and metalloproteinase with thrombospondin motifs 16,48438,3007,1.49 [1.40-1.58],1.2017149698417175e-36
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAMTS4,A disintegrin and metalloproteinase with thrombospondin motifs 4,41676,2263,1.81 [1.65-2.00],1.810228697429315e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAMTSL2,ADAMTS-like protein 2,42910,2342,2.14 [1.94-2.36],2.0080738557918424e-50
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAMTSL4,ADAMTS-like protein 4,41774,2257,1.70 [1.44-2.01],4.6183447296571614e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADAMTSL5,ADAMTS-like protein 5,42910,2329,1.61 [1.47-1.76],7.499886345324327e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADGRB3,Adhesion G protein-coupled receptor B3,48876,3013,2.94 [2.70-3.20],5.077395648090144e-135
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADGRE1,Adhesion G protein-coupled receptor E1,42726,2335,1.44 [1.35-1.54],3.143631201975595e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADGRE2,Adhesion G protein-coupled receptor E2,49549,3081,2.49 [2.24-2.77],6.945034996863651e-64
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADGRE5,Adhesion G protein-coupled receptor E5,49704,3095,2.28 [2.10-2.48],5.459586387689196e-85
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADGRG1,Adhesion G-protein coupled receptor G1,49101,3036,1.26 [1.22-1.31],4.195383436691789e-45
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADGRG2,Adhesion G-protein coupled receptor G2,49334,3062,0.62 [0.55-0.69],5.448819621093973e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ADM,Pro-adrenomedullin,49755,3074,20.65 [18.17-23.47],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AFM,Afamin,42970,2335,0.47 [0.39-0.57],2.6372378102942057e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AFP,Alpha-fetoprotein,48798,3006,0.85 [0.81-0.89],6.433389291704992e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AGER,Advanced glycosylation end product-specific receptor,49219,3063,2.59 [2.41-2.78],1.7855531691503249e-150
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AGR2,Anterior gradient protein 2 homolog,47796,2946,1.43 [1.38-1.47],2.531571343575389e-117
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AGR3,Anterior gradient protein 3,48100,2969,1.30 [1.24-1.37],2.1653630284756343e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AGRN,Agrin,49549,3081,4.23 [4.03-4.44],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AGRP,Agouti-related protein,49875,3077,1.88 [1.77-2.00],1.4459872440284406e-91
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AHNAK,Neuroblast differentiation-associated protein AHNAK,41774,2257,2.54 [2.34-2.77],3.235796907550313e-101
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AHNAK2,Protein AHNAK2,41774,2257,2.58 [2.34-2.83],2.0591028005482045e-85
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AIF1L,Allograft inflammatory factor 1-like,41774,2257,1.27 [1.19-1.34],2.2242359059276144e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ALCAM,CD166 antigen,49944,3100,5.56 [4.80-6.44],7.866175410926665e-116
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AMBP,Protein AMBP,49687,3069,22.39 [20.13-24.90],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AMY1A_AMY1B_AMY1C,Alpha-amylase 1A_Alpha-amylase 1B_Alpha-amylase 1C,40228,2176,1.36 [1.27-1.45],7.393906509864001e-20
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AMY2A,Pancreatic alpha-amylase,47444,2944,1.65 [1.54-1.76],9.633804136621336e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AMY2B,Alpha-amylase 2B,46000,2857,1.63 [1.53-1.74],2.937182153935976e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANG,Angiogenin,49207,3069,2.85 [2.65-3.06],6.461123194053344e-171
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANGPT2,Angiopoietin-2,49755,3074,2.91 [2.70-3.13],3.699933955948628e-176
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANGPTL1,Angiopoietin-related protein 1,48616,3020,2.21 [1.98-2.46],8.836608069327262e-46
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANGPTL2,Angiopoietin-related protein 2,49388,3076,1.44 [1.34-1.56],3.102048168883342e-20
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANGPTL3,Angiopoietin-related protein 3,49368,3072,1.55 [1.42-1.69],4.0632388492398034e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANGPTL4,Angiopoietin-related protein 4,49467,3074,3.34 [3.11-3.58],9.842513082859506e-245
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANGPTL7,Angiopoietin-related protein 7,49755,3074,2.15 [1.99-2.32],6.209104812618884e-88
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANXA10,Annexin A10,48186,2973,1.32 [1.27-1.36],1.345543054710966e-59
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ANXA5,Annexin A5,48026,2961,2.25 [2.07-2.44],5.5348492694071295e-84
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AOC3,Membrane primary amine oxidase,49531,3084,1.91 [1.72-2.12],8.613074822950083e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,APBB1IP,Amyloid beta A4 precursor protein-binding family B member 1-interacting protein,49101,3036,1.36 [1.28-1.45],1.704248438297628e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,APOA1,Apolipoprotein A-I,42970,2335,0.55 [0.47-0.65],6.685313354050748e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,APOA2,Apolipoprotein A-II,42940,2333,1.98 [1.84-2.14],7.758765918067598e-70
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,APOA4,Apolipoprotein A-IV,42970,2335,2.23 [2.09-2.38],3.2092556577582914e-128
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,APOC1,Apolipoprotein C-I,42888,2332,0.55 [0.49-0.61],2.2872499506195566e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,APOH,Beta-2-glycoprotein 1,49341,3056,1.66 [1.54-1.80],1.536587795691119e-37
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,APOM,Apolipoprotein M,49452,3078,0.43 [0.38-0.48],1.75352601367904e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AREG,Amphiregulin,49101,3036,2.46 [2.33-2.59],9.053138024744848e-241
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ARHGEF5,Rho guanine nucleotide exchange factor 5,41556,2263,1.30 [1.24-1.36],2.1618763115364085e-29
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ART3,Ecto-ADP-ribosyltransferase 3,49531,3084,4.71 [4.42-5.01],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ASGR1,Asialoglycoprotein receptor 1,48953,3016,4.46 [4.20-4.75],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ASGR2,Asialoglycoprotein receptor 2,42940,2333,6.95 [6.16-7.85],5.2478152091277343e-216
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ATOX1,Copper transport protein ATOX1,49490,3069,1.16 [1.11-1.22],1.1575033851220847e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ATP6AP2,Renin receptor,48182,2972,1.46 [1.37-1.55],2.2040628074409017e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ATRAID,All-trans retinoic acid-induced differentiation factor,42726,2335,1.90 [1.83-1.97],2.566548693665488e-263
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,AXL,Tyrosine-protein kinase receptor UFO,49531,3084,2.98 [2.71-3.29],7.482344847098674e-109
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,B2M,Beta-2-microglobulin,42970,2335,1.91 [1.84-1.98],5.368926918656782e-288
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,B3GNT7,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7",41774,2257,2.05 [1.83-2.29],5.04035407018085e-37
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,B4GALT1,"Beta-1,4-galactosyltransferase 1",49549,3081,6.98 [6.41-7.59],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,B4GAT1,"Beta-1,4-glucuronyltransferase 1",49341,3056,1.53 [1.34-1.75],2.378917500964857e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BAG3,BAG family molecular chaperone regulator 3,48876,3013,2.15 [1.98-2.32],1.1796618409697455e-80
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BAIAP2,Brain-specific angiogenesis inhibitor 1-associated protein 2,48182,2972,1.29 [1.24-1.35],6.571198557165073e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BAMBI,BMP and activin membrane-bound inhibitor homolog,48182,2972,3.40 [3.18-3.64],4.932666031509786e-270
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BCAM,Basal cell adhesion molecule,49341,3056,2.33 [2.09-2.61],3.3889722268943543e-49
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BCAT1,"Branched-chain-amino-acid aminotransferase, cytosolic",42910,2329,1.46 [1.29-1.64],5.976684181353595e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BCL2,Apoptosis regulator Bcl-2,42726,2335,1.27 [1.20-1.34],7.664658521504253e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BCL2L11,"Bcl-2-like protein 11, Isoform BimL ",49268,3047,1.77 [1.63-1.93],2.2007182356009916e-40
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BCL2L15,Bcl-2-like protein 15,41676,2263,1.31 [1.23-1.38],6.136204881359313e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BMP10,Bone morphogenetic protein 10,41974,2282,1.91 [1.66-2.20],1.939475234848947e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BMP4,Bone morphogenetic protein 4,48876,3013,1.34 [1.26-1.43],1.7533341889825709e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BMP6,Bone morphogenetic protein 6,48360,3007,1.34 [1.24-1.45],1.9128316084915641e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BMPER,BMP-binding endothelial regulator protein,41974,2282,4.25 [3.86-4.68],1.986444145293643e-189
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BNIP3L,BCL2/adenovirus E1B 19 kDa protein-interacting protein 3-like,41676,2263,1.48 [1.36-1.61],8.774002169493966e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BOC,Brother of CDO,48438,3007,1.67 [1.46-1.92],1.8006148488577617e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BOLA1,BolA-like protein 1,41556,2263,1.29 [1.21-1.37],7.82096566724628e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BRK1,Protein BRICK1,48186,2973,1.56 [1.46-1.67],9.702800402791562e-37
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BSG,Basigin,49793,3072,23.01 [20.40-25.96],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BST2,Bone marrow stromal antigen 2,49770,3078,1.55 [1.48-1.62],6.482139506299781e-74
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BTN2A1,Butyrophilin subfamily 2 member A1,49549,3081,10.80 [9.96-11.71],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,BTN3A2,Butyrophilin subfamily 3 member A2,49268,3047,2.34 [2.23-2.46],4.299212348280652e-253
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,C1QA,Complement C1q subcomponent subunit A,49629,3065,3.75 [3.31-4.24],5.541024630067223e-96
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,C1QTNF1,Complement C1q tumor necrosis factor-related protein 1,49531,3084,1.41 [1.32-1.51],2.0435654542975232e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,C1QTNF5,Complement C1q tumor necrosis factor-related protein 5,41974,2282,1.50 [1.35-1.68],4.0717295092509974e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,C1QTNF9,Complement C1q and tumor necrosis factor-related protein 9A,41897,2276,1.39 [1.28-1.52],2.299293769689412e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,C1RL,Complement C1r subcomponent-like protein,42896,2332,2.21 [1.80-2.72],7.708440268046494e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,C2CD2L,Phospholipid transfer protein C2CD2L,48104,2970,1.26 [1.18-1.35],1.2589686579219453e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,C4BPB,C4b-binding protein beta chain,49490,3069,1.41 [1.30-1.52],1.3868713873736202e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,C7,Complement component C7,41937,2287,2.60 [2.30-2.94],6.023766181891212e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CA12,Carbonic anhydrase 12,49101,3036,3.41 [3.22-3.61],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CA14,Carbonic anhydrase 14,49755,3074,2.97 [2.73-3.23],6.784925596031178e-142
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CA3,Carbonic anhydrase 3,49862,3096,1.42 [1.35-1.49],7.017939884806106e-46
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CA4,Carbonic anhydrase 4,49944,3100,5.72 [5.12-6.39],3.76833143780272e-211
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CA5A,"Carbonic anhydrase 5A, mitochondrial",48438,3007,1.29 [1.25-1.33],1.8596639457450822e-54
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CA6,Carbonic anhydrase 6,49189,3045,0.81 [0.77-0.86],3.0795439361421815e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CA9,Carbonic anhydrase 9,49755,3074,1.62 [1.53-1.72],1.2186015831546042e-57
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CALB1,Calbindin,49101,3036,2.87 [2.70-3.04],5.092935760522769e-275
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CALB2,Calretinin,48186,2973,1.68 [1.62-1.74],4.3145368419692456e-157
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CALCA,Calcitonin,48871,3013,1.68 [1.62-1.74],8.703246561012823e-183
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CALCB,Calcitonin gene-related peptide 2,42807,2329,1.94 [1.84-2.04],2.4814095167953387e-151
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CAMKK1,Calcium/calmodulin-dependent protein kinase kinase 1,48182,2972,1.27 [1.18-1.36],4.047639525078695e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CANT1,Soluble calcium-activated nucleotidase 1,49184,3042,8.27 [7.11-9.61],2.420720510299524e-167
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CAPG,Macrophage-capping protein,48968,3020,1.69 [1.62-1.78],8.124751561701075e-104
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CBLIF,Cobalamin binding intrinsic factor,49261,3056,1.37 [1.32-1.43],7.941157481589634e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCDC80,Coiled-coil domain-containing protein 80,49334,3062,3.13 [2.93-3.35],4.143772283475936e-240
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCER2,Coiled-coil domain-containing glutamate-rich protein 2,41774,2257,1.75 [1.65-1.84],1.6007958949121742e-90
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL11,Eotaxin,49875,3077,1.91 [1.75-2.08],4.0791230862868713e-50
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL14,C-C motif chemokine 14,49207,3069,2.26 [2.16-2.36],1.8461882625491988e-296
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL15,C-C motif chemokine 15,49944,3100,3.02 [2.85-3.21],3.675215241321641e-297
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL16,C-C motif chemokine 16,49944,3100,2.30 [2.16-2.45],7.456265451344069e-142
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL17,C-C motif chemokine 17,49224,3068,1.13 [1.09-1.17],6.006760338758196e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL18,C-C motif chemokine 18,48654,3032,1.31 [1.27-1.36],1.926920151204028e-49
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL19,C-C motif chemokine 19,49770,3078,1.08 [1.06-1.10],4.1923275793623534e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL20,C-C motif chemokine 20,49875,3077,1.25 [1.22-1.29],2.9995103877792323e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL21,C-C motif chemokine 21,49549,3081,1.69 [1.61-1.77],3.748304609898533e-104
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL22,C-C motif chemokine 22,48825,3046,1.39 [1.31-1.48],2.45555282672561e-29
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL23,C-C motif chemokine 23,49549,3081,2.72 [2.53-2.92],5.3292714401047664e-163
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL25,C-C motif chemokine 25,49875,3077,2.04 [1.91-2.17],1.99916998975873e-104
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL27,C-C motif chemokine 27,49334,3062,1.64 [1.55-1.73],4.742851236153958e-73
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL3,C-C motif chemokine 3,49268,3047,1.37 [1.33-1.41],9.496083602176523e-102
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCL7,C-C motif chemokine 7,49268,3047,1.39 [1.33-1.45],6.651736830300122e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCN3,CCN family member 3,49864,3096,4.51 [4.22-4.82],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCN4,CCN family member 4,49755,3074,2.38 [2.23-2.55],4.619635263108289e-145
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CCN5,CCN family member 5,49341,3056,3.57 [3.32-3.84],8.116577233615609e-256
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD14,Monocyte differentiation antigen CD14,48342,3035,2.12 [2.01-2.24],1.506105958063515e-155
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD160,CD160 antigen,49875,3077,3.08 [2.90-3.26],4.9594993414194e-311
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD163,Scavenger receptor cysteine-rich type 1 protein M130,49531,3084,1.53 [1.42-1.64],1.1591651566437804e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD164,Sialomucin core protein 24,49341,3056,1.66 [1.57-1.76],5.845599318478817e-67
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD1C,T-cell surface glycoprotein CD1c,49490,3069,0.61 [0.54-0.69],8.325940878177286e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD2,T-cell surface antigen CD2,41510,2258,1.33 [1.23-1.43],1.1301646808787453e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD200,OX-2 membrane glycoprotein,49268,3047,3.12 [2.87-3.40],1.639123092218783e-151
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD207,C-type lectin domain family 4 member K,48252,2991,2.76 [2.55-2.98],2.2541753389198344e-146
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD244,Natural killer cell receptor 2B4,49875,3077,1.91 [1.71-2.14],1.75050873856824e-29
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD248,Endosialin,42910,2342,1.68 [1.52-1.85],2.2247390696199373e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD27,CD27 antigen,49490,3069,4.14 [3.94-4.35],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD274,Programmed cell death 1 ligand 1,48953,3016,2.81 [2.65-2.99],4.927548287698841e-252
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD276,CD276 antigen,49302,3068,3.22 [2.95-3.52],5.418269355179372e-149
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD28,T-cell-specific surface glycoprotein CD28,48182,2972,1.98 [1.86-2.10],3.469545065124013e-103
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD300A,CMRF35-like molecule 8,41974,2282,6.16 [5.48-6.92],2.6066581150678043e-202
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD300C,CMRF35-like molecule 6,49770,3078,4.40 [4.10-4.72],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD300E,CMRF35-like molecule 2,49593,3062,4.68 [4.40-4.99],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD300LF,CMRF35-like molecule 1,49755,3074,2.38 [2.23-2.54],2.36066041090341e-154
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD300LG,CMRF35-like molecule 9,49341,3056,3.73 [3.43-4.04],2.90816415484211e-220
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD302,CD302 antigen,49101,3036,6.05 [5.72-6.41],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD33,Myeloid cell surface antigen CD33,49490,3069,1.19 [1.15-1.25],1.3665584813628366e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD34,Hematopoietic progenitor cell antigen CD34,49612,3069,1.69 [1.48-1.93],4.239736517100908e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD38,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,49101,3036,8.15 [7.52-8.83],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD4,T-cell surface glycoprotein CD4,49185,3040,2.19 [2.09-2.30],1.1280640836885188e-227
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD40,Tumor necrosis factor receptor superfamily member 5,49307,3071,1.59 [1.50-1.68],4.4738313685571325e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD46,Membrane cofactor protein,49044,3058,3.48 [3.27-3.71],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD48,CD48 antigen,49467,3074,3.29 [2.99-3.61],5.9774242474604635e-136
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD5,T-cell surface glycoprotein CD5,49687,3069,2.09 [2.00-2.19],2.057290953499944e-228
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD55,Complement decay-accelerating factor,47621,2978,3.39 [3.21-3.59],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD58,Lymphocyte function-associated antigen 3,49220,3065,4.16 [3.47-4.99],3.073629075149121e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD5L,CD5 antigen-like,42739,2321,1.44 [1.33-1.57],2.447452368476717e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD7,T-cell antigen CD7,41595,2258,2.10 [1.96-2.24],1.0794674850262531e-105
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD70,CD70 antigen,49268,3047,1.72 [1.60-1.84],1.4971116029864038e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD72,B-cell differentiation antigen CD72,41974,2282,2.21 [2.04-2.39],3.2865016695993244e-87
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD74,HLA class II histocompatibility antigen gamma chain,49770,3078,4.96 [4.62-5.33],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD79B,B-cell antigen receptor complex-associated protein beta chain,49875,3077,2.99 [2.87-3.12],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD80,T-lymphocyte activation antigen CD80,42910,2329,2.56 [2.32-2.82],1.5650148062956208e-79
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD83,CD83 antigen,49268,3047,4.15 [3.87-4.45],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD8A,T-cell surface glycoprotein CD8 alpha chain,49770,3078,1.32 [1.24-1.40],1.5571646386312385e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD93,Complement component C1q receptor,47468,2957,4.17 [3.89-4.47],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD99,CD99 antigen,49341,3056,12.25 [10.86-13.81],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CD99L2,CD99 antigen-like protein 2,49341,3056,5.68 [5.05-6.40],9.087891347152814e-180
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDCP1,CUB domain-containing protein 1,48953,3016,1.48 [1.40-1.56],8.455404162792438e-45
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDH1,Cadherin-1,47709,2984,2.14 [2.04-2.24],1.5191303533105232e-213
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDH15,Cadherin-15,49688,3075,1.31 [1.26-1.37],3.767456245457324e-35
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDH17,Cadherin-17,49334,3062,1.19 [1.13-1.24],7.13580359567308e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDH2,Cadherin-2,49334,3062,1.96 [1.80-2.14],2.2105880040853453e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDH3,Cadherin-3,49770,3078,3.90 [3.69-4.13],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDH5,Cadherin-5,49944,3100,1.96 [1.78-2.16],1.8892496480567606e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDH6,Cadherin-6,49334,3062,2.25 [2.09-2.43],2.0777871123088484e-98
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDNF,Cerebral dopamine neurotrophic factor,49101,3036,2.31 [2.23-2.39],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CDSN,Corneodesmosin,49722,3069,3.23 [3.01-3.47],6.978748035654202e-227
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CEACAM19,Carcinoembryonic antigen-related cell adhesion molecule 19,42726,2335,2.56 [2.37-2.75],1.223522572749218e-135
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CEACAM20,Carcinoembryonic antigen-related cell adhesion molecule 20,42125,2284,1.31 [1.22-1.42],2.292953952055308e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CEACAM21,Carcinoembryonic antigen-related cell adhesion molecule 21,49268,3047,1.30 [1.25-1.34],5.180262279787933e-48
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CEACAM5,Carcinoembryonic antigen-related cell adhesion molecule 5,47563,2935,1.26 [1.20-1.33],1.5830540689249416e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CEACAM6,Carcinoembryonic antigen-related cell adhesion molecule 6,42910,2342,1.42 [1.31-1.54],1.1857245746382245e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CEACAM8,Carcinoembryonic antigen-related cell adhesion molecule 8,48438,3007,1.84 [1.74-1.94],2.957412767991016e-108
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CELA3A,Chymotrypsin-like elastase family member 3A,49862,3097,1.18 [1.12-1.25],7.413470239497648e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CELSR2,Cadherin EGF LAG seven-pass G-type receptor 2,41974,2282,3.96 [3.64-4.32],9.599453538830412e-218
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CFC1,Cryptic protein,48182,2972,1.81 [1.72-1.90],4.9996434909836516e-121
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CFD,Complement factor D,42970,2335,5.04 [4.64-5.47],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CFHR2,Complement factor H-related protein 2,42651,2314,1.45 [1.34-1.56],2.712705593343865e-20
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CGA,Glycoprotein hormones alpha chain,49341,3056,1.52 [1.45-1.59],1.752256067850068e-66
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CGREF1,Cell growth regulator with EF hand domain protein 1,49334,3062,3.62 [3.38-3.88],5.921738965954063e-290
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CHCHD10,"Coiled-coil-helix-coiled-coil-helix domain-containing protein 10, mitochondrial",42807,2329,3.42 [3.22-3.63],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CHCHD6,MICOS complex subunit MIC25,42709,2319,2.34 [2.17-2.52],2.4920808245341214e-111
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CHGA,Chromogranin-A,42910,2342,1.53 [1.48-1.58],1.0474538518260044e-162
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CHGB,Secretogranin-1,49606,3070,3.90 [3.68-4.13],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CHI3L1,Chitinase-3-like protein 1,48254,3022,1.50 [1.45-1.55],9.297662552428331e-122
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CHIT1,Chitotriosidase-1,49542,3082,1.09 [1.06-1.12],4.9602788078878466e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CHRDL1,Chordin-like protein 1,49467,3074,8.64 [7.89-9.46],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CHRDL2,Chordin-like protein 2,49334,3062,1.60 [1.51-1.71],1.480527526224733e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CILP,Cartilage intermediate layer protein 1,42910,2342,1.73 [1.61-1.86],2.91840051466316e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CKAP4,Cytoskeleton-associated protein 4,49634,3069,4.40 [4.20-4.61],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CKB,Creatine kinase B-type,42910,2342,1.96 [1.84-2.09],7.529632304986352e-92
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLC,Galectin-10,49259,3054,1.35 [1.30-1.41],6.927237403763676e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC10A,C-type lectin domain family 10 member A,48953,3016,2.22 [2.03-2.43],2.033116972961899e-68
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC11A,C-type lectin domain family 11 member A,49259,3053,1.24 [1.16-1.32],4.0252416457334305e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC12A,C-type lectin domain family 12 member A,41676,2263,1.91 [1.63-2.25],5.552789423447511e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC14A,C-type lectin domain family 14 member A,49341,3056,7.25 [6.74-7.79],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC1A,C-type lectin domain family 1 member A,48438,3007,6.27 [5.77-6.81],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC4D,C-type lectin domain family 4 member D,49268,3047,1.93 [1.84-2.02],2.265520142097275e-162
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC4G,C-type lectin domain family 4 member G,49268,3047,2.07 [1.88-2.28],4.2514612249257364e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC5A,C-type lectin domain family 5 member A,49173,3059,3.81 [3.50-4.16],4.760204673058251e-201
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC6A,C-type lectin domain family 6 member A,48182,2972,1.94 [1.82-2.06],1.1117907206610852e-103
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLEC7A,C-type lectin domain family 7 member A,49875,3077,3.75 [3.48-4.04],1.4940163485123987e-264
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLGN,Calmegin,41737,2266,1.68 [1.57-1.80],1.276944559714174e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLIC5,Chloride intracellular channel protein 5,41737,2266,1.46 [1.32-1.61],1.6360079755706626e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLMP,CXADR-like membrane protein,49755,3074,15.92 [14.64-17.32],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLPS,Colipase,49260,3053,1.33 [1.27-1.39],3.834843833947321e-36
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLSTN2,Calsyntenin-2,49875,3077,1.48 [1.37-1.59],2.1486802906322983e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CLSTN3,Calsyntenin-3,42807,2329,1.62 [1.43-1.83],8.176815040754271e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CNTN5,Contactin-5,49454,3047,0.63 [0.58-0.69],2.175880015895313e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CNTNAP2,Contactin-associated protein-like 2,49268,3047,1.48 [1.37-1.59],1.0740139978883384e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COCH,Cochlin,42910,2329,1.77 [1.64-1.91],1.2317854550240764e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COL15A1,Collagen alpha-1(XV) chain,42910,2342,7.03 [6.46-7.64],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COL18A1,Collagen alpha-1(XVIII) chain,49537,3091,26.40 [23.34-29.87],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COL3A1,Collagen alpha-1(III) chain,42910,2342,2.24 [1.92-2.61],1.2383880514775415e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COL4A1,Collagen alpha-1(IV) chain,49334,3062,1.79 [1.66-1.94],1.4872652211936226e-50
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COL5A1,Collagen alpha-1(V) chain,41974,2282,1.46 [1.33-1.60],1.810141062451915e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COL6A3,Collagen alpha-3(VI) chain,49944,3100,8.70 [8.17-9.26],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COL9A1,Collagen alpha-1(IX) chain,49268,3047,1.41 [1.33-1.50],2.2162862110750075e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COLEC12,Collectin-12,49302,3068,16.32 [14.99-17.77],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,COMP,Cartilage oligomeric matrix protein,48804,3038,1.35 [1.23-1.48],7.806088150163463e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CORO6,Coronin-6,41556,2263,1.36 [1.24-1.49],4.7938040319324976e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CPA1,Carboxypeptidase A1,49944,3100,1.37 [1.31-1.44],2.450000593984872e-37
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CPA2,Carboxypeptidase A2,49608,3072,1.36 [1.30-1.42],2.452023379029828e-40
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CPA4,Carboxypeptidase A4,41145,2232,2.05 [1.86-2.25],4.657765936158881e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CPB1,Carboxypeptidase B,49944,3100,1.50 [1.43-1.57],1.5005767638840244e-60
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CPM,Carboxypeptidase M,49529,3059,1.67 [1.53-1.82],7.500024613712521e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CPXM2,Inactive carboxypeptidase-like protein X2,42910,2329,3.19 [2.98-3.41],2.147507699433378e-253
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CR1,Complement receptor type 1,42781,2325,1.68 [1.51-1.87],7.195730613985553e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CR2,Complement receptor type 2,49531,3084,1.42 [1.33-1.52],1.628283404714936e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CRELD1,Protein disulfide isomerase CRELD1,41974,2282,3.36 [3.03-3.73],2.761876189919873e-114
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CRELD2,Protein disulfide isomerase CRELD2,49467,3074,1.77 [1.68-1.88],2.451807061915472e-86
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CRHBP,Corticotropin-releasing factor-binding protein,49302,3068,3.77 [3.36-4.23],5.995308835787896e-113
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CRIM1,Cysteine-rich motor neuron 1 protein,49549,3081,9.13 [8.05-10.36],2.2109455433765803e-258
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CRIP2,Cysteine-rich protein 2,48953,3016,1.96 [1.87-2.06],1.209172653169842e-170
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CRLF1,Cytokine receptor-like factor 1,49549,3081,2.47 [2.18-2.81],1.4707771646256817e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CRTAM,Cytotoxic and regulatory T-cell molecule,48953,3016,1.68 [1.58-1.79],4.6224861266378055e-60
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CSF1,Macrophage colony-stimulating factor 1,49549,3081,8.48 [7.69-9.34],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CSF1R,Macrophage colony-stimulating factor 1 receptor,42940,2333,1.59 [1.45-1.75],6.751184198281316e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CSF2RA,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha,48953,3016,1.24 [1.18-1.31],1.4933992729249497e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CSF3R,Granulocyte colony-stimulating factor receptor,41676,2263,1.58 [1.41-1.77],1.0501875690869693e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CSPG4,Chondroitin sulfate proteoglycan 4,42910,2342,2.41 [2.14-2.70],8.651822748370218e-49
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CSRP3,Cysteine and glycine-rich protein 3,41510,2258,1.19 [1.15-1.23],5.313816425481758e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CST1,Cystatin-SN,37251,2023,1.28 [1.23-1.33],3.8466442247287775e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CST3,Cystatin-C,49449,3076,10.63 [9.92-11.40],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CST5,Cystatin-D,48399,2985,1.75 [1.65-1.85],2.4738433884926882e-85
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CST6,Cystatin-M,48037,2993,2.73 [2.56-2.92],1.1008557105060143e-193
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CST7,Cystatin-F,49389,3078,1.12 [1.09-1.16],3.1824499857197944e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CSTB,Cystatin-B,48666,3021,2.68 [2.52-2.84],5.290011115007932e-228
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTHRC1,Collagen triple helix repeat-containing protein 1,42910,2342,2.72 [2.44-3.04],1.4505025810216913e-71
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTRB1,Chymotrypsinogen B,49341,3056,1.52 [1.44-1.60],2.1052627129050534e-56
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTRL,Chymotrypsin-like protease CTRL-1,42807,2329,1.22 [1.15-1.29],6.617328400988343e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSB,Cathepsin B,49386,3073,1.52 [1.44-1.61],5.614202102676423e-48
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSD,Cathepsin D,46135,2899,1.41 [1.32-1.51],1.2065243044839642e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSE,Cathepsin E,41974,2282,1.46 [1.36-1.58],2.008138922834376e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSH,Pro-cathepsin H,48273,2996,1.20 [1.15-1.26],8.315527204413543e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSL,Cathepsin L1,49334,3062,4.35 [3.88-4.88],2.145375663045017e-138
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSO,Cathepsin O,49875,3077,2.44 [2.23-2.67],4.260257578623558e-84
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSS,Cathepsin S,38754,2393,3.76 [3.24-4.37],3.486110609335119e-67
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSV,Cathepsin L2,49600,3068,0.41 [0.38-0.45],1.0887765850471196e-98
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CTSZ,Cathepsin Z,49368,3077,4.08 [3.73-4.45],1.3566400679659235e-215
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CWC15,Spliceosome-associated protein CWC15 homolog,42481,2326,1.22 [1.15-1.29],2.5978688130811815e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CX3CL1,Fractalkine,48953,3016,3.52 [3.29-3.77],1.7776310890559443e-285
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXADR,Coxsackievirus and adenovirus receptor,49268,3047,2.04 [1.95-2.15],8.278743813947696e-179
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXCL10,C-X-C motif chemokine 10,49549,3081,1.32 [1.27-1.38],3.780891647351854e-38
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXCL11,C-X-C motif chemokine 11,49770,3078,1.17 [1.13-1.21],1.195201954411524e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXCL13,C-X-C motif chemokine 13,49770,3078,1.34 [1.30-1.39],2.1989959679405642e-66
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXCL14,C-X-C motif chemokine 14,48413,2997,1.27 [1.22-1.32],8.132661374640998e-31
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXCL16,C-X-C motif chemokine 16,49862,3100,6.45 [5.72-7.28],1.073273571489777e-201
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXCL17,C-X-C motif chemokine 17,49875,3077,1.72 [1.62-1.83],2.91340199734222e-63
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXCL8,Interleukin-8,48953,3018,1.17 [1.12-1.21],2.6099803377413e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CXCL9,C-X-C motif chemokine 9,49549,3081,1.63 [1.57-1.70],6.715343901676642e-141
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CYB5R2,NADH-cytochrome b5 reductase 2,42247,2300,1.25 [1.17-1.34],4.183000346910663e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,CYTL1,Cytokine-like protein 1,42910,2342,8.16 [7.10-9.37],6.038281388120842e-193
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DBI,Acyl-CoA-binding protein,49112,3045,1.27 [1.22-1.33],7.769097068960083e-31
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DCBLD2,"Discoidin, CUB and LCCL domain-containing protein 2",49490,3069,2.33 [2.15-2.54],5.358983287912565e-87
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DCC,Netrin receptor DCC,41737,2266,0.50 [0.40-0.62],1.8055201982465887e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DCN,Decorin,48438,3007,5.07 [4.50-5.72],8.276251677986015e-156
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DCTPP1,dCTP pyrophosphatase 1,49334,3062,1.84 [1.67-2.04],8.186571379107937e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DDAH1,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 1",49101,3036,1.81 [1.70-1.92],3.0244489271994736e-80
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DDR1,Epithelial discoidin domain-containing receptor 1,49770,3078,3.17 [2.81-3.58],2.1450422924154103e-79
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DEFA1_DEFA1B,Neutrophil defensin 1,48331,3000,1.90 [1.83-1.97],6.519976683911846e-251
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DEFB4A_DEFB4B,Beta-defensin 4A,48638,3008,1.12 [1.10-1.14],5.899830659491684e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DIPK2B,Divergent protein kinase domain 2B,41974,2282,2.06 [1.84-2.29],2.714384163375746e-38
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DKK3,Dickkopf-related protein 3,49944,3100,3.69 [3.33-4.08],3.601174552100031e-138
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DKK4,Dickkopf-related protein 4,48871,3014,2.15 [2.04-2.26],1.0776456300030588e-194
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DLK1,Protein delta homolog 1,49944,3100,2.05 [1.93-2.17],3.715360738269121e-134
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DLL1,Delta-like protein 1,49490,3069,10.30 [9.45-11.22],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DMD,Dystrophin,41774,2257,1.42 [1.34-1.51],2.807214451226576e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DNER,Delta and Notch-like epidermal growth factor-related receptor,49219,3062,0.51 [0.45-0.57],1.992231409519878e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DNM3,Dynamin-3,42837,2323,1.41 [1.32-1.50],4.660441931731652e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DNMBP,Dynamin-binding protein,48953,3016,1.32 [1.25-1.38],5.393367320258512e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DPEP2,Dipeptidase 2,49101,3036,1.45 [1.30-1.61],2.741819171405149e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DPP4,Dipeptidyl peptidase 4,48412,3021,0.66 [0.59-0.74],8.43864733733026e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DPT,Dermatopontin,49944,3100,10.68 [9.27-12.31],6.848979447846571e-234
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DPY30,Protein dpy-30 homolog,49600,3062,1.60 [1.53-1.67],2.025704258027711e-105
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DRAXIN,Draxin,48953,3016,2.29 [2.16-2.44],1.442556041099273e-151
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DSC2,Desmocollin-2,48791,3029,3.65 [3.49-3.83],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DSG2,Desmoglein-2,49341,3056,3.22 [2.89-3.59],2.406384254216429e-100
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DSG3,Desmoglein-3,49592,3065,2.89 [2.66-3.15],1.7958953810068688e-137
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DTNB,Dystrobrevin beta,42626,2314,2.46 [2.30-2.64],9.907775391938703e-146
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DTX3,Probable E3 ubiquitin-protein ligase DTX3,49101,3036,4.67 [4.34-5.03],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,DUSP13,Dual specificity protein phosphatase 13 isoform A,42709,2319,1.50 [1.39-1.61],2.1249417280251966e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EBI3_IL27,Interleukin-27,49681,3068,2.80 [2.56-3.07],1.0702468962674864e-107
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EDA2R,Tumor necrosis factor receptor superfamily member 27,49755,3074,7.20 [6.78-7.65],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EDIL3,EGF-like repeat and discoidin I-like domain-containing protein 3,48438,3007,1.68 [1.54-1.83],7.715375722121967e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EDN1,Endothelin-1,41774,2257,6.22 [5.59-6.91],2.1097870505957118e-251
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EFCAB14,EF-hand calcium-binding domain-containing protein 14,42726,2335,2.57 [2.46-2.70],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EFEMP1,EGF-containing fibulin-like extracellular matrix protein 1,49450,3084,5.85 [5.40-6.33],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EFHD1,EF-hand domain-containing protein D1,42837,2323,2.40 [2.26-2.55],3.8617289781941614e-185
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EFNA1,Ephrin-A1,49262,3052,11.43 [10.55-12.38],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EFNA4,Ephrin-A4,48876,3013,6.31 [6.01-6.63],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EFNB2,Ephrin-B2,41737,2266,1.34 [1.27-1.41],1.8940571391844048e-29
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EGFL7,Epidermal growth factor-like protein 7,48182,2972,1.80 [1.69-1.92],6.902205501455185e-72
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EGFLAM,Pikachurin,42726,2335,1.66 [1.49-1.85],5.925884894261753e-20
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EGFR,Epidermal growth factor receptor,49944,3100,0.29 [0.24-0.34],3.1645231080043e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EGLN1,Egl nine homolog 1,49268,3047,1.28 [1.22-1.34],1.9774709299878286e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ELN,Elastin,42910,2329,3.71 [3.35-4.11],4.937095287376464e-142
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ENAH,Protein enabled homolog,48413,2997,1.45 [1.37-1.55],1.9254621140299776e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ENDOU,Poly(U)-specific endoribonuclease,39619,2148,1.90 [1.78-2.03],3.3042318541617747e-81
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ENG,Endoglin,49944,3100,1.92 [1.60-2.30],1.4233051352941817e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ENPP2,Ectonucleotide pyrophosphatase/phosphodiesterase family member 2,49944,3100,1.45 [1.30-1.62],7.090299626553782e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ENTPD6,Ectonucleoside triphosphate diphosphohydrolase 6,48438,3007,1.72 [1.51-1.96],3.103100595991521e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EPHA1,Ephrin type-A receptor 1,49467,3078,5.21 [4.71-5.76],1.1410672292861959e-225
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EPHA2,Ephrin type-A receptor 2,47545,2912,3.52 [3.38-3.66],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EPHA4,Ephrin type-A receptor 4,41974,2282,4.54 [3.96-5.21],4.427594130389301e-103
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EPHB4,Ephrin type-B receptor 4,49944,3100,9.50 [8.84-10.20],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EPHB6,Ephrin type-B receptor 6,48871,3013,7.05 [6.50-7.64],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EPO,Erythropoietin,49268,3047,1.29 [1.25-1.34],4.8154364141737876e-46
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EPS8L2,Epidermal growth factor receptor kinase substrate 8-like protein 2,49674,3068,2.90 [2.71-3.12],6.814392494042959e-193
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ERBB4,Receptor tyrosine-protein kinase erbB-4,49490,3069,0.64 [0.56-0.73],2.879426025861824e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ERMAP,Erythroid membrane-associated protein,41676,2263,1.83 [1.67-1.99],1.1297258244230536e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ESAM,Endothelial cell-selective adhesion molecule,49944,3100,4.95 [4.56-5.37],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ESM1,Endothelial cell-specific molecule 1,49302,3068,1.38 [1.25-1.51],1.3288380980480004e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,EZR,Ezrin,49770,3078,1.70 [1.50-1.92],3.549353166123258e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,F11R,Junctional adhesion molecule A,49341,3056,1.31 [1.23-1.38],4.413839521265093e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,F2R,Proteinase-activated receptor 1,49467,3074,1.38 [1.31-1.46],3.6642737379152964e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,F3,Tissue factor,49451,3054,4.09 [3.67-4.56],1.7840221028992556e-143
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,F7,Coagulation factor VII,49451,3081,1.67 [1.50-1.85],3.241832431270433e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,F9,Coagulation factor IX,49452,3078,2.05 [1.72-2.44],1.2841272053930544e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FABP1,"Fatty acid-binding protein, liver",49302,3068,1.66 [1.61-1.71],1.915354679353107e-262
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FABP2,"Fatty acid-binding protein, intestinal",49334,3062,1.44 [1.39-1.49],5.615394752596788e-86
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FABP3,"Fatty acid-binding protein, heart",42910,2329,2.80 [2.66-2.95],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FABP4,"Fatty acid-binding protein, adipocyte",49944,3100,3.10 [2.95-3.25],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FABP5,Fatty acid-binding protein 5,49610,3068,1.43 [1.37-1.50],5.251605018036079e-57
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FABP6,Gastrotropin,48360,3001,1.51 [1.44-1.58],1.134347509330723e-72
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FABP9,Fatty acid-binding protein 9,49268,3047,1.35 [1.28-1.42],1.4421954653606352e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FAM171B,Protein FAM171B,42709,2319,1.55 [1.40-1.73],3.663430305320784e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FAM20A,Pseudokinase FAM20A,42910,2329,1.79 [1.58-2.03],2.0955433639143872e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FAM3B,Protein FAM3B,49101,3036,4.39 [4.00-4.82],1.6062391515161838e-216
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FAM3C,Protein FAM3C,49261,3056,14.78 [13.51-16.16],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FAM3D,Protein FAM3D,42726,2335,1.51 [1.44-1.58],1.847954409532791e-68
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FAS,Tumor necrosis factor receptor superfamily member 6,49782,3097,1.96 [1.87-2.05],4.375524454617042e-190
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FBLN2,Fibulin-2,42910,2342,4.83 [4.41-5.30],2.08752743318328e-248
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCAMR,High affinity immunoglobulin alpha and immunoglobulin mu Fc receptor,42910,2329,1.48 [1.40-1.56],2.807533400400306e-49
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCAR,Immunoglobulin alpha Fc receptor,49268,3047,1.41 [1.32-1.50],9.665762190961738e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCER1A,High affinity immunoglobulin epsilon receptor subunit alpha,42837,2323,2.00 [1.73-2.31],2.9629979723561e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCER2,Low affinity immunoglobulin epsilon Fc receptor,49341,3056,1.71 [1.64-1.78],5.524908150884657e-148
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCGR2A,Low affinity immunoglobulin gamma Fc region receptor II-a,49128,3061,1.42 [1.33-1.51],3.301413097286453e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCGR3B,Low affinity immunoglobulin gamma Fc region receptor III-B,49377,3077,1.29 [1.21-1.38],5.977638858826147e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCN1,Ficolin-1,42862,2327,1.41 [1.30-1.52],2.4647919975637466e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCRL1,Fc receptor-like protein 1,49334,3062,1.30 [1.21-1.39],6.262925549443052e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCRL2,Fc receptor-like protein 2,49641,3062,1.44 [1.36-1.52],7.882261853330342e-39
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCRL6,Fc receptor-like protein 6,49268,3047,1.30 [1.24-1.36],2.554014848577661e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FCRLB,Fc receptor-like B,48182,2972,1.28 [1.23-1.34],6.100213366205774e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FDX1,"Adrenodoxin, mitochondrial",41510,2258,1.29 [1.22-1.35],2.3368550674826404e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FGA,Fibrinogen alpha chain,41948,2279,1.80 [1.59-2.05],1.6929165648222728e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FGF21,Fibroblast growth factor 21,49681,3068,1.22 [1.19-1.26],7.489161722602746e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FGF23,Fibroblast growth factor 23,49672,3072,1.87 [1.81-1.94],2.761085828214521e-274
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FGF5,Fibroblast growth factor 5,48413,2997,2.14 [1.98-2.31],4.9609554947117474e-85
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FGFBP1,Fibroblast growth factor-binding protein 1,49490,3069,0.66 [0.60-0.73],2.2791550336306218e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FGFR2,Fibroblast growth factor receptor 2,49490,3069,5.81 [5.20-6.48],1.694963693965268e-216
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FGFR4,Fibroblast growth factor receptor 4,41974,2282,1.32 [1.23-1.43],2.969819516796277e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FGL1,Fibrinogen-like protein 1,42940,2333,1.48 [1.39-1.57],7.329133736603192e-37
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FLRT2,Leucine-rich repeat transmembrane protein FLRT2,48953,3016,3.50 [3.20-3.82],3.130131584929504e-168
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FLT1,Vascular endothelial growth factor receptor 1,49018,3035,2.67 [2.45-2.90],2.7792285430386514e-116
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FLT3LG,Fms-related tyrosine kinase 3 ligand,49875,3077,1.37 [1.25-1.50],4.292886332235212e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FNDC1,Fibronectin type III domain-containing protein 1,42807,2329,1.70 [1.56-1.85],5.6769579174074254e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FOLR1,Folate receptor alpha,49265,3046,4.08 [3.86-4.31],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FOLR2,Folate receptor beta,49770,3078,3.87 [3.52-4.26],8.09273173181314e-168
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FSHB,Follitropin subunit beta,41774,2257,1.24 [1.16-1.33],8.23930610888686e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FST,Follistatin,49467,3074,1.29 [1.21-1.37],4.385632337836358e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FSTL1,Follistatin-related protein 1,41774,2257,4.21 [3.77-4.70],8.13455470842842e-144
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FSTL3,Follistatin-related protein 3,49224,3061,8.90 [8.33-9.50],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FUS,RNA-binding protein FUS,48100,2970,1.36 [1.26-1.46],2.912241242990449e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FUT3_FUT5,3-galactosyl-N-acetylglucosaminide 4-alpha-L-fucosyltransferase FUT3_4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase FUT5,49770,3078,1.46 [1.36-1.56],7.963797901123391e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,FZD8,Frizzled-8,41556,2263,1.30 [1.21-1.40],2.397316483946194e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GABARAP,Gamma-aminobutyric acid receptor-associated protein,42709,2319,1.47 [1.38-1.56],4.950183714007985e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GALNT10,Polypeptide N-acetylgalactosaminyltransferase 10,49101,3036,1.83 [1.63-2.04],8.051774342719759e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GALNT2,Polypeptide N-acetylgalactosaminyltransferase 2,49755,3074,1.72 [1.53-1.94],4.482227969065274e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GALNT3,Polypeptide N-acetylgalactosaminyltransferase 3,48413,2997,1.42 [1.33-1.53],3.795515563479648e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GAS6,Growth arrest-specific protein 6,49622,3087,2.95 [2.60-3.34],1.0924014368277616e-64
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GAST,Gastrin,42807,2329,1.24 [1.21-1.27],7.666185850845332e-72
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GCG,Pro-glucagon,48182,2972,1.22 [1.19-1.25],3.7217271427020696e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GCHFR,GTP cyclohydrolase 1 feedback regulatory protein,40961,2226,1.70 [1.61-1.80],2.5418874515298016e-76
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GCNT1,"Beta-1,3-galactosyl-O-glycosyl-glycoprotein beta-1,6-N-acetylglucosaminyltransferase",49101,3036,2.07 [1.89-2.26],1.225410863087479e-58
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GDF15,Growth/differentiation factor 15,49944,3100,2.80 [2.71-2.89],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GDNF,Glial cell line-derived neurotrophic factor,48186,2973,2.03 [1.90-2.16],1.451383345591019e-101
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GFAP,Glial fibrillary acidic protein,48108,2966,1.41 [1.32-1.50],3.71184411885579e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GFER,FAD-linked sulfhydryl oxidase ALR,48182,2972,1.21 [1.15-1.27],5.4272786551418464e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GFRA1,GDNF family receptor alpha-1,49681,3068,12.03 [11.00-13.15],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GFRA2,GDNF family receptor alpha-2,49101,3036,3.34 [2.99-3.73],4.103953847903362e-101
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GFRA3,GDNF family receptor alpha-3,48799,3007,3.20 [2.90-3.52],7.976650247018686e-126
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GGT5,Glutathione hydrolase 5 proenzyme,48953,3016,3.80 [3.44-4.19],6.339132304877386e-159
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GHRL,Appetite-regulating hormone,49334,3062,1.19 [1.15-1.24],4.006445781362592e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GIP,Gastric inhibitory polypeptide,41774,2257,1.38 [1.29-1.47],8.250732603702338e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GIPC2,PDZ domain-containing protein GIPC2,42807,2329,4.04 [3.65-4.47],6.576149292426244e-163
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GKN1,Gastrokine-1,47267,2894,1.84 [1.66-2.05],2.4131029991409038e-29
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GM2A,Ganglioside GM2 activator,41873,2289,1.99 [1.92-2.07],5.909933676351286e-289
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GNLY,Granulysin,49341,3056,1.27 [1.20-1.35],4.317613047116652e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GOLM2,Protein GOLM2,49770,3078,2.39 [2.17-2.62],8.044436025357084e-76
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GP1BA,Platelet glycoprotein Ib alpha chain,49119,3057,1.54 [1.40-1.69],4.705883342357365e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GP2,Pancreatic secretory granule membrane major glycoprotein GP2,47824,2968,1.12 [1.08-1.16],4.946089573017925e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPC1,Glypican-1,49755,3074,4.88 [4.39-5.42],6.860453877828172e-190
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPHA2,Glycoprotein hormone alpha-2,42726,2335,1.28 [1.19-1.37],6.030353039291533e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPIHBP1,Glycosylphosphatidylinositol-anchored high density lipoprotein-binding protein 1,42726,2335,1.42 [1.33-1.51],4.37239640521334e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPKOW,G-patch domain and KOW motifs-containing protein,48186,2973,1.56 [1.45-1.69],9.605819569013175e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPNMB,Transmembrane glycoprotein NMB,47995,2984,2.28 [2.04-2.55],5.17364300807248e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPR158,Probable G-protein coupled receptor 158,42837,2323,1.86 [1.73-2.00],2.846302612156477e-64
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPR15L,Protein GPR15L,42726,2335,1.39 [1.31-1.48],1.40119726596845e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPR37,Prosaposin receptor GPR37,48438,3007,2.68 [2.55-2.81],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GPRC5C,G-protein coupled receptor family C group 5 member C,42709,2319,1.32 [1.25-1.40],6.2912974771323634e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GRN,Progranulin,49103,3046,3.88 [3.48-4.33],6.568767704264136e-132
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GRP,Gastrin-releasing peptide,41774,2257,1.76 [1.65-1.89],5.0641665101993e-60
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GRPEL1,"GrpE protein homolog 1, mitochondrial",49101,3036,1.39 [1.33-1.46],1.5643767837052495e-42
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GSN,Gelsolin,42777,2327,2.72 [2.22-3.33],3.326462649742892e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GUCA2A,Guanylin,49103,3049,7.20 [6.67-7.77],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,GZMA,Granzyme A,49875,3077,1.52 [1.40-1.66],3.2388128611220864e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HAVCR1,Hepatitis A virus cellular receptor 1,49687,3069,2.42 [2.33-2.52],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HAVCR2,Hepatitis A virus cellular receptor 2,49341,3056,4.99 [4.69-5.32],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HEG1,Protein HEG homolog 1,41974,2282,1.88 [1.63-2.17],1.637969634342616e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HEPH,Hephaestin,42910,2329,2.24 [1.91-2.62],5.125384681770023e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HGF,Hepatocyte growth factor,49875,3077,2.16 [1.99-2.35],1.2635780904509644e-73
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HIP1R,Huntingtin-interacting protein 1-related protein,42726,2324,1.68 [1.60-1.76],3.410266946320176e-103
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HJV,Hemojuvelin,42837,2323,1.54 [1.45-1.64],1.4320576775330336e-42
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HLA-A,"HLA class I histocompatibility antigen, A alpha chain",42837,2323,1.80 [1.59-2.03],5.928003638837347e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HLA-E,"HLA class I histocompatibility antigen, alpha chain E",49268,3047,5.34 [4.98-5.73],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HMCN2,Hemicentin-2,41895,2277,1.36 [1.26-1.46],5.79111136993086e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HMOX2,Heme oxygenase 2,48186,2973,1.35 [1.27-1.43],3.674168417942291e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HNMT,Histamine N-methyltransferase,48729,3006,2.38 [2.25-2.52],5.553743151777168e-204
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HPGDS,Hematopoietic prostaglandin D synthase,48182,2972,0.73 [0.66-0.79],2.822703543819838e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HRC,Sarcoplasmic reticulum histidine-rich calcium-binding protein,41774,2257,2.11 [2.00-2.23],2.857300585386599e-152
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HS3ST3B1,Heparan sulfate glucosamine 3-O-sulfotransferase 3B1,49101,3036,1.75 [1.61-1.90],3.479974361616761e-40
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HS6ST1,Heparan-sulfate 6-O-sulfotransferase 1,49755,3074,1.47 [1.36-1.58],1.9970672393842065e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HS6ST2,Heparan-sulfate 6-O-sulfotransferase 2,41676,2263,3.90 [3.59-4.24],2.21590277912278e-222
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HSDL2,Hydroxysteroid dehydrogenase-like protein 2,41774,2257,1.52 [1.40-1.64],4.2154910787798395e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HSPA2,Heat shock-related 70 kDa protein 2,42709,2319,1.86 [1.74-1.98],2.254205043627441e-78
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HSPB6,Heat shock protein beta-6,49755,3074,4.15 [3.90-4.42],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HSPG2,Basement membrane-specific heparan sulfate proteoglycan core protein,48969,3055,7.08 [6.70-7.48],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HYAL1,Hyaluronidase-1,49068,3053,2.59 [2.32-2.90],3.468348310609573e-62
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,HYOU1,Hypoxia up-regulated protein 1,49944,3100,10.98 [9.66-12.49],1.2945615451311685e-291
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ICAM1,Intercellular adhesion molecule 1,49123,3061,2.08 [1.89-2.30],9.917349853670555e-48
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ICAM2,Intercellular adhesion molecule 2,49944,3100,1.98 [1.79-2.19],1.0678810761332457e-39
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ICAM3,Intercellular adhesion molecule 3,49944,3100,1.66 [1.48-1.87],1.4577103462420025e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ICAM5,Intercellular adhesion molecule 5,49334,3062,1.51 [1.41-1.62],4.1262573631098854e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ICOSLG,ICOS ligand,49101,3036,2.41 [2.04-2.84],1.6169300599900213e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IDI2,Isopentenyl-diphosphate delta-isomerase 2,48186,2973,1.52 [1.44-1.61],3.116612224613591e-54
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IFI30,Gamma-interferon-inducible lysosomal thiol reductase,41693,2271,2.48 [2.29-2.70],8.212969121550744e-103
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IFNGR1,Interferon gamma receptor 1,49549,3081,5.10 [4.81-5.41],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IFNL1,Interferon lambda-1,48186,2973,1.45 [1.36-1.55],2.128004827812068e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IFNLR1,Interferon lambda receptor 1,49268,3047,1.62 [1.52-1.73],1.042006745992432e-46
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGF1R,Insulin-like growth factor 1 receptor,49101,3036,2.71 [2.54-2.90],6.580080156474268e-189
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGF2R,Cation-independent mannose-6-phosphate receptor,49341,3056,2.15 [1.88-2.47],1.484986160627757e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGFBP1,Insulin-like growth factor-binding protein 1,49862,3096,1.16 [1.13-1.19],1.2449842524048432e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGFBP2,Insulin-like growth factor-binding protein 2,49866,3098,1.97 [1.87-2.08],9.079670305987013e-144
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGFBP4,Insulin-like growth factor-binding protein 4,48719,3016,5.57 [5.32-5.83],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGFBP6,Insulin-like growth factor-binding protein 6,49128,3063,6.45 [6.12-6.81],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGFBP7,Insulin-like growth factor-binding protein 7,49944,3100,2.90 [2.76-3.05],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGFBPL1,Insulin-like growth factor-binding protein-like 1,49334,3062,3.57 [3.32-3.84],6.5527279767083005e-255
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGLC2,Immunoglobulin lambda constant 2,42896,2331,2.00 [1.86-2.14],3.4843008655777325e-83
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGSF3,Immunoglobulin superfamily member 3,49101,3036,1.65 [1.53-1.77],1.3830991898540243e-40
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IGSF8,Immunoglobulin superfamily member 8,49334,3062,3.43 [3.21-3.66],1.6100242395477972e-297
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL10,Interleukin-10,48413,2997,1.20 [1.16-1.24],4.970220891130268e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL10RB,Interleukin-10 receptor subunit beta,49549,3081,3.53 [3.37-3.70],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL12A_IL12B,Interleukin-12,49101,3036,1.69 [1.63-1.76],5.110799280024587e-173
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL12B,Interleukin-12 subunit beta,49875,3077,2.16 [2.04-2.29],2.8298624531516435e-160
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL12RB1,Interleukin-12 receptor subunit beta-1,48413,2997,2.22 [2.09-2.35],1.7983948458978272e-156
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL15,Interleukin-15,49268,3047,2.18 [2.00-2.37],1.0904434068096783e-73
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL15RA,Interleukin-15 receptor subunit alpha,48413,2997,4.00 [3.65-4.37],2.56208935562146e-203
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL16,Pro-interleukin-16,49875,3077,1.75 [1.65-1.85],1.6936202368110168e-83
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL17A,Interleukin-17A,48336,2985,1.29 [1.21-1.37],4.288738759624195e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL17C,Interleukin-17C,48413,2997,1.45 [1.41-1.50],1.3409907781252864e-103
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL17D,Interleukin-17D,48413,2997,1.60 [1.51-1.70],6.898237992434182e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL17RA,Interleukin-17 receptor A,49341,3056,1.28 [1.20-1.38],8.688304063176106e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL17RB,Interleukin-17 receptor B,48648,3006,1.35 [1.27-1.44],5.844553209352771e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL18,Interleukin-18,49140,3058,1.56 [1.46-1.66],2.097122630461915e-43
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL18BP,Interleukin-18-binding protein,49531,3084,4.78 [4.47-5.11],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL18R1,Interleukin-18 receptor 1,49875,3077,1.87 [1.71-2.05],5.343320586718339e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL19,Interleukin-19,48093,2982,1.60 [1.54-1.65],3.609535205346088e-150
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL1R1,Interleukin-1 receptor type 1,49262,3052,4.43 [3.97-4.95],2.1840934586185802e-155
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL1RL1,Interleukin-1 receptor-like 1,49782,3097,1.63 [1.52-1.75],1.3235063363170197e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL1RN,Interleukin-1 receptor antagonist protein,49222,3071,1.58 [1.51-1.65],1.9543819115026208e-85
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL22,Interleukin-22,42709,2319,1.36 [1.29-1.43],5.3835543128314556e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL22RA1,Interleukin-22 receptor subunit alpha-1,48413,2997,1.23 [1.15-1.30],5.255398581522911e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL2RA,Interleukin-2 receptor subunit alpha,48991,3033,2.76 [2.60-2.93],5.146670273497965e-237
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL32,Interleukin-32,49268,3047,1.47 [1.37-1.57],1.0341649490904564e-29
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL33,Interleukin-33,48413,2997,1.35 [1.24-1.47],1.269124631138179e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL36G,Interleukin-36 gamma,41517,2250,1.25 [1.19-1.31],5.275397461648614e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL3RA,Interleukin-3 receptor subunit alpha,48413,2997,1.48 [1.35-1.63],3.32170450441256e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL4R,Interleukin-4 receptor subunit alpha,49268,3047,2.70 [2.54-2.87],5.619841434411767e-224
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL5RA,Interleukin-5 receptor subunit alpha,49268,3047,1.32 [1.25-1.39],1.92698233262272e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL6,Interleukin-6,49101,3036,1.32 [1.28-1.36],2.113335055923122e-69
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL6R,Interleukin-6 receptor subunit alpha,49040,3057,1.76 [1.60-1.93],3.59545474624327e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IL6ST,Interleukin-6 receptor subunit beta,49334,3062,3.24 [2.79-3.75],8.160946485138275e-55
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,IMMT,MICOS complex subunit MIC60,42709,2319,1.84 [1.73-1.95],1.1174846465811438e-92
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,INHBB,Inhibin beta B chain,41974,2282,3.06 [2.86-3.27],3.3972976150371024e-234
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,INHBC,Inhibin beta C chain,49341,3056,1.68 [1.55-1.83],3.7309524088676924e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,INPP1,Inositol polyphosphate 1-phosphatase,49101,3036,1.21 [1.14-1.28],4.0245599676278736e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,INSL4,Early placenta insulin-like peptide,42709,2319,1.47 [1.40-1.55],4.072776136922861e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,INSL5,Insulin-like peptide INSL5,42726,2335,1.29 [1.24-1.34],9.583615134247379e-40
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ISLR2,Immunoglobulin superfamily containing leucine-rich repeat protein 2,47493,2914,1.31 [1.20-1.43],8.225693101683054e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ISM1,Isthmin-1,49268,3047,1.68 [1.56-1.81],2.1103815072101854e-42
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ITGA11,Integrin alpha-11,49268,3047,0.64 [0.58-0.70],5.248320124527304e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ITGA5,Integrin alpha-5,49341,3056,1.85 [1.64-2.10],1.2604408540876825e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ITGAV,Integrin alpha-V,49755,3074,0.36 [0.30-0.43],3.2079900059825367e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ITGB6,Integrin beta-6,48413,2997,2.55 [2.30-2.84],3.6380144878983006e-67
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ITGBL1,Integrin beta-like protein 1,42910,2342,2.25 [2.09-2.43],1.5714319463699558e-95
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ITIH3,Inter-alpha-trypsin inhibitor heavy chain H3,49531,3084,2.01 [1.85-2.19],2.4693367990629306e-58
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ITM2A,Integral membrane protein 2A,49268,3047,1.45 [1.37-1.52],2.3110208019272525e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,JAM2,Junctional adhesion molecule B,49770,3078,9.70 [8.99-10.46],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,JAM3,Junctional adhesion molecule C,41974,2282,1.65 [1.54-1.77],1.9634229905897686e-46
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,JCHAIN,Immunoglobulin J chain,48413,2997,1.30 [1.24-1.37],3.961454521889167e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,JUN,Transcription factor AP-1,48413,2997,1.36 [1.30-1.42],1.074421565794656e-37
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KAZALD1,Kazal-type serine protease inhibitor domain-containing protein 1,49101,3036,1.95 [1.81-2.11],5.392490963876659e-65
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KIAA0319,Dyslexia-associated protein KIAA0319,42807,2329,2.40 [2.22-2.59],8.840779540297725e-111
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KIF1C,Kinesin-like protein KIF1C,41510,2258,1.66 [1.54-1.78],4.358466141075078e-42
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KIR2DL2,Killer cell immunoglobulin-like receptor 2DL2,42709,2319,1.17 [1.12-1.22],1.8222412714162404e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KIR2DL3,Killer cell immunoglobulin-like receptor 2DL3,48182,2972,1.23 [1.18-1.28],3.138131443297951e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KIRREL2,Kin of IRRE-like protein 2,48186,2973,1.75 [1.64-1.86],1.3984494690757682e-68
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KITLG,Kit ligand,49334,3062,2.08 [1.90-2.27],1.1089976857612061e-57
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLF4,Krueppel-like factor 4,41556,2263,1.35 [1.24-1.48],1.2175195672431968e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLHL41,Kelch-like protein 41,42837,2323,1.27 [1.19-1.37],1.808066177080439e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLK10,Kallikrein-10,49339,3056,1.81 [1.71-1.92],4.239115782600318e-92
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLK11,Kallikrein-11,49018,3040,2.56 [2.46-2.66],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLK13,Kallikrein-13,48231,2988,1.66 [1.55-1.78],1.3336443389058778e-46
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLK14,Kallikrein-14,49755,3074,1.64 [1.54-1.75],1.3920176230287057e-49
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLK15,Kallikrein-15,42632,2312,1.37 [1.27-1.47],7.963069456458788e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLK4,Kallikrein-4,49755,3074,1.75 [1.68-1.82],2.9917698277328683e-183
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLK6,Kallikrein-6,49408,3066,5.71 [5.17-6.31],1.763461823640226e-257
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLK8,Kallikrein-8,47691,2950,2.96 [2.77-3.15],5.075713513140494e-248
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLRB1,Killer cell lectin-like receptor subfamily B member 1,49875,3077,3.66 [3.40-3.94],1.306962676695575e-260
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLRD1,Natural killer cells antigen CD94,49875,3077,1.66 [1.56-1.78],4.932270499725308e-50
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLRF1,Killer cell lectin-like receptor subfamily F member 1,41676,2263,1.44 [1.35-1.53],1.1918258587472326e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KLRK1,NKG2-D type II integral membrane protein,42807,2329,1.85 [1.73-1.97],4.1617521779142086e-76
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KRT18,"Keratin, type I cytoskeletal 18",49101,3036,1.32 [1.28-1.37],5.463849367527057e-58
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KRT19,"Keratin, type I cytoskeletal 19",49188,3038,1.84 [1.77-1.91],5.2236115088400786e-207
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,KRT5,"Keratin, type II cytoskeletal 5",48186,2973,1.54 [1.46-1.64],2.954231692003708e-50
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LAG3,Lymphocyte activation gene 3 protein,49101,3036,1.91 [1.80-2.04],2.4033238622509307e-93
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LAIR1,Leukocyte-associated immunoglobulin-like receptor 1,49302,3068,3.31 [3.15-3.49],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LAIR2,Leukocyte-associated immunoglobulin-like receptor 2,48953,3016,1.28 [1.24-1.33],1.777456518730069e-48
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LAMA4,Laminin subunit alpha-4,49549,3081,2.56 [2.36-2.78],2.5443817460001915e-112
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LAMB1,Laminin subunit beta-1,41774,2257,2.10 [1.83-2.40],3.1416876628803487e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LAMP3,Lysosome-associated membrane glycoprotein 3,49793,3072,2.05 [1.93-2.17],1.1181551958164192e-127
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LAYN,Layilin,48871,3013,7.69 [7.22-8.19],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LBP,Lipopolysaccharide-binding protein,49531,3084,1.40 [1.33-1.48],8.218134266049717e-36
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LBR,Delta(14)-sterol reductase LBR,49770,3078,1.18 [1.13-1.23],3.073783684895181e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LCN15,Lipocalin-15,42837,2323,1.49 [1.43-1.55],2.478635274800274e-78
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LCN2,Neutrophil gelatinase-associated lipocalin,47844,2978,3.08 [2.93-3.25],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LECT2,Leukocyte cell-derived chemotaxin-2,42910,2329,1.61 [1.53-1.69],5.809363653379361e-73
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LEFTY2,Left-right determination factor 2,49681,3068,1.63 [1.54-1.74],1.92070792549861e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LEP,Leptin,49334,3062,1.51 [1.43-1.59],1.2175464853282643e-54
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LETM1,Mitochondrial proton/calcium exchanger protein,42837,2323,1.48 [1.39-1.58],1.4153223221483963e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LGALS1,Galectin-1,49334,3062,3.62 [3.37-3.88],8.878906470158982e-287
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LGALS3,Galectin-3,49463,3069,3.60 [3.30-3.92],1.2038452096312605e-186
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LGALS3BP,Galectin-3-binding protein,42970,2335,1.41 [1.26-1.58],9.948846650118634e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LGALS4,Galectin-4,49302,3068,2.46 [2.35-2.58],3.2897880082128102e-304
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LGALS7_LGALS7B,Galectin-7,49199,3047,2.19 [2.10-2.30],2.5220226395399013e-250
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LGALS9,Galectin-9,49307,3071,6.08 [5.62-6.58],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LGMN,Legumain,49549,3081,1.33 [1.21-1.45],2.5120072894520763e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LIFR,Leukemia inhibitory factor receptor,49268,3047,2.78 [2.48-3.13],1.1380367019186836e-66
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LILRA2,Leukocyte immunoglobulin-like receptor subfamily A member 2,49341,3056,1.67 [1.52-1.83],6.743064965923937e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LILRA5,Leukocyte immunoglobulin-like receptor subfamily A member 5,49261,3056,3.15 [2.87-3.47],2.1652659102379507e-121
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LILRB1,Leukocyte immunoglobulin-like receptor subfamily B member 1,49944,3100,1.81 [1.61-2.03],7.570575456519261e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LILRB2,Leukocyte immunoglobulin-like receptor subfamily B member 2,49704,3095,1.87 [1.70-2.06],5.46884308487673e-37
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LILRB4,Leukocyte immunoglobulin-like receptor subfamily B member 4,48413,2997,3.11 [2.92-3.31],8.91429335526598e-267
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LMNB1,Lamin-B1,42649,2327,1.22 [1.15-1.29],3.696554151208834e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LMNB2,Lamin-B2,42807,2329,4.42 [4.06-4.81],4.284461206216111e-256
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LMOD1,Leiomodin-1,42837,2323,2.55 [2.42-2.69],9.898209689650138e-251
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LPCAT2,Lysophosphatidylcholine acyltransferase 2,49101,3036,1.29 [1.23-1.36],2.273875316783306e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LPO,Lactoperoxidase,47708,2930,1.21 [1.14-1.27],5.096050821762688e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LRG1,Leucine-rich alpha-2-glycoprotein,42970,2335,2.90 [2.53-3.32],1.681449627612087e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LRIG1,Leucine-rich repeats and immunoglobulin-like domains protein 1,49613,3063,1.97 [1.80-2.15],2.90625777870272e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LRIG3,Leucine-rich repeats and immunoglobulin-like domains protein 3,41527,2256,1.95 [1.77-2.15],9.502973575708475e-42
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LRP11,Low-density lipoprotein receptor-related protein 11,49334,3062,5.58 [5.17-6.01],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LRRC25,Leucine-rich repeat-containing protein 25,49101,3036,1.88 [1.78-1.99],8.873836090843557e-114
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LRRC38,Leucine-rich repeat-containing protein 38,41737,2266,1.30 [1.21-1.40],1.7535197454755216e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LSP1,Lymphocyte-specific protein 1,49268,3047,1.58 [1.47-1.70],6.12257709097402e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LTA4H,Leukotriene A-4 hydrolase,49755,3074,1.19 [1.13-1.25],8.461885177889815e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LTBP2,Latent-transforming growth factor beta-binding protein 2,49944,3100,3.92 [3.60-4.26],1.1172098317362407e-216
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LTBP3,Latent-transforming growth factor beta-binding protein 3,48182,2972,1.50 [1.44-1.57],3.890672914588159e-75
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LTBR,Tumor necrosis factor receptor superfamily member 3,49060,3062,8.16 [7.57-8.80],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LUZP2,Leucine zipper protein 2,42709,2319,1.62 [1.53-1.72],6.503313439528824e-65
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LY6D,Lymphocyte antigen 6D,49062,3061,3.40 [3.26-3.56],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LY9,T-lymphocyte surface antigen Ly-9,48771,3007,2.07 [1.87-2.29],1.3915722821639917e-43
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LY96,Lymphocyte antigen 96,48953,3016,1.74 [1.61-1.88],3.308158344267024e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,LYVE1,Lymphatic vessel endothelial hyaluronic acid receptor 1,42970,2335,2.71 [2.22-3.30],3.846530161881137e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MAD1L1,Mitotic spindle assembly checkpoint protein MAD1,48787,3011,1.57 [1.51-1.63],7.977914234803521e-117
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MAMDC2,MAM domain-containing protein 2,42910,2329,3.02 [2.74-3.32],1.1908719036969396e-112
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MAN1A2,"Mannosyl-oligosaccharide 1,2-alpha-mannosidase IB",41774,2257,1.98 [1.68-2.32],6.546420681567129e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MANSC1,MANSC domain-containing protein 1,49490,3069,5.42 [4.95-5.93],1.303542243019041e-298
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MAPK13,Mitogen-activated protein kinase 13,41384,2258,1.29 [1.19-1.40],4.1746487828641455e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MAPK9,Mitogen-activated protein kinase 9,49268,3047,1.35 [1.25-1.45],1.1899972101232684e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MARCO,Macrophage receptor MARCO,49334,3062,1.92 [1.70-2.16],1.5895855821059108e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MATN2,Matrilin-2,49384,3071,2.48 [2.23-2.76],3.368748523133469e-64
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MATN3,Matrilin-3,48876,3013,1.86 [1.70-2.03],7.407798873280884e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MB,Myoglobin,49944,3100,2.15 [2.05-2.25],2.5513930840599755e-248
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MCAM,Cell surface glycoprotein MUC18,49531,3084,1.58 [1.44-1.72],2.1476974119401293e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MCFD2,Multiple coagulation factor deficiency protein 2,49101,3038,1.55 [1.45-1.67],1.0181406445623834e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MDK,Midkine,49341,3047,1.61 [1.54-1.68],1.748790934242335e-113
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MEP1B,Meprin A subunit beta,49334,3062,0.90 [0.88-0.92],1.932723889847215e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MEPE,Matrix extracellular phosphoglycoprotein,49302,3068,4.87 [4.23-5.60],3.280394623911222e-108
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MERTK,Tyrosine-protein kinase Mer,49875,3077,3.56 [3.18-3.99],1.7686927969212677e-106
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MFAP4,Microfibril-associated glycoprotein 4,41974,2282,2.32 [2.05-2.62],1.5793403295444664e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MFAP5,Microfibrillar-associated protein 5,49944,3100,4.70 [4.34-5.08],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MFGE8,Lactadherin,49341,3056,1.60 [1.49-1.71],1.3491088071053786e-40
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MIA,Melanoma-derived growth regulatory protein,49490,3069,2.80 [2.63-2.98],7.110157481399844e-236
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MICB_MICA,MHC class I polypeptide-related sequence A_MHC class I polypeptide-related sequence B,49268,3047,1.08 [1.05-1.10],4.090986479386908e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MILR1,Allergin-1,48413,2997,1.62 [1.53-1.72],3.1836285761505244e-57
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MLN,Promotilin,49268,3047,1.33 [1.28-1.38],1.170021683714105e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MME,Neprilysin,49101,3036,1.15 [1.11-1.20],1.961138683929637e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MMP1,Interstitial collagenase,47539,2959,1.19 [1.15-1.24],2.7095357532196622e-20
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MMP10,Stromelysin-2,49227,3061,1.73 [1.65-1.81],5.546106200857082e-122
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MMP12,Macrophage metalloelastase,49374,3050,2.18 [2.07-2.30],1.0154705715733246e-189
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MMP13,Collagenase 3,48186,2973,1.65 [1.49-1.82],1.357854730219679e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MMP3,Stromelysin-1,49341,3056,2.20 [2.09-2.32],6.321661735651999e-202
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MMP7,Matrilysin,48361,3002,3.36 [3.14-3.59],3.1082712731459047e-278
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MMP8,Neutrophil collagenase,49688,3076,1.19 [1.14-1.24],1.4828871115779214e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MMP9,Matrix metalloproteinase-9,49264,3050,1.22 [1.16-1.29],3.3390713969377093e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MOG,Myelin-oligodendrocyte glycoprotein,49755,3074,5.15 [4.69-5.65],1.4995355099596343e-263
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MPO,Myeloperoxidase,49341,3056,1.40 [1.32-1.49],5.041502312792187e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MRC1,Macrophage mannose receptor 1,42940,2333,2.66 [2.34-3.02],6.655350549698646e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MSLN,Mesothelin,49020,3025,1.69 [1.61-1.78],3.5367243392337535e-96
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MSMB,Beta-microseminoprotein,49223,3070,1.73 [1.66-1.81],2.7293307738582025e-129
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MSR1,Macrophage scavenger receptor types I and II,49770,3078,2.10 [1.97-2.25],8.925237170585606e-106
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MSTN,Growth/differentiation factor 8,48438,3007,1.50 [1.42-1.60],6.432813462777637e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MUC13,Mucin-13,48186,2973,1.98 [1.87-2.09],1.244922698209431e-135
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MXRA8,Matrix remodeling-associated protein 8,41974,2282,1.89 [1.66-2.15],1.956420105854292e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MYBPC1,"Myosin-binding protein C, slow-type",42910,2329,1.55 [1.47-1.62],1.7867810202623033e-73
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MYBPC2,"Myosin-binding protein C, fast-type",41774,2257,1.21 [1.17-1.26],4.5152329701105954e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MYL1,"Myosin light chain 1/3, skeletal muscle isoform",41510,2258,1.36 [1.26-1.46],5.511480509687208e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MYL3,Myosin light chain 3,41774,2257,1.50 [1.42-1.58],1.326621556260591e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MYLPF,"Myosin regulatory light chain 2, skeletal muscle isoform",41737,2266,1.45 [1.36-1.53],7.312118905764582e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MYOC,Myocilin,49341,3056,1.47 [1.37-1.58],3.66015151428415e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MYOM2,Myomesin-2,41510,2258,1.27 [1.18-1.36],3.191543770652251e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,MZB1,Marginal zone B- and B1-cell-specific protein,49466,3078,1.86 [1.76-1.97],3.3403186085250728e-106
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NBL1,Neuroblastoma suppressor of tumorigenicity 1,49490,3069,17.05 [15.57-18.69],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NCR1,Natural cytotoxicity triggering receptor 1,49197,3035,4.17 [3.86-4.51],3.678629879992976e-280
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NCR3LG1,Natural cytotoxicity triggering receptor 3 ligand 1,42726,2335,4.78 [4.36-5.24],1.3164041117882507e-241
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NCS1,Neuronal calcium sensor 1,49755,3074,5.76 [5.21-6.36],2.2696478450659482e-256
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NDUFA5,NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 5,41606,2258,1.44 [1.29-1.61],6.658649693608907e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NDUFS6,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 6, mitochondrial",48182,2972,1.22 [1.18-1.26],4.357583874134458e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NEB,Nebulin,41510,2258,1.36 [1.25-1.49],2.4072400465073504e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NECTIN2,Nectin-2,49261,3056,8.53 [7.94-9.17],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NECTIN4,Nectin-4,49490,3069,6.35 [6.02-6.71],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NEFL,Neurofilament light polypeptide,48033,2966,2.76 [2.63-2.89],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NELL1,Protein kinase C-binding protein NELL1,49490,3069,0.31 [0.29-0.34],1.9852621514317843e-229
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NEO1,Neogenin,42837,2323,2.46 [2.21-2.73],3.49431228262842e-61
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NFASC,Neurofascin,49875,3077,2.55 [2.30-2.83],5.819234952364188e-72
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NGFR,Tumor necrosis factor receptor superfamily member 16,42910,2329,1.41 [1.27-1.57],1.9702526781769224e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NGRN,Neugrin,42807,2329,1.70 [1.47-1.96],4.264695173728793e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NHLRC3,NHL repeat-containing protein 3,40968,2219,2.18 [1.91-2.49],5.673594683646549e-31
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NID1,Nidogen-1,49368,3072,1.30 [1.20-1.41],3.3296464603682563e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NOMO1,Nodal modulator 1,49341,3056,2.21 [1.94-2.52],1.0631651180588024e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NOS1,"Nitric oxide synthase, brain",48186,2973,2.11 [2.03-2.20],1.6203228466723482e-290
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NOS3,"Nitric oxide synthase, endothelial",48186,2973,1.44 [1.38-1.51],2.622339687953587e-61
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NOTCH1,Neurogenic locus notch homolog protein 1,49944,3100,5.10 [4.22-6.16],1.8633658113102708e-64
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NOTCH2,Neurogenic locus notch homolog protein 2,42910,2342,2.51 [2.15-2.94],1.7656590733807482e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NOTCH3,Neurogenic locus notch homolog protein 3,49944,3100,2.23 [2.04-2.44],1.8002885272229403e-67
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPC2,NPC intracellular cholesterol transporter 2,42191,2309,3.19 [3.04-3.35],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPDC1,Neural proliferation differentiation and control protein 1,49334,3062,5.87 [5.60-6.15],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPHS1,Nephrin,41676,2263,0.35 [0.31-0.40],4.720810941149954e-56
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPL,N-acetylneuraminate lyase,42910,2329,1.73 [1.59-1.87],1.523788405476777e-40
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPPB,Natriuretic peptides B,48438,3007,1.29 [1.26-1.32],4.031696077545523e-95
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPPC,C-type natriuretic peptide,49268,3047,2.45 [2.35-2.55],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPTX2,Neuronal pentraxin-2,42910,2342,1.66 [1.47-1.87],7.301793627099471e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPTXR,Neuronal pentraxin receptor,49334,3062,1.78 [1.65-1.92],2.415054711215233e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NPY,Pro-neuropeptide Y,49755,3074,1.62 [1.54-1.71],6.2822182649296514e-74
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NRCAM,Neuronal cell adhesion molecule,49334,3062,1.94 [1.75-2.15],2.0158432369449617e-36
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NRP1,Neuropilin-1,49616,3088,2.92 [2.65-3.22],7.09337730358403e-103
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NRP2,Neuropilin-2,49341,3056,2.19 [1.98-2.41],1.1490196193151843e-55
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NT5C1A,Cytosolic 5'-nucleotidase 1A,42807,2329,2.29 [2.18-2.41],2.7576125961169552e-222
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NTproBNP,N-terminal prohormone of brain natriuretic peptide,49334,3062,1.53 [1.49-1.56],1.1004988763418997e-247
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NUCB2,Nucleobindin-2,49675,3070,2.82 [2.61-3.05],1.6006414819674557e-148
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NUDT5,ADP-sugar pyrophosphatase,49341,3056,1.25 [1.17-1.33],2.156062632066373e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NXPH1,Neurexophilin-1,48186,2973,1.57 [1.48-1.66],4.532867266801069e-54
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,NXPH3,Neurexophilin-3,41676,2263,3.00 [2.62-3.43],1.103676372697972e-56
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OBP2B,Odorant-binding protein 2b,48798,3007,1.39 [1.31-1.46],4.0496759496601935e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OCLN,Occludin,42837,2323,2.84 [2.68-3.01],1.3830385396170656e-268
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OGFR,Opioid growth factor receptor,49101,3036,2.14 [1.96-2.35],5.5681513379763344e-61
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OGN,Mimecan,49341,3056,5.55 [5.23-5.89],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OLR1,Oxidized low-density lipoprotein receptor 1,48848,3033,1.23 [1.17-1.30],1.326891585892278e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OMG,Oligodendrocyte-myelin glycoprotein,49101,3036,0.85 [0.81-0.89],4.859476399743235e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OPTC,Opticin,49101,3036,1.54 [1.47-1.62],1.0394095779462661e-72
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ORM1,Alpha-1-acid glycoprotein 1,42817,2328,3.06 [2.55-3.68],6.946126189484096e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OSCAR,Osteoclast-associated immunoglobulin-like receptor,49384,3071,3.95 [3.60-4.34],2.1917418862694552e-181
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OSM,Oncostatin-M,49033,3034,1.26 [1.20-1.32],1.917473500987896e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OSMR,Oncostatin-M-specific receptor subunit beta,49616,3088,2.31 [2.00-2.68],1.1872612607715176e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,OXT,Oxytocin-neurophysin 1,49770,3078,1.09 [1.07-1.11],1.056135257870993e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,P4HB,Protein disulfide-isomerase,49099,3031,1.59 [1.46-1.73],1.5044768055466164e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PADI2,Protein-arginine deiminase type-2,48413,2997,1.19 [1.13-1.24],6.769608640225423e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PAEP,Glycodelin,48953,3016,1.11 [1.08-1.14],1.3704866350285873e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PAG1,Phosphoprotein associated with glycosphingolipid-enriched microdomains 1,48438,3007,1.27 [1.20-1.34],1.5376970772221576e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PALM,Paralemmin-1,42493,2318,6.31 [5.78-6.88],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PALM2,Paralemmin-2,42807,2329,3.28 [3.07-3.50],7.63633569485517e-278
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PAM,Peptidyl-glycine alpha-amidating monooxygenase,49701,3089,5.05 [4.47-5.71],6.784291866472887e-148
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PARP1,Poly [ADP-ribose] polymerase 1,49268,3047,1.17 [1.12-1.22],4.140887326012427e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PAXX,Protein PAXX,41974,2282,1.43 [1.31-1.55],2.513809363605823e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PBXIP1,Pre-B-cell leukemia transcription factor-interacting protein 1,42726,2335,2.51 [2.33-2.70],1.5994924682726147e-133
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PCDH1,Protocadherin-1,49717,3066,2.40 [2.16-2.67],1.0824771154385124e-60
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PCDH17,Protocadherin-17,49334,3062,1.83 [1.69-1.98],2.017004497374535e-51
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PCDH7,Protocadherin-7,42726,2335,1.73 [1.62-1.86],2.9778935969285874e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PCDHB15,Protocadherin beta-15,42709,2319,1.65 [1.52-1.79],3.721006000124607e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PCSK9,Proprotein convertase subtilisin/kexin type 9,49944,3100,1.49 [1.38-1.61],2.8354627842032045e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PDCD1,Programmed cell death protein 1,49675,3066,2.18 [2.07-2.30],2.5120395543377486e-187
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PDCD1LG2,Programmed cell death 1 ligand 2,49101,3036,2.85 [2.62-3.09],1.7876081866742548e-136
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PDCD5,Programmed cell death protein 5,49770,3078,1.23 [1.16-1.29],1.4953647908548568e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PDGFRA,Platelet-derived growth factor receptor alpha,49334,3062,2.84 [2.57-3.15],1.4164191634862233e-89
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PDIA3,Protein disulfide-isomerase A3,41974,2282,2.08 [1.91-2.27],1.6987027491213593e-63
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PDZK1,Na(+)/H(+) exchange regulatory cofactor NHE-RF3,41676,2263,1.48 [1.37-1.59],2.9503506128020305e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PEAR1,Platelet endothelial aggregation receptor 1,49944,3100,1.97 [1.71-2.26],5.753817260388497e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PENK,Proenkephalin-A,41974,2282,3.66 [3.47-3.87],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PGA4,Pepsin A-4,42940,2333,1.66 [1.58-1.75],6.289419038037907e-88
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PGF,Placenta growth factor,49875,3077,3.77 [3.61-3.93],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PGLYRP1,Peptidoglycan recognition protein 1,49704,3095,2.26 [2.13-2.39],2.8476437835827007e-174
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PHLDB1,Pleckstrin homology-like domain family B member 1,42726,2335,2.04 [1.90-2.18],6.289676441503125e-95
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PHOSPHO1,Phosphoethanolamine/phosphocholine phosphatase,48953,3016,3.26 [3.08-3.44],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PI16,Peptidase inhibitor 16,42940,2333,3.00 [2.56-3.52],2.685369757481719e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PI3,Elafin,48681,3021,2.05 [1.97-2.13],2.0350023814075465e-277
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PIGR,Polymeric immunoglobulin receptor,48714,3023,2.82 [2.61-3.05],5.23066536593223e-150
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PIK3IP1,Phosphoinositide-3-kinase-interacting protein 1,49341,3056,12.82 [11.91-13.79],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PILRA,Paired immunoglobulin-like type 2 receptor alpha,49341,3056,3.88 [3.60-4.18],3.133965288097492e-272
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PILRB,Paired immunoglobulin-like type 2 receptor beta,49334,3062,2.48 [2.32-2.64],1.4275305636921323e-162
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PINLYP,phospholipase A2 inhibitor and Ly6/PLAUR domain-containing protein,41974,2282,1.21 [1.14-1.29],2.2654442103729182e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PKD1,Polycystin-1,42910,2329,2.69 [2.32-3.12],5.1777577955931286e-39
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PKD2,Polycystin-2,41510,2258,1.31 [1.23-1.40],8.857326345301999e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLA2G10,Group 10 secretory phospholipase A2,48953,3016,1.50 [1.42-1.58],1.9555634800485583e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLA2G15,Phospholipase A2 group XV,49490,3069,1.82 [1.63-2.05],7.030198790985961e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLA2G1B,Phospholipase A2,49862,3099,2.25 [2.11-2.40],2.042071134072816e-126
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLA2G2A,"Phospholipase A2, membrane associated",49232,3051,1.35 [1.30-1.42],1.3958092119296488e-41
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLA2G7,Platelet-activating factor acetylhydrolase,49341,3056,0.60 [0.55-0.65],1.6944641635356386e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLAU,Urokinase-type plasminogen activator,49341,3056,1.52 [1.39-1.67],2.995249916196987e-20
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLAUR,Urokinase plasminogen activator surface receptor,48985,3056,8.69 [7.92-9.52],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLIN1,Perilipin-1,48186,2973,1.62 [1.51-1.74],1.8328462876949303e-40
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLIN3,Perilipin-3,49334,3062,1.79 [1.67-1.91],6.093905827013423e-63
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PLXNB2,Plexin-B2,49702,3086,2.60 [2.31-2.94],1.4983961316339464e-54
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PNLIP,Pancreatic triacylglycerol lipase,42940,2333,1.35 [1.28-1.43],2.398038697067448e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PNLIPRP1,Inactive pancreatic lipase-related protein 1,42807,2329,1.51 [1.44-1.58],1.127756113116905e-63
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PODXL2,Podocalyxin-like protein 2,49490,3069,3.64 [3.29-4.02],1.2338750406957606e-138
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,POF1B,Protein POF1B,41676,2263,1.79 [1.69-1.90],4.24266949915545e-83
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,POLR2F,"DNA-directed RNA polymerases I, II, and III subunit RPABC2",49101,3036,1.96 [1.87-2.07],7.338568843681722e-147
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PON1,Serum paraoxonase/arylesterase 1,42940,2333,0.50 [0.44-0.56],3.1748578102133705e-33
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PON3,Serum paraoxonase/lactonase 3,49549,3081,0.66 [0.62-0.70],9.000421908512555e-37
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PPL,Periplakin,41676,2263,2.10 [1.96-2.26],4.5124121475431984e-94
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PPP1R14D,Protein phosphatase 1 regulatory subunit 14D,42837,2323,1.87 [1.74-2.00],5.2624888725144056e-70
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PPP3R1,Calcineurin subunit B type 1,48953,3016,1.45 [1.34-1.57],1.5922011096568872e-20
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PPY,Pancreatic prohormone,49258,3046,1.22 [1.18-1.25],4.535421475685124e-38
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRAP1,Proline-rich acidic protein 1,42910,2342,3.90 [3.51-4.33],1.951748313094188e-141
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PREB,Prolactin regulatory element-binding protein,48413,2997,1.83 [1.70-1.98],4.1614540887366544e-57
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRELP,Prolargin,49302,3068,5.31 [4.86-5.79],3.659584345745168e-309
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRG2,Bone marrow proteoglycan,42910,2342,2.23 [2.09-2.39],7.791463273083461e-119
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRG3,Proteoglycan 3,42910,2342,1.36 [1.26-1.48],7.270007449208274e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRKAB1,5'-AMP-activated protein kinase subunit beta-1,48413,2997,1.25 [1.18-1.33],7.050521495922577e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRL,Prolactin,49770,3078,1.22 [1.17-1.27],1.7981888466681873e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRND,Prion-like protein doppel,42807,2329,1.80 [1.69-1.93],7.113871458962129e-68
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PROK1,Prokineticin-1,49268,3047,1.25 [1.19-1.32],7.204084444018654e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRR4,Proline-rich protein 4,41666,2259,1.35 [1.29-1.43],2.2317696230839527e-29
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRRT3,Proline-rich transmembrane protein 3,41774,2257,4.78 [4.35-5.25],1.311806028251872e-235
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRSS2,Trypsin-2,49531,3084,2.02 [1.93-2.11],8.710426340302205e-231
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRSS22,Brain-specific serine protease 4,41676,2263,1.69 [1.59-1.80],4.832448709841316e-62
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRSS27,Serine protease 27,49173,3059,2.02 [1.88-2.19],4.671849893925753e-73
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRSS8,Prostasin,49144,3065,2.87 [2.68-3.08],1.2669502574262839e-191
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRTG,Protogenin,49755,3074,1.56 [1.38-1.77],2.983376778842701e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PRTN3,Myeloblastin,48108,3004,1.48 [1.40-1.56],1.7415290610397139e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PSAP,Prosaposin,42510,2327,2.67 [2.49-2.85],1.421488157749491e-181
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PSAPL1,Proactivator polypeptide-like 1,42726,2335,2.11 [1.96-2.26],2.0984679637309333e-90
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PSG1,Pregnancy-specific beta-1-glycoprotein 1,48953,3016,1.15 [1.11-1.18],3.643694878956754e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PSIP1,PC4 and SFRS1-interacting protein,49268,3047,1.20 [1.15-1.25],8.600989279272307e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PSPN,Persephin,49268,3047,1.12 [1.08-1.15],1.6115962612726002e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTGDS,Prostaglandin-H2 D-isomerase,48962,3055,5.27 [4.99-5.57],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTH,Parathyroid hormone,41737,2266,1.21 [1.16-1.27],2.441770834501866e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTH1R,Parathyroid hormone/parathyroid hormone-related peptide receptor,49268,3047,1.55 [1.47-1.63],4.796753918332663e-69
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTK7,Inactive tyrosine-protein kinase 7,48186,2973,2.39 [2.21-2.57],1.6400783088019478e-113
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTN,Pleiotrophin,48438,3007,1.46 [1.37-1.55],1.1569235837282488e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTP4A3,Protein tyrosine phosphatase type IVA 3,41676,2263,1.31 [1.23-1.39],1.11090622760089e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTPRC,Receptor-type tyrosine-protein phosphatase C,42910,2342,1.89 [1.62-2.21],5.802965825581696e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTPRF,Receptor-type tyrosine-protein phosphatase F,49944,3100,2.03 [1.81-2.26],2.202438607858598e-36
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTPRN2,Receptor-type tyrosine-protein phosphatase N2,48789,3011,5.66 [5.30-6.04],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTPRR,Receptor-type tyrosine-protein phosphatase R,42807,2329,3.03 [2.80-3.28],2.226438194681565e-168
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTPRS,Receptor-type tyrosine-protein phosphatase S,49944,3100,4.15 [3.68-4.69],3.0263372063911475e-116
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PTX3,Pentraxin-related protein PTX3,49268,3047,1.40 [1.30-1.50],3.4945797501814687e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PVR,Poliovirus receptor,49770,3078,1.49 [1.37-1.61],6.654550155662416e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PXN,Paxillin,48186,2973,1.34 [1.27-1.41],1.6480964856935068e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PYDC1,Pyrin domain-containing protein 1,41774,2257,1.65 [1.54-1.76],4.87686878334077e-50
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,PYY,Peptide YY,41510,2258,1.34 [1.29-1.39],6.606371635907089e-56
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,QPCT,Glutaminyl-peptide cyclotransferase,49387,3067,4.85 [4.41-5.33],4.348648064746486e-238
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,QSOX1,Sulfhydryl oxidase 1,42105,2291,1.35 [1.26-1.43],9.96376118880346e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RAB44,Ras-related protein Rab-44,42709,2319,1.24 [1.16-1.33],3.5619199212512456e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RAB6A,Ras-related protein Rab-6A,49268,3047,0.63 [0.59-0.67],8.768604068775338e-38
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RARRES1,Retinoic acid receptor responder protein 1,48182,2972,1.54 [1.44-1.64],5.274485191686581e-39
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RARRES2,Retinoic acid receptor responder protein 2,49616,3088,2.02 [1.93-2.11],6.583888665062974e-220
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RASSF2,Ras association domain-containing protein 2,48182,2972,1.18 [1.12-1.23],3.323777801408843e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RBFOX3,RNA binding protein fox-1 homolog 3,42837,2323,0.37 [0.32-0.41],7.647416008755922e-57
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RBP2,Retinol-binding protein 2,49101,3036,1.68 [1.62-1.75],2.9777107794107166e-163
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RBP5,Retinol-binding protein 5,49101,3036,2.03 [1.94-2.12],8.405117110599054e-195
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RBP7,Retinoid-binding protein 7,42726,2335,1.52 [1.44-1.60],8.132849818705039e-59
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RCC1,Regulator of chromosome condensation,42709,2319,1.26 [1.19-1.34],4.432160149347395e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,REG1A,Lithostathine-1-alpha,49042,3051,2.53 [2.43-2.64],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,REG1B,Lithostathine-1-beta,49944,3100,2.01 [1.94-2.09],6.286565462468647e-266
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,REG3A,Regenerating islet-derived protein 3-alpha,49944,3100,2.15 [2.07-2.23],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,REG3G,Regenerating islet-derived protein 3-gamma,42709,2319,1.39 [1.27-1.52],4.768255872728227e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,REG4,Regenerating islet-derived protein 4,49384,3071,2.76 [2.62-2.91],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RELT,Tumor necrosis factor receptor superfamily member 19L,49341,3056,9.42 [8.83-10.05],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,REN,Renin,49334,3062,1.73 [1.68-1.79],4.153575674633833e-273
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RETN,Resistin,49223,3063,2.52 [2.40-2.65],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RGMA,Repulsive guidance molecule A,49770,3078,3.77 [3.42-4.16],1.4018826676575567e-157
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RGMB,RGM domain family member B,49770,3078,9.59 [8.81-10.44],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RIDA,2-iminobutanoate/2-iminopropanoate deaminase,41974,2282,1.67 [1.56-1.79],1.941275884935436e-48
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RLN2,Prorelaxin H2,41894,2278,1.24 [1.19-1.29],2.3652466143776846e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RNASE1,Ribonuclease pancreatic,42940,2333,3.67 [3.49-3.87],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RNASE10,Inactive ribonuclease-like protein 10,41774,2257,1.75 [1.66-1.84],6.210961108739874e-102
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RNASE3,Eosinophil cationic protein,49098,3051,1.09 [1.06-1.12],6.894180864027439e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RNASE4,Ribonuclease 4,41528,2241,3.75 [3.50-4.03],2.709583604700644e-295
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RNASE6,Ribonuclease K6,42633,2309,2.38 [2.28-2.49],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RNASET2,Ribonuclease T2,49706,3080,5.29 [4.94-5.66],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RNF149,E3 ubiquitin-protein ligase RNF149,41774,2257,3.14 [2.98-3.31],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ROBO1,Roundabout homolog 1,49384,3071,2.01 [1.78-2.26],3.3376654735628685e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ROBO2,Roundabout homolog 2,49770,3078,1.83 [1.60-2.10],9.821231010762196e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ROBO4,Roundabout homolog 4,41774,2257,3.92 [3.13-4.91],1.4812387746041192e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ROR1,Inactive tyrosine-protein kinase transmembrane receptor ROR1,49334,3062,6.40 [5.83-7.03],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RRM2,Ribonucleoside-diphosphate reductase subunit M2,48182,2972,1.22 [1.16-1.28],1.0508260929827533e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RSPO1,R-spondin-1,48953,3016,2.53 [2.34-2.74],9.275222102299408e-116
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RSPO3,R-spondin-3,49755,3074,6.99 [6.52-7.51],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RTBDN,Retbindin,49101,3036,2.49 [2.36-2.62],7.125398280904845e-258
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,RTN4R,Reticulon-4 receptor,49755,3074,2.45 [2.33-2.58],3.367951918294358e-258
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,S100A11,Protein S100-A11,48946,3037,1.30 [1.22-1.37],1.3960349667491747e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,S100A12,Protein S100-A12,48636,2998,1.14 [1.10-1.19],5.03893622334007e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,S100A13,Protein S100-A13,41676,2263,1.66 [1.51-1.82],6.3254060214043806e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,S100A4,Protein S100-A4,49490,3069,0.81 [0.76-0.85],5.1615353402581774e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,S100G,Protein S100-G,42837,2323,1.34 [1.24-1.45],4.7505018138747953e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,S100P,Protein S100-P,48438,3007,1.45 [1.39-1.52],4.443300970859293e-63
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SART1,U4/U6.U5 tri-snRNP-associated protein 1,41510,2258,1.38 [1.27-1.49],7.816154098407394e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SBSN,Suprabasin,42830,2340,2.55 [2.32-2.82],3.386235947935244e-78
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCARA5,Scavenger receptor class A member 5,49770,3078,6.35 [5.84-6.91],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCARB2,Lysosome membrane protein 2,48010,2963,7.46 [7.04-7.91],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCARF1,Scavenger receptor class F member 1,49944,3100,1.77 [1.65-1.91],4.1559623768623315e-55
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCARF2,Scavenger receptor class F member 2,49770,3078,6.17 [5.67-6.71],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCG2,Secretogranin-2,49533,3059,7.61 [6.98-8.29],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCG3,Secretogranin-3,49384,3071,2.78 [2.53-3.05],8.009783353877416e-102
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCGB1A1,Uteroglobin,49392,3071,2.28 [2.14-2.43],1.332256478373932e-142
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCGB3A1,Secretoglobin family 3A member 1,41974,2282,2.01 [1.72-2.35],1.1103051189865033e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCGB3A2,Secretoglobin family 3A member 2,49467,3074,1.20 [1.17-1.24],5.880718651659463e-36
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCGN,Secretagogin,48413,2997,1.93 [1.82-2.05],6.623110975203294e-99
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCN4B,Sodium channel subunit beta-4,41774,2257,4.04 [3.71-4.40],2.881999382872416e-221
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SCRG1,Scrapie-responsive protein 1,42910,2329,3.28 [3.10-3.46],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SDC1,Syndecan-1,49334,3062,2.45 [2.31-2.60],1.3644079671393238e-187
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SDC4,Syndecan-4,49334,3062,0.71 [0.66-0.76],4.1746820328105816e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEL1L,Protein sel-1 homolog 1,41774,2257,1.95 [1.85-2.05],3.0110011812194743e-144
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SELE,E-selectin,49944,3100,1.28 [1.21-1.37],3.511587838128761e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEMA3F,Semaphorin-3F,49334,3062,8.77 [7.86-9.78],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEMA3G,Semaphorin-3G,41974,2282,2.00 [1.85-2.16],2.749119625538008e-66
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEMA4C,Semaphorin-4C,49101,3036,1.57 [1.45-1.71],1.6619073296807846e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEMA6C,Semaphorin-6C,41676,2263,1.48 [1.31-1.68],8.587602644071151e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEMA7A,Semaphorin-7A,49782,3097,1.71 [1.55-1.89],1.796972834307424e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEPTIN8,Septin-8,42726,2327,2.88 [2.70-3.07],2.993239853939533e-234
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SERPINA3,Alpha-1-antichymotrypsin,42818,2325,2.20 [1.76-2.76],6.12815913404544e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SERPINA9,Serpin A9,48871,3027,1.21 [1.16-1.26],3.122214884224107e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SERPINB6,Serpin B6,49605,3064,1.24 [1.18-1.31],2.2963095177526967e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SERPINB8,Serpin B8,49875,3077,1.48 [1.43-1.53],9.167206415000716e-102
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SERPINF1,Pigment epithelium-derived factor,42318,2306,4.98 [4.50-5.50],5.863452545756125e-219
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SETMAR,Histone-lysine N-methyltransferase SETMAR,48798,3006,1.38 [1.25-1.53],6.311880849405123e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEZ6,Seizure protein 6 homolog,41737,2266,1.78 [1.60-1.98],5.302901305014808e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEZ6L,Seizure 6-like protein,49490,3069,4.38 [3.94-4.86],1.9156165652571407e-168
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SEZ6L2,Seizure 6-like protein 2,49101,3036,2.69 [2.42-3.00],8.3611623890395e-72
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SFRP1,Secreted frizzled-related protein 1,48794,3011,1.80 [1.70-1.91],6.820598933569893e-86
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SFRP4,Secreted frizzled-related protein 4,41974,2282,1.94 [1.76-2.14],8.88311972928531e-39
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SFTPA2,Pulmonary surfactant-associated protein A2,48182,2972,1.22 [1.15-1.30],7.435955908279352e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SH2D1A,SH2 domain-containing protein 1A,49268,3047,1.18 [1.12-1.24],7.168053208891888e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SHISA5,Protein shisa-5,42910,2342,3.08 [2.93-3.24],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIGLEC1,Sialoadhesin,49549,3081,2.16 [2.02-2.31],5.668002808462877e-113
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIGLEC10,Sialic acid-binding Ig-like lectin 10,49268,3047,2.51 [2.37-2.66],3.5282599152185525e-223
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIGLEC5,Sialic acid-binding Ig-like lectin 5,49341,3056,1.32 [1.27-1.37],4.68625935410283e-52
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIGLEC6,Sialic acid-binding Ig-like lectin 6,49755,3074,2.18 [2.00-2.37],3.331087531606426e-70
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIGLEC7,Sialic acid-binding Ig-like lectin 7,49334,3062,1.76 [1.57-1.96],3.6820285209349923e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIGLEC8,Sialic acid-binding Ig-like lectin 8,41774,2257,2.20 [2.02-2.40],1.0335208482966896e-72
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIRPA,Tyrosine-protein phosphatase non-receptor type substrate 1,49462,3076,1.66 [1.55-1.77],1.4861000135891442e-53
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIRPB1,Signal-regulatory protein beta-1,49220,3065,3.26 [3.06-3.47],6.935078867231494e-298
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SIT1,Signaling threshold-regulating transmembrane adapter 1,48413,2997,1.23 [1.16-1.30],1.9985607415723866e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLAMF1,Signaling lymphocytic activation molecule,48413,2997,1.47 [1.39-1.55],1.5601210522003762e-42
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLAMF6,SLAM family member 6,48182,2972,1.55 [1.43-1.68],1.2959574438064323e-27
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLAMF7,SLAM family member 7,49268,3047,1.45 [1.38-1.53],1.111958503114077e-46
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLAMF8,SLAM family member 8,48182,2972,1.74 [1.64-1.85],5.590748350480425e-71
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLC39A14,Zinc transporter ZIP14,48186,2973,1.91 [1.80-2.04],5.51517414895591e-91
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLC39A5,Zinc transporter ZIP5,49268,3047,1.52 [1.46-1.58],1.241807294496199e-109
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLITRK1,SLIT and NTRK-like protein 1,41676,2263,2.34 [2.07-2.64],9.841927129749486e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLITRK2,SLIT and NTRK-like protein 2,49755,3074,1.77 [1.63-1.92],1.0547090761624212e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLITRK6,SLIT and NTRK-like protein 6,48438,3007,2.59 [2.41-2.77],1.499085544217833e-160
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLMAP,Sarcolemmal membrane-associated protein,42726,2335,1.15 [1.10-1.21],8.108930627460406e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SLURP1,Secreted Ly-6/uPAR-related protein 1,42595,2328,1.87 [1.78-1.97],2.021561883292318e-121
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SMOC1,SPARC-related modular calcium-binding protein 1,49755,3074,3.16 [2.94-3.40],1.1884787158346564e-210
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SMOC2,SPARC-related modular calcium-binding protein 2,49549,3081,4.04 [3.80-4.29],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SMTN,Smoothelin,42725,2324,1.14 [1.09-1.19],2.1203510932881542e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SNCG,Gamma-synuclein,48953,3016,2.29 [2.18-2.41],1.3931927602668163e-225
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SNED1,"Sushi, nidogen and EGF-like domain-containing protein 1",41774,2257,1.56 [1.41-1.72],9.399166388571944e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SNRPB2,U2 small nuclear ribonucleoprotein B'',42807,2329,1.38 [1.30-1.46],9.976199665987529e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SOD2,"Superoxide dismutase [Mn], mitochondrial",49341,3056,1.45 [1.34-1.56],4.220368138138291e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SOD3,Extracellular superoxide dismutase,42940,2333,1.18 [1.12-1.25],9.081103537431187e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SORBS1,Sorbin and SH3 domain-containing protein 1,42837,2323,1.51 [1.42-1.60],1.3795921722158591e-39
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SORCS2,VPS10 domain-containing receptor SorCS2,48182,2972,4.73 [4.47-5.00],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SOST,Sclerostin,49261,3056,2.14 [1.97-2.32],9.373542850079424e-76
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SOX9,Transcription factor SOX-9,41737,2266,2.36 [2.04-2.74],7.301856006204762e-30
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPACA5_SPACA5B,Sperm acrosome-associated protein 5,42837,2323,1.63 [1.48-1.80],1.1365288883145306e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPARCL1,SPARC-like protein 1,49366,3069,2.08 [1.93-2.23],9.924054990403408e-89
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPESP1,Sperm equatorial segment protein 1,42910,2329,1.66 [1.48-1.86],8.57244770879444e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPINK1,Serine protease inhibitor Kazal-type 1,49341,3056,3.81 [3.63-3.99],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPINK2,Serine protease inhibitor Kazal-type 2,41974,2282,2.65 [2.42-2.89],5.852677750364561e-103
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPINK4,Serine protease inhibitor Kazal-type 4,49268,3047,2.08 [2.01-2.16],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPINK5,Serine protease inhibitor Kazal-type 5,49341,3056,3.41 [3.12-3.71],4.006550331574936e-171
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPINK6,Serine protease inhibitor Kazal-type 6,49755,3074,1.88 [1.77-2.00],8.65834526575088e-87
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPINT1,Kunitz-type protease inhibitor 1,49183,3051,2.93 [2.67-3.21],3.197930622953705e-114
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPINT2,Kunitz-type protease inhibitor 2,49549,3081,2.41 [2.23-2.60],3.182804159281678e-112
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPOCK1,Testican-1,48953,3016,0.40 [0.35-0.45],8.64746687443447e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPON1,Spondin-1,49384,3071,3.44 [3.23-3.66],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPON2,Spondin-2,49093,3051,6.50 [6.01-7.02],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPP1,Osteopontin,49866,3098,2.47 [2.32-2.64],1.7319143346033096e-168
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SPRR3,Small proline-rich protein 3,42807,2329,1.58 [1.50-1.67],9.098954326550216e-64
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SRPX,Sushi repeat-containing protein SRPX,42910,2329,2.21 [1.98-2.47],5.593497713780511e-45
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SSC5D,Soluble scavenger receptor cysteine-rich domain-containing protein SSC5D,49531,3084,1.32 [1.23-1.43],1.886802859290767e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ST3GAL1,"CMP-N-acetylneuraminate-beta-galactosamide-alpha-2,3-sialyltransferase 1",49101,3036,1.36 [1.28-1.45],2.0674704918662966e-20
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ST6GAL1,"Beta-galactoside alpha-2,6-sialyltransferase 1",49944,3100,2.19 [2.04-2.36],1.3054612308774532e-98
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,STAB2,Stabilin-2,42910,2342,1.86 [1.62-2.13],7.6689704327009605e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,STC1,Stanniocalcin-1,49770,3078,2.05 [1.93-2.18],4.3019580743627696e-125
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,STC2,Stanniocalcin-2,49274,3046,3.92 [3.45-4.45],1.5938727083328934e-97
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,STX1B,Syntaxin-1B,41737,2266,1.27 [1.18-1.37],6.87204971174111e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,STX4,Syntaxin-4,49101,3036,1.23 [1.18-1.29],2.5968391234183376e-19
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,STX8,Syntaxin-8,49268,3047,1.28 [1.20-1.36],2.0313600523462622e-14
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SULT2A1,Bile salt sulfotransferase,49268,3047,1.26 [1.20-1.32],9.103935178842896e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SUMF2,Inactive C-alpha-formylglycine-generating enzyme 2,49770,3078,1.37 [1.28-1.46],3.7781630332912784e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SUSD2,Sushi domain-containing protein 2,49341,3056,1.55 [1.40-1.72],6.922865555851557e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SUSD4,Sushi domain-containing protein 4,42709,2319,1.76 [1.64-1.88],5.967977629369528e-59
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SUSD5,Sushi domain-containing protein 5,41740,2266,4.05 [3.59-4.56],2.3025962248310403e-117
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SWAP70,Switch-associated protein 70,42726,2335,1.38 [1.26-1.52],3.409641046422394e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,SYT1,Synaptotagmin-1,42807,2329,1.70 [1.61-1.79],7.616657387322881e-86
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TACSTD2,Tumor-associated calcium signal transducer 2,43737,2709,1.93 [1.78-2.09],1.9315080654845165e-59
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TAFA5,Chemokine-like protein TAFA-5,49101,3036,6.61 [6.22-7.02],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TCN2,Transcobalamin-2,49866,3098,2.13 [1.97-2.31],3.449311831634596e-77
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TCOF1,Treacle protein,42910,2329,1.72 [1.57-1.89],3.481528599847331e-31
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TFF1,Trefoil factor 1,49108,3045,1.80 [1.75-1.86],2.6150384374331823e-292
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TFF2,Trefoil factor 2,49467,3074,2.48 [2.37-2.59],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TFF3,Trefoil factor 3,49291,3063,2.38 [2.31-2.46],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TFPI2,Tissue factor pathway inhibitor 2,49342,3061,1.63 [1.56-1.71],1.2311624373191101e-95
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TFRC,Transferrin receptor protein 1,49537,3080,1.76 [1.63-1.90],4.653285116256754e-47
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TG,Thyroglobulin,42709,2319,1.14 [1.10-1.18],2.415592616158823e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TGFA,Protransforming growth factor alpha,49268,3047,2.26 [2.14-2.39],8.438798131698001e-182
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TGFB1,Transforming growth factor beta-1 proprotein,49793,3072,1.80 [1.67-1.93],3.089420238584091e-57
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TGFBR1,TGF-beta receptor type-1,41676,2263,2.24 [2.03-2.48],4.856777419097933e-56
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TGFBR2,TGF-beta receptor type-2,49490,3069,6.24 [5.92-6.57],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TGFBR3,Transforming growth factor beta receptor type 3,49944,3100,4.71 [4.31-5.13],5.730499562025261e-265
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TGOLN2,Trans-Golgi network integral membrane protein 2,42940,2333,9.16 [8.09-10.38],6.2182632046089446e-264
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,THBD,Thrombomodulin,49334,3062,4.30 [4.07-4.54],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,THBS2,Thrombospondin-2,49341,3056,1.92 [1.79-2.06],1.962166734358521e-76
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,THBS4,Thrombospondin-4,49368,3072,1.29 [1.21-1.39],3.444604991854358e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,THY1,Thy-1 membrane glycoprotein,49770,3078,7.60 [6.99-8.27],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TIGAR,"Fructose-2,6-bisphosphatase TIGAR",48104,2970,1.28 [1.20-1.37],1.5202373390031238e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TIGIT,T-cell immunoreceptor with Ig and ITIM domains,42125,2284,1.52 [1.41-1.64],1.8986649912115919e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TIMD4,T-cell immunoglobulin and mucin domain-containing protein 4,49531,3084,1.49 [1.39-1.60],7.453312229902285e-29
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TIMP1,Metalloproteinase inhibitor 1,48798,3040,3.92 [3.65-4.21],3.0657498839669395e-300
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TIMP2,Metalloproteinase inhibitor 2,42910,2329,1.62 [1.51-1.74],4.7799735954523816e-39
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TIMP4,Metalloproteinase inhibitor 4,49341,3056,2.10 [1.97-2.24],1.2160625190912238e-113
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TINAGL1,Tubulointerstitial nephritis antigen-like,49179,3051,6.46 [5.65-7.39],1.8461189493175648e-163
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TMPRSS11D,Transmembrane protease serine 11D,42726,2327,2.10 [1.97-2.24],3.082970284283739e-112
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TMPRSS15,Enteropeptidase,49101,3036,1.16 [1.12-1.20],5.043653484378118e-16
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TMSB10,Thymosin beta-10,49341,3056,1.42 [1.36-1.48],1.0591024626670022e-58
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNC,Tenascin,49531,3084,1.39 [1.30-1.48],8.800436828089341e-24
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNF,Tumor necrosis factor,48361,3000,1.81 [1.74-1.89],3.235159592820384e-177
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFAIP2,Tumor necrosis factor alpha-induced protein 2,42726,2335,1.27 [1.18-1.37],5.90981810018252e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF10A,Tumor necrosis factor receptor superfamily member 10A,48953,3016,2.68 [2.57-2.79],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF10B,Tumor necrosis factor receptor superfamily member 10B,48953,3016,1.62 [1.58-1.66],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF10C,Tumor necrosis factor receptor superfamily member 10C,49455,3081,1.47 [1.37-1.57],1.2452025313115244e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF11A,Tumor necrosis factor receptor superfamily member 11A,49875,3077,5.53 [5.23-5.85],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF11B,Tumor necrosis factor receptor superfamily member 11B,49302,3068,2.69 [2.44-2.96],6.061991672846577e-91
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF12A,Tumor necrosis factor receptor superfamily member 12A,49490,3069,5.47 [5.17-5.78],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF13B,Tumor necrosis factor receptor superfamily member 13B,49384,3071,2.31 [2.21-2.42],7.40735042386674e-310
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF13C,Tumor necrosis factor receptor superfamily member 13C,48413,2997,1.63 [1.53-1.74],8.498622193389455e-48
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF14,Tumor necrosis factor receptor superfamily member 14,49384,3071,7.39 [6.86-7.97],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF17,Tumor necrosis factor receptor superfamily member 17,41974,2282,2.63 [2.40-2.88],2.137753265111464e-94
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF19,Tumor necrosis factor receptor superfamily member 19,49755,3074,9.33 [8.73-9.97],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF1A,Tumor necrosis factor receptor superfamily member 1A,49341,3056,11.47 [10.69-12.30],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF1B,Tumor necrosis factor receptor superfamily member 1B,49341,3056,2.14 [2.08-2.20],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF21,Tumor necrosis factor receptor superfamily member 21,49770,3078,5.50 [5.12-5.92],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF4,Tumor necrosis factor receptor superfamily member 4,49793,3072,3.91 [3.72-4.12],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF6B,Tumor necrosis factor receptor superfamily member 6B,48953,3016,1.94 [1.87-2.02],6.246600532842623e-238
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF8,Tumor necrosis factor receptor superfamily member 8,49770,3078,2.19 [2.07-2.32],2.564283852211035e-169
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFRSF9,Tumor necrosis factor receptor superfamily member 9,48953,3016,2.46 [2.37-2.55],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFSF11,Tumor necrosis factor ligand superfamily member 11,49268,3047,0.83 [0.79-0.87],5.554257563006511e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFSF13,Tumor necrosis factor ligand superfamily member 13,49549,3081,4.64 [4.17-5.15],1.1931554329268244e-176
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFSF13B,Tumor necrosis factor ligand superfamily member 13B,49862,3100,2.11 [1.93-2.31],1.3524592384532824e-57
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNFSF8,Tumor necrosis factor ligand superfamily member 8,42910,2342,1.55 [1.40-1.72],2.866838767830001e-17
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TNNI3,"Troponin I, cardiac muscle",48438,3007,1.17 [1.12-1.22],1.66654969681508e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TPK1,Thiamin pyrophosphokinase 1,42910,2329,2.39 [2.08-2.74],1.8096445991383883e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TPM3,Tropomyosin alpha-3 chain,41510,2258,1.33 [1.23-1.44],1.017239405452615e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TPMT,Thiopurine S-methyltransferase,48182,2972,0.83 [0.79-0.87],8.944262338467731e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TPR,Nucleoprotein TPR,41510,2258,1.26 [1.19-1.35],4.61525821911226e-13
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TPSAB1,Tryptase alpha/beta-1,49796,3075,1.49 [1.40-1.59],1.5826448625876183e-36
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TPSD1,Tryptase delta,42837,2323,1.37 [1.27-1.49],2.655538453429447e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TREM2,Triggering receptor expressed on myeloid cells 2,49302,3068,1.96 [1.85-2.07],7.537304630113709e-128
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TREML2,Trem-like transcript 2 protein,49341,3056,2.27 [2.10-2.45],6.532521320461087e-95
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TRIAP1,TP53-regulated inhibitor of apoptosis 1,49755,3074,1.28 [1.22-1.34],1.082733560454907e-21
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TTN,Titin,41510,2258,1.19 [1.13-1.25],1.5345142806244086e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TXNDC15,Thioredoxin domain-containing protein 15,49490,3069,1.76 [1.57-1.97],2.3959470962661737e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TXNDC5,Thioredoxin domain-containing protein 5,49770,3078,1.38 [1.32-1.44],8.380593182077461e-44
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TYRO3,Tyrosine-protein kinase receptor TYRO3,49334,3062,1.75 [1.56-1.96],3.4548481031124883e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,TYRP1,"5,6-dihydroxyindole-2-carboxylic acid oxidase",41676,2263,1.38 [1.29-1.47],9.379178849190822e-22
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,UBE2L6,Ubiquitin/ISG15-conjugating enzyme E2 L6,42910,2329,1.29 [1.21-1.38],1.88170023624092e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ULBP2,UL16-binding protein 2,48953,3016,4.52 [4.26-4.79],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,UMOD,Uromodulin,49785,3087,0.44 [0.42-0.47],2.587334357216771e-231
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,UNC5D,Netrin receptor UNC5D,41676,2263,2.00 [1.79-2.25],2.4276768879572583e-32
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,USP28,Ubiquitin carboxyl-terminal hydrolase 28,42807,2329,1.60 [1.48-1.72],1.237891285424191e-34
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VAMP5,Vesicle-associated membrane protein 5,48438,3007,1.28 [1.22-1.34],1.5299176705007646e-23
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VASN,Vasorin,48553,3028,3.18 [2.91-3.46],3.810512265494908e-150
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VCAM1,Vascular cell adhesion protein 1,49452,3078,3.45 [3.13-3.79],2.515697575622358e-142
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VCAN,Versican core protein,49770,3078,2.10 [1.90-2.33],7.457255507863037e-46
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VEGFA,Vascular endothelial growth factor A,49715,3069,1.55 [1.48-1.63],3.1294887777626533e-66
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VEGFB,Vascular endothelial growth factor B,41676,2263,3.50 [3.09-3.97],4.252494372486247e-86
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VEGFD,Vascular endothelial growth factor D,49794,3072,2.09 [1.92-2.28],4.5798832252619707e-63
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VGF,Neurosecretory protein VGF,42837,2323,3.75 [3.39-4.15],1.1168747713872845e-147
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VIT,Vitrin,42910,2329,2.58 [2.35-2.83],7.49571814056685e-86
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VMO1,Vitelline membrane outer layer protein 1 homolog,49101,3036,1.72 [1.63-1.81],2.84299958075e-93
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VNN2,Vascular non-inflammatory molecule 2,49101,3036,1.30 [1.21-1.40],1.878336861301153e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VSIG2,V-set and immunoglobulin domain-containing protein 2,42709,2319,2.13 [2.03-2.23],7.004949956124714e-210
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VSIG4,V-set and immunoglobulin domain-containing protein 4,49274,3046,5.41 [5.12-5.72],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VSIR,V-type immunoglobulin domain-containing suppressor of T-cell activation,49259,3054,1.17 [1.11-1.23],5.152258577725956e-10
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VSNL1,Visinin-like protein 1,42807,2329,1.57 [1.44-1.71],4.005909042450876e-25
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VSTM1,V-set and transmembrane domain-containing protein 1,48186,2973,1.52 [1.44-1.60],2.021187963928673e-50
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VSTM2L,V-set and transmembrane domain-containing protein 2-like protein,48438,3007,1.19 [1.14-1.25],1.055904415255128e-12
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VWA1,von Willebrand factor A domain-containing protein 1,49681,3068,1.36 [1.26-1.47],3.769486647253955e-15
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VWC2,Brorin,48794,3010,5.44 [5.05-5.86],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VWC2L,von Willebrand factor C domain-containing protein 2-like,42837,2323,1.39 [1.31-1.48],7.180945460022752e-28
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,VWF,von Willebrand factor,49944,3100,1.26 [1.20-1.31],6.923340275483937e-26
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,WFDC1,WAP four-disulfide core domain protein 1,41854,2279,1.34 [1.27-1.40],3.3614513725638526e-31
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,WFDC12,WAP four-disulfide core domain protein 12,49676,3072,1.76 [1.68-1.84],3.1991349375274374e-130
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,WFDC2,WAP four-disulfide core domain protein 2,46832,2881,5.12 [4.89-5.37],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,WFIKKN2,"WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2",49384,3071,2.19 [2.00-2.40],5.845569860736997e-64
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,WIF1,Wnt inhibitory factor 1,49755,3074,1.36 [1.24-1.48],2.259197400599193e-11
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,WNT9A,Protein Wnt-9a,48413,2997,3.69 [3.49-3.90],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,XCL1,Lymphotactin,49755,3074,1.56 [1.50-1.62],5.449791469339366e-100
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,XG,Glycoprotein Xg,49701,3092,6.00 [5.62-6.41],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,XPNPEP2,Xaa-Pro aminopeptidase 2,49490,3069,0.87 [0.84-0.90],1.8830002308050984e-18
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,YAP1,Transcriptional coactivator YAP1,42807,2329,8.95 [8.20-9.77],0.0
+Chapter XIV Diseases of the genitourinary system,Chronic kidney disease,ZBTB17,Zinc finger and BTB domain-containing protein 17,48438,3007,1.64 [1.55-1.72],6.303227829953724e-79

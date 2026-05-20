@@ -1,0 +1,31 @@
+## Overview of the Enriched Pathways
+
+In Table 1, we rank the enriched biological pathways associated with depression based on statistical significance, biological coherence, and support from prior literature. Notably, immune and inflammatory signaling emerged as the strongest theme, with cytokine-cytokine receptor interaction (Kyoto Encyclopedia of Genes and Genomes:04060, P < 3.97 × 10−19, 34 associated proteins), tumor necrosis factors bind their physiological receptors (Reactome:R-HSA-5669034, P < 5.76 × 10−11, 11 associated proteins), and Cytokines and inflammatory response (WikiPathways:530, P < 1.81 × 10−4, 6 associated proteins) ranking prominently. This pattern is highly consistent with a large body of literature showing that elevated inflammatory cytokine signaling, including tumor necrosis factor and interleukin pathways, contributes to depressive symptoms by altering monoamine metabolism, synaptic plasticity, neuroendocrine function, and microglial activation. The enrichment of interferon regulatory factor motif targets (Transcription factor:M08887_1, P < 4.06 × 10−2, 7 associated proteins) further supports involvement of innate immune transcriptional programs, which have repeatedly been linked to inflammation-associated depression.
+
+Furthermore, transcriptional stress-response pathways were also enriched, particularly p53 motif targets (Transcription factor:M10023_1, P < 1.10 × 10−2, 17 associated proteins). p53 is widely implicated in cellular stress, apoptosis, and mitochondrial dysfunction, and previous studies suggest that excessive p53-related signaling may contribute to neuronal loss, impaired neurogenesis, and stress susceptibility in depressive disorders. In parallel, receptor complex (Gene Ontology:0043235, P < 2.04 × 10−9, 24 associated proteins) highlights altered receptor-mediated signaling, which is relevant because depression has been associated with dysregulation of cytokine receptors, neurotransmitter receptors, and neurotrophic signaling complexes.
+
+In addition, several enriched pathways point to altered secretory and trafficking biology, including post-translational protein phosphorylation (Reactome:R-HSA-8957275, P < 5.35 × 10−5, 11 associated proteins), cargo receptor activity (Gene Ontology:0038024, P < 2.77 × 10−5, 8 associated proteins), endoplasmic reticulum lumen (Gene Ontology:0005788, P < 1.67 × 10−6, 17 associated proteins), and lipid localization (Gene Ontology:0010876, P < 1.65 × 10−4, 15 associated proteins). These findings are biologically plausible because endoplasmic reticulum stress, abnormal protein processing, membrane lipid imbalance, and defective vesicular transport have all been reported in depression and may influence synaptic receptor trafficking, inflammatory mediator secretion, and neuronal resilience. The enrichment of carbohydrate binding (Gene Ontology:0030246, P < 4.83 × 10−6, 11 associated proteins) may also reflect altered lectin-like, extracellular matrix, or immune recognition processes, which have been implicated in neuroimmune communication.
+
+Interestingly, tissue and host-interaction related signals were also observed, including symbiont entry into host cell (Gene Ontology:0046718, P < 5.11 × 10−8, 11 associated proteins), Colon; goblet cells [Human Protein Atlas:0130892, P < 4.69 × 10−8, 23 associated proteins], and Colon; endocrine cells [Human Protein Atlas:0131293, P < 2.62 × 10−6, 17 associated proteins]. Although these are not classic psychiatric pathways, they may reflect increasing evidence for gut-immune-brain interactions in depression. Goblet cells regulate mucosal barrier integrity, while enteroendocrine cells influence serotonin production, immune tone, and vagal signaling; disturbances in these systems have been associated with depressive phenotypes in both clinical and preclinical studies. Finally, the overlap with inflammatory disease pathways such as Rheumatoid arthritis (Kyoto Encyclopedia of Genes and Genomes:05323, P < 3.38 × 10−6, 11 associated proteins) further supports the concept that depression shares molecular mechanisms with systemic inflammatory disorders, consistent with the well-documented comorbidity between chronic inflammation and depressive illness. Overall, these results suggest that depression in this dataset is strongly linked to convergent mechanisms involving immune activation, stress-responsive transcription, receptor signaling, and secretory and gut-associated biology.
+
+Table 1: Top Enriched Pathways from Each Source
+| Term ID | Pathway Name | Associated Proteins Counts | Weighted Score | p-value | Source |
+| --- | --- | --- | --- | --- | --- |
+| TF:M08887_1 | Factor: IRF; motif: NNGAAANTGAAANN; match class: 1 | 7 | 0.987 | 4.058e-02 | TF |
+| TF:M10023_1 | Factor: p53; motif: NGRCATGYCCAGRCATGYCY; match class: 1 | 17 | 0.914 | 1.102e-02 | TF |
+| HP:0002103 | Abnormal pleura morphology | 10 | 0.520 | 3.136e-02 | HP |
+| HP:0002653 | Bone pain | 9 | 0.470 | 6.542e-03 | HP |
+| GO:0030246 | carbohydrate binding | 11 | 0.375 | 4.827e-06 | GO:MF |
+| HPA:0130892 | Colon; goblet cells[≥Medium] | 23 | 0.364 | 4.687e-08 | HPA |
+| HPA:0131293 | Colon; endocrine cells[High] | 17 | 0.353 | 2.621e-06 | HPA |
+| GO:0046718 | symbiont entry into host cell | 11 | 0.345 | 5.109e-08 | GO:BP |
+| GO:0010876 | lipid localization | 15 | 0.330 | 1.645e-04 | GO:BP |
+| WP:WP530 | Cytokines and inflammatory response | 6 | 0.329 | 1.807e-04 | WP |
+| WP:WP5390 | Pancreatic cancer subtypes | 11 | 0.324 | 2.774e-08 | WP |
+| REAC:R-HSA-8957275 | Post-translational protein phosphorylation | 11 | 0.323 | 5.347e-05 | REAC |
+| GO:0005788 | endoplasmic reticulum lumen | 17 | 0.297 | 1.674e-06 | GO:CC |
+| GO:0038024 | cargo receptor activity | 8 | 0.294 | 2.769e-05 | GO:MF |
+| REAC:R-HSA-5669034 | TNFs bind their physiological receptors | 11 | 0.261 | 5.760e-11 | REAC |
+| KEGG:04060 | Cytokine-cytokine receptor interaction | 34 | 0.222 | 3.972e-19 | KEGG |
+| GO:0043235 | receptor complex | 24 | 0.213 | 2.043e-09 | GO:CC |
+| KEGG:05323 | Rheumatoid arthritis | 11 | 0.077 | 3.376e-06 | KEGG |

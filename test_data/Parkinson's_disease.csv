@@ -1,0 +1,20 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+Chapter VI Diseases of the nervous system,Parkinson's disease,ADGRG2,Adhesion G-protein coupled receptor G2,51476,849,0.48 [0.40-0.58],1.2672123298048671e-14
+Chapter VI Diseases of the nervous system,Parkinson's disease,BAG3,BAG family molecular chaperone regulator 3,50988,838,0.57 [0.51-0.63],4.586067004772437e-25
+Chapter VI Diseases of the nervous system,Parkinson's disease,CD209,CD209 antigen,51609,851,0.59 [0.51-0.70],2.131042995465132e-10
+Chapter VI Diseases of the nervous system,Parkinson's disease,CLEC10A,C-type lectin domain family 10 member A,51073,838,0.49 [0.42-0.58],9.596674553727496e-17
+Chapter VI Diseases of the nervous system,Parkinson's disease,EPS8L2,Epidermal growth factor receptor kinase substrate 8-like protein 2,51827,855,0.52 [0.42-0.64],7.42870351209506e-10
+Chapter VI Diseases of the nervous system,Parkinson's disease,HNMT,Histamine N-methyltransferase,50830,834,0.61 [0.54-0.70],9.68012533430893e-14
+Chapter VI Diseases of the nervous system,Parkinson's disease,HPGDS,Hematopoietic prostaglandin D synthase,50261,834,0.46 [0.39-0.54],3.336377172033128e-20
+Chapter VI Diseases of the nervous system,Parkinson's disease,IL13RA1,Interleukin-13 receptor subunit alpha-1,50836,813,0.46 [0.37-0.58],1.0252639743271734e-11
+Chapter VI Diseases of the nervous system,Parkinson's disease,ITGA11,Integrin alpha-11,51399,849,0.46 [0.39-0.55],3.282113433218047e-18
+Chapter VI Diseases of the nervous system,Parkinson's disease,ITGAM,Integrin alpha-M,51486,848,0.42 [0.34-0.51],6.573874146211787e-18
+Chapter VI Diseases of the nervous system,Parkinson's disease,ITGAV,Integrin alpha-V,51912,855,0.27 [0.20-0.35],5.396212917095924e-22
+Chapter VI Diseases of the nervous system,Parkinson's disease,ITGB2,Integrin beta-2,51184,853,0.46 [0.37-0.58],8.10806623742341e-12
+Chapter VI Diseases of the nervous system,Parkinson's disease,KLK8,Kallikrein-8,49749,798,0.57 [0.47-0.68],3.3684955381319224e-10
+Chapter VI Diseases of the nervous system,Parkinson's disease,NEFL,Neurofilament light polypeptide,50109,831,1.55 [1.37-1.75],1.587712868109472e-12
+Chapter VI Diseases of the nervous system,Parkinson's disease,PEPD,Xaa-Pro dipeptidase,44783,424,0.40 [0.30-0.52],6.660413802816906e-11
+Chapter VI Diseases of the nervous system,Parkinson's disease,PTPRN2,Receptor-type tyrosine-protein phosphatase N2,50904,838,0.53 [0.44-0.64],7.19469315816111e-11
+Chapter VI Diseases of the nervous system,Parkinson's disease,SCG2,Secretogranin-2,51676,851,0.55 [0.45-0.66],2.8714307052426607e-10
+Chapter VI Diseases of the nervous system,Parkinson's disease,TNXB,Tenascin-X,51486,848,0.47 [0.39-0.58],1.314931437297003e-13
+Chapter VI Diseases of the nervous system,Parkinson's disease,VGF,Neurosecretory protein VGF,44664,422,0.38 [0.28-0.52],6.272904100968403e-10

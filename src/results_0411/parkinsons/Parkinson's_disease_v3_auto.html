@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioInsight Multi-Agent System - Parkinson disease</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.26.0/cytoscape.min.js"></script>
+    <script src="https://unpkg.com/webcola@3.4.0/WebCola/cola.min.js"></script>
+    <script src="https://unpkg.com/cytoscape-cola@2.5.1/cytoscape-cola.js"></script>
+    <style>
+        :root {
+            --primary-bg: #f8f9fa;
+            --panel-bg: #ffffff;
+            --header-bg: #1a2530;
+            --text-main: #2c3e50;
+            --text-muted: #6c757d;
+            --border-color: #dee2e6;
+            --color-pathway: #016994;
+            --color-protein: #6b7280;
+            --color-drug: #1b5e20;
+        }
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                         "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        header {
+            background-color: var(--header-bg);
+            color: white;
+            padding: 0 20px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 10;
+        }
+        .logo { font-weight: 600; font-size: 16px; letter-spacing: 0.5px; }
+        .demo-selector { background: #2c3e50; color: white; border: 1px solid #4a5c6e;
+                          padding: 4px 12px; border-radius: 4px; }
+        main { display: flex; flex: 1; height: calc(100vh - 50px); }
+        .left-pane { flex: 4; display: flex; flex-direction: column;
+                     border-right: 1px solid var(--border-color); background: var(--panel-bg); }
+        .stats-bar { padding: 12px 20px; border-bottom: 1px solid var(--border-color);
+                     background: #fdfdfd; font-size: 14px; display: flex; gap: 20px; }
+        .stats-item { font-weight: 500; }
+        .stats-item span { color: var(--color-protein); font-weight: bold; }
+        .stats-item.pathway span { color: var(--color-pathway); }
+        #cy-container { flex: 1; position: relative; display: flex; flex-direction: column; overflow: hidden; }
+        #cy { flex: 1; min-height: 0; width: 100%; }
+        .graph-toolbar { display: flex; flex-direction: column; gap: 0;
+                         background: rgba(255,255,255,0.97); border-bottom: 1px solid var(--border-color);
+                         z-index: 5; flex-shrink: 0; }
+        .toolbar-row { display: flex; align-items: center; gap: 8px; padding: 7px 14px; flex-wrap: wrap; }
+        .toolbar-row-legend { display: flex; align-items: center; gap: 14px; padding: 5px 14px 8px;
+                              flex-wrap: wrap; border-top: 1px solid #f0f0f0; background: #fafbfc; }
+        .cy-hint { padding: 5px 14px; font-size: 11px; color: #999; text-align: center;
+                   background: #fafbfc; border-top: 1px solid var(--border-color);
+                   letter-spacing: 0.2px; flex-shrink: 0; }
+        .toolbar-btn { padding: 4px 10px; border: 1px solid #bbb; border-radius: 4px;
+                       background: white; cursor: pointer; font-size: 12px; color: #444;
+                       transition: all 0.15s; user-select: none; }
+        .toolbar-btn:hover { background: #f0f4ff; border-color: var(--color-pathway); color: var(--color-pathway); }
+        .toolbar-sep { width: 1px; height: 18px; background: #ddd; margin: 0 4px; flex-shrink: 0; }
+        .legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: #555; white-space: nowrap; }
+        .legend-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+        .legend-hex { width: 13px; height: 13px; display: inline-block; flex-shrink: 0;
+                      clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%); }
+        .legend-rect { width: 16px; height: 9px; border-radius: 2px; display: inline-block; flex-shrink: 0; }
+        .legend-line { width: 18px; height: 2px; display: inline-block; flex-shrink: 0; }
+        .legend-line-solid { background: #5a6a7a; }
+        .legend-line-dashed { background: transparent;
+                              background-image: linear-gradient(to right, #90a4ae 50%, transparent 50%);
+                              background-size: 6px 2px; background-repeat: repeat-x; }
+        .toggle-btn { background: #eef2f6; }
+        .toggle-btn.active { background: #1a2530; color: white; border-color: #1a2530; }
+        .toggle-btn:not(.active) { opacity: 0.6; }
+        #cy-tooltip { position: absolute; background: rgba(25,35,45,0.92); color: #f0f0f0;
+                      padding: 8px 12px; border-radius: 6px; font-size: 12px; pointer-events: none;
+                      max-width: 220px; z-index: 999; display: none; line-height: 1.5;
+                      box-shadow: 0 3px 10px rgba(0,0,0,0.35); }
+        .right-pane { flex: 6; display: flex; flex-direction: column; background: var(--panel-bg); }
+        .tabs { display: flex; border-bottom: 1px solid var(--border-color); background: #f4f6f8; }
+        .tab-btn { flex: 1; padding: 12px; border: none; background: transparent;
+                   font-size: 14px; font-weight: 600; color: var(--text-muted); cursor: pointer; outline: none; }
+        .tab-btn.active { color: var(--color-pathway); border-bottom: 2px solid var(--color-pathway);
+                          background: white; }
+        .content-area { flex: 1; overflow-y: auto; padding: 24px; line-height: 1.6; }
+        .panel { display: none; }
+        .panel.active { display: block; }
+        h2 { font-size: 18px; margin-top: 0; color: #1a2530; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+        h3 { font-size: 15px; color: var(--color-pathway); margin-top: 24px; }
+        .summary-box { background: #f8fcfc; border-left: 3px solid var(--color-pathway);
+                       padding: 12px; border-radius: 0 4px 4px 0; margin-bottom: 16px; font-size: 13.5px; }
+        details { margin-bottom: 20px; background: white; border: 1px solid #eee; border-radius: 4px; }
+        summary { padding: 10px; font-weight: 600; cursor: pointer; background: #fafafa;
+                  font-size: 13px; color: var(--text-muted); }
+        .details-content { padding: 15px; font-size: 13px; color: #444; }
+        .local-img { max-width: 100%; height: auto; border: 1px solid #eee; margin: 10px 0; }
+        .entity-link { color: var(--color-protein); font-weight: 500; cursor: pointer;
+                       text-decoration: underline; text-decoration-color: rgba(200,60,40,0.3); }
+        .tier-badge { display: inline-block; padding: 4px 8px; border-radius: 12px;
+                      font-size: 12px; font-weight: bold; margin-left: 10px; }
+        .badge-protein { background: #e8f5e9; color: #2e7d32; }
+        .badge-pathway { background: #f3e5f5; color: #4a148c; }
+        .detail-section { margin-top: 15px; font-size: 14px; }
+        .detail-section label { font-weight: 600; color: #555; display: block;
+                                margin-bottom: 5px; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+        .repurposing-note { background: #fff3e0; padding: 12px; border-radius: 4px;
+                            border-left: 3px solid var(--color-protein); color: #9a3412; font-size: 13px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+                      background: #f8f9fa; padding: 10px; border-radius: 4px; margin-top: 5px; }
+        .stat-box { font-size: 12px; color: #666; }
+        .stat-box strong { display: block; color: #333; font-size: 14px; margin-top: 2px; }
+        .academic-text { font-size: 13.5px; color: #444; line-height: 1.6; text-align: justify; }
+        .ref-list { font-size: 12px; color: #666; padding-left: 20px; }
+        .protein-chip-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+        .protein-chip { display: inline-block; padding: 3px 9px; border-radius: 12px;
+                        font-size: 12px; font-weight: 600; cursor: pointer;
+                        background: #f3f4f6; color: #374151; border: 1px solid #9ca3af; }
+        .drug-chip { display: inline-block; padding: 3px 9px; border-radius: 4px;
+                     font-size: 12px; font-weight: 600; cursor: pointer; margin: 2px;
+                     background: #fff3e0; color: #bf360c; border: 1px solid #ff7043; }
+        .drug-chip.fda-approved::after { content: '✓'; margin-left: 4px; color: #2e7d32; }
+        .lit-rank-list { padding-left: 42px; margin: 4px 0; line-height: 1.9;
+                         max-height: 320px; overflow-y: auto; overflow-x: hidden;
+                         counter-reset: lit-rank; list-style: none; }
+        .lit-rank-list li { margin-bottom: 2px; position: relative;
+                            counter-increment: lit-rank; }
+        .lit-rank-list li::before { content: counter(lit-rank) "."; position: absolute;
+                                    left: -36px; width: 30px; text-align: right;
+                                    color: #999; font-size: 11px; font-weight: 600;
+                                    font-variant-numeric: tabular-nums;
+                                    line-height: 1.9; }
+        .lit-rank-controls { display: flex; align-items: center; gap: 12px;
+                             flex-wrap: wrap; padding: 4px 0 10px;
+                             border-bottom: 1px dashed #ffe082; margin-bottom: 8px; }
+        .lit-rank-label { font-size: 13px; color: #555; white-space: nowrap; }
+        .lit-rank-label strong { color: #bf360c; font-size: 14px; padding: 0 3px; }
+        .lit-rank-slider { flex: 1; min-width: 140px; max-width: 260px;
+                           accent-color: #fb8c00; cursor: pointer; }
+        .lit-rank-slider:disabled { opacity: 0.4; cursor: not-allowed; }
+        .lit-rank-quick { display: inline-flex; gap: 6px; }
+        .lit-link { color: #1565c0; text-decoration: none; }
+        .lit-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">BioInsight Multi-Agent System</div>
+        <select class="demo-selector">
+            <option>Parkinson disease</option>
+        </select>
+    </header>
+
+    <main>
+        <div class="left-pane">
+            <div class="stats-bar">
+                <div class="stats-item">Disease: <strong>Parkinson disease</strong></div>
+                <div class="stats-item pathway">Pathways: <span>59</span> Enriched (Top 10 Displayed)</div>
+                <div class="stats-item">Proteins: <span>19</span> Significant (19 Displayed)</div>
+            </div>
+            <div id="cy-container">
+                <div class="graph-toolbar">
+                    <div class="toolbar-row">
+                        <button class="toolbar-btn" title="Zoom In" onclick="cy.animate({zoom:cy.zoom()*1.35,center:{eles:cy.elements()}},{duration:200})">＋</button>
+                        <button class="toolbar-btn" title="Zoom Out" onclick="cy.animate({zoom:cy.zoom()/1.35,center:{eles:cy.elements()}},{duration:200})">－</button>
+                        <button class="toolbar-btn" title="Fit all nodes" onclick="cy.animate({fit:{eles:cy.elements(),padding:20}},{duration:300})">⊡ Fit</button>
+                        <button class="toolbar-btn" title="Re-run physics layout" onclick="resetLayout()">⟳ Reset</button>
+                        <span class="toolbar-sep"></span>
+                        <button class="toolbar-btn toggle-btn active" id="tg-ppi"      onclick="toggleEdgeType('ppi', this)">PPI</button>
+                        <button class="toolbar-btn toggle-btn active" id="tg-pathway"  onclick="toggleEdgeType('pathway', this)">Pathway</button>
+                        <button class="toolbar-btn toggle-btn active" id="tg-pharmaco" onclick="toggleEdgeType('pharmaco', this)">Pharmaco</button>
+                        <button class="toolbar-btn toggle-btn active" id="tg-drug-cat" onclick="toggleEdgeType('drug_cat', this)">Drug Cat.</button>
+                        <button class="toolbar-btn toggle-btn" id="tg-edge-labels" onclick="toggleEdgeLabels(this)">Labels</button>
+                    </div>
+                    <div class="toolbar-row-legend">
+                        <div class="legend-item">
+                            <span class="legend-hex" style="background:var(--color-pathway)"></span>Pathway
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot" style="background:var(--color-protein)"></span>Protein / Gene
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-rect" style="border:2px solid var(--color-drug);background:#fff"></span>Drug · Category
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-rect" style="border:1.5px solid #ff7043;background:#fff3e0"></span>Drug · Pharmaco
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-line legend-line-solid" style="background:var(--color-pathway)"></span>belongs to
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-line legend-line-dashed"></span>STRING PPI
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-line legend-line-solid" style="background:#ff7043"></span>pharmacogenetic
+                        </div>
+                    </div>
+                </div>
+                <div id="cy"></div>
+                <div id="cy-tooltip"></div>
+            </div>
+            <div class="cy-hint">Drag nodes &nbsp;·&nbsp; Scroll to zoom &nbsp;·&nbsp; Click to inspect</div>
+        </div>
+
+        <div class="right-pane">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('report')">Narrative Report</button>
+                <button class="tab-btn" id="btn-detail" onclick="switchTab('detail')">Node Detail</button>
+            </div>
+
+            <div class="content-area">
+                <div id="panel-report" class="panel active">
+                    <h2>Introduction</h2>
+                    <div class="summary-box">
+                        <p>Parkinson&#x27;s disease (Disease code: PARKINSONS) is a progressive neurodegenerative disorder marked by dopaminergic neuronal loss, abnormal protein aggregation, and both motor and non-motor dysfunction. In a study using the UK Biobank Pharma Proteomics Project data, 19 plasma proteins were significantly associated with Parkinson&#x27;s disease, based on a cohort of 52,100 controls and 874 cases, with significance determined by a Bonferroni-corrected threshold of P &lt; 0.000000001. Investigating these proteins is crucial for understanding systemic molecular signals that reflect neuronal injury, neuroimmune activation, and tissue remodeling in Parkinson&#x27;s disease. To explore these mechanisms, we conducted a functional enrichment analysis using Gene Ontology Molecular Function, Gene Ontology Biological Process, Gene Ontology Cellular Component, Reactome, and Kyoto Encyclopedia of Genes and Genomes databases. This analysis revealed 59 significantly enriched pathways, highlighting key biological themes such as extracellular matrix organization, integrin-mediated adhesion, cell-surface signaling, phagocytosis, microglial immune activity, and broader stress-response and neuroendocrine processes. These findings suggest that Parkinson&#x27;s disease involves not only neuron-intrinsic degeneration but also altered neuron-microenvironment interactions, chronic inflammatory clearance mechanisms, adhesion-dependent signaling, and systemic neuroendocrine components. The following sections will delve into the most significant pathways and their associated protein interaction patterns to further elucidate the molecular framework captured by these disease-associated plasma proteins.</p>
+
+                    </div>
+
+                    <h2>Literature-Ranked Disease-Associated Proteins</h2>
+                    <div class="summary-box" style="border-left-color:#fb8c00; background:#fff8e1;">
+                        Proteins are ranked by the number of distinct PubMed
+                        references that mention them across the top
+                        10 enriched pathway sections of the
+                        v1 literature search. Click any protein to inspect
+                        its supporting papers and drug interactions.
+                        <div class="lit-rank-controls"><label class="lit-rank-label">Show top <strong id="lit-rank-num">5</strong> of <span id="lit-rank-total">19</span> proteins</label><input type="range" id="lit-rank-slider" class="lit-rank-slider" min="1" max="19" value="5" step="1" ><span class="lit-rank-quick"><button class="toolbar-btn" type="button" onclick="setLitRank(5)">Default</button><button class="toolbar-btn" type="button" onclick="setLitRank(19)">All</button></span></div><ol class="lit-rank-list" id="lit-rank-list"></ol>
+                    </div>
+
+                    <h2>Overview of the Enriched Pathways</h2>
+                    <div class="summary-box" style="border-left-color: #607d8b; background: #eceff1;">
+                        <strong>System Synthesis:</strong>
+                        The enriched biological pathways highlight the core molecular mechanisms
+                        of Parkinson disease.
+                        Top proteins by significance include (<span class="entity-link" onclick="highlightNode('ADGRG2')">ADGRG2</span>).
+                        Click any node in the network to explore details.
+                    </div>
+                    <h2>Key Enriched Pathways (Top 10)</h2>
+
+                    <h3>1. Pituitary gland (HPA:0370000)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> The pituitary gland plays a role in Parkinson&#x27;s disease through neuroendocrine regulation, protein aggregation, and clinical complications related to pituitary disease or its treatment. Key proteins: <span class="entity-link" onclick="highlightNode('PTPRN2')">PTPRN2</span>, <span class="entity-link" onclick="highlightNode('SCG2')">SCG2</span>, <span class="entity-link" onclick="highlightNode('VGF')">VGF</span>.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>The pituitary gland plays a role in Parkinson&#x27;s disease through neuroendocrine regulation, protein aggregation, and clinical complications related to pituitary disease or its treatment. It contributes to systemic hormonal environments that may affect brain vulnerability, with disturbances in growth hormone and insulin-like growth factor signaling potentially representing risk factors for neurodegenerative disorders, including Parkinson&#x27;s. Pathological alpha-synuclein deposits in the pituitary suggest its involvement in Parkinson-related proteinopathy, although there is no evidence of disease transmission through pituitary-derived material. Additionally, pituitary pathology can mimic Parkinson&#x27;s symptoms, as seen in cases of parkinsonism following pituitary surgery. Overall, while the pituitary gland is not central to Parkinson&#x27;s disease, it intersects with the disease&#x27;s biology through these mechanisms.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/9f72676a-0dd8-4c5a-88c3-2503a47046f4.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+
+                    <h3>2. Adrenal gland; medullary cells[≥Low] (HPA:0020061)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> The adrenal gland medullary cells, or chromaffin cells, are neuroendocrine cells derived from the neural crest and are involved in catecholamine production, playing a significant role in stress response. Key proteins: <span class="entity-link" onclick="highlightNode('PTPRN2')">PTPRN2</span>, <span class="entity-link" onclick="highlightNode('SCG2')">SCG2</span>, <span class="entity-link" onclick="highlightNode('VGF')">VGF</span>.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>The adrenal gland medullary cells, or chromaffin cells, are neuroendocrine cells derived from the neural crest and are involved in catecholamine production, playing a significant role in stress response. These cells exhibit developmental and functional heterogeneity and are integrated into broader endocrine circuits, synthesizing catecholamines through specific enzymes regulated by stress-related pathways. In the context of Parkinson&#x27;s disease, these cells are of interest due to their biological similarities with dopaminergic systems, and experimental studies have shown that transplantation of adrenal medullary tissue can influence dopaminergic function and provide neurotrophic support. This support is not through direct neurotransmitter replacement but rather through promoting striatal reinnervation and secreting neurotrophic factors, which may help alleviate motor deficits in Parkinson&#x27;s models. Additionally, the involvement of adrenal medullary cells in stress-responsive signaling pathways may further link them to Parkinson&#x27;s disease pathogenesis through their impact on neuroimmune states.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/7d5995b5-c85a-43af-8c0b-e3da9fac867f.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+
+                    <h3>3. Focal adhesion (KEGG:04510)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> Focal adhesion is a crucial cell signaling and structural pathway that connects the extracellular matrix to the intracellular actin cytoskeleton, involving integrin receptors and a complex of proteins like focal adhesion kinase (FAK), paxillin, and vinculin.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>Focal adhesion is a crucial cell signaling and structural pathway that connects the extracellular matrix to the intracellular actin cytoskeleton, involving integrin receptors and a complex of proteins like focal adhesion kinase (FAK), paxillin, and vinculin. This pathway is integral for mechanotransduction, enabling cells to sense and respond to mechanical cues from their environment, which influences processes such as adhesion, migration, and survival. In the context of Parkinson&#x27;s disease, the Gly2019Ser mutation in leucine-rich repeat kinase 2 (LRRK2) has been shown to inhibit FAK signaling, impairing microglial motility and their response to brain injury, which could contribute to neurodegenerative progression by weakening protective glial functions. The pathway&#x27;s regulation of mechanotransduction, adhesion turnover, and calcium signaling is critical for how microglia and other neural cells respond to tissue damage in the diseased brain. Overall, focal adhesion serves as a central hub for translating extracellular mechanical signals into intracellular responses, with implications for neurodegenerative diseases like Parkinson&#x27;s.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/b232ed88-35d6-43b1-b2c9-36b45cac4ada.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+
+                    <h3>4. Extracellular matrix organization (REAC:R-HSA-1474244)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> Extracellular matrix organization plays a crucial role in the structural and functional integrity of tissues by regulating cell behavior, adhesion, and communication.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>Extracellular matrix organization plays a crucial role in the structural and functional integrity of tissues by regulating cell behavior, adhesion, and communication. In the context of Parkinson&#x27;s disease, alterations in the extracellular matrix, particularly due to synucleinopathy, can influence the vulnerability of dopaminergic neurons, neuroinflammation, and the spread of pathological alpha-synuclein. Experimental evidence from mouse models shows that changes in the extracellular matrix, such as hyaluronan degradation, are not merely secondary effects but actively contribute to disease progression. The dysregulation of extracellular matrix components, including glycoproteins like reelin, is observed across various neurodegenerative diseases, indicating a broader relevance beyond Parkinson&#x27;s disease. These findings suggest that targeting extracellular matrix organization could be a potential therapeutic strategy to modify disease severity and progression in Parkinson&#x27;s disease.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/bedb1918-5a71-4bdd-9198-3678ce54a922.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+
+                    <h3>5. opsonin binding (GO:0001846)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> Opsonin binding involves the recognition of opsonins, such as antibodies or complement fragments, by receptors on phagocytes, facilitating the clearance of microbes and cellular debris.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>Opsonin binding involves the recognition of opsonins, such as antibodies or complement fragments, by receptors on phagocytes, facilitating the clearance of microbes and cellular debris. This process is crucial for both innate and adaptive immunity, as it triggers phagocyte responses like engulfment and inflammatory signaling. In the context of Parkinson&#x27;s disease, while opsonin binding is not a primary pathway, it is relevant due to its role in neuroinflammation and the clearance of damaged cells and protein aggregates, such as misfolded alpha-synuclein. The disease is characterized by sustained innate immune activation in the brain, with glial cells playing a dynamic role in disease progression. Complement-opsonin interactions may contribute to the inflammatory clearance of neuronal debris, highlighting the potential involvement of opsonin binding in Parkinson&#x27;s disease pathology.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/eea08fd0-7916-434a-b7c1-f362c62f2e81.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+
+                    <h3>6. cell-matrix adhesion (GO:0007160)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> Cell-matrix adhesion is a biological process that connects cells to the extracellular matrix through integrin-centered assemblies, linking extracellular signals to intracellular responses.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>Cell-matrix adhesion is a biological process that connects cells to the extracellular matrix through integrin-centered assemblies, linking extracellular signals to intracellular responses. This pathway is crucial for various cellular functions, including shape, migration, and survival, by integrating extracellular matrix binding with cytoskeletal organization and mechanosensation. In the context of Parkinson&#x27;s disease, disruptions in cell-matrix adhesion may contribute to synaptic dysfunction by affecting actin- and microtubule-dependent processes essential for synaptic vesicle cycling. This connection is supported by evidence showing that cell-matrix adhesion is vital for organizing the actin cytoskeleton and force transmission, which are critical for neurotransmitter release. Additionally, phosphoproteomic analyses in Parkinson&#x27;s patients reveal altered cell-matrix adhesion processes, suggesting a systemic alteration of this pathway in the disease.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/84f066fd-8a98-4bf9-a20a-e32e4fcf1cf7.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+
+                    <h3>7. Hippo Merlin signaling dysregulation (WP:WP4541)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> The Hippo Merlin signaling pathway involves a network centered on the protein Merlin, which regulates the activity of the yes-associated protein 1 (YAP1) and tafazzin through the Hippo kinase cascade, thereby controlling gene transcription related to cell prol
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>The Hippo Merlin signaling pathway involves a network centered on the protein Merlin, which regulates the activity of the yes-associated protein 1 (YAP1) and tafazzin through the Hippo kinase cascade, thereby controlling gene transcription related to cell proliferation and survival. Dysregulation of this pathway, often due to loss or impairment of Merlin, leads to increased activity of YAP1 and tafazzin, resulting in pathological transcriptional programs that can promote tumor growth and affect cell differentiation and regeneration. In the context of Parkinson&#x27;s disease, while direct mechanistic studies are lacking, the pathway&#x27;s involvement in neuroinflammation and its regulation of cell-state transitions and stress responses suggest a potential role in the disease&#x27;s pathology, particularly concerning glial dysfunction and neuroinflammation. The pathway&#x27;s influence on inflammatory mediators and its response to environmental stress further highlight its relevance to neurodegenerative processes, including those seen in Parkinson&#x27;s disease.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/d9888791-5b47-46c4-a44d-765abfc408b4.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+
+                    <h3>8. phagocytosis (GO:0006909)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> Phagocytosis in the context of Parkinson&#x27;s disease involves the microglial clearance of alpha-synuclein aggregates, myelin debris, and inflammatory mediators, which are crucial for maintaining neural homeostasis. Key proteins: <span class="entity-link" onclick="highlightNode('CD209')">CD209</span>.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>Phagocytosis in the context of Parkinson&#x27;s disease involves the microglial clearance of alpha-synuclein aggregates, myelin debris, and inflammatory mediators, which are crucial for maintaining neural homeostasis. The MER proto-oncogene, tyrosine kinase, plays a significant role in mediating the uptake of alpha-synuclein fibrils by microglia, potentially limiting aggregate spread without inducing inflammation. Inhibition of certain checkpoints, such as cluster of differentiation twenty-two, can enhance microglial clearance of these aggregates, suggesting a therapeutic target for restoring protective phagocytosis in the aging brain. Transcriptomic analyses have identified a unique microglial state in Parkinson&#x27;s disease dementia, characterized by increased scavenger receptor expression and myelin phagocytosis, indicating that phagocytosis may also involve responses to myelin injury. Overall, while phagocytosis can be protective by clearing harmful debris, excessive or misdirected activity may contribute to neurodegeneration, highlighting its dual role in Parkinson&#x27;s disease pathology.</p>
+                        </div>
+                    </details>
+
+                    <h3>9. TYROBP causal network in microglia (WP:WP3945)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> The TYROBP causal network in microglia is an innate immune signaling pathway that connects extracellular danger-sensing receptors to intracellular activation programs, playing a crucial role in transitioning microglia from a homeostatic to an inflammatory stat Key proteins: <span class="entity-link" onclick="highlightNode('IL13RA1')">IL13RA1</span>.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>The TYROBP causal network in microglia is an innate immune signaling pathway that connects extracellular danger-sensing receptors to intracellular activation programs, playing a crucial role in transitioning microglia from a homeostatic to an inflammatory state. This pathway is involved in various neurodegenerative conditions, including Alzheimer&#x27;s disease, where its activation leads to increased expression of immune-related genes and influences disease pathology. Although direct evidence linking this network to Parkinson&#x27;s disease is limited, it is considered part of a conserved microglial immune module shared across aging and neurodegeneration, including Parkinson&#x27;s. Integrin subunit beta 2, a component of this network, is implicated in Parkinson&#x27;s disease risk, highlighting the pathway&#x27;s relevance to microglial lysosomal and trafficking dysfunction, which are central to Parkinson&#x27;s pathogenesis. Imaging transcriptomics further supports the association between microglial activation and neurodegeneration in Parkinson&#x27;s, suggesting that immune and inflammatory processes are integral to the disease&#x27;s progression.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/bc9f726d-f742-45bd-90d7-ad3af0588078.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+
+                    <h3>10. Integrin cell surface interactions (REAC:R-HSA-216083)</h3>
+                    <div class="summary-box">
+                        <strong>Agent Summary:</strong> Integrin cell surface interactions play a crucial role in cell adhesion and signal transduction by linking extracellular matrix ligands to intracellular signaling networks, which is significant in the context of Parkinson&#x27;s disease.
+                    </div>
+                    <details>
+                        <summary>Read Context ▽</summary>
+                        <div class="details-content">
+                            <p>Integrin cell surface interactions play a crucial role in cell adhesion and signal transduction by linking extracellular matrix ligands to intracellular signaling networks, which is significant in the context of Parkinson&#x27;s disease. These interactions involve integrin receptors, which are heterodimers composed of alpha and beta subunits, and their activation is influenced by factors such as talin binding and membrane lipid composition. In Parkinson&#x27;s disease, integrins are implicated in neuroinflammation, blood-central nervous system barrier regulation, and the control of glial and immune cell behavior, making them relevant therapeutic targets. Integrins regulate leukocyte adhesion and trafficking, contributing to inflammatory processes in the disease, and are essential for maintaining blood-central nervous system barrier integrity, with disruptions potentially leading to barrier leakage and increased neuroinflammation. Additionally, integrin pathways influence immune cell behavior, with studies showing that targeting these pathways can reduce oxidative stress and promote an anti-inflammatory state in microglia, thereby improving dopaminergic pathology in Parkinson&#x27;s models.</p>
+                            <img src="/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/parkinsons/imgs/dffb3910-ea11-403b-af41-f0eecf1bf757.png" alt="PPI Network" class="local-img">
+                        </div>
+                    </details>
+                </div>
+
+                <div id="panel-detail" class="panel">
+                    <div id="empty-detail" style="color: #888; text-align: center; margin-top: 50px;">
+                        <em>👈 Click on a Protein or Pathway node in the network to view full details.</em>
+                    </div>
+                    <div id="dynamic-detail" style="display:none;"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.panel').forEach(panel => panel.classList.remove('active'));
+            if(tabName === 'report') {
+                document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
+                document.getElementById('panel-report').classList.add('active');
+            } else {
+                document.getElementById('btn-detail').classList.add('active');
+                document.getElementById('panel-detail').classList.add('active');
+            }
+        }
+
+        const pathwayRefs = {
+            P1: [
+                `[1] Alatzoglou KS, Gregory LC, Dattani MT. Development of the Pituitary Gland... <em>Comprehensive Physiology</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32163208" target="_blank">PubMed</a>`,
+                `[2] Cironi KA, Decater T, Iwanaga J, Dumont AS, Tubbs RS. Arterial Supply to the Pituitary Gland: A Comprehensive Review... <em>World neurosurgery</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32634634" target="_blank">PubMed</a>`,
+                `[3] Chapman PR, Singhal A, Gaddamanugu S, Prattipati V. Neuroimaging of the Pituitary Gland: Practical Anatomy and Pathology... <em>Radiologic clinics of North America</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/33040852" target="_blank">PubMed</a>`,
+                `[4] Irwin DJ, Abrams JY, Schonberger LB, Leschek EW, Mills JL, Lee VM, Trojanowski JQ. Evaluation of potential infectivity of Alzheimer and Parkinson disease proteins in recipients of cadaver-derived human growth hormone... <em>JAMA neurology</em>. 2013. <a href="https://pubmed.ncbi.nlm.nih.gov/23380910" target="_blank">PubMed</a>`,
+                `[5] Aguiar-Oliveira MH, Boguszewski MCS, Rovaris DL, Donato J Jr. Growth Hormone and IGF-1 Actions in the Brain and Neuropsychiatric Diseases... <em>Physiology (Bethesda, Md.)</em>. 2026. <a href="https://pubmed.ncbi.nlm.nih.gov/40623083" target="_blank">PubMed</a>`,
+                `[6] Ho PL, Chen YC, Teng CH, Wu CC, Huang P. Acute parkinsonism as an unexpected consequence of pituitary adenoma resection: A case report... <em>Medicine</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/31027077" target="_blank">PubMed</a>`,
+                `[7] Benoit AM, McCoy GL, Blake CA. Localization of fertility factor SP22 to specific cell types within the anterior pituitary gland... <em>Experimental biology and medicine (Maywood, N.J.)</em>. 2005. <a href="https://pubmed.ncbi.nlm.nih.gov/16246899" target="_blank">PubMed</a>`,
+                `[8] Cai T, Hirai H, Zhang G, Zhang M, Takahashi N, Kasai H, Satin LS, Leapman RD, Notkins AL. Deletion of Ia-2 and/or Ia-2beta in mice decreases insulin secretion by reducing the number of dense core vesicles... <em>Diabetologia</em>. 2011. <a href="https://pubmed.ncbi.nlm.nih.gov/21732083" target="_blank">PubMed</a>`,
+                `[9] Kubosaki A, Gross S, Miura J, Saeki K, Zhu M, Nakamura S, Hendriks W, Notkins AL. Targeted disruption of the IA-2beta gene causes glucose intolerance and impairs insulin secretion but does not prevent the development of diabetes in NOD mice... <em>Diabetes</em>. 2004. <a href="https://pubmed.ncbi.nlm.nih.gov/15220191" target="_blank">PubMed</a>`,
+                `[10] Doi A, Shono T, Nishi M, Furuta H, Sasaki H, Nanjo K. IA-2beta, but not IA-2, is induced by ghrelin and inhibits glucose-stimulated insulin secretion... <em>Proceedings of the National Academy of Sciences of the United States of America</em>. 2006. <a href="https://pubmed.ncbi.nlm.nih.gov/16418280" target="_blank">PubMed</a>`,
+                `[11] Kubosaki A, Nakamura S, Clark A, Morris JF, Notkins AL. Disruption of the transmembrane dense core vesicle proteins IA-2 and IA-2beta causes female infertility... <em>Endocrinology</em>. 2006. <a href="https://pubmed.ncbi.nlm.nih.gov/16269463" target="_blank">PubMed</a>`,
+                `[12] Kim SM, Theilig F, Qin Y, Cai T, Mizel D, Faulhaber-Walter R, Hirai H, Bachmann S, Briggs JP, Notkins AL, Schnermann J. Dense-core vesicle proteins IA-2 and IA-2beta affect renin synthesis and secretion through the beta-adrenergic pathway... <em>American journal of physiology. Renal physiology</em>. 2009. <a href="https://pubmed.ncbi.nlm.nih.gov/19019914" target="_blank">PubMed</a>`,
+                `[13] Gross S, Blanchetot C, Schepens J, Albet S, Lammers R, den Hertog J, Hendriks W. Multimerization of the protein-tyrosine phosphatase (PTP)-like insulin-dependent diabetes mellitus autoantigens IA-2 and IA-2beta with receptor PTPs (RPTPs). Inhibition of RPTPalpha enzymatic activity... <em>The Journal of biological chemistry</em>. 2002. <a href="https://pubmed.ncbi.nlm.nih.gov/12364328" target="_blank">PubMed</a>`
+            ],
+            P2: [
+                `[14] Hanemaaijer ES, Margaritis T, Sanders K, Bos FL, Candelli T, Al-Saati H, van Noesel MM, Meyer-Wentrup FAG, van de Wetering M, Holstege FCP, Clevers H. Single-cell atlas of developing murine adrenal gland reveals relation of Schwann cell precursor signature to neuroblastoma phenotype... <em>Proceedings of the National Academy of Sciences of the United States of America</em>. 2021. <a href="https://pubmed.ncbi.nlm.nih.gov/33500353" target="_blank">PubMed</a>`,
+                `[15] Bedoya-Reina OC, Li W, Arceo M, Plescher M, Bullova P, Pui H, Kaucka M, Kharchenko P, Martinsson T, Holmberg J, Adameyko I, Deng Q, Larsson C, Juhlin CC, Kogner P, Schlisio S. Single-nuclei transcriptomes from human adrenal gland reveal distinct cellular identities of low and high-risk neuroblastoma tumors... <em>Nature communications</em>. 2021. <a href="https://pubmed.ncbi.nlm.nih.gov/34493726" target="_blank">PubMed</a>`,
+                `[16] Lai S, Ma L, E W, Ye F, Chen H, Han X, Guo G. Mapping a mammalian adult adrenal gland hierarchy across species by microwell-seq... <em>Cell regeneration (London, England)</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32743779" target="_blank">PubMed</a>`,
+                `[17] Bechmann N, Berger I, Bornstein SR, Steenblock C. Adrenal medulla development and medullary-cortical interactions... <em>Molecular and cellular endocrinology</em>. 2021. <a href="https://pubmed.ncbi.nlm.nih.gov/33798635" target="_blank">PubMed</a>`,
+                `[18] Wang Z, Gai Y, Zhou J, Liu J, Cui S. miR-375 mediates the CRF signaling pathway to regulate catecholamine biosynthesis by targeting Sp1 in porcine adrenal gland... <em>Stress (Amsterdam, Netherlands)</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30714474" target="_blank">PubMed</a>`,
+                `[19] Curran EJ, Albin RL, Becker JB. Adrenal medulla grafts in the hemiparkinsonian rat: profile of behavioral recovery predicts restoration of the symmetry between the two striata in measures of pre- and postsynaptic dopamine function... <em>The Journal of neuroscience : the official journal of the Society for Neuroscience</em>. 1993. <a href="https://pubmed.ncbi.nlm.nih.gov/8103552" target="_blank">PubMed</a>`,
+                `[20] Espejo EF, Gonzalez-Albo MC, Moraes JP, El Banoua F, Flores JA, Caraballo I. Functional regeneration in a rat Parkinson's model after intrastriatal grafts of glial cell line-derived neurotrophic factor and transforming growth factor beta1-expressing extra-adrenal chromaffin cells of the Zuckerkandl's organ... <em>The Journal of neuroscience : the official journal of the Society for Neuroscience</em>. 2001. <a href="https://pubmed.ncbi.nlm.nih.gov/11739596" target="_blank">PubMed</a>`,
+                `[21] Kupsch A, Oertel WH. Neural transplantation, trophic factors and Parkinson's disease... <em>Life sciences</em>. 1994. <a href="https://pubmed.ncbi.nlm.nih.gov/7997067" target="_blank">PubMed</a>`,
+                `[22] Sugama S, Kakinuma Y. Stress and brain immunity: Microglial homeostasis through hypothalamus-pituitary-adrenal gland axis and sympathetic nervous system... <em>Brain, behavior, & immunity - health</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/34589871" target="_blank">PubMed</a>`,
+                `[8] Cai T, Hirai H, Zhang G, Zhang M, Takahashi N, Kasai H, Satin LS, Leapman RD, Notkins AL. Deletion of Ia-2 and/or Ia-2beta in mice decreases insulin secretion by reducing the number of dense core vesicles... <em>Diabetologia</em>. 2011. <a href="https://pubmed.ncbi.nlm.nih.gov/21732083" target="_blank">PubMed</a>`,
+                `[9] Kubosaki A, Gross S, Miura J, Saeki K, Zhu M, Nakamura S, Hendriks W, Notkins AL. Targeted disruption of the IA-2beta gene causes glucose intolerance and impairs insulin secretion but does not prevent the development of diabetes in NOD mice... <em>Diabetes</em>. 2004. <a href="https://pubmed.ncbi.nlm.nih.gov/15220191" target="_blank">PubMed</a>`,
+                `[10] Doi A, Shono T, Nishi M, Furuta H, Sasaki H, Nanjo K. IA-2beta, but not IA-2, is induced by ghrelin and inhibits glucose-stimulated insulin secretion... <em>Proceedings of the National Academy of Sciences of the United States of America</em>. 2006. <a href="https://pubmed.ncbi.nlm.nih.gov/16418280" target="_blank">PubMed</a>`,
+                `[11] Kubosaki A, Nakamura S, Clark A, Morris JF, Notkins AL. Disruption of the transmembrane dense core vesicle proteins IA-2 and IA-2beta causes female infertility... <em>Endocrinology</em>. 2006. <a href="https://pubmed.ncbi.nlm.nih.gov/16269463" target="_blank">PubMed</a>`,
+                `[12] Kim SM, Theilig F, Qin Y, Cai T, Mizel D, Faulhaber-Walter R, Hirai H, Bachmann S, Briggs JP, Notkins AL, Schnermann J. Dense-core vesicle proteins IA-2 and IA-2beta affect renin synthesis and secretion through the beta-adrenergic pathway... <em>American journal of physiology. Renal physiology</em>. 2009. <a href="https://pubmed.ncbi.nlm.nih.gov/19019914" target="_blank">PubMed</a>`,
+                `[13] Gross S, Blanchetot C, Schepens J, Albet S, Lammers R, den Hertog J, Hendriks W. Multimerization of the protein-tyrosine phosphatase (PTP)-like insulin-dependent diabetes mellitus autoantigens IA-2 and IA-2beta with receptor PTPs (RPTPs). Inhibition of RPTPalpha enzymatic activity... <em>The Journal of biological chemistry</em>. 2002. <a href="https://pubmed.ncbi.nlm.nih.gov/12364328" target="_blank">PubMed</a>`
+            ],
+            P3: [
+                `[23] Bauer MS, Baumann F, Daday C, Redondo P, Durner E, Jobst MA, Milles LF, Mercadante D, Pippig DA, Gaub HE, Grater F, Lietha D. Structural and mechanistic insights into mechanoactivation of focal adhesion kinase... <em>Proceedings of the National Academy of Sciences of the United States of America</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30877242" target="_blank">PubMed</a>`,
+                `[24] Nardone G, Oliver-De La Cruz J, Vrbsky J, Martini C, Pribyl J, Skladal P, Pesl M, Caluori G, Pagliari S, Martino F, Maceckova Z, Hajduch M, Sanz-Garcia A, Pugno NM, Stokin GB, Forte G. YAP regulates cell mechanics by controlling focal adhesion assembly... <em>Nature communications</em>. 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28504269" target="_blank">PubMed</a>`,
+                `[25] Mason DE, Collins JM, Dawahare JH, Nguyen TD, Lin Y, Voytik-Harbin SL, Zorlutuna P, Yoder MC, Boerckel JD. YAP and TAZ limit cytoskeletal and focal adhesion maturation to enable persistent cell motility... <em>The Journal of cell biology</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30737263" target="_blank">PubMed</a>`,
+                `[26] Yao M, Tijore A, Cheng D, Li JV, Hariharan A, Martinac B, Tran Van Nhieu G, Cox CD, Sheetz M. Force- and cell state-dependent recruitment of Piezo1 drives focal adhesion dynamics and calcium entry... <em>Science advances</em>. 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/36351022" target="_blank">PubMed</a>`,
+                `[27] Choi I, Kim B, Byun JW, Baik SH, Huh YH, Kim JH, Mook-Jung I, Song WK, Shin JH, Seo H, Suh YH, Jou I, Park SM, Kang HC, Joe EH. LRRK2 G2019S mutation attenuates microglial motility by inhibiting focal adhesion kinase... <em>Nature communications</em>. 2015. <a href="https://pubmed.ncbi.nlm.nih.gov/26365310" target="_blank">PubMed</a>`,
+                `[28] Okamoto S, Pouladi MA, Talantova M, Yao D, Xia P, Ehrnhoefer DE, Zaidi R, Clemente A, Kaul M, Graham RK, Zhang D, Vincent Chen HS, Tong G, Hayden MR, Lipton SA. Balance between synaptic versus extrasynaptic NMDA receptor activity influences inclusions and neurotoxicity of mutant huntingtin... <em>Nature medicine</em>. 2009. <a href="https://pubmed.ncbi.nlm.nih.gov/19915593" target="_blank">PubMed</a>`,
+                `[29] Foti DJ, Kotov R, Guey LT, Bromet EJ. Cannabis use and the course of schizophrenia: 10-year follow-up after first hospitalization... <em>The American journal of psychiatry</em>. 2010. <a href="https://pubmed.ncbi.nlm.nih.gov/20478874" target="_blank">PubMed</a>`,
+                `[30] Hu X, Luo J, Li J, Qiu L, Di P, Lin Y. [A 10-year retrospective analysis of clinical results of implant-retained/ supported prostheses in full edentulous patients]... <em>Zhonghua kou qiang yi xue za zhi = Zhonghua kouqiang yixue zazhi = Chinese journal of stomatology</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/25199928" target="_blank">PubMed</a>`,
+                `[31] Polanco Gonzalez C, Buhse T, Arreguin Nava R, Castanon Gonzalez JA, Samaniego Mendoza JL, Villanueva Martinez S. [Answer: Indice de Saturacion Modificado (ISM) in emergency rooms. Another index else?]... <em>Gaceta medica de Mexico</em>. 2015. <a href="https://pubmed.ncbi.nlm.nih.gov/26290036" target="_blank">PubMed</a>`,
+                `[32] Sidransky E, Nalls MA, Aasly JO, Aharon-Peretz J, Annesi G, Barbosa ER, Bar-Shira A, Berg D, Bras J, Brice A, Chen CM, Clark LN, Condroyer C, De Marco EV, Durr A, Eblan MJ, Fahn S, Farrer MJ, Fung HC, Gan-Or Z, Gasser T, Gershoni-Baruch R, Giladi N, Griffith A, Gurevich T, Januario C, Kropp P, Lang AE, Lee-Chen GJ, Lesage S, Marder K, Mata IF, Mirelman A, Mitsui J, Mizuta I, Nicoletti G, Oliveira C, Ottman R, Orr-Urtreger A, Pereira LV, Quattrone A, Rogaeva E, Rolfs A, Rosenbaum H, Rozenberg R, Samii A, Samaddar T, Schulte C, Sharma M, Singleton A, Spitz M, Tan EK, Tayebi N, Toda T, Troiano AR, Tsuji S, Wittstock M, Wolfsberg TG, Wu YR, Zabetian CP, Zhao Y, Ziegler SG. Multicenter analysis of glucocerebrosidase mutations in Parkinson's disease... <em>The New England journal of medicine</em>. 2009. <a href="https://pubmed.ncbi.nlm.nih.gov/19846850" target="_blank">PubMed</a>`,
+                `[33] Barton JC, Parker CJ. HFE-Related Hemochromatosis... <em>N/A</em>. 1993. <a href="https://pubmed.ncbi.nlm.nih.gov/20301613" target="_blank">PubMed</a>`,
+                `[34] Martina JA, Diab HI, Li H, Puertollano R. Novel roles for the MiTF/TFE family of transcription factors in organelle biogenesis, nutrient sensing, and energy homeostasis... <em>Cellular and molecular life sciences : CMLS</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/24477476" target="_blank">PubMed</a>`,
+                `[35] Tousif S, Singh DK, Ahmad S, Moodley P, Bhattacharyya M, Van Kaer L, Das G. Isoniazid induces apoptosis of activated CD4+ T cells: implications for post-therapy tuberculosis reactivation and reinfection... <em>The Journal of biological chemistry</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/25202011" target="_blank">PubMed</a>`,
+                `[36] Sengupta S, Zhivotovsky LA, King R, Mehdi SQ, Edmonds CA, Chow CE, Lin AA, Mitra M, Sil SK, Ramesh A, Usha Rani MV, Thakur CM, Cavalli-Sforza LL, Majumder PP, Underhill PA. Polarity and temporality of high-resolution y-chromosome distributions in India identify both indigenous and exogenous expansions and reveal minor genetic influence of Central Asian pastoralists... <em>American journal of human genetics</em>. 2006. <a href="https://pubmed.ncbi.nlm.nih.gov/16400607" target="_blank">PubMed</a>`,
+                `[37] Gauvin H, Moreau C, Lefebvre JF, Laprise C, Vezina H, Labuda D, Roy-Gagnon MH. Genome-wide patterns of identity-by-descent sharing in the French Canadian founder population... <em>European journal of human genetics : EJHG</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/24129432" target="_blank">PubMed</a>`,
+                `[38] Hoffman NJ, Parker BL, Chaudhuri R, Fisher-Wellman KH, Kleinert M, Humphrey SJ, Yang P, Holliday M, Trefely S, Fazakerley DJ, Stockli J, Burchfield JG, Jensen TE, Jothi R, Kiens B, Wojtaszewski JF, Richter EA, James DE. Global Phosphoproteomic Analysis of Human Skeletal Muscle Reveals a Network of Exercise-Regulated Kinases and AMPK Substrates... <em>Cell metabolism</em>. 2015. <a href="https://pubmed.ncbi.nlm.nih.gov/26437602" target="_blank">PubMed</a>`,
+                `[39] Bhandari V, Hoey C, Liu LY, Lalonde E, Ray J, Livingstone J, Lesurf R, Shiah YJ, Vujcic T, Huang X, Espiritu SMG, Heisler LE, Yousif F, Huang V, Yamaguchi TN, Yao CQ, Sabelnykova VY, Fraser M, Chua MLK, van der Kwast T, Liu SK, Boutros PC, Bristow RG. Molecular landmarks of tumor hypoxia across cancer types... <em>Nature genetics</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30643250" target="_blank">PubMed</a>`,
+                `[40] Chen M, Khalid S, Sansom MS, Bayley H. Outer membrane protein G: Engineering a quiet pore for biosensing... <em>Proceedings of the National Academy of Sciences of the United States of America</em>. 2008. <a href="https://pubmed.ncbi.nlm.nih.gov/18443290" target="_blank">PubMed</a>`,
+                `[41] Zhang Y, Erdmann F, Fischer G. Augmented photoswitching modulates immune signaling... <em>Nature chemical biology</em>. 2009. <a href="https://pubmed.ncbi.nlm.nih.gov/19734911" target="_blank">PubMed</a>`,
+                `[42] Wu T, Wang XJ, Tian W, Jaramillo MC, Lau A, Zhang DD. Poly(ADP-ribose) polymerase-1 modulates Nrf2-dependent transcription... <em>Free radical biology & medicine</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/24140708" target="_blank">PubMed</a>`,
+                `[43] Karafet TM, Mendez FL, Sudoyo H, Lansing JS, Hammer MF. Improved phylogenetic resolution and rapid diversification of Y-chromosome haplogroup K-M526 in Southeast Asia... <em>European journal of human genetics : EJHG</em>. 2015. <a href="https://pubmed.ncbi.nlm.nih.gov/24896152" target="_blank">PubMed</a>`,
+                `[44] Nguyen VM, Nguyen VT, Huynh PL, Dang DT, Nguyen TH, Phan VT, Nguyen TL, Le TL, Ivanoff B, Gentsch JR, Glass RI. The epidemiology and disease burden of rotavirus in Vietnam: sentinel surveillance at 6 hospitals... <em>The Journal of infectious diseases</em>. 2001. <a href="https://pubmed.ncbi.nlm.nih.gov/11372022" target="_blank">PubMed</a>`,
+                `[45] Garevik N, Strahm E, Garle M, Lundmark J, Stahle L, Ekstrom L, Rane A. Long term perturbation of endocrine parameters and cholesterol metabolism after discontinued abuse of anabolic androgenic steroids... <em>The Journal of steroid biochemistry and molecular biology</em>. 2011. <a href="https://pubmed.ncbi.nlm.nih.gov/21884791" target="_blank">PubMed</a>`,
+                `[46] Kronin VV, Anosova NG, Popov IA, Polesskaya AN, Brondz BD, Krivoshein YS. Intravenous injection of allogeneic cells can prime T-lymphocytes with cytotoxic activity... <em>Immunology letters</em>. 1993. <a href="https://pubmed.ncbi.nlm.nih.gov/8096201" target="_blank">PubMed</a>`,
+                `[47] Bouscarat F, Levacher M, Dazza MC, Chau F, Desforges B, Muffat-Joly M, Matheron S, Girard PM, Sinet M. Prospective study of CD8+ lymphocyte activation in relation to viral load in HIV-infected patients with > or = 400 CD4+ lymphocytes per microliter... <em>AIDS research and human retroviruses</em>. 1999. <a href="https://pubmed.ncbi.nlm.nih.gov/10555104" target="_blank">PubMed</a>`,
+                `[48] Ferrer I. Neuropathology and neurochemistry of nonmotor symptoms in Parkinson's disease... <em>Parkinson's disease</em>. 2011. <a href="https://pubmed.ncbi.nlm.nih.gov/21403906" target="_blank">PubMed</a>`,
+                `[49] Muller SF, Konig A, Doring B, Glebe D, Geyer J. Characterisation of the hepatitis B virus cross-species transmission pattern via Na+/taurocholate co-transporting polypeptides from 11 New World and Old World primate species... <em>PloS one</em>. 2018. <a href="https://pubmed.ncbi.nlm.nih.gov/29912972" target="_blank">PubMed</a>`,
+                `[50] Chang D, Nalls MA, Hallgrimsdottir IB, Hunkapiller J, van der Brug M, Cai F, Kerchner GA, Ayalon G, Bingol B, Sheng M, Hinds D, Behrens TW, Singleton AB, Bhangale TR, Graham RR. A meta-analysis of genome-wide association studies identifies 17 new Parkinson's disease risk loci... <em>Nature genetics</em>. 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28892059" target="_blank">PubMed</a>`,
+                `[51] Shifrut E, Carnevale J, Tobin V, Roth TL, Woo JM, Bui CT, Li PJ, Diolaiti ME, Ashworth A, Marson A. Genome-wide CRISPR Screens in Primary Human T Cells Reveal Key Regulators of Immune Function... <em>Cell</em>. 2018. <a href="https://pubmed.ncbi.nlm.nih.gov/30449619" target="_blank">PubMed</a>`,
+                `[52] Jain K, Berman GJ. Opening the black box of social behavior... <em>Nature neuroscience</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/31768055" target="_blank">PubMed</a>`,
+                `[53] Eddib A, Allaf B, Lee J, Yeh J. Risk for advanced-stage endometrial cancer in surgical specimens from patients with complex endometrial hyperplasia with atypia... <em>Gynecologic and obstetric investigation</em>. 2012. <a href="https://pubmed.ncbi.nlm.nih.gov/22056948" target="_blank">PubMed</a>`,
+                `[54] Katz Y, Nevo U. Quantification of pore size distribution using diffusion NMR: experimental design and physical insights... <em>The Journal of chemical physics</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/24784263" target="_blank">PubMed</a>`,
+                `[55] Nnyepi MS, Gwisai N, Lekgoa M, Seru T. Evidence of nutrition transition in Southern Africa... <em>The Proceedings of the Nutrition Society</em>. 2015. <a href="https://pubmed.ncbi.nlm.nih.gov/25686639" target="_blank">PubMed</a>`,
+                `[56] Gao Q, Zhu H, Dong L, Shi W, Chen R, Song Z, Huang C, Li J, Dong X, Zhou Y, Liu Q, Ma L, Wang X, Zhou J, Liu Y, Boja E, Robles AI, Ma W, Wang P, Li Y, Ding L, Wen B, Zhang B, Rodriguez H, Gao D, Zhou H, Fan J. Integrated Proteogenomic Characterization of HBV-Related Hepatocellular Carcinoma... <em>Cell</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/31585088" target="_blank">PubMed</a>`
+            ],
+            P4: [
+                `[57] Soria FN, Paviolo C, Doudnikoff E, Arotcarena ML, Lee A, Danne N, Mandal AK, Gosset P, Dehay B, Groc L, Cognet L, Bezard E. Synucleinopathy alters nanoscale organization and diffusion in the brain extracellular space through hyaluronan remodeling... <em>Nature communications</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32651387" target="_blank">PubMed</a>`,
+                `[58] Botella-Lopez A, Burgaya F, Gavin R, Garcia-Ayllon MS, Gomez-Tortosa E, Pena-Casanova J, Urena JM, Del Rio JA, Blesa R, Soriano E, Saez-Valero J. Reelin expression and glycosylation patterns are altered in Alzheimer's disease... <em>Proceedings of the National Academy of Sciences of the United States of America</em>. 2006. <a href="https://pubmed.ncbi.nlm.nih.gov/16567613" target="_blank">PubMed</a>`,
+                `[59] Lan Y, Pan H, Li C, Banks KM, Sam J, Ding B, Elemento O, Goll MG, Evans T. TETs Regulate Proepicardial Cell Migration through Extracellular Matrix Organization during Zebrafish Cardiogenesis... <em>Cell reports</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30650362" target="_blank">PubMed</a>`,
+                `[60] Subramanian A, Kanzaki LF, Galloway JL, Schilling TF. Mechanical force regulates tendon extracellular matrix organization and tenocyte morphogenesis through TGFbeta signaling... <em>eLife</em>. 2018. <a href="https://pubmed.ncbi.nlm.nih.gov/30475205" target="_blank">PubMed</a>`,
+                `[61] Khadilkar RJ, Ho KYL, Venkatesh B, Tanentzapf G. Integrins Modulate Extracellular Matrix Organization to Control Cell Signaling during Hematopoiesis... <em>Current biology : CB</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32649911" target="_blank">PubMed</a>`,
+                `[62] Lv W, Gu X, Zeng L, Liu K, Li Y, Chen X, Zhang X, Zhou X, He J, Dai Y, Wang J, Zhang F, Chen Y. Endothelial SMAD4 Deficiency Promotes Pulmonary Hypertension by Impairing Cell Adhesion and Extracellular Matrix Organization... <em>Hypertension (Dallas, Tex. : 1979)</em>. 1979. <a href="https://pubmed.ncbi.nlm.nih.gov/40211949" target="_blank">PubMed</a>`,
+                `[63] Deb B, Patel K, Sathe G, Kumar P. N-Glycoproteomic Profiling Reveals Alteration In Extracellular Matrix Organization In Non-Type Bladder Carcinoma... <em>Journal of clinical medicine</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/31450586" target="_blank">PubMed</a>`
+            ],
+            P5: [
+                `[64] Fernandez FJ, Santos-Lopez J, Martinez-Barricarte R, Querol-Garcia J, Martin-Merinero H, Navas-Yuste S, Savko M, Shepard WE, Rodriguez de Cordoba S, Vega MC. The crystal structure of iC3b-CR3 alphaI reveals a modular recognition of the main opsonin iC3b by the CR3 integrin receptor... <em>Nature communications</em>. 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/35413960" target="_blank">PubMed</a>`,
+                `[65] Brown EJ, Newell AM, Gresham HD. Molecular regulation of phagocyte function. Evidence for involvement of a guanosine triphosphate-binding protein in opsonin-mediated phagocytosis by monocytes... <em>Journal of immunology (Baltimore, Md. : 1950)</em>. 1950. <a href="https://pubmed.ncbi.nlm.nih.gov/3119717" target="_blank">PubMed</a>`,
+                `[66] Kuhlman M, Joiner K, Ezekowitz RA. The human mannose-binding protein functions as an opsonin... <em>The Journal of experimental medicine</em>. 1989. <a href="https://pubmed.ncbi.nlm.nih.gov/2469767" target="_blank">PubMed</a>`,
+                `[67] Wilson H, Dervenoulas G, Pagano G, Tyacke RJ, Polychronis S, Myers J, Gunn RN, Rabiner EA, Nutt D, Politis M. Imidazoline 2 binding sites reflecting astroglia pathology in Parkinson's disease: an in vivo11C-BU99008 PET study... <em>Brain : a journal of neurology</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/31504212" target="_blank">PubMed</a>`,
+                `[68] Crabbe M, Van der Perren A, Bollaerts I, Kounelis S, Baekelandt V, Bormans G, Casteels C, Moons L, Van Laere K. Increased P2X7 Receptor Binding Is Associated With Neuroinflammation in Acute but Not Chronic Rodent Models for Parkinson's Disease... <em>Frontiers in neuroscience</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/31417352" target="_blank">PubMed</a>`
+            ],
+            P6: [
+                `[69] Zamir E. Integrative systems and synthetic biology of cell-matrix adhesion sites... <em>Cell adhesion & migration</em>. 2016. <a href="https://pubmed.ncbi.nlm.nih.gov/26853318" target="_blank">PubMed</a>`,
+                `[70] Wang S, Matsumoto K, Lish SR, Cartagena-Rivera AX, Yamada KM. Budding epithelial morphogenesis driven by cell-matrix versus cell-cell adhesion... <em>Cell</em>. 2021. <a href="https://pubmed.ncbi.nlm.nih.gov/34133940" target="_blank">PubMed</a>`,
+                `[71] Newman D, Young LE, Waring T, Brown L, Wolanska KI, MacDonald E, Charles-Orszag A, Goult BT, Caswell PT, Sakuma T, Yamamoto T, Machesky LM, Morgan MR, Zech T. 3D matrix adhesion feedback controls nuclear force coupling to drive invasive cell migration... <em>Cell reports</em>. 2023. <a href="https://pubmed.ncbi.nlm.nih.gov/38100355" target="_blank">PubMed</a>`,
+                `[72] Singh V, Erady C, Balasubramanian N. Cell-matrix adhesion controls Golgi organization and function through Arf1 activation in anchorage-dependent cells... <em>Journal of cell science</em>. 2018. <a href="https://pubmed.ncbi.nlm.nih.gov/30054383" target="_blank">PubMed</a>`,
+                `[73] Sero JE, Bakal C. Multiparametric Analysis of Cell Shape Demonstrates that beta-PIX Directly Couples YAP Activation to Extracellular Matrix Adhesion... <em>Cell systems</em>. 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28065575" target="_blank">PubMed</a>`,
+                `[74] Dupont S. Role of YAP/TAZ in cell-matrix adhesion-mediated signalling and mechanotransduction... <em>Experimental cell research</em>. 2016. <a href="https://pubmed.ncbi.nlm.nih.gov/26524510" target="_blank">PubMed</a>`,
+                `[75] Chapman MA. Interactions between cell adhesion and the synaptic vesicle cycle in Parkinson's disease... <em>Medical hypotheses</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/24837686" target="_blank">PubMed</a>`,
+                `[76] Zhang X, Wang B, Luo Y, Ding CF, Yan Y. An amino-rich polymer-coated magnetic nanomaterial for ultra-rapid separation of phosphorylated peptides in the serum of Parkinson's disease patients... <em>Analytical and bioanalytical chemistry</em>. 2024. <a href="https://pubmed.ncbi.nlm.nih.gov/38607383" target="_blank">PubMed</a>`,
+                `[58] Botella-Lopez A, Burgaya F, Gavin R, Garcia-Ayllon MS, Gomez-Tortosa E, Pena-Casanova J, Urena JM, Del Rio JA, Blesa R, Soriano E, Saez-Valero J. Reelin expression and glycosylation patterns are altered in Alzheimer's disease... <em>Proceedings of the National Academy of Sciences of the United States of America</em>. 2006. <a href="https://pubmed.ncbi.nlm.nih.gov/16567613" target="_blank">PubMed</a>`,
+                `[77] McMillan KJ, Korswagen HC, Cullen PJ. The emerging role of retromer in neuroprotection... <em>Current opinion in cell biology</em>. 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28399507" target="_blank">PubMed</a>`
+            ],
+            P7: [
+                `[78] Laraba L, Hillson L, de Guibert JG, Hewitt A, Jaques MR, Tang TT, Post L, Ercolano E, Rai G, Yang SM, Jagger DJ, Woznica W, Edwards P, Shivane AG, Hanemann CO, Parkinson DB. Inhibition of YAP/TAZ-driven TEAD activity prevents growth of NF2-null schwannoma and meningioma... <em>Brain : a journal of neurology</em>. 2023. <a href="https://pubmed.ncbi.nlm.nih.gov/36148553" target="_blank">PubMed</a>`,
+                `[79] Chen Z, Li S, Mo J, Hawley E, Wang Y, He Y, Brosseau JP, Shipman T, Clapp DW, Carroll TJ, Le LQ. Schwannoma development is mediated by Hippo pathway dysregulation and modified by RAS/MAPK signaling... <em>JCI insight</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32960816" target="_blank">PubMed</a>`,
+                `[80] Mindos T, Dun XP, North K, Doddrell RD, Schulz A, Edwards P, Russell J, Gray B, Roberts SL, Shivane A, Mortimer G, Pirie M, Zhang N, Pan D, Morrison H, Parkinson DB. Merlin controls the repair capacity of Schwann cells after injury by regulating Hippo/YAP activity... <em>The Journal of cell biology</em>. 2017. <a href="https://pubmed.ncbi.nlm.nih.gov/28137778" target="_blank">PubMed</a>`,
+                `[81] Hikasa H, Sekido Y, Suzuki A. Merlin/NF2-Lin28B-let-7 Is a Tumor-Suppressive Pathway that Is Cell-Density Dependent and Hippo Independent... <em>Cell reports</em>. 2016. <a href="https://pubmed.ncbi.nlm.nih.gov/26997273" target="_blank">PubMed</a>`,
+                `[82] Melfi S, Colciago A, Giannotti G, Bonalume V, Caffino L, Fumagalli F, Magnaghi V. Stressing out the Hippo/YAP signaling pathway: toward a new role in Schwann cells... <em>Cell death & disease</em>. 2015. <a href="https://pubmed.ncbi.nlm.nih.gov/26469964" target="_blank">PubMed</a>`,
+                `[83] Dhapola R, Kumari S, Sharma P, Paidlewar M, Vellingiri B, Medhi B, HariKrishnaReddy D. Cytokine associated neuroinflammation in Parkinson's disease: Molecular pathways, therapeutic targets, and translational insights... <em>Cytokine & growth factor reviews</em>. 2026. <a href="https://pubmed.ncbi.nlm.nih.gov/41512596" target="_blank">PubMed</a>`
+            ],
+            P8: [
+                `[84] Dorion MF, Yaqubi M, Senkevich K, Kieran NW, MacDonald A, Chen CXQ, Luo W, Wallis A, Shlaifer I, Hall JA, Dudley RWR, Glass IA, Stratton JA, Fon EA, Bartels T, Antel JP, Gan-Or Z, Durcan TM, Healy LM. MerTK is a mediator of alpha-synuclein fibril uptake by human microglia... <em>Brain : a journal of neurology</em>. 2024. <a href="https://pubmed.ncbi.nlm.nih.gov/37671615" target="_blank">PubMed</a>`,
+                `[85] Pluvinage JV, Haney MS, Smith BAH, Sun J, Iram T, Bonanno L, Li L, Lee DP, Morgens DW, Yang AC, Shuken SR, Gate D, Scott M, Khatri P, Luo J, Bertozzi CR, Bassik MC, Wyss-Coray T. CD22 blockade restores homeostatic microglial phagocytosis in ageing brains... <em>Nature</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30944478" target="_blank">PubMed</a>`,
+                `[86] Chia SY, Li M, Li Z, Tu H, Lee JWL, Qiu L, Ling J, Reynolds R, Albani S, Tan EK, Ng ASL, Chen J, Zeng L. Single-nucleus transcriptomics reveals a distinct microglial state and increased MSR1-mediated phagocytosis as common features across dementia subtypes... <em>Genome medicine</em>. 2025. <a href="https://pubmed.ncbi.nlm.nih.gov/40826098" target="_blank">PubMed</a>`,
+                `[87] Butler CA, Popescu AS, Kitchener EJA, Allendorf DH, Puigdellivol M, Brown GC. Microglial phagocytosis of neurons in neurodegeneration, and its regulation... <em>Journal of neurochemistry</em>. 2021. <a href="https://pubmed.ncbi.nlm.nih.gov/33608912" target="_blank">PubMed</a>`,
+                `[88] Uribe-Querol E, Rosales C. Phagocytosis: Our Current Understanding of a Universal Biological Process... <em>Frontiers in immunology</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32582172" target="_blank">PubMed</a>`,
+                `[89] Cabello J, Samann J, Gomez-Orte E, Erazo T, Coppa A, Pujol A, Bussing I, Schulze B, Lizcano JM, Ferrer I, Baumeister R, Dalfo E. PDR-1/hParkin negatively regulates the phagocytosis of apoptotic cell corpses in Caenorhabditis elegans... <em>Cell death & disease</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/24625979" target="_blank">PubMed</a>`,
+                `[90] Espinoza K, Schaler AW, Gray DT, Sass AR, Escobar A, Moore K, Yu ME, Chamorro CG, De Biase LM. Dynamic changes in mitochondria support phenotypic flexibility of microglia... <em>Nature communications</em>. 2025. <a href="https://pubmed.ncbi.nlm.nih.gov/41388021" target="_blank">PubMed</a>`,
+                `[91] Barreiro LB, Neyrolles O, Babb CL, Tailleux L, Quach H, McElreavey K, Helden PD, Hoal EG, Gicquel B, Quintana-Murci L. Promoter variation in the DC-SIGN-encoding gene CD209 is associated with tuberculosis... <em>PLoS medicine</em>. 2006. <a href="https://pubmed.ncbi.nlm.nih.gov/16379498" target="_blank">PubMed</a>`,
+                `[92] Pitarque S, Herrmann JL, Duteyrat JL, Jackson M, Stewart GR, Lecointe F, Payre B, Schwartz O, Young DB, Marchal G, Lagrange PH, Puzo G, Gicquel B, Nigou J, Neyrolles O. Deciphering the molecular bases of Mycobacterium tuberculosis binding to the lectin DC-SIGN reveals an underestimated complexity... <em>The Biochemical journal</em>. 2005. <a href="https://pubmed.ncbi.nlm.nih.gov/16092920" target="_blank">PubMed</a>`,
+                `[93] Carroll MV, Sim RB, Bigi F, Jakel A, Antrobus R, Mitchell DA. Identification of four novel DC-SIGN ligands on Mycobacterium bovis BCG... <em>Protein & cell</em>. 2010. <a href="https://pubmed.ncbi.nlm.nih.gov/21203928" target="_blank">PubMed</a>`
+            ],
+            P9: [
+                `[94] Mukherjee S, Klaus C, Pricop-Jeckstadt M, Miller JA, Struebing FL. A Microglial Signature Directing Human Aging and Neurodegeneration-Related Gene Networks... <em>Frontiers in neuroscience</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/30733664" target="_blank">PubMed</a>`,
+                `[95] Phillips B, Western D, Wang L, Timsina J, Sun Y, Gorijala P, Yang C, Do A, Nykanen NP, Alvarez I, Aguilar M, Pastor P, Morris JC, Schindler SE, Fagan AM, Puerta R, Garcia-Gonzalez P, de Rojas I, Marquie M, Boada M, Ruiz A, Perlmutter JS, Ibanez L, Perrin RJ, Sung YJ, Cruchaga C. Proteome wide association studies of LRRK2 variants identify novel causal and druggable proteins for Parkinson's disease... <em>NPJ Parkinson's disease</em>. 2023. <a href="https://pubmed.ncbi.nlm.nih.gov/37422510" target="_blank">PubMed</a>`,
+                `[96] Mroczek M, Desouky A, Sirry W. Imaging Transcriptomics in Neurodegenerative Diseases... <em>Journal of neuroimaging : official journal of the American Society of Neuroimaging</em>. 2021. <a href="https://pubmed.ncbi.nlm.nih.gov/33368775" target="_blank">PubMed</a>`,
+                `[97] Errea O, Rodriguez-Oroz MC. Oligodendrocytes, a New Player in the Etiology of Parkinson's Disease... <em>Movement disorders : official journal of the Movement Disorder Society</em>. 2021. <a href="https://pubmed.ncbi.nlm.nih.gov/33206396" target="_blank">PubMed</a>`
+            ],
+            P10: [
+                `[98] Chinthalapudi K, Rangarajan ES, Izard T. The interaction of talin with the cell membrane is essential for integrin activation and focal adhesion formation... <em>Proceedings of the National Academy of Sciences of the United States of America</em>. 2018. <a href="https://pubmed.ncbi.nlm.nih.gov/30254158" target="_blank">PubMed</a>`,
+                `[99] Zheng H, Tian Y, Gao Q, Yu Y, Xia X, Feng Z, Dong F, Wu X, Sui L. Hierarchical Micro-Nano Topography Promotes Cell Adhesion and Osteogenic Differentiation via Integrin alpha2-PI3K-AKT Signaling Axis... <em>Frontiers in bioengineering and biotechnology</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/32509748" target="_blank">PubMed</a>`,
+                `[100] Pain P, Tripathi A, Pillai PP. Involvement of PDGFR-integrin interactions in the regulation of anoikis resistance in glioblastoma progression... <em>Cell biology international</em>. 2025. <a href="https://pubmed.ncbi.nlm.nih.gov/39523497" target="_blank">PubMed</a>`,
+                `[101] Zuo XX, Yang Y, Zhang Y, Zhang ZG, Wang XF, Shi YG. Platelets promote breast cancer cell MCF-7 metastasis by direct interaction: surface integrin alpha2beta1-contacting-mediated activation of Wnt-beta-catenin pathway... <em>Cell communication and signaling : CCS</em>. 2019. <a href="https://pubmed.ncbi.nlm.nih.gov/31699102" target="_blank">PubMed</a>`,
+                `[102] Pang X, He X, Qiu Z, Zhang H, Xie R, Liu Z, Gu Y, Zhao N, Xiang Q, Cui Y. Targeting integrin pathways: mechanisms and advances in therapy... <em>Signal transduction and targeted therapy</em>. 2023. <a href="https://pubmed.ncbi.nlm.nih.gov/36588107" target="_blank">PubMed</a>`,
+                `[103] Ayloo S, Lazo CG, Sun S, Zhang W, Cui B, Gu C. Pericyte-to-endothelial cell signaling via vitronectin-integrin regulates blood-CNS barrier... <em>Neuron</em>. 2022. <a href="https://pubmed.ncbi.nlm.nih.gov/35294899" target="_blank">PubMed</a>`,
+                `[104] Berezin V, Walmod PS, Filippov M, Dityatev A. Targeting of ECM molecules and their metabolizing enzymes and receptors for the treatment of CNS diseases... <em>Progress in brain research</em>. 2014. <a href="https://pubmed.ncbi.nlm.nih.gov/25410365" target="_blank">PubMed</a>`,
+                `[105] Zhang H. Anti-ICAM-1 antibody-conjugated paramagnetic liposomes... <em>N/A</em>. 2004. <a href="https://pubmed.ncbi.nlm.nih.gov/20641750" target="_blank">PubMed</a>`,
+                `[106] Liu H, Han Y, Wang T, Zhang H, Xu Q, Yuan J, Li Z. Targeting Microglia for Therapy of Parkinson's Disease by Using Biomimetic Ultrasmall Nanoparticles... <em>Journal of the American Chemical Society</em>. 2020. <a href="https://pubmed.ncbi.nlm.nih.gov/33315369" target="_blank">PubMed</a>`
+            ]
+        };
+
+        // Pathway → proteins map (for detail panel)
+        const pathwayProteins = {
+            'P1': ["PTPRN2", "SCG2", "VGF"],
+            'P2': ["PTPRN2", "SCG2", "VGF"],
+            'P3': [],
+            'P4': [],
+            'P5': [],
+            'P6': [],
+            'P7': [],
+            'P8': ["CD209"],
+            'P9': ["IL13RA1"],
+            'P10': [],
+        };
+
+        // Per-gene literature references (PubMed evidence behind each protein)
+        const geneLitRefs = {"ADGRG2": [], "BAG3": [], "CD209": [{"pmid": "16092920", "num": "92", "title": "Pitarque S, Herrmann JL, Duteyrat JL, Jackson M, Stewart GR, Lecointe F, Payre B, Schwartz O, Young DB, Marchal G, Lagrange PH, Puzo G, Gicquel B, Nigou J, Neyrolles O. Deciphering the molecular bases of Mycobacterium tuberculosis binding to the lectin DC-SIGN reveals an underestimated complexity..", "journal": "The Biochemical journal", "year": "2005"}, {"pmid": "16379498", "num": "91", "title": "Barreiro LB, Neyrolles O, Babb CL, Tailleux L, Quach H, McElreavey K, Helden PD, Hoal EG, Gicquel B, Quintana-Murci L. Promoter variation in the DC-SIGN-encoding gene CD209 is associated with tuberculosis..", "journal": "PLoS medicine", "year": "2006"}, {"pmid": "21203928", "num": "93", "title": "Carroll MV, Sim RB, Bigi F, Jakel A, Antrobus R, Mitchell DA. Identification of four novel DC-SIGN ligands on Mycobacterium bovis BCG..", "journal": "Protein & cell", "year": "2010"}, {"pmid": "24625979", "num": "89", "title": "Cabello J, Samann J, Gomez-Orte E, Erazo T, Coppa A, Pujol A, Bussing I, Schulze B, Lizcano JM, Ferrer I, Baumeister R, Dalfo E. PDR-1/hParkin negatively regulates the phagocytosis of apoptotic cell corpses in Caenorhabditis elegans..", "journal": "Cell death & disease", "year": "2014"}, {"pmid": "30944478", "num": "85", "title": "Pluvinage JV, Haney MS, Smith BAH, Sun J, Iram T, Bonanno L, Li L, Lee DP, Morgens DW, Yang AC, Shuken SR, Gate D, Scott M, Khatri P, Luo J, Bertozzi CR, Bassik MC, Wyss-Coray T. CD22 blockade restores homeostatic microglial phagocytosis in ageing brains..", "journal": "Nature", "year": "2019"}, {"pmid": "32582172", "num": "88", "title": "Uribe-Querol E, Rosales C. Phagocytosis: Our Current Understanding of a Universal Biological Process..", "journal": "Frontiers in immunology", "year": "2020"}, {"pmid": "33608912", "num": "87", "title": "Butler CA, Popescu AS, Kitchener EJA, Allendorf DH, Puigdellivol M, Brown GC. Microglial phagocytosis of neurons in neurodegeneration, and its regulation..", "journal": "Journal of neurochemistry", "year": "2021"}, {"pmid": "37671615", "num": "84", "title": "Dorion MF, Yaqubi M, Senkevich K, Kieran NW, MacDonald A, Chen CXQ, Luo W, Wallis A, Shlaifer I, Hall JA, Dudley RWR, Glass IA, Stratton JA, Fon EA, Bartels T, Antel JP, Gan-Or Z, Durcan TM, Healy LM. MerTK is a mediator of alpha-synuclein fibril uptake by human microglia..", "journal": "Brain : a journal of neurology", "year": "2024"}, {"pmid": "40826098", "num": "86", "title": "Chia SY, Li M, Li Z, Tu H, Lee JWL, Qiu L, Ling J, Reynolds R, Albani S, Tan EK, Ng ASL, Chen J, Zeng L. Single-nucleus transcriptomics reveals a distinct microglial state and increased MSR1-mediated phagocytosis as common features across dementia subtypes..", "journal": "Genome medicine", "year": "2025"}, {"pmid": "41388021", "num": "90", "title": "Espinoza K, Schaler AW, Gray DT, Sass AR, Escobar A, Moore K, Yu ME, Chamorro CG, De Biase LM. Dynamic changes in mitochondria support phenotypic flexibility of microglia..", "journal": "Nature communications", "year": "2025"}], "CLEC10A": [], "EPS8L2": [], "HNMT": [], "HPGDS": [], "IL13RA1": [{"pmid": "30733664", "num": "94", "title": "Mukherjee S, Klaus C, Pricop-Jeckstadt M, Miller JA, Struebing FL. A Microglial Signature Directing Human Aging and Neurodegeneration-Related Gene Networks..", "journal": "Frontiers in neuroscience", "year": "2019"}, {"pmid": "33206396", "num": "97", "title": "Errea O, Rodriguez-Oroz MC. Oligodendrocytes, a New Player in the Etiology of Parkinson's Disease..", "journal": "Movement disorders : official journal of the Movement Disorder Society", "year": "2021"}, {"pmid": "33368775", "num": "96", "title": "Mroczek M, Desouky A, Sirry W. Imaging Transcriptomics in Neurodegenerative Diseases..", "journal": "Journal of neuroimaging : official journal of the American Society of Neuroimaging", "year": "2021"}, {"pmid": "37422510", "num": "95", "title": "Phillips B, Western D, Wang L, Timsina J, Sun Y, Gorijala P, Yang C, Do A, Nykanen NP, Alvarez I, Aguilar M, Pastor P, Morris JC, Schindler SE, Fagan AM, Puerta R, Garcia-Gonzalez P, de Rojas I, Marquie M, Boada M, Ruiz A, Perlmutter JS, Ibanez L, Perrin RJ, Sung YJ, Cruchaga C. Proteome wide association studies of LRRK2 variants identify novel causal and druggable proteins for Parkinson's disease..", "journal": "NPJ Parkinson's disease", "year": "2023"}], "ITGA11": [], "ITGAM": [], "ITGAV": [], "ITGB2": [], "KLK8": [], "NEFL": [], "PEPD": [], "PTPRN2": [{"pmid": "11739596", "num": "20", "title": "Espejo EF, Gonzalez-Albo MC, Moraes JP, El Banoua F, Flores JA, Caraballo I. Functional regeneration in a rat Parkinson's model after intrastriatal grafts of glial cell line-derived neurotrophic factor and transforming growth factor beta1-expressing extra-adrenal chromaffin cells of the Zuckerkandl's organ..", "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience", "year": "2001"}, {"pmid": "12364328", "num": "13", "title": "Gross S, Blanchetot C, Schepens J, Albet S, Lammers R, den Hertog J, Hendriks W. Multimerization of the protein-tyrosine phosphatase (PTP)-like insulin-dependent diabetes mellitus autoantigens IA-2 and IA-2beta with receptor PTPs (RPTPs). Inhibition of RPTPalpha enzymatic activity..", "journal": "The Journal of biological chemistry", "year": "2002"}, {"pmid": "15220191", "num": "9", "title": "Kubosaki A, Gross S, Miura J, Saeki K, Zhu M, Nakamura S, Hendriks W, Notkins AL. Targeted disruption of the IA-2beta gene causes glucose intolerance and impairs insulin secretion but does not prevent the development of diabetes in NOD mice..", "journal": "Diabetes", "year": "2004"}, {"pmid": "16246899", "num": "7", "title": "Benoit AM, McCoy GL, Blake CA. Localization of fertility factor SP22 to specific cell types within the anterior pituitary gland..", "journal": "Experimental biology and medicine (Maywood, N.J.)", "year": "2005"}, {"pmid": "16269463", "num": "11", "title": "Kubosaki A, Nakamura S, Clark A, Morris JF, Notkins AL. Disruption of the transmembrane dense core vesicle proteins IA-2 and IA-2beta causes female infertility..", "journal": "Endocrinology", "year": "2006"}, {"pmid": "16418280", "num": "10", "title": "Doi A, Shono T, Nishi M, Furuta H, Sasaki H, Nanjo K. IA-2beta, but not IA-2, is induced by ghrelin and inhibits glucose-stimulated insulin secretion..", "journal": "Proceedings of the National Academy of Sciences of the United States of America", "year": "2006"}, {"pmid": "19019914", "num": "12", "title": "Kim SM, Theilig F, Qin Y, Cai T, Mizel D, Faulhaber-Walter R, Hirai H, Bachmann S, Briggs JP, Notkins AL, Schnermann J. Dense-core vesicle proteins IA-2 and IA-2beta affect renin synthesis and secretion through the beta-adrenergic pathway..", "journal": "American journal of physiology. Renal physiology", "year": "2009"}, {"pmid": "21732083", "num": "8", "title": "Cai T, Hirai H, Zhang G, Zhang M, Takahashi N, Kasai H, Satin LS, Leapman RD, Notkins AL. Deletion of Ia-2 and/or Ia-2beta in mice decreases insulin secretion by reducing the number of dense core vesicles..", "journal": "Diabetologia", "year": "2011"}, {"pmid": "23380910", "num": "4", "title": "Irwin DJ, Abrams JY, Schonberger LB, Leschek EW, Mills JL, Lee VM, Trojanowski JQ. Evaluation of potential infectivity of Alzheimer and Parkinson disease proteins in recipients of cadaver-derived human growth hormone..", "journal": "JAMA neurology", "year": "2013"}, {"pmid": "30714474", "num": "18", "title": "Wang Z, Gai Y, Zhou J, Liu J, Cui S. miR-375 mediates the CRF signaling pathway to regulate catecholamine biosynthesis by targeting Sp1 in porcine adrenal gland..", "journal": "Stress (Amsterdam, Netherlands)", "year": "2019"}, {"pmid": "31027077", "num": "6", "title": "Ho PL, Chen YC, Teng CH, Wu CC, Huang P. Acute parkinsonism as an unexpected consequence of pituitary adenoma resection: A case report..", "journal": "Medicine", "year": "2019"}, {"pmid": "32163208", "num": "1", "title": "Alatzoglou KS, Gregory LC, Dattani MT. Development of the Pituitary Gland..", "journal": "Comprehensive Physiology", "year": "2020"}, {"pmid": "32634634", "num": "2", "title": "Cironi KA, Decater T, Iwanaga J, Dumont AS, Tubbs RS. Arterial Supply to the Pituitary Gland: A Comprehensive Review..", "journal": "World neurosurgery", "year": "2020"}, {"pmid": "32743779", "num": "16", "title": "Lai S, Ma L, E W, Ye F, Chen H, Han X, Guo G. Mapping a mammalian adult adrenal gland hierarchy across species by microwell-seq..", "journal": "Cell regeneration (London, England)", "year": "2020"}, {"pmid": "33040852", "num": "3", "title": "Chapman PR, Singhal A, Gaddamanugu S, Prattipati V. Neuroimaging of the Pituitary Gland: Practical Anatomy and Pathology..", "journal": "Radiologic clinics of North America", "year": "2020"}, {"pmid": "33500353", "num": "14", "title": "Hanemaaijer ES, Margaritis T, Sanders K, Bos FL, Candelli T, Al-Saati H, van Noesel MM, Meyer-Wentrup FAG, van de Wetering M, Holstege FCP, Clevers H. Single-cell atlas of developing murine adrenal gland reveals relation of Schwann cell precursor signature to neuroblastoma phenotype..", "journal": "Proceedings of the National Academy of Sciences of the United States of America", "year": "2021"}, {"pmid": "33798635", "num": "17", "title": "Bechmann N, Berger I, Bornstein SR, Steenblock C. Adrenal medulla development and medullary-cortical interactions..", "journal": "Molecular and cellular endocrinology", "year": "2021"}, {"pmid": "34493726", "num": "15", "title": "Bedoya-Reina OC, Li W, Arceo M, Plescher M, Bullova P, Pui H, Kaucka M, Kharchenko P, Martinsson T, Holmberg J, Adameyko I, Deng Q, Larsson C, Juhlin CC, Kogner P, Schlisio S. Single-nuclei transcriptomes from human adrenal gland reveal distinct cellular identities of low and high-risk neuroblastoma tumors..", "journal": "Nature communications", "year": "2021"}, {"pmid": "34589871", "num": "22", "title": "Sugama S, Kakinuma Y. Stress and brain immunity: Microglial homeostasis through hypothalamus-pituitary-adrenal gland axis and sympathetic nervous system..", "journal": "Brain, behavior, & immunity - health", "year": "2020"}, {"pmid": "40623083", "num": "5", "title": "Aguiar-Oliveira MH, Boguszewski MCS, Rovaris DL, Donato J Jr. Growth Hormone and IGF-1 Actions in the Brain and Neuropsychiatric Diseases..", "journal": "Physiology (Bethesda, Md.)", "year": "2026"}, {"pmid": "7997067", "num": "21", "title": "Kupsch A, Oertel WH. Neural transplantation, trophic factors and Parkinson's disease..", "journal": "Life sciences", "year": "1994"}, {"pmid": "8103552", "num": "19", "title": "Curran EJ, Albin RL, Becker JB. Adrenal medulla grafts in the hemiparkinsonian rat: profile of behavioral recovery predicts restoration of the symmetry between the two striata in measures of pre- and postsynaptic dopamine function..", "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience", "year": "1993"}], "SCG2": [{"pmid": "11739596", "num": "20", "title": "Espejo EF, Gonzalez-Albo MC, Moraes JP, El Banoua F, Flores JA, Caraballo I. Functional regeneration in a rat Parkinson's model after intrastriatal grafts of glial cell line-derived neurotrophic factor and transforming growth factor beta1-expressing extra-adrenal chromaffin cells of the Zuckerkandl's organ..", "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience", "year": "2001"}, {"pmid": "12364328", "num": "13", "title": "Gross S, Blanchetot C, Schepens J, Albet S, Lammers R, den Hertog J, Hendriks W. Multimerization of the protein-tyrosine phosphatase (PTP)-like insulin-dependent diabetes mellitus autoantigens IA-2 and IA-2beta with receptor PTPs (RPTPs). Inhibition of RPTPalpha enzymatic activity..", "journal": "The Journal of biological chemistry", "year": "2002"}, {"pmid": "15220191", "num": "9", "title": "Kubosaki A, Gross S, Miura J, Saeki K, Zhu M, Nakamura S, Hendriks W, Notkins AL. Targeted disruption of the IA-2beta gene causes glucose intolerance and impairs insulin secretion but does not prevent the development of diabetes in NOD mice..", "journal": "Diabetes", "year": "2004"}, {"pmid": "16246899", "num": "7", "title": "Benoit AM, McCoy GL, Blake CA. Localization of fertility factor SP22 to specific cell types within the anterior pituitary gland..", "journal": "Experimental biology and medicine (Maywood, N.J.)", "year": "2005"}, {"pmid": "16269463", "num": "11", "title": "Kubosaki A, Nakamura S, Clark A, Morris JF, Notkins AL. Disruption of the transmembrane dense core vesicle proteins IA-2 and IA-2beta causes female infertility..", "journal": "Endocrinology", "year": "2006"}, {"pmid": "16418280", "num": "10", "title": "Doi A, Shono T, Nishi M, Furuta H, Sasaki H, Nanjo K. IA-2beta, but not IA-2, is induced by ghrelin and inhibits glucose-stimulated insulin secretion..", "journal": "Proceedings of the National Academy of Sciences of the United States of America", "year": "2006"}, {"pmid": "19019914", "num": "12", "title": "Kim SM, Theilig F, Qin Y, Cai T, Mizel D, Faulhaber-Walter R, Hirai H, Bachmann S, Briggs JP, Notkins AL, Schnermann J. Dense-core vesicle proteins IA-2 and IA-2beta affect renin synthesis and secretion through the beta-adrenergic pathway..", "journal": "American journal of physiology. Renal physiology", "year": "2009"}, {"pmid": "21732083", "num": "8", "title": "Cai T, Hirai H, Zhang G, Zhang M, Takahashi N, Kasai H, Satin LS, Leapman RD, Notkins AL. Deletion of Ia-2 and/or Ia-2beta in mice decreases insulin secretion by reducing the number of dense core vesicles..", "journal": "Diabetologia", "year": "2011"}, {"pmid": "23380910", "num": "4", "title": "Irwin DJ, Abrams JY, Schonberger LB, Leschek EW, Mills JL, Lee VM, Trojanowski JQ. Evaluation of potential infectivity of Alzheimer and Parkinson disease proteins in recipients of cadaver-derived human growth hormone..", "journal": "JAMA neurology", "year": "2013"}, {"pmid": "30714474", "num": "18", "title": "Wang Z, Gai Y, Zhou J, Liu J, Cui S. miR-375 mediates the CRF signaling pathway to regulate catecholamine biosynthesis by targeting Sp1 in porcine adrenal gland..", "journal": "Stress (Amsterdam, Netherlands)", "year": "2019"}, {"pmid": "31027077", "num": "6", "title": "Ho PL, Chen YC, Teng CH, Wu CC, Huang P. Acute parkinsonism as an unexpected consequence of pituitary adenoma resection: A case report..", "journal": "Medicine", "year": "2019"}, {"pmid": "32163208", "num": "1", "title": "Alatzoglou KS, Gregory LC, Dattani MT. Development of the Pituitary Gland..", "journal": "Comprehensive Physiology", "year": "2020"}, {"pmid": "32634634", "num": "2", "title": "Cironi KA, Decater T, Iwanaga J, Dumont AS, Tubbs RS. Arterial Supply to the Pituitary Gland: A Comprehensive Review..", "journal": "World neurosurgery", "year": "2020"}, {"pmid": "32743779", "num": "16", "title": "Lai S, Ma L, E W, Ye F, Chen H, Han X, Guo G. Mapping a mammalian adult adrenal gland hierarchy across species by microwell-seq..", "journal": "Cell regeneration (London, England)", "year": "2020"}, {"pmid": "33040852", "num": "3", "title": "Chapman PR, Singhal A, Gaddamanugu S, Prattipati V. Neuroimaging of the Pituitary Gland: Practical Anatomy and Pathology..", "journal": "Radiologic clinics of North America", "year": "2020"}, {"pmid": "33500353", "num": "14", "title": "Hanemaaijer ES, Margaritis T, Sanders K, Bos FL, Candelli T, Al-Saati H, van Noesel MM, Meyer-Wentrup FAG, van de Wetering M, Holstege FCP, Clevers H. Single-cell atlas of developing murine adrenal gland reveals relation of Schwann cell precursor signature to neuroblastoma phenotype..", "journal": "Proceedings of the National Academy of Sciences of the United States of America", "year": "2021"}, {"pmid": "33798635", "num": "17", "title": "Bechmann N, Berger I, Bornstein SR, Steenblock C. Adrenal medulla development and medullary-cortical interactions..", "journal": "Molecular and cellular endocrinology", "year": "2021"}, {"pmid": "34493726", "num": "15", "title": "Bedoya-Reina OC, Li W, Arceo M, Plescher M, Bullova P, Pui H, Kaucka M, Kharchenko P, Martinsson T, Holmberg J, Adameyko I, Deng Q, Larsson C, Juhlin CC, Kogner P, Schlisio S. Single-nuclei transcriptomes from human adrenal gland reveal distinct cellular identities of low and high-risk neuroblastoma tumors..", "journal": "Nature communications", "year": "2021"}, {"pmid": "34589871", "num": "22", "title": "Sugama S, Kakinuma Y. Stress and brain immunity: Microglial homeostasis through hypothalamus-pituitary-adrenal gland axis and sympathetic nervous system..", "journal": "Brain, behavior, & immunity - health", "year": "2020"}, {"pmid": "40623083", "num": "5", "title": "Aguiar-Oliveira MH, Boguszewski MCS, Rovaris DL, Donato J Jr. Growth Hormone and IGF-1 Actions in the Brain and Neuropsychiatric Diseases..", "journal": "Physiology (Bethesda, Md.)", "year": "2026"}, {"pmid": "7997067", "num": "21", "title": "Kupsch A, Oertel WH. Neural transplantation, trophic factors and Parkinson's disease..", "journal": "Life sciences", "year": "1994"}, {"pmid": "8103552", "num": "19", "title": "Curran EJ, Albin RL, Becker JB. Adrenal medulla grafts in the hemiparkinsonian rat: profile of behavioral recovery predicts restoration of the symmetry between the two striata in measures of pre- and postsynaptic dopamine function..", "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience", "year": "1993"}], "TNXB": [], "VGF": [{"pmid": "11739596", "num": "20", "title": "Espejo EF, Gonzalez-Albo MC, Moraes JP, El Banoua F, Flores JA, Caraballo I. Functional regeneration in a rat Parkinson's model after intrastriatal grafts of glial cell line-derived neurotrophic factor and transforming growth factor beta1-expressing extra-adrenal chromaffin cells of the Zuckerkandl's organ..", "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience", "year": "2001"}, {"pmid": "12364328", "num": "13", "title": "Gross S, Blanchetot C, Schepens J, Albet S, Lammers R, den Hertog J, Hendriks W. Multimerization of the protein-tyrosine phosphatase (PTP)-like insulin-dependent diabetes mellitus autoantigens IA-2 and IA-2beta with receptor PTPs (RPTPs). Inhibition of RPTPalpha enzymatic activity..", "journal": "The Journal of biological chemistry", "year": "2002"}, {"pmid": "15220191", "num": "9", "title": "Kubosaki A, Gross S, Miura J, Saeki K, Zhu M, Nakamura S, Hendriks W, Notkins AL. Targeted disruption of the IA-2beta gene causes glucose intolerance and impairs insulin secretion but does not prevent the development of diabetes in NOD mice..", "journal": "Diabetes", "year": "2004"}, {"pmid": "16246899", "num": "7", "title": "Benoit AM, McCoy GL, Blake CA. Localization of fertility factor SP22 to specific cell types within the anterior pituitary gland..", "journal": "Experimental biology and medicine (Maywood, N.J.)", "year": "2005"}, {"pmid": "16269463", "num": "11", "title": "Kubosaki A, Nakamura S, Clark A, Morris JF, Notkins AL. Disruption of the transmembrane dense core vesicle proteins IA-2 and IA-2beta causes female infertility..", "journal": "Endocrinology", "year": "2006"}, {"pmid": "16418280", "num": "10", "title": "Doi A, Shono T, Nishi M, Furuta H, Sasaki H, Nanjo K. IA-2beta, but not IA-2, is induced by ghrelin and inhibits glucose-stimulated insulin secretion..", "journal": "Proceedings of the National Academy of Sciences of the United States of America", "year": "2006"}, {"pmid": "19019914", "num": "12", "title": "Kim SM, Theilig F, Qin Y, Cai T, Mizel D, Faulhaber-Walter R, Hirai H, Bachmann S, Briggs JP, Notkins AL, Schnermann J. Dense-core vesicle proteins IA-2 and IA-2beta affect renin synthesis and secretion through the beta-adrenergic pathway..", "journal": "American journal of physiology. Renal physiology", "year": "2009"}, {"pmid": "21732083", "num": "8", "title": "Cai T, Hirai H, Zhang G, Zhang M, Takahashi N, Kasai H, Satin LS, Leapman RD, Notkins AL. Deletion of Ia-2 and/or Ia-2beta in mice decreases insulin secretion by reducing the number of dense core vesicles..", "journal": "Diabetologia", "year": "2011"}, {"pmid": "23380910", "num": "4", "title": "Irwin DJ, Abrams JY, Schonberger LB, Leschek EW, Mills JL, Lee VM, Trojanowski JQ. Evaluation of potential infectivity of Alzheimer and Parkinson disease proteins in recipients of cadaver-derived human growth hormone..", "journal": "JAMA neurology", "year": "2013"}, {"pmid": "30714474", "num": "18", "title": "Wang Z, Gai Y, Zhou J, Liu J, Cui S. miR-375 mediates the CRF signaling pathway to regulate catecholamine biosynthesis by targeting Sp1 in porcine adrenal gland..", "journal": "Stress (Amsterdam, Netherlands)", "year": "2019"}, {"pmid": "31027077", "num": "6", "title": "Ho PL, Chen YC, Teng CH, Wu CC, Huang P. Acute parkinsonism as an unexpected consequence of pituitary adenoma resection: A case report..", "journal": "Medicine", "year": "2019"}, {"pmid": "32163208", "num": "1", "title": "Alatzoglou KS, Gregory LC, Dattani MT. Development of the Pituitary Gland..", "journal": "Comprehensive Physiology", "year": "2020"}, {"pmid": "32634634", "num": "2", "title": "Cironi KA, Decater T, Iwanaga J, Dumont AS, Tubbs RS. Arterial Supply to the Pituitary Gland: A Comprehensive Review..", "journal": "World neurosurgery", "year": "2020"}, {"pmid": "32743779", "num": "16", "title": "Lai S, Ma L, E W, Ye F, Chen H, Han X, Guo G. Mapping a mammalian adult adrenal gland hierarchy across species by microwell-seq..", "journal": "Cell regeneration (London, England)", "year": "2020"}, {"pmid": "33040852", "num": "3", "title": "Chapman PR, Singhal A, Gaddamanugu S, Prattipati V. Neuroimaging of the Pituitary Gland: Practical Anatomy and Pathology..", "journal": "Radiologic clinics of North America", "year": "2020"}, {"pmid": "33500353", "num": "14", "title": "Hanemaaijer ES, Margaritis T, Sanders K, Bos FL, Candelli T, Al-Saati H, van Noesel MM, Meyer-Wentrup FAG, van de Wetering M, Holstege FCP, Clevers H. Single-cell atlas of developing murine adrenal gland reveals relation of Schwann cell precursor signature to neuroblastoma phenotype..", "journal": "Proceedings of the National Academy of Sciences of the United States of America", "year": "2021"}, {"pmid": "33798635", "num": "17", "title": "Bechmann N, Berger I, Bornstein SR, Steenblock C. Adrenal medulla development and medullary-cortical interactions..", "journal": "Molecular and cellular endocrinology", "year": "2021"}, {"pmid": "34493726", "num": "15", "title": "Bedoya-Reina OC, Li W, Arceo M, Plescher M, Bullova P, Pui H, Kaucka M, Kharchenko P, Martinsson T, Holmberg J, Adameyko I, Deng Q, Larsson C, Juhlin CC, Kogner P, Schlisio S. Single-nuclei transcriptomes from human adrenal gland reveal distinct cellular identities of low and high-risk neuroblastoma tumors..", "journal": "Nature communications", "year": "2021"}, {"pmid": "34589871", "num": "22", "title": "Sugama S, Kakinuma Y. Stress and brain immunity: Microglial homeostasis through hypothalamus-pituitary-adrenal gland axis and sympathetic nervous system..", "journal": "Brain, behavior, & immunity - health", "year": "2020"}, {"pmid": "40623083", "num": "5", "title": "Aguiar-Oliveira MH, Boguszewski MCS, Rovaris DL, Donato J Jr. Growth Hormone and IGF-1 Actions in the Brain and Neuropsychiatric Diseases..", "journal": "Physiology (Bethesda, Md.)", "year": "2026"}, {"pmid": "7997067", "num": "21", "title": "Kupsch A, Oertel WH. Neural transplantation, trophic factors and Parkinson's disease..", "journal": "Life sciences", "year": "1994"}, {"pmid": "8103552", "num": "19", "title": "Curran EJ, Albin RL, Becker JB. Adrenal medulla grafts in the hemiparkinsonian rat: profile of behavioral recovery predicts restoration of the symmetry between the two striata in measures of pre- and postsynaptic dopamine function..", "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience", "year": "1993"}]};
+
+        // Full literature-ranked protein list (for the interactive slider)
+        const litRankData    = [{"rank": 1, "gene": "VGF", "lit_count": 22, "pathway_hits": 2, "hr_val": "0.38"}, {"rank": 2, "gene": "PTPRN2", "lit_count": 22, "pathway_hits": 2, "hr_val": "0.53"}, {"rank": 3, "gene": "SCG2", "lit_count": 22, "pathway_hits": 2, "hr_val": "0.55"}, {"rank": 4, "gene": "CD209", "lit_count": 10, "pathway_hits": 1, "hr_val": "0.59"}, {"rank": 5, "gene": "IL13RA1", "lit_count": 4, "pathway_hits": 1, "hr_val": "0.46"}, {"rank": 6, "gene": "ITGAV", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.27"}, {"rank": 7, "gene": "PEPD", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.40"}, {"rank": 8, "gene": "ITGAM", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.42"}, {"rank": 9, "gene": "NEFL", "lit_count": 0, "pathway_hits": 0, "hr_val": "1.55"}, {"rank": 10, "gene": "HPGDS", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.46"}, {"rank": 11, "gene": "ITGA11", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.46"}, {"rank": 12, "gene": "ITGB2", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.46"}, {"rank": 13, "gene": "TNXB", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.47"}, {"rank": 14, "gene": "ADGRG2", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.48"}, {"rank": 15, "gene": "CLEC10A", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.49"}, {"rank": 16, "gene": "EPS8L2", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.52"}, {"rank": 17, "gene": "BAG3", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.57"}, {"rank": 18, "gene": "KLK8", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.57"}, {"rank": 19, "gene": "HNMT", "lit_count": 0, "pathway_hits": 0, "hr_val": "0.61"}];
+        const litRankDefault = 5;
+
+        function _clampLitRank(n) {
+            const total = litRankData.length;
+            if(total === 0) return 0;
+            return Math.max(1, Math.min(parseInt(n, 10) || 1, total));
+        }
+
+        function renderLitRank(n) {
+            n = _clampLitRank(n);
+            if(n === 0) return;
+            const numEl = document.getElementById('lit-rank-num');
+            if(numEl) numEl.textContent = n;
+            const list = document.getElementById('lit-rank-list');
+            if(!list) return;
+            const escHtml = s => String(s)
+                .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+            list.innerHTML = litRankData.slice(0, n).map(item => {
+                const paper = item.lit_count === 1 ? 'paper' : 'papers';
+                const path  = item.pathway_hits === 1 ? 'pathway' : 'pathways';
+                const safeGene = escHtml(item.gene);
+                return `<li><span class="protein-chip" `
+                     + `onclick="highlightNode('${item.gene}')">${safeGene}</span>`
+                     + ` <span style="color:#888;font-size:12px">`
+                     + `· ${item.lit_count} ${paper}`
+                     + ` · ${item.pathway_hits} ${path}`
+                     + ` · HR=${escHtml(item.hr_val)}</span></li>`;
+            }).join('');
+        }
+
+        // Filter the cytoscape canvas so it only shows the top-N proteins
+        // (by literature rank) plus their connected pathways/drugs/edges.
+        // Protein nodes outside the top-N are hidden, along with any drug
+        // nodes that lose all of their visible protein neighbors.
+        function applyCanvasFilter(n) {
+            if(typeof cy === 'undefined' || !cy) return;
+            n = _clampLitRank(n);
+            if(n === 0) return;
+            cy.batch(function() {
+                cy.nodes('[type="protein"]').forEach(function(node) {
+                    const rank = node.data('litRank');
+                    const visible = (typeof rank === 'number'
+                                     && rank >= 1 && rank <= n);
+                    node.style('display', visible ? 'element' : 'none');
+                });
+                cy.nodes('[type="drug"]').forEach(function(d) {
+                    let keep = false;
+                    d.connectedEdges().forEach(function(e) {
+                        const other = e.source().id() === d.id()
+                                      ? e.target() : e.source();
+                        if(other.data('type') === 'protein'
+                           && other.style('display') !== 'none') {
+                            keep = true;
+                        }
+                    });
+                    d.style('display', keep ? 'element' : 'none');
+                });
+            });
+        }
+
+        function syncLitRank(n) {
+            renderLitRank(n);
+            applyCanvasFilter(n);
+        }
+
+        function setLitRank(n) {
+            const slider = document.getElementById('lit-rank-slider');
+            if(slider) slider.value = n;
+            syncLitRank(n);
+        }
+
+        // Render the list immediately (cy may not exist yet — canvas filter
+        // is applied in a separate IIFE after cytoscape is initialized).
+        renderLitRank(litRankDefault);
+
+        const elements = [
+                        // Pathways,
+            { data: { id: 'P1', type: 'pathway', termId: 'HPA:0370000', name: 'Pituitary gland', count: 3, score: '0.311', pval: '5.160e-03', source: 'HPA', context: 'The pituitary gland plays a role in Parkinson\'s disease through neuroendocrine regulation, protein aggregation, and clinical complications related to pituitary disease or its treatment. It contributes to systemic hormonal environments that may affect brain vulnerability, with disturbances in growth hormone and insulin-like growth factor signaling potentially representing risk factors for neurodegenerative disorders, including Parkinson\'s. Pathological alpha-synuclein deposits in the pituitary suggest its involvement in Parkinson-related proteinopathy, although there is no evidence of disease transmission through pituitary-derived material. Additionally, pituitary pathology can mimic Parkinson\'s symptoms, as seen in cases of parkinsonism following pituitary surgery. Overall, while the pituitary gland is not central to Parkinson\'s disease, it intersects with the disease\'s biology through these mechanisms.' } },
+            { data: { id: 'P2', type: 'pathway', termId: 'HPA:0020061', name: 'Adrenal gland; medullary cells[≥Low]', count: 3, score: '0.307', pval: '2.566e-03', source: 'HPA', context: 'The adrenal gland medullary cells, or chromaffin cells, are neuroendocrine cells derived from the neural crest and are involved in catecholamine production, playing a significant role in stress response. These cells exhibit developmental and functional heterogeneity and are integrated into broader endocrine circuits, synthesizing catecholamines through specific enzymes regulated by stress-related pathways. In the context of Parkinson\'s disease, these cells are of interest due to their biological similarities with dopaminergic systems, and experimental studies have shown that transplantation of adrenal medullary tissue can influence dopaminergic function and provide neurotrophic support. This support is not through direct neurotransmitter replacement but rather through promoting striatal reinnervation and secreting neurotrophic factors, which may help alleviate motor deficits in Parkinson\'s models. Additionally, the involvement of adrenal medullary cells in stress-responsive signaling pathways may further link them to Parkinson\'s disease pathogenesis through their impact on neuroimmune states.' } },
+            { data: { id: 'P3', type: 'pathway', termId: 'KEGG:04510', name: 'Focal adhesion', count: 3, score: '0.300', pval: '2.127e-02', source: 'KEGG', context: 'Focal adhesion is a crucial cell signaling and structural pathway that connects the extracellular matrix to the intracellular actin cytoskeleton, involving integrin receptors and a complex of proteins like focal adhesion kinase (FAK), paxillin, and vinculin. This pathway is integral for mechanotransduction, enabling cells to sense and respond to mechanical cues from their environment, which influences processes such as adhesion, migration, and survival. In the context of Parkinson\'s disease, the Gly2019Ser mutation in leucine-rich repeat kinase 2 (LRRK2) has been shown to inhibit FAK signaling, impairing microglial motility and their response to brain injury, which could contribute to neurodegenerative progression by weakening protective glial functions. The pathway\'s regulation of mechanotransduction, adhesion turnover, and calcium signaling is critical for how microglia and other neural cells respond to tissue damage in the diseased brain. Overall, focal adhesion serves as a central hub for translating extracellular mechanical signals into intracellular responses, with implications for neurodegenerative diseases like Parkinson\'s.' } },
+            { data: { id: 'P4', type: 'pathway', termId: 'REAC:R-HSA-1474244', name: 'Extracellular matrix organization', count: 5, score: '0.268', pval: '3.001e-03', source: 'REAC', context: 'Extracellular matrix organization plays a crucial role in the structural and functional integrity of tissues by regulating cell behavior, adhesion, and communication. In the context of Parkinson\'s disease, alterations in the extracellular matrix, particularly due to synucleinopathy, can influence the vulnerability of dopaminergic neurons, neuroinflammation, and the spread of pathological alpha-synuclein. Experimental evidence from mouse models shows that changes in the extracellular matrix, such as hyaluronan degradation, are not merely secondary effects but actively contribute to disease progression. The dysregulation of extracellular matrix components, including glycoproteins like reelin, is observed across various neurodegenerative diseases, indicating a broader relevance beyond Parkinson\'s disease. These findings suggest that targeting extracellular matrix organization could be a potential therapeutic strategy to modify disease severity and progression in Parkinson\'s disease.' } },
+            { data: { id: 'P5', type: 'pathway', termId: 'GO:0001846', name: 'opsonin binding', count: 3, score: '0.244', pval: '8.045e-05', source: 'GO:MF', context: 'Opsonin binding involves the recognition of opsonins, such as antibodies or complement fragments, by receptors on phagocytes, facilitating the clearance of microbes and cellular debris. This process is crucial for both innate and adaptive immunity, as it triggers phagocyte responses like engulfment and inflammatory signaling. In the context of Parkinson\'s disease, while opsonin binding is not a primary pathway, it is relevant due to its role in neuroinflammation and the clearance of damaged cells and protein aggregates, such as misfolded alpha-synuclein. The disease is characterized by sustained innate immune activation in the brain, with glial cells playing a dynamic role in disease progression. Complement-opsonin interactions may contribute to the inflammatory clearance of neuronal debris, highlighting the potential involvement of opsonin binding in Parkinson\'s disease pathology.' } },
+            { data: { id: 'P6', type: 'pathway', termId: 'GO:0007160', name: 'cell-matrix adhesion', count: 4, score: '0.240', pval: '3.355e-03', source: 'GO:BP', context: 'Cell-matrix adhesion is a biological process that connects cells to the extracellular matrix through integrin-centered assemblies, linking extracellular signals to intracellular responses. This pathway is crucial for various cellular functions, including shape, migration, and survival, by integrating extracellular matrix binding with cytoskeletal organization and mechanosensation. In the context of Parkinson\'s disease, disruptions in cell-matrix adhesion may contribute to synaptic dysfunction by affecting actin- and microtubule-dependent processes essential for synaptic vesicle cycling. This connection is supported by evidence showing that cell-matrix adhesion is vital for organizing the actin cytoskeleton and force transmission, which are critical for neurotransmitter release. Additionally, phosphoproteomic analyses in Parkinson\'s patients reveal altered cell-matrix adhesion processes, suggesting a systemic alteration of this pathway in the disease.' } },
+            { data: { id: 'P7', type: 'pathway', termId: 'WP:WP4541', name: 'Hippo Merlin signaling dysregulation', count: 4, score: '0.234', pval: '1.562e-03', source: 'WP', context: 'The Hippo Merlin signaling pathway involves a network centered on the protein Merlin, which regulates the activity of the yes-associated protein 1 (YAP1) and tafazzin through the Hippo kinase cascade, thereby controlling gene transcription related to cell proliferation and survival. Dysregulation of this pathway, often due to loss or impairment of Merlin, leads to increased activity of YAP1 and tafazzin, resulting in pathological transcriptional programs that can promote tumor growth and affect cell differentiation and regeneration. In the context of Parkinson\'s disease, while direct mechanistic studies are lacking, the pathway\'s involvement in neuroinflammation and its regulation of cell-state transitions and stress responses suggest a potential role in the disease\'s pathology, particularly concerning glial dysfunction and neuroinflammation. The pathway\'s influence on inflammatory mediators and its response to environmental stress further highlight its relevance to neurodegenerative processes, including those seen in Parkinson\'s disease.' } },
+            { data: { id: 'P8', type: 'pathway', termId: 'GO:0006909', name: 'phagocytosis', count: 3, score: '0.229', pval: '1.578e-02', source: 'GO:BP', context: 'Phagocytosis in the context of Parkinson\'s disease involves the microglial clearance of alpha-synuclein aggregates, myelin debris, and inflammatory mediators, which are crucial for maintaining neural homeostasis. The MER proto-oncogene, tyrosine kinase, plays a significant role in mediating the uptake of alpha-synuclein fibrils by microglia, potentially limiting aggregate spread without inducing inflammation. Inhibition of certain checkpoints, such as cluster of differentiation twenty-two, can enhance microglial clearance of these aggregates, suggesting a therapeutic target for restoring protective phagocytosis in the aging brain. Transcriptomic analyses have identified a unique microglial state in Parkinson\'s disease dementia, characterized by increased scavenger receptor expression and myelin phagocytosis, indicating that phagocytosis may also involve responses to myelin injury. Overall, while phagocytosis can be protective by clearing harmful debris, excessive or misdirected activity may contribute to neurodegeneration, highlighting its dual role in Parkinson\'s disease pathology.' } },
+            { data: { id: 'P9', type: 'pathway', termId: 'WP:WP3945', name: 'TYROBP causal network in microglia', count: 3, score: '0.226', pval: '2.335e-03', source: 'WP', context: 'The TYROBP causal network in microglia is an innate immune signaling pathway that connects extracellular danger-sensing receptors to intracellular activation programs, playing a crucial role in transitioning microglia from a homeostatic to an inflammatory state. This pathway is involved in various neurodegenerative conditions, including Alzheimer\'s disease, where its activation leads to increased expression of immune-related genes and influences disease pathology. Although direct evidence linking this network to Parkinson\'s disease is limited, it is considered part of a conserved microglial immune module shared across aging and neurodegeneration, including Parkinson\'s. Integrin subunit beta 2, a component of this network, is implicated in Parkinson\'s disease risk, highlighting the pathway\'s relevance to microglial lysosomal and trafficking dysfunction, which are central to Parkinson\'s pathogenesis. Imaging transcriptomics further supports the association between microglial activation and neurodegeneration in Parkinson\'s, suggesting that immune and inflammatory processes are integral to the disease\'s progression.' } },
+            { data: { id: 'P10', type: 'pathway', termId: 'REAC:R-HSA-216083', name: 'Integrin cell surface interactions', count: 4, score: '0.212', pval: '6.275e-04', source: 'REAC', context: 'Integrin cell surface interactions play a crucial role in cell adhesion and signal transduction by linking extracellular matrix ligands to intracellular signaling networks, which is significant in the context of Parkinson\'s disease. These interactions involve integrin receptors, which are heterodimers composed of alpha and beta subunits, and their activation is influenced by factors such as talin binding and membrane lipid composition. In Parkinson\'s disease, integrins are implicated in neuroinflammation, blood-central nervous system barrier regulation, and the control of glial and immune cell behavior, making them relevant therapeutic targets. Integrins regulate leukocyte adhesion and trafficking, contributing to inflammatory processes in the disease, and are essential for maintaining blood-central nervous system barrier integrity, with disruptions potentially leading to barrier leakage and increased neuroinflammation. Additionally, integrin pathways influence immune cell behavior, with studies showing that targeting these pathways can reduce oxidative stress and promote an anti-inflammatory state in microglia, thereby improving dopaminergic pathology in Parkinson\'s models.' } },
+                        // Proteins,
+            { data: { id: 'VGF', name: 'VGF', type: 'protein', hr: '0.38', pval: '6.27e-10', desc: 'Neurosecretory protein VGF', litCount: 22, pathwayHits: 2, litRank: 1 } },
+            { data: { id: 'PTPRN2', name: 'PTPRN2', type: 'protein', hr: '0.53', pval: '7.19e-11', desc: 'Receptor-type tyrosine-protein phosphatase N2', litCount: 22, pathwayHits: 2, litRank: 2 } },
+            { data: { id: 'SCG2', name: 'SCG2', type: 'protein', hr: '0.55', pval: '2.87e-10', desc: 'Secretogranin-2', litCount: 22, pathwayHits: 2, litRank: 3 } },
+            { data: { id: 'CD209', name: 'CD209', type: 'protein', hr: '0.59', pval: '2.13e-10', desc: 'CD209 antigen', litCount: 10, pathwayHits: 1, litRank: 4 } },
+            { data: { id: 'IL13RA1', name: 'IL13RA1', type: 'protein', hr: '0.46', pval: '1.03e-11', desc: 'Interleukin-13 receptor subunit alpha-1', litCount: 4, pathwayHits: 1, litRank: 5 } },
+                        // Drugs,
+            { data: { id: 'D1', name: 'Synaptic Mod.', type: 'drug', subtype: 'category' } },
+            { data: { id: 'D2', name: 'Anti-inflammatory', type: 'drug', subtype: 'category' } },
+            { data: { id: 'D3', name: 'Targeted Therapy', type: 'drug', subtype: 'category' } },
+            { data: { id: 'PD1', name: 'Olanzapine', type: 'drug', subtype: 'pharmaco', approved: true, score: 1.37 } },
+            { data: { id: 'PD2', name: 'Eblasakimab', type: 'drug', subtype: 'pharmaco', approved: false, score: 26.10 } },
+            { data: { id: 'PD3', name: 'Cintredekin Besudotox', type: 'drug', subtype: 'pharmaco', approved: false, score: 17.40 } },
+                        // Edges,
+            { data: { source: 'PTPRN2', target: 'P1', relation: 'belongs to', edge_type: 'pathway' } },
+            { data: { source: 'SCG2', target: 'P1', relation: 'belongs to', edge_type: 'pathway' } },
+            { data: { source: 'VGF', target: 'P1', relation: 'belongs to', edge_type: 'pathway' } },
+            { data: { source: 'PTPRN2', target: 'P2', relation: 'belongs to', edge_type: 'pathway' } },
+            { data: { source: 'SCG2', target: 'P2', relation: 'belongs to', edge_type: 'pathway' } },
+            { data: { source: 'VGF', target: 'P2', relation: 'belongs to', edge_type: 'pathway' } },
+            { data: { source: 'CD209', target: 'P8', relation: 'belongs to', edge_type: 'pathway' } },
+            { data: { source: 'IL13RA1', target: 'P9', relation: 'belongs to', edge_type: 'pathway' } },
+            { data: { source: 'VGF', target: 'D1', relation: 'category', edge_type: 'drug_cat' } },
+            { data: { source: 'IL13RA1', target: 'D2', relation: 'category', edge_type: 'drug_cat' } },
+            { data: { source: 'PTPRN2', target: 'D3', relation: 'category', edge_type: 'drug_cat' } },
+            { data: { source: 'SCG2', target: 'D3', relation: 'category', edge_type: 'drug_cat' } },
+            { data: { source: 'CD209', target: 'D3', relation: 'category', edge_type: 'drug_cat' } },
+            { data: { source: 'PTPRN2', target: 'PD1', relation: 'pharmacogenetic', edge_type: 'pharmaco' } },
+            { data: { source: 'IL13RA1', target: 'PD2', relation: 'pharmacogenetic', edge_type: 'pharmaco' } },
+            { data: { source: 'IL13RA1', target: 'PD3', relation: 'pharmacogenetic', edge_type: 'pharmaco' } },
+            { data: { source: 'VGF', target: 'SCG2', relation: 'STRING PPI', edge_type: 'ppi', score: 0.73 } }
+        ];
+
+        // Register cola layout (auto-registered by the CDN script; fallback handled in runLayout)
+        function getColaOpts(randomize) {
+            return {
+                name: 'cola',
+                animate: true,
+                refresh: 2,
+                maxSimulationTime: 4000,
+                nodeSpacing: 30,
+                edgeLength: 100,
+                avoidOverlap: true,
+                infinite: false,
+                handleDisconnected: true,
+                convergenceThreshold: 0.005,
+                randomize: !!randomize,
+                padding: 20,
+                fit: true
+            };
+        }
+        function getCoseOpts() {
+            return {
+                name: 'cose',
+                animate: true,
+                animationDuration: 1000,
+                nodeRepulsion: 6000,
+                idealEdgeLength: 90,
+                spacingFactor: 1.0,
+                padding: 20,
+                randomize: true,
+                fit: true
+            };
+        }
+        function resetLayout() {
+            var opts;
+            try {
+                cy.makeLayout({ name: 'cola' });
+                opts = getColaOpts(true);
+            } catch(e) {
+                opts = getCoseOpts();
+            }
+            cy.layout(opts).run();
+        }
+
+        const cy = cytoscape({
+            container: document.getElementById('cy'),
+            elements: elements,
+            userZoomingEnabled: true,
+            userPanningEnabled: true,
+            boxSelectionEnabled: false,
+            autoungrabify: false,
+            style: [
+                {
+                    selector: 'node[type="pathway"]',
+                    style: {
+                        'background-color': '#016994',
+                        'label': 'data(name)',
+                        'shape': 'hexagon',
+                        'width': 38, 'height': 38,
+                        'color': '#333',
+                        'text-valign': 'bottom',
+                        'text-margin-y': 4,
+                        'font-size': 9
+                    }
+                },
+                {
+                    selector: 'node[type="protein"]',
+                    style: {
+                        'background-color': '#6b7280',
+                        'label': 'data(name)',
+                        'shape': 'ellipse',
+                        'width': 28, 'height': 28,
+                        'color': '#000',
+                        'text-valign': 'bottom',
+                        'text-margin-y': 4,
+                        'font-weight': 'bold',
+                        'font-size': 10
+                    }
+                },
+                {
+                    selector: 'node[type="drug"]',
+                    style: {
+                        'background-color': '#fff',
+                        'border-width': 2,
+                        'border-color': '#1b5e20',
+                        'label': 'data(name)',
+                        'shape': 'round-rectangle',
+                        'width': 68, 'height': 22,
+                        'color': '#1b5e20',
+                        'text-valign': 'center',
+                        'font-size': 9
+                    }
+                },
+                {
+                    selector: 'node[type="drug"][subtype="pharmaco"]',
+                    style: {
+                        'background-color': '#fff3e0',
+                        'border-width': 1.5,
+                        'border-color': '#ff7043',
+                        'border-style': 'solid',
+                        'shape': 'round-rectangle',
+                        'width': 78, 'height': 20,
+                        'color': '#bf360c',
+                        'font-size': 9,
+                        'font-style': 'italic'
+                    }
+                },
+                {
+                    selector: 'edge',
+                    style: {
+                        'width': 1.4,
+                        'line-color': '#cbd2da',
+                        'target-arrow-color': '#cbd2da',
+                        'target-arrow-shape': 'triangle',
+                        'arrow-scale': 0.8,
+                        'curve-style': 'bezier',
+                        'opacity': 0.75,
+                        'label': 'data(relation)',
+                        'font-size': 7,
+                        'color': '#5a6a7a',
+                        'text-rotation': 'autorotate',
+                        'text-background-color': '#ffffff',
+                        'text-background-opacity': 0.85,
+                        'text-background-padding': 1,
+                        'text-margin-y': -2
+                    }
+                },
+                {
+                    selector: 'edge[edge_type="pathway"]',
+                    style: {
+                        'line-color': '#016994',
+                        'target-arrow-color': '#016994',
+                        'opacity': 0.55
+                    }
+                },
+                {
+                    selector: 'edge[edge_type="ppi"]',
+                    style: {
+                        'line-color': '#90a4ae',
+                        'line-style': 'dashed',
+                        'target-arrow-shape': 'none',
+                        'opacity': 0.55,
+                        'width': 1.2
+                    }
+                },
+                {
+                    selector: 'edge[edge_type="drug_cat"]',
+                    style: {
+                        'line-color': '#1b5e20',
+                        'target-arrow-color': '#1b5e20',
+                        'opacity': 0.65
+                    }
+                },
+                {
+                    selector: 'edge[edge_type="pharmaco"]',
+                    style: {
+                        'line-color': '#ff7043',
+                        'target-arrow-color': '#ff7043',
+                        'width': 2,
+                        'opacity': 0.85
+                    }
+                },
+                {
+                    selector: 'node.highlighted',
+                    style: { 'border-width': 3, 'border-color': '#ffc107',
+                             'width': 44, 'height': 44 }
+                },
+                {
+                    selector: 'edge.highlighted',
+                    style: { 'line-color': '#6b7280',
+                             'target-arrow-color': '#6b7280',
+                             'width': 3, 'opacity': 1, 'z-index': 99 }
+                },
+                {
+                    selector: 'node.dimmed, edge.dimmed',
+                    style: { 'opacity': 0.08 }
+                }
+            ],
+            layout: { name: 'preset' }   // placeholder; real layout runs below
+        });
+
+        // Run the best available force-directed layout
+        (function() {
+            var opts;
+            try {
+                cy.makeLayout({ name: 'cola' });  // throws if cola not registered
+                opts = getColaOpts(true);
+            } catch(e) {
+                opts = getCoseOpts();
+            }
+            cy.layout(opts).run();
+        })();
+
+        // ── Wire up the literature-rank slider now that cy exists ──────────
+        (function initLitRankSync() {
+            const slider = document.getElementById('lit-rank-slider');
+            const fitVisible = (duration) => {
+                const vis = cy.elements(':visible');
+                if(vis.length > 0) {
+                    cy.animate({ fit: { eles: vis, padding: 30 } },
+                               { duration: duration });
+                }
+            };
+            if(slider) {
+                slider.addEventListener('input', e =>
+                    syncLitRank(e.target.value));
+                // On release, gently re-fit the camera to the visible nodes
+                slider.addEventListener('change', () => fitVisible(350));
+            }
+            applyCanvasFilter(litRankDefault);
+            // After the initial force-directed layout settles, re-fit on
+            // the visible subset so hidden ranks don't waste viewport space.
+            cy.one('layoutstop', () => fitVisible(450));
+        })();
+
+        // ── Edge type toggles & label toggles ──────────────────────────────
+        const _hiddenEdgeTypes = new Set();
+        let _showEdgeLabels = false;
+
+        function toggleEdgeType(edgeType, btn) {
+            const sel = `edge[edge_type="${edgeType}"]`;
+            if(_hiddenEdgeTypes.has(edgeType)) {
+                _hiddenEdgeTypes.delete(edgeType);
+                cy.$(sel).style('display', 'element');
+                if(btn) btn.classList.add('active');
+            } else {
+                _hiddenEdgeTypes.add(edgeType);
+                cy.$(sel).style('display', 'none');
+                if(btn) btn.classList.remove('active');
+            }
+        }
+        function toggleEdgeLabels(btn) {
+            _showEdgeLabels = !_showEdgeLabels;
+            cy.style().selector('edge')
+                .style('text-opacity', _showEdgeLabels ? 1 : 0)
+                .update();
+            if(btn) btn.classList.toggle('active', _showEdgeLabels);
+        }
+        // Hide edge labels by default to keep the graph readable
+        cy.style().selector('edge').style('text-opacity', 0).update();
+
+        cy.on('tap', 'node', function(evt) {
+            var node = evt.target;
+            cy.elements().removeClass('highlighted dimmed');
+            var connected = node.neighborhood().add(node);
+            cy.elements().not(connected).addClass('dimmed');
+            connected.addClass('highlighted');
+            if(node.data('type') === 'protein') {
+                renderProteinDetail(node.data());
+            } else if(node.data('type') === 'pathway') {
+                renderPathwayDetail(node.data());
+            } else if(node.data('type') === 'drug') {
+                renderDrugDetail(node.data());
+            }
+            switchTab('detail');
+        });
+
+        cy.on('tap', function(evt) {
+            if(evt.target === cy) {
+                cy.elements().removeClass('highlighted dimmed');
+            }
+        });
+
+        // ── Hover tooltip ──────────────────────────────────────────────────────
+        const tooltip = document.getElementById('cy-tooltip');
+        cy.on('mouseover', 'node', function(evt) {
+            var d = evt.target.data();
+            var label = '';
+            if(d.type === 'pathway') {
+                label = `<strong style="font-size:13px">${d.name}</strong><br>
+                         <span style="color:#aaa">Pathway · ${d.source}</span><br>
+                         Proteins: <b>${d.count}</b> &nbsp; p = ${d.pval}`;
+            } else if(d.type === 'protein') {
+                const litLine = (typeof d.litCount === 'number' && d.litCount > 0)
+                    ? `<br><span style="color:#ffd54f">📚 Literature: ${d.litCount} paper${d.litCount === 1 ? '' : 's'}</span>`
+                    : '';
+                label = `<strong style="font-size:13px">${d.name}</strong><br>
+                         <span style="color:#aaa">Protein / Gene · Rank #${d.litRank ?? '?'}</span><br>
+                         HR: <b>${d.hr}</b> &nbsp; p = ${d.pval}${litLine}<br>
+                         <span style="color:#ccc;font-size:11px">${(d.desc||'').slice(0,60)}${d.desc && d.desc.length>60?'…':''}</span>`;
+            } else if(d.type === 'drug') {
+                if(d.subtype === 'pharmaco') {
+                    const ap = d.approved ? ' · FDA-approved' : '';
+                    label = `<strong style="font-size:13px">${d.name}</strong><br>
+                             <span style="color:#ffab91">Pharmacogenetic drug${ap}</span>`;
+                } else {
+                    label = `<strong style="font-size:13px">${d.name}</strong><br>
+                             <span style="color:#aaa">Drug Category</span>`;
+                }
+            }
+            tooltip.innerHTML = label;
+            tooltip.style.display = 'block';
+        });
+        cy.on('mouseout', 'node', function() {
+            tooltip.style.display = 'none';
+        });
+        cy.on('mousemove', function(evt) {
+            if(tooltip.style.display !== 'none') {
+                var rect = document.getElementById('cy-container').getBoundingClientRect();
+                var x = evt.originalEvent.clientX - rect.left + 14;
+                var y = evt.originalEvent.clientY - rect.top + 14;
+                // Keep tooltip within container
+                if(x + 230 > rect.width)  x = evt.originalEvent.clientX - rect.left - 230;
+                if(y + 100 > rect.height) y = evt.originalEvent.clientY - rect.top  - 100;
+                tooltip.style.left = x + 'px';
+                tooltip.style.top  = y + 'px';
+            }
+        });
+        // Hide tooltip while dragging a node
+        cy.on('grab', 'node', function() { tooltip.style.display = 'none'; });
+
+        function highlightNode(name) {
+            var node = cy.getElementById(name);
+            if(node.length > 0) {
+                cy.elements().removeClass('highlighted dimmed');
+                var connected = node.neighborhood().add(node);
+                cy.elements().not(connected).addClass('dimmed');
+                connected.addClass('highlighted');
+                cy.animate({ fit: { eles: connected, padding: 50 }, duration: 500 });
+                renderProteinDetail(node.data());
+                switchTab('detail');
+            }
+        }
+
+        function renderProteinDetail(data) {
+            let tier = 'Targetability: Exploratory';
+            let note = 'Repurposing Agent Note: Further evaluation needed.';
+            let drugsHTML = '<li>Pending deeper translational reasoning.</li>';
+            let badgeClass = 'badge-protein';
+            let badgeLabel = 'Protein / Gene';
+        if(data.name === 'ITGAV') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.27 and P=5.40e-22 support an association with Parkinson disease. Integrin alpha-V - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'VGF') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.38 and P=6.27e-10 support an association with Parkinson disease. Neurosecretory protein VGF - potential translational relevance."; drugsHTML='<li>Category: Synaptic Mod.</li>'; }
+        if(data.name === 'PEPD') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.40 and P=6.66e-11 support an association with Parkinson disease. Xaa-Pro dipeptidase - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'ITGAM') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.42 and P=6.57e-18 support an association with Parkinson disease. Integrin alpha-M - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'NEFL') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=1.55 and P=1.59e-12 support an association with Parkinson disease. Neurofilament light polypeptide - potential translational relevance."; drugsHTML='<li>Category: Synaptic Mod.</li>'; }
+        if(data.name === 'HPGDS') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.46 and P=3.34e-20 support an association with Parkinson disease. Hematopoietic prostaglandin D synthase - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'IL13RA1') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.46 and P=1.03e-11 support an association with Parkinson disease. Interleukin-13 receptor subunit alpha-1 - potential translational relevance."; drugsHTML='<li>Category: Anti-inflammatory</li>'; }
+        if(data.name === 'ITGA11') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.46 and P=3.28e-18 support an association with Parkinson disease. Integrin alpha-11 - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'ITGB2') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.46 and P=8.11e-12 support an association with Parkinson disease. Integrin beta-2 - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'TNXB') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.47 and P=1.31e-13 support an association with Parkinson disease. Tenascin-X - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'ADGRG2') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.48 and P=1.27e-14 support an association with Parkinson disease. Adhesion G-protein coupled receptor G2 - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'CLEC10A') { tier='Targetability: Medium'; note="Repurposing Agent Note: HR=0.49 and P=9.60e-17 support an association with Parkinson disease. C-type lectin domain family 10 member A - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'EPS8L2') { tier='Targetability: Exploratory'; note="Repurposing Agent Note: HR=0.52 and P=7.43e-10 support an association with Parkinson disease. Epidermal growth factor receptor kinase substrate 8-like protein 2 - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'PTPRN2') { tier='Targetability: Exploratory'; note="Repurposing Agent Note: HR=0.53 and P=7.19e-11 support an association with Parkinson disease. Receptor-type tyrosine-protein phosphatase N2 - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'SCG2') { tier='Targetability: Exploratory'; note="Repurposing Agent Note: HR=0.55 and P=2.87e-10 support an association with Parkinson disease. Secretogranin-2 - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'BAG3') { tier='Targetability: Exploratory'; note="Repurposing Agent Note: HR=0.57 and P=4.59e-25 support an association with Parkinson disease. BAG family molecular chaperone regulator 3 - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'KLK8') { tier='Targetability: Exploratory'; note="Repurposing Agent Note: HR=0.57 and P=3.37e-10 support an association with Parkinson disease. Kallikrein-8 - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'CD209') { tier='Targetability: Exploratory'; note="Repurposing Agent Note: HR=0.59 and P=2.13e-10 support an association with Parkinson disease. CD209 antigen - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+        if(data.name === 'HNMT') { tier='Targetability: Exploratory'; note="Repurposing Agent Note: HR=0.61 and P=9.68e-14 support an association with Parkinson disease. Histamine N-methyltransferase - potential translational relevance."; drugsHTML='<li>Category: Targeted Therapy</li>'; }
+            const pathwayList = Object.entries(pathwayProteins)
+                .filter(([pid, genes]) => genes.includes(data.name))
+                .map(([pid]) => {
+                    const pNode = cy.getElementById(pid);
+                    const pName = pNode.length ? pNode.data('name') : pid;
+                    return `<li style="cursor:pointer; color:var(--color-pathway);"
+                        onclick="cy.getElementById('${pid}').trigger('tap')">${pName}</li>`;
+                }).join('');
+
+            // Pharmacogenetic drugs: collect drug nodes connected via 'pharmacogenetic' edges
+            const node = cy.getElementById(data.name);
+            const pharmaDrugs = [];
+            const ppiPartners = [];
+            if(node && node.length) {
+                node.connectedEdges().forEach(e => {
+                    const et = e.data('edge_type');
+                    if(et === 'pharmaco') {
+                        const other = e.source().id() === data.name ? e.target() : e.source();
+                        pharmaDrugs.push(other);
+                    } else if(et === 'ppi') {
+                        const other = e.source().id() === data.name ? e.target() : e.source();
+                        ppiPartners.push({node: other, score: e.data('score')});
+                    }
+                });
+            }
+            const pharmaHTML = pharmaDrugs.length
+                ? pharmaDrugs.map(n => {
+                    const ap = n.data('approved') ? 'fda-approved' : '';
+                    return `<span class="drug-chip ${ap}" onclick="cy.getElementById('${n.id()}').trigger('tap')">${n.data('name')}</span>`;
+                  }).join('')
+                : '<em style="color:#999">No pharmacogenetic interaction in DGIdb.</em>';
+            const ppiHTML = ppiPartners.length
+                ? ppiPartners.sort((a,b)=>b.score-a.score).slice(0,8).map(p =>
+                    `<span class="protein-chip"
+                       onclick="highlightNode('${p.node.id()}')">${p.node.id()}<span style="font-weight:400;font-size:10px;color:#888;margin-left:4px;">${p.score.toFixed(2)}</span></span>`
+                  ).join('')
+                : '<em style="color:#999">No STRING PPI partners among displayed proteins.</em>';
+
+            // Literature references for this gene
+            const refs = (geneLitRefs[data.name] || []);
+            const litCount = (typeof data.litCount === 'number') ? data.litCount : refs.length;
+            const litHTML = refs.length
+                ? '<ul class="ref-list">' + refs.map(r => {
+                    const cite = r.title
+                        ? `${r.num ? '['+r.num+'] ' : ''}${r.title}${r.journal ? '. <em>'+r.journal+'</em>' : ''}${r.year ? '. '+r.year : ''}`
+                        : 'PubMed:' + r.pmid;
+                    return `<li>${cite} <a class="lit-link" target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/${r.pmid}">[PubMed:${r.pmid}]</a></li>`;
+                  }).join('') + '</ul>'
+                : '<em style="color:#999">No PubMed evidence extracted from v1 sections.</em>';
+            const rankBadge = (typeof data.litRank === 'number')
+                ? `<span class="tier-badge" style="background:#fff3e0;color:#bf360c;">📚 Lit Rank #${data.litRank}</span>` : '';
+
+            const html = `
+                <h2 style="color: var(--color-protein);">
+                    ${data.name}
+                    <span class="tier-badge ${badgeClass}">${badgeLabel}</span>
+                    <span class="tier-badge" style="background:#eee;color:#555;">${tier}</span>
+                    ${rankBadge}
+                </h2>
+                <div class="repurposing-note">${note}</div>
+                <div class="detail-section">
+                    <label>Protein Definition</label>
+                    <div>${data.desc || 'Significant protein in ' + 'Parkinson disease'}</div>
+                </div>
+                <div class="detail-section">
+                    <label>Statistical Evidence</label>
+                    <div class="stats-grid">
+                        <div class="stat-box">HR [95% CI]<strong>${data.hr}</strong></div>
+                        <div class="stat-box">P-value<strong>${data.pval}</strong></div>
+                        <div class="stat-box">Literature<strong>${litCount} paper${litCount === 1 ? '' : 's'}</strong></div>
+                    </div>
+                </div>
+                <div class="detail-section">
+                    <label>Associated Pathways</label>
+                    <ul style="margin-top:5px; padding-left:20px; color:#444;">
+                        ${pathwayList || '<li>Not mapped to displayed pathways.</li>'}
+                    </ul>
+                </div>
+                <div class="detail-section">
+                    <label>STRING Functional Interaction Partners (PPI)</label>
+                    <div class="protein-chip-list">${ppiHTML}</div>
+                </div>
+                <div class="detail-section">
+                    <label>Pharmacogenetic Drugs</label>
+                    <div>${pharmaHTML}</div>
+                </div>
+                <div class="detail-section">
+                    <label>Drug Category</label>
+                    <ul style="margin-top:5px; padding-left:20px; color:#444;">${drugsHTML}</ul>
+                </div>
+                <div class="detail-section">
+                    <label>Supporting Literature (${litCount} PubMed reference${litCount === 1 ? '' : 's'})</label>
+                    ${litHTML}
+                </div>`;
+
+            document.getElementById('empty-detail').style.display = 'none';
+            const container = document.getElementById('dynamic-detail');
+            container.innerHTML = html;
+            container.style.display = 'block';
+        }
+
+        function renderDrugDetail(data) {
+            const node = cy.getElementById(data.id);
+            const linkedGenes = [];
+            if(node && node.length) {
+                node.connectedEdges().forEach(e => {
+                    const other = e.source().id() === data.id ? e.target() : e.source();
+                    if(other.data('type') === 'protein') linkedGenes.push(other);
+                });
+            }
+            const isPharmaco = data.subtype === 'pharmaco';
+            const apTag = isPharmaco
+                ? (data.approved
+                    ? '<span class="tier-badge" style="background:#e8f5e9;color:#2e7d32;">FDA-approved</span>'
+                    : '<span class="tier-badge" style="background:#fff3e0;color:#bf360c;">Investigational</span>')
+                : '';
+            const subtypeTag = isPharmaco
+                ? '<span class="tier-badge" style="background:#fff3e0;color:#bf360c;">Pharmacogenetic</span>'
+                : '<span class="tier-badge" style="background:#eef2f6;color:#455a64;">Drug Category</span>';
+            const geneChips = linkedGenes.length
+                ? linkedGenes.map(n =>
+                    `<span class="protein-chip"
+                       onclick="highlightNode('${n.id()}')">${n.id()}</span>`).join('')
+                : '<em style="color:#999">No linked proteins in this graph.</em>';
+            const html = `
+                <h2 style="color: #bf360c;">${data.name} ${subtypeTag} ${apTag}</h2>
+                <div class="detail-section">
+                    <label>Linked Proteins (relation: ${isPharmaco ? 'pharmacogenetic' : 'category'})</label>
+                    <div class="protein-chip-list">${geneChips}</div>
+                </div>
+                ${isPharmaco ? `<div class="detail-section">
+                    <label>Source</label>
+                    <div>Drug-Gene Interaction Database (<a class="lit-link" target="_blank" href="https://dgidb.org/results?searchType=gene&searchTerms=${linkedGenes.map(n=>n.id()).join('%2C')}">DGIdb</a>),
+                    DGIdb interaction score: ${(data.score ?? 0).toFixed ? data.score.toFixed(2) : data.score}.</div>
+                </div>` : ''}`;
+            document.getElementById('empty-detail').style.display = 'none';
+            const container = document.getElementById('dynamic-detail');
+            container.innerHTML = html;
+            container.style.display = 'block';
+        }
+
+        function renderPathwayDetail(data) {
+            const refs = pathwayRefs[data.id] || [];
+            const refItems = refs.length > 0
+                ? refs.map(r => `<li>${r}</li>`).join('')
+                : '<li><em>No references extracted.</em></li>';
+
+            const proteinList = (pathwayProteins[data.id] || []).map(gene => {
+                return `<span class="protein-chip"
+                    onclick="highlightNode('${gene}')">${gene}</span>`;
+            }).join('');
+
+            const html = `
+                <h2 style="color: var(--color-pathway); font-size: 17px;">
+                    ${data.name}
+                    <span style="font-size:13px; color:#666; font-weight:normal; margin-left:5px;">
+                        (${data.termId})
+                    </span>
+                </h2>
+                <div class="detail-section">
+                    <label>Pathway Enrichment Statistics (Table 1)</label>
+                    <div class="stats-grid">
+                        <div class="stat-box">Source<br>
+                            <span class="tier-badge badge-pathway" style="margin:4px 0 0 0;">
+                                ${data.source}
+                            </span>
+                        </div>
+                        <div class="stat-box">Proteins<strong>${data.count}</strong></div>
+                        <div class="stat-box">Weighted Score<strong>${data.score}</strong></div>
+                        <div class="stat-box">p-value<strong>${data.pval}</strong></div>
+                    </div>
+                </div>
+                <div class="detail-section">
+                    <label>Associated Proteins</label>
+                    <div class="protein-chip-list">
+                        ${proteinList || '<em style="color:#999">No proteins mapped.</em>'}
+                    </div>
+                </div>
+                <div class="detail-section">
+                    <label>Full Academic Context</label>
+                    <div class="academic-text">${data.context}</div>
+                </div>
+                <div class="detail-section">
+                    <label>Linked References</label>
+                    <ul class="ref-list">${refItems}</ul>
+                </div>`;
+
+            document.getElementById('empty-detail').style.display = 'none';
+            const container = document.getElementById('dynamic-detail');
+            container.innerHTML = html;
+            container.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

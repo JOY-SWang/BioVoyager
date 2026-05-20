@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drug-Target Research Portal</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f0f4f8;
+      --sidebar-bg: #1e2d3d;
+      --sidebar-hover: #2a3f55;
+      --sidebar-active: #1a73e8;
+      --card-bg: #ffffff;
+      --text: #1a2533;
+      --muted: #6b7a8d;
+      --border: #d8e2ed;
+      --accent: #1a73e8;
+      --accent-dark: #1558b0;
+      --tag-bg: #e8f0fe;
+      --tag-text: #1a73e8;
+      --pending-bg: #fff3e0;
+      --pending-text: #e65100;
+      --header-h: 60px;
+      --sidebar-w: 270px;
+    }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    header {
+      height: var(--header-h);
+      background: var(--sidebar-bg);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 0 1.5rem;
+      gap: 1rem;
+      flex-shrink: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,.25);
+      z-index: 10;
+    }
+    header .logo {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: .4px;
+      white-space: nowrap;
+    }
+    header .subtitle {
+      font-size: .8rem;
+      color: #aec2d5;
+      margin-left: .5rem;
+    }
+    header .spacer { flex: 1; }
+    header a.viewer-link {
+      font-size: .78rem;
+      color: #aec2d5;
+      text-decoration: none;
+      border: 1px solid #3d5468;
+      padding: .3rem .75rem;
+      border-radius: 6px;
+      transition: background .15s;
+    }
+    header a.viewer-link:hover { background: #2a3f55; color: #fff; }
+
+    /* ── Layout ── */
+    .layout {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ── Sidebar ── */
+    aside {
+      width: var(--sidebar-w);
+      background: var(--sidebar-bg);
+      flex-shrink: 0;
+      overflow-y: auto;
+      padding: .75rem 0;
+    }
+    aside::-webkit-scrollbar { width: 4px; }
+    aside::-webkit-scrollbar-thumb { background: #3d5468; border-radius: 2px; }
+
+    .section-label {
+      font-size: .65rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #6a8aaa;
+      padding: .9rem 1rem .35rem 1rem;
+    }
+
+    .disease-item {
+      display: flex;
+      align-items: center;
+      gap: .55rem;
+      padding: .55rem 1rem;
+      cursor: pointer;
+      transition: background .12s;
+      border-left: 3px solid transparent;
+    }
+    .disease-item:hover { background: var(--sidebar-hover); }
+    .disease-item.active {
+      background: rgba(26,115,232,.18);
+      border-left-color: var(--sidebar-active);
+    }
+    .disease-item .di-name {
+      font-size: .82rem;
+      color: #cdd9e5;
+      line-height: 1.3;
+    }
+    .disease-item.active .di-name { color: #fff; font-weight: 600; }
+    .disease-item .di-count {
+      margin-left: auto;
+      font-size: .68rem;
+      color: #5a7a96;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .disease-item.active .di-count { color: #8ab4f8; }
+    .dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: #5a7a96;
+      flex-shrink: 0;
+    }
+    .disease-item.active .dot { background: var(--sidebar-active); }
+    .dot.pending { background: #c47c2a; }
+
+    /* ── Main content ── */
+    main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.75rem 2rem;
+    }
+    main::-webkit-scrollbar { width: 6px; }
+    main::-webkit-scrollbar-thumb { background: #b5c5d8; border-radius: 3px; }
+
+    .placeholder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 60%;
+      gap: .75rem;
+      color: var(--muted);
+    }
+    .placeholder svg { opacity: .25; }
+    .placeholder p { font-size: .95rem; }
+
+    /* Disease header card */
+    .disease-header {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .disease-header .dh-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text);
+      flex: 1;
+      min-width: 200px;
+    }
+    .disease-header .dh-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      align-items: center;
+    }
+    .meta-pill {
+      font-size: .74rem;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      padding: .25rem .7rem;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+    .meta-pill.pending {
+      background: var(--pending-bg);
+      color: var(--pending-text);
+    }
+    .meta-pill.neutral {
+      background: #f0f4f8;
+      color: var(--muted);
+    }
+
+    /* Action bar */
+    .action-bar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.1rem;
+    }
+    .section-title {
+      font-size: .95rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .protein-count {
+      font-size: .8rem;
+      color: var(--muted);
+      background: var(--bg);
+      padding: .2rem .6rem;
+      border-radius: 10px;
+    }
+    .spacer { flex: 1; }
+
+    .btn-report {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      background: var(--accent);
+      color: #fff;
+      font-size: .84rem;
+      font-weight: 600;
+      padding: .55rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background .15s, box-shadow .15s;
+      box-shadow: 0 2px 6px rgba(26,115,232,.3);
+    }
+    .btn-report:hover {
+      background: var(--accent-dark);
+      box-shadow: 0 3px 10px rgba(26,115,232,.45);
+    }
+    .btn-report svg { flex-shrink: 0; }
+
+    .badge-pending {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      font-size: .82rem;
+      color: var(--pending-text);
+      background: var(--pending-bg);
+      padding: .45rem 1rem;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+
+    /* Search */
+    .search-wrap {
+      position: relative;
+    }
+    .search-wrap svg {
+      position: absolute;
+      left: .65rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+    .search-input {
+      font-size: .82rem;
+      padding: .45rem .75rem .45rem 2rem;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: #fff;
+      color: var(--text);
+      width: 220px;
+      transition: border .15s;
+    }
+    .search-input:focus { outline: none; border-color: var(--accent); }
+
+    /* Table */
+    .table-wrap {
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+      overflow: hidden;
+    }
+    .table-scroll {
+      max-height: calc(100vh - var(--header-h) - 270px);
+      overflow-y: auto;
+    }
+    .table-scroll::-webkit-scrollbar { width: 5px; }
+    .table-scroll::-webkit-scrollbar-thumb { background: #c5d1dd; border-radius: 3px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .82rem;
+    }
+    thead th {
+      position: sticky;
+      top: 0;
+      background: #f8fafc;
+      padding: .7rem 1rem;
+      text-align: left;
+      font-weight: 600;
+      font-size: .74rem;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    thead th:hover { color: var(--accent); }
+    thead th .sort-arrow { margin-left: .2rem; opacity: .4; }
+    thead th.sorted .sort-arrow { opacity: 1; color: var(--accent); }
+
+    tbody tr { border-bottom: 1px solid #f0f4f8; transition: background .1s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: #f5f8ff; }
+    tbody td { padding: .6rem 1rem; vertical-align: top; }
+
+    .td-protein { font-weight: 600; color: var(--accent); font-family: monospace; font-size: .85rem; }
+    .td-def { color: var(--text); max-width: 280px; }
+    .td-stat { color: var(--text); white-space: nowrap; }
+    .td-p { color: var(--muted); font-size: .78rem; white-space: nowrap; }
+    .td-hr { font-weight: 500; }
+
+    .no-rows { text-align: center; padding: 2rem; color: var(--muted); }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      :root { --sidebar-w: 200px; }
+      main { padding: 1rem; }
+    }
+    @media (max-width: 640px) {
+      .layout { flex-direction: column; }
+      aside { width: 100%; max-height: 180px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Drug-Target Research Portal</div>
+  <span class="subtitle">Plasma Proteomics &rarr; Pathway Analysis &rarr; Report</span>
+  <div class="spacer"></div>
+  <a class="viewer-link" href="/viewer">Legacy Viewer &rarr;</a>
+</header>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside id="sidebar">
+    <!-- Grouped disease cards injected by JS -->
+  </aside>
+
+  <!-- Main panel -->
+  <main id="main">
+    <div class="placeholder" id="placeholder">
+      <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+        <path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/>
+      </svg>
+      <p>Select a disease from the sidebar to preview its protein input and report.</p>
+    </div>
+    <div id="disease-view" style="display:none">
+      <!-- Populated by JS -->
+    </div>
+  </main>
+
+</div>
+
+<script>
+  const DISEASES = {{ portal_json | safe }};
+
+  /* ── Group by category ── */
+  const groups = {};
+  DISEASES.forEach((d, i) => {
+    if (!groups[d.category]) groups[d.category] = [];
+    groups[d.category].push({ ...d, _idx: i });
+  });
+
+  let activeIdx = null;
+  let sortCol = null;
+  let sortAsc = true;
+  let filterText = '';
+
+  /* ── Build sidebar ── */
+  const sidebar = document.getElementById('sidebar');
+  Object.entries(groups).forEach(([cat, items]) => {
+    const lbl = document.createElement('div');
+    lbl.className = 'section-label';
+    lbl.textContent = cat;
+    sidebar.appendChild(lbl);
+    items.forEach(d => {
+      const el = document.createElement('div');
+      el.className = 'disease-item' + (d.report ? '' : ' has-pending');
+      el.dataset.idx = d._idx;
+      el.innerHTML = `
+        <span class="dot${d.report ? '' : ' pending'}"></span>
+        <span class="di-name">${d.name}</span>
+        <span class="di-count">${d.n_proteins} proteins</span>
+      `;
+      el.addEventListener('click', () => selectDisease(d._idx));
+      sidebar.appendChild(el);
+    });
+  });
+
+  /* ── Render disease view ── */
+  function selectDisease(idx) {
+    activeIdx = idx;
+    filterText = '';
+    sortCol = null;
+    sortAsc = true;
+
+    /* Update sidebar active state */
+    document.querySelectorAll('.disease-item').forEach(el => {
+      el.classList.toggle('active', parseInt(el.dataset.idx) === idx);
+    });
+
+    const d = DISEASES[idx];
+    document.getElementById('placeholder').style.display = 'none';
+    const view = document.getElementById('disease-view');
+    view.style.display = 'block';
+
+    const reportBtn = d.report
+      ? `<a class="btn-report" href="/view?file=${encodeURIComponent(d.report)}">
+           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+           View Full Report
+         </a>`
+      : `<span class="badge-pending">
+           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+           Report Pending
+         </span>`;
+
+    view.innerHTML = `
+      <div class="disease-header">
+        <div class="dh-title">${d.name}</div>
+        <div class="dh-meta">
+          <span class="meta-pill neutral">${d.category}</span>
+          <span class="meta-pill">${d.n_proteins} input proteins</span>
+          ${d.report ? '' : '<span class="meta-pill pending">No report yet</span>'}
+        </div>
+      </div>
+
+      <div class="action-bar">
+        <span class="section-title">Input Protein Table</span>
+        <span class="protein-count" id="visible-count">${d.n_proteins} proteins</span>
+        <div class="spacer"></div>
+        <div class="search-wrap">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input class="search-input" id="protein-search" type="text" placeholder="Search protein…" oninput="onSearch(this.value)" />
+        </div>
+        ${reportBtn}
+      </div>
+
+      <div class="table-wrap">
+        <div class="table-scroll">
+          <table id="protein-table">
+            <thead>
+              <tr>
+                <th onclick="onSort('protein')" id="th-protein">Protein <span class="sort-arrow">↕</span></th>
+                <th onclick="onSort('definition')" id="th-definition">Definition <span class="sort-arrow">↕</span></th>
+                <th onclick="onSort('nb_case')" id="th-nb_case">Cases <span class="sort-arrow">↕</span></th>
+                <th onclick="onSort('hr')" id="th-hr">HR [95% CI] <span class="sort-arrow">↕</span></th>
+                <th onclick="onSort('p_value')" id="th-p_value">P-value <span class="sort-arrow">↕</span></th>
+              </tr>
+            </thead>
+            <tbody id="protein-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    `;
+
+    renderTable();
+  }
+
+  function getRows() {
+    const d = DISEASES[activeIdx];
+    let rows = [...d.proteins];
+    if (filterText) {
+      const q = filterText.toLowerCase();
+      rows = rows.filter(r =>
+        r.protein.toLowerCase().includes(q) ||
+        r.definition.toLowerCase().includes(q)
+      );
+    }
+    if (sortCol) {
+      rows.sort((a, b) => {
+        let av = a[sortCol], bv = b[sortCol];
+        /* Numeric sort for p_value and nb_case */
+        if (sortCol === 'p_value' || sortCol === 'nb_case' || sortCol === 'nb_individual') {
+          av = parseFloat(av) || 0;
+          bv = parseFloat(bv) || 0;
+        } else {
+          av = av.toLowerCase();
+          bv = bv.toLowerCase();
+        }
+        if (av < bv) return sortAsc ? -1 : 1;
+        if (av > bv) return sortAsc ? 1 : -1;
+        return 0;
+      });
+    }
+    return rows;
+  }
+
+  function renderTable() {
+    const rows = getRows();
+    const tbody = document.getElementById('protein-tbody');
+    if (!tbody) return;
+
+    const countEl = document.getElementById('visible-count');
+    if (countEl) countEl.textContent = `${rows.length} proteins`;
+
+    if (rows.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="5" class="no-rows">No proteins match your search.</td></tr>';
+      return;
+    }
+
+    tbody.innerHTML = rows.map(r => `
+      <tr>
+        <td class="td-protein">${escHtml(r.protein)}</td>
+        <td class="td-def">${escHtml(r.definition)}</td>
+        <td class="td-stat">${escHtml(r.nb_case)}</td>
+        <td class="td-stat td-hr">${escHtml(r.hr)}</td>
+        <td class="td-p">${formatP(r.p_value)}</td>
+      </tr>
+    `).join('');
+
+    /* Update sort header indicators */
+    ['protein','definition','nb_case','hr','p_value'].forEach(col => {
+      const th = document.getElementById('th-' + col);
+      if (!th) return;
+      const arrow = th.querySelector('.sort-arrow');
+      if (col === sortCol) {
+        th.classList.add('sorted');
+        arrow.textContent = sortAsc ? '↑' : '↓';
+      } else {
+        th.classList.remove('sorted');
+        arrow.textContent = '↕';
+      }
+    });
+  }
+
+  function onSort(col) {
+    if (sortCol === col) {
+      sortAsc = !sortAsc;
+    } else {
+      sortCol = col;
+      sortAsc = true;
+    }
+    renderTable();
+  }
+
+  function onSearch(val) {
+    filterText = val;
+    renderTable();
+  }
+
+  function escHtml(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function formatP(v) {
+    const n = parseFloat(v);
+    if (isNaN(n)) return escHtml(v);
+    if (Math.abs(n) < 0.001) return n.toExponential(2);
+    return n.toPrecision(3);
+  }
+
+  /* Auto-select first disease */
+  if (DISEASES.length > 0) selectDisease(0);
+</script>
+
+</body>
+</html>

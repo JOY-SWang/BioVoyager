@@ -1,0 +1,11 @@
+Disease_category,Disease,Protein,Protein_definition,NB_individual,NB_case,HR[95%CI],P_value
+Chapter VI Diseases of the nervous system,Alzheimer disease,APOE,Apolipoprotein E,44858,579,0.49 [0.44-0.55],7.54511702378319e-32
+Chapter VI Diseases of the nervous system,Alzheimer disease,CEND1,Cell cycle exit and neuronal differentiation protein 1,43345,561,1.36 [1.25-1.48],6.537088938847758e-12
+Chapter VI Diseases of the nervous system,Alzheimer disease,GDF15,Growth/differentiation factor 15,52156,670,1.62 [1.43-1.85],2.729453540803318e-13
+Chapter VI Diseases of the nervous system,Alzheimer disease,GFAP,Glial fibrillary acidic protein,50226,646,2.45 [2.26-2.65],1.367768864175671e-108
+Chapter VI Diseases of the nervous system,Alzheimer disease,MENT,Protein MENT,43810,566,6.43 [4.65-8.89],2.331234144349772e-29
+Chapter VI Diseases of the nervous system,Alzheimer disease,NEFL,Neurofilament light polypeptide,50154,641,2.12 [1.88-2.40],2.731283425778891e-34
+Chapter VI Diseases of the nervous system,Alzheimer disease,NPTXR,Neuronal pentraxin receptor,51520,659,0.48 [0.39-0.60],1.3474496341873684e-10
+Chapter VI Diseases of the nervous system,Alzheimer disease,SNAP25,Synaptosomal-associated protein 25,43345,561,2.11 [1.82-2.45],5.454297294221081e-23
+Chapter VI Diseases of the nervous system,Alzheimer disease,SYT1,Synaptotagmin-1,44681,576,1.55 [1.38-1.73],2.2031705969270943e-14
+Chapter VI Diseases of the nervous system,Alzheimer disease,VGF,Neurosecretory protein VGF,44708,575,0.42 [0.33-0.55],1.9592573582001275e-10
