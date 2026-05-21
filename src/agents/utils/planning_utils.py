@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 import torch
 import numpy as np
-from transformers import AutoTokenizer, AutoModel
+from transformers import AutoTokenizer, AutoModel, BertTokenizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -20,9 +20,23 @@ from tqdm import tqdm
 # BIOVOYAGER_BIOBERT to point at a local checkpoint dir.
 _BIOBERT_MODEL = os.environ.get("BIOVOYAGER_BIOBERT", "dmis-lab/biobert-base-cased-v1.1")
 
+def _load_biobert():
+    """Try AutoTokenizer first; fall back to BertTokenizer.
+
+    transformers >= 5 broke AutoTokenizer for dmis-lab/biobert-base-cased-v1.1
+    (the slow→fast conversion fails even with sentencepiece installed). The
+    slow BertTokenizer loads fine from the same vocab.txt.
+    """
+    try:
+        tok = AutoTokenizer.from_pretrained(_BIOBERT_MODEL)
+    except Exception as _e:
+        print(f"[planning_utils] AutoTokenizer failed ({_e!r}); trying BertTokenizer.")
+        tok = BertTokenizer.from_pretrained(_BIOBERT_MODEL)
+    model = AutoModel.from_pretrained(_BIOBERT_MODEL)
+    return tok, model
+
 try:
-    biobert_tokenizer = AutoTokenizer.from_pretrained(_BIOBERT_MODEL)
-    biobert_model = AutoModel.from_pretrained(_BIOBERT_MODEL)
+    biobert_tokenizer, biobert_model = _load_biobert()
     _BIOBERT_AVAILABLE = True
 except Exception as _e:  # pragma: no cover — falls back to keyword-only ranking
     print(f"[planning_utils] WARNING: BioBERT unavailable ({_e!r}); "
