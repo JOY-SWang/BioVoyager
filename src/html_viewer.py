@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request
+from fastapi import BackgroundTasks, FastAPI, Form, HTTPException, Request, UploadFile
 from fastapi.responses import HTMLResponse, FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -7,6 +7,17 @@ import re
 import csv
 import json
 import tempfile
+
+from jobs import (
+    CSVValidationError,
+    JobCreateResponse,
+    JobView,
+    RateLimitError,
+    create_job,
+    get_job,
+    parse_and_validate_csv,
+    run_pipeline_stub,
+)
 
 # Repo layout: <repo_root>/src/html_viewer.py ; results live in <repo_root>/src/results_0411
 # and inputs live in <repo_root>/test_data. Resolve relative to this file so the
@@ -230,6 +241,74 @@ def index(request: Request):
     portal_data = load_portal_data()
     portal_json = json.dumps(portal_data, ensure_ascii=False)
     return templates.TemplateResponse(request, "portal.html", {"portal_json": portal_json})
+
+
+@app.get("/api/diseases")
+def api_diseases():
+    """JSON view of every disease's input proteins and whether a v3 report exists.
+    Consumed by the React UI in ui/."""
+    return load_portal_data()
+
+
+@app.get("/api/reports")
+def api_reports():
+    """List of available pre-generated report files (relative paths under RESULTS_DIR)."""
+    return {"files": get_html_files()}
+
+
+def _client_ip(request: Request) -> str:
+    """Best-effort client IP. Honors X-Forwarded-For (Cloudflare adds it)."""
+    fwd = request.headers.get("x-forwarded-for", "")
+    if fwd:
+        return fwd.split(",")[0].strip()
+    return request.client.host if request.client else "unknown"
+
+
+@app.post("/api/jobs", response_model=JobCreateResponse)
+async def api_create_job(
+    request: Request,
+    background: BackgroundTasks,
+    disease_name: str = Form(...),
+    email: str = Form(...),
+    csv_file: UploadFile = ...,
+) -> JobCreateResponse:
+    """Accept a CSV + disease metadata, validate, start a stub pipeline run."""
+    disease_name = disease_name.strip()
+    email = email.strip()
+    if not disease_name:
+        raise HTTPException(status_code=422, detail="disease_name is required")
+    if "@" not in email or "." not in email.split("@")[-1]:
+        raise HTTPException(status_code=422, detail="email looks invalid")
+
+    raw = await csv_file.read()
+    if not raw:
+        raise HTTPException(status_code=422, detail="CSV file is empty")
+
+    try:
+        proteins = parse_and_validate_csv(raw)
+    except CSVValidationError as e:
+        raise HTTPException(status_code=422, detail=str(e)) from e
+
+    try:
+        job = create_job(
+            disease_name=disease_name,
+            email=email,
+            client_ip=_client_ip(request),
+            proteins=proteins,
+        )
+    except RateLimitError as e:
+        raise HTTPException(status_code=429, detail=str(e)) from e
+
+    background.add_task(run_pipeline_stub, job.job_id)
+    return JobCreateResponse(job_id=job.job_id, status=job.status)
+
+
+@app.get("/api/jobs/{job_id}", response_model=JobView)
+def api_get_job(job_id: str) -> JobView:
+    job = get_job(job_id)
+    if job is None:
+        raise HTTPException(status_code=404, detail="job not found")
+    return job.to_view()
 
 
 @app.get("/viewer", response_class=HTMLResponse)

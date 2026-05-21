@@ -1,3 +1,4 @@
+import os
 import re
 import json
 import copy
@@ -7,15 +8,28 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 import torch
-import numpy as np 
+import numpy as np
 from transformers import AutoTokenizer, AutoModel
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from tqdm import tqdm
 
-biobert_tokenizer = AutoTokenizer.from_pretrained("/Users/joysw/Desktop/delete/biobert-base-cased-v1.1")
-biobert_model = AutoModel.from_pretrained("/Users/joysw/Desktop/delete/biobert-base-cased-v1.1")
+# BioBERT model. Default to the HuggingFace Hub identifier so the model is
+# fetched + cached automatically (~440 MB on first run). Override with
+# BIOVOYAGER_BIOBERT to point at a local checkpoint dir.
+_BIOBERT_MODEL = os.environ.get("BIOVOYAGER_BIOBERT", "dmis-lab/biobert-base-cased-v1.1")
+
+try:
+    biobert_tokenizer = AutoTokenizer.from_pretrained(_BIOBERT_MODEL)
+    biobert_model = AutoModel.from_pretrained(_BIOBERT_MODEL)
+    _BIOBERT_AVAILABLE = True
+except Exception as _e:  # pragma: no cover — falls back to keyword-only ranking
+    print(f"[planning_utils] WARNING: BioBERT unavailable ({_e!r}); "
+          f"semantic pathway ranking will be skipped.")
+    biobert_tokenizer = None
+    biobert_model = None
+    _BIOBERT_AVAILABLE = False
 
 def sanitize_protein_list(protein_list):
   if isinstance(protein_list, list):
@@ -95,6 +109,9 @@ def run_gprofiler_query(query, organism="hsapiens", user_threshold=0.05, top=20)
     return results, result_df
 
 def get_biobert_embedding(text):
+  if not _BIOBERT_AVAILABLE:
+      # Caller-side code is expected to wrap this and fall back to TF-IDF.
+      raise RuntimeError("BioBERT unavailable; set BIOVOYAGER_BIOBERT or install transformers properly.")
   inputs = biobert_tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
   with torch.no_grad():
       outputs = biobert_model(**inputs)

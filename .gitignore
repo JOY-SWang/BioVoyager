@@ -19,6 +19,11 @@ venv/
 src/.cache_v3/
 .cache/
 
+# Offline knowledge base — ~1 GB, downloaded from the Dropbox link in README.md
+knowledge_base/*.csv
+knowledge_base/*.json
+!knowledge_base/.gitkeep
+
 # OS / editor
 .DS_Store
 Thumbs.db

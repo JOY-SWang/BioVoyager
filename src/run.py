@@ -275,31 +275,53 @@ def run(input_protein_list, disease_name, N_control, N_case, level, result_dir, 
 
 
 if __name__ == "__main__":
+  import argparse
   import os
-  
+
   import pandas as pd
   from agents.PlanningAgent import PlanningAgent
   from agents.ReasoningAgent import ReasoningAgent
   from agents.QueryAgent import QueryAgent
   from agents.WrittingAgent import WrittingAgent
 
-  planning_agent = PlanningAgent(model="gpt-5.4") #o4-mini")
-  reasoning_agent = ReasoningAgent(model="gpt-5.4") #o4-mini")
-  query_agent = QueryAgent(model="gpt-5.4") #gpt-4o-mini")
-  writting_agent = WrittingAgent(model="gpt-5.4")
-  
-  level = "0.000000001"
-  meta_data_path = "/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/test_data/DiseaseDefinition&Summary_incident.csv"
-  meta_data = pd.read_csv(meta_data_path)
-  
-  test_data_dir = "/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/test_data"
-  result_dir_path = "/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411"
-  
-  test_data_range = [0, 11]
+  # Repo-relative defaults; override with flags or env vars.
+  _SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+  _REPO_ROOT = os.path.dirname(_SRC_DIR)
+  DEFAULT_TEST_DATA_DIR = os.environ.get(
+      "BIOVOYAGER_TEST_DATA_DIR", os.path.join(_REPO_ROOT, "test_data")
+  )
+  DEFAULT_RESULTS_DIR = os.environ.get(
+      "BIOVOYAGER_RESULTS_DIR", os.path.join(_SRC_DIR, "results_0411")
+  )
+  DEFAULT_META_PATH = os.path.join(DEFAULT_TEST_DATA_DIR, "DiseaseDefinition&Summary_incident.csv")
+  DEFAULT_MODEL = os.environ.get("BIOVOYAGER_MODEL", "gpt-5.4")
 
-  files = [f for f in os.listdir(test_data_dir) if f.endswith(".csv") and f != "DiseaseDefinition&Summary_incident.csv"]
-  subset = files[test_data_range[0]:test_data_range[1]]
-  # subset = files
+  parser = argparse.ArgumentParser(description="Generate v1 narrative HTML reports")
+  parser.add_argument("--csv", type=str, help="Run a single CSV instead of batch", default=None)
+  parser.add_argument("--test-data-dir", type=str, default=DEFAULT_TEST_DATA_DIR)
+  parser.add_argument("--results-dir", type=str, default=DEFAULT_RESULTS_DIR)
+  parser.add_argument("--meta-path", type=str, default=DEFAULT_META_PATH)
+  parser.add_argument("--model", type=str, default=DEFAULT_MODEL)
+  parser.add_argument("--range", type=str, default="0:11", help="Slice of CSVs to process in batch mode (e.g. 0:11)")
+  args = parser.parse_args()
+
+  planning_agent = PlanningAgent(model=args.model)
+  reasoning_agent = ReasoningAgent(model=args.model)
+  query_agent = QueryAgent(model=args.model)
+  writting_agent = WrittingAgent(model=args.model)
+
+  level = "0.000000001"
+  meta_data = pd.read_csv(args.meta_path)
+
+  test_data_dir = args.test_data_dir
+  result_dir_path = args.results_dir
+
+  if args.csv:
+      subset = [os.path.basename(args.csv)]
+  else:
+      rs, re_ = args.range.split(":")
+      files = [f for f in os.listdir(test_data_dir) if f.endswith(".csv") and f != "DiseaseDefinition&Summary_incident.csv"]
+      subset = files[int(rs):int(re_)]
 
   for idx, test_file in enumerate(subset):
     try:
