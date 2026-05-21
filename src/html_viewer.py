@@ -229,14 +229,14 @@ def format_label(f):
 def index(request: Request):
     portal_data = load_portal_data()
     portal_json = json.dumps(portal_data, ensure_ascii=False)
-    return templates.TemplateResponse("portal.html", {"request": request, "portal_json": portal_json})
+    return templates.TemplateResponse(request, "portal.html", {"portal_json": portal_json})
 
 
 @app.get("/viewer", response_class=HTMLResponse)
 def viewer_index(request: Request):
     html_files = get_html_files()
     html_file_tuples = [(f, format_label(f)) for f in html_files]
-    return templates.TemplateResponse("viewer.html", {"request": request, "html_files": html_file_tuples})
+    return templates.TemplateResponse(request, "viewer.html", {"html_files": html_file_tuples})
 
 @app.get("/raw", response_class=HTMLResponse)
 def raw_html(file: str):
@@ -253,8 +253,7 @@ def view_html(request: Request, file: str):
     html_file_tuples = [(f, format_label(f)) for f in html_files]
     if file not in html_files:
         return HTMLResponse("<h2>File not found.</h2>", status_code=404)
-    return templates.TemplateResponse("viewer.html", {
-        "request": request,
+    return templates.TemplateResponse(request, "viewer.html", {
         "html_files": html_file_tuples,
         "selected_file": file,
     })
