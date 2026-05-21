@@ -54,10 +54,14 @@ class Agent(ABC):
 
   @staticmethod
   def _chat_max_output_kw(model_name: str):
-    """gpt-5+ chat completions require max_completion_tokens; older models use max_tokens."""
+    """gpt-5+ chat completions require max_completion_tokens; older models use max_tokens.
+    Caps are per-model — exceeding them returns HTTP 400 'max_tokens is too large'."""
     if "gpt-5" in model_name:
       # GPT-5 Chat family max output is 16,384; larger values can trigger 400s (sometimes reported as JSON parse errors).
       return {"max_completion_tokens": 16384}
+    if "gpt-4o" in model_name:
+      # gpt-4o and gpt-4o-mini both cap at 16,384 output tokens.
+      return {"max_tokens": 16384}
     cap = 8000 if "gpt-4.1" in model_name else 30000
     return {"max_tokens": cap}
 
