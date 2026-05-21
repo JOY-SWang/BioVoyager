@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 import torch
 import numpy as np
-from transformers import AutoTokenizer, AutoModel, BertTokenizer
+from transformers import AutoTokenizer, AutoModel, BertTokenizer, BertModel
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -21,18 +21,23 @@ from tqdm import tqdm
 _BIOBERT_MODEL = os.environ.get("BIOVOYAGER_BIOBERT", "dmis-lab/biobert-base-cased-v1.1")
 
 def _load_biobert():
-    """Try AutoTokenizer first; fall back to BertTokenizer.
+    """Load BioBERT, falling back to the Bert* classes when AutoTokenizer/AutoModel
+    can't handle dmis-lab/biobert-base-cased-v1.1.
 
-    transformers >= 5 broke AutoTokenizer for dmis-lab/biobert-base-cased-v1.1
-    (the slow→fast conversion fails even with sentencepiece installed). The
-    slow BertTokenizer loads fine from the same vocab.txt.
+    transformers >= 5 is strict about config.json layout (requires `model_type`)
+    and AutoTokenizer can't run the slow→fast conversion for this checkpoint.
+    The legacy Bert* classes load the same files cleanly.
     """
     try:
         tok = AutoTokenizer.from_pretrained(_BIOBERT_MODEL)
     except Exception as _e:
-        print(f"[planning_utils] AutoTokenizer failed ({_e!r}); trying BertTokenizer.")
+        print(f"[planning_utils] AutoTokenizer failed ({_e!r}); using BertTokenizer.")
         tok = BertTokenizer.from_pretrained(_BIOBERT_MODEL)
-    model = AutoModel.from_pretrained(_BIOBERT_MODEL)
+    try:
+        model = AutoModel.from_pretrained(_BIOBERT_MODEL)
+    except Exception as _e:
+        print(f"[planning_utils] AutoModel failed ({_e!r}); using BertModel.")
+        model = BertModel.from_pretrained(_BIOBERT_MODEL)
     return tok, model
 
 try:
