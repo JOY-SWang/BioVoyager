@@ -236,12 +236,9 @@ def format_label(f):
     last = f.split("/")[-1]
     return f"[{first}] {last}"
 
-@app.get("/", response_class=HTMLResponse)
-def index(request: Request):
-    portal_data = load_portal_data()
-    portal_json = json.dumps(portal_data, ensure_ascii=False)
-    return templates.TemplateResponse(request, "portal.html", {"portal_json": portal_json})
-
+# NOTE: The old Jinja "/" portal is gone — the React UI in ui/dist owns "/" now.
+# Same for /viewer and /view (replaced by React Router routes /demo and /chat).
+# /raw, /static, /export_pdf, /api/* remain because the React UI calls them.
 
 @app.get("/api/diseases")
 def api_diseases():
@@ -311,31 +308,14 @@ def api_get_job(job_id: str) -> JobView:
     return job.to_view()
 
 
-@app.get("/viewer", response_class=HTMLResponse)
-def viewer_index(request: Request):
-    html_files = get_html_files()
-    html_file_tuples = [(f, format_label(f)) for f in html_files]
-    return templates.TemplateResponse(request, "viewer.html", {"html_files": html_file_tuples})
-
 @app.get("/raw", response_class=HTMLResponse)
 def raw_html(file: str):
-    """Serve the processed HTML file directly so it can be loaded in an iframe."""
+    """Serve a pre-generated v3 dashboard with image-paths rewritten to /static.
+    Used by the React UI's <ReportView> in an iframe."""
     html_files = get_html_files()
     if file not in html_files:
         return HTMLResponse("<h2>File not found.</h2>", status_code=404)
     return HTMLResponse(load_html_content(file))
-
-
-@app.get("/view", response_class=HTMLResponse)
-def view_html(request: Request, file: str):
-    html_files = get_html_files()
-    html_file_tuples = [(f, format_label(f)) for f in html_files]
-    if file not in html_files:
-        return HTMLResponse("<h2>File not found.</h2>", status_code=404)
-    return templates.TemplateResponse(request, "viewer.html", {
-        "html_files": html_file_tuples,
-        "selected_file": file,
-    })
 
 @app.get("/export_pdf")
 def export_pdf(file: str):
@@ -397,6 +377,37 @@ def export_pdf(file: str):
     filename = os.path.basename(file).replace(".html", ".pdf")
     response = FileResponse(tmp_pdf_path, filename=filename, media_type="application/pdf")
     return response
+
+
+# ── React UI (Vite) — production build mount ────────────────────────────────
+# `cd ui && bun run build` produces ui/dist/. We mount it as a SPA:
+#   - /assets/* and other built files are served directly
+#   - any other unmatched GET → index.html (so React Router's /demo, /chat
+#     work on hard refresh)
+# IMPORTANT: this MUST come after every /api, /static, /raw, /view route above,
+# otherwise the catch-all swallows them.
+UI_DIST_DIR = os.path.join(_REPO_ROOT, "ui", "dist")
+
+if os.path.isdir(UI_DIST_DIR):
+    _ASSETS_DIR = os.path.join(UI_DIST_DIR, "assets")
+    if os.path.isdir(_ASSETS_DIR):
+        app.mount("/assets", StaticFiles(directory=_ASSETS_DIR), name="ui-assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def spa_fallback(full_path: str):
+        # Serve a real file if it exists in dist/, otherwise hand back index.html.
+        # Path traversal is bounded by os.path.normpath + the isfile check.
+        candidate = os.path.normpath(os.path.join(UI_DIST_DIR, full_path))
+        if candidate.startswith(UI_DIST_DIR) and os.path.isfile(candidate):
+            return FileResponse(candidate)
+        return FileResponse(os.path.join(UI_DIST_DIR, "index.html"))
+else:
+    @app.get("/_ui_status", include_in_schema=False)
+    def ui_status():
+        return HTMLResponse(
+            "<h2>React UI not built. Run <code>cd ui && bun run build</code>.</h2>",
+            status_code=503,
+        )
 
 
 if __name__ == "__main__":
