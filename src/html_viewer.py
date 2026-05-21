@@ -6,11 +6,16 @@ import os
 import re
 import csv
 import json
-import pdfkit
 import tempfile
 
-RESULTS_DIR = "/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411"
-TEST_DATA_DIR = "/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/test_data"
+# Repo layout: <repo_root>/src/html_viewer.py ; results live in <repo_root>/src/results_0411
+# and inputs live in <repo_root>/test_data. Resolve relative to this file so the
+# viewer runs from any working directory, on any machine.
+_SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+_REPO_ROOT = os.path.dirname(_SRC_DIR)
+RESULTS_DIR = os.environ.get("BIOVOYAGER_RESULTS_DIR", os.path.join(_SRC_DIR, "results_0411"))
+TEST_DATA_DIR = os.environ.get("BIOVOYAGER_TEST_DATA_DIR", os.path.join(_REPO_ROOT, "test_data"))
+TEMPLATES_DIR = os.path.join(_SRC_DIR, "host_webs", "templates")
 
 # Ordered list of diseases: (display_name, csv_filename, report_rel_path_or_None, body_system)
 DISEASE_CONFIG = [
@@ -110,7 +115,7 @@ def load_portal_data():
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory=RESULTS_DIR), name="static")
-templates = Jinja2Templates(directory="host_webs/templates")
+templates = Jinja2Templates(directory=TEMPLATES_DIR)
 
 def get_html_files():
     html_files = []
@@ -128,21 +133,32 @@ def load_html_content(rel_path):
     with open(abs_path, 'r', encoding='utf-8') as f:
         html = f.read()
 
-    def repl(match):
-        original_path = match.group(1)
-        # Extract filename only
-        filename = os.path.basename(original_path)
-        static_path = f"/static/{original_path}"
-        print(f"[DEBUG] Rewriting image path: {original_path} → {static_path}")
+    # The report's own subfolder relative to RESULTS_DIR (e.g. "alzheimer").
+    report_subdir = os.path.dirname(rel_path)
+
+    def repl_relative_img(match):
+        # src="imgs/xyz.png" or "./imgs/xyz.png" or "/imgs/xyz.png" -> /static/<subdir>/imgs/xyz.png
+        filename = match.group(1)
+        joined = f"{report_subdir}/imgs/{filename}" if report_subdir else f"imgs/{filename}"
+        static_path = f"/static/{joined}"
         return f'src="{static_path}"'
 
-    # Handles:
-    #   src="imgs/xyz.png"
-    #   src="./imgs/xyz.png"
-    #   src="/imgs/xyz.png"
-    #   src="/home/ubuntu/BMAgent/src/results/imgs/xyz.png"
-    html = re.sub(r'src=["\'](?:\.?/)?imgs/([^"\']+)["\']', repl, html)
-    html = re.sub(r'src=["\']/Users/joysw/Desktop/PKU/RA/Upenn/sweSearchMed/drug-target-agent/src/results_0411/([^"\']+)["\']', repl, html)
+    def repl_absolute_img(match):
+        # Any absolute path that contains "/results_0411/<subdir>/imgs/<file>" -> /static/<subdir>/imgs/<file>
+        # Captures the trailing portion starting at the report subdir.
+        tail = match.group(1)
+        static_path = f"/static/{tail}"
+        return f'src="{static_path}"'
+
+    # 1) Relative imgs/ references inside the report
+    html = re.sub(r'src=["\'](?:\.?/)?imgs/([^"\']+)["\']', repl_relative_img, html)
+    # 2) Any absolute path that points into a results_0411 imgs dir, regardless of
+    #    which machine generated the report.
+    html = re.sub(
+        r'src=["\'][^"\']*?/results_0411/([^"\']+/imgs/[^"\']+)["\']',
+        repl_absolute_img,
+        html,
+    )
 
     # Enforce image size for display as well
     # Inject CSS for hover effect (only for web display, not PDF)
@@ -245,18 +261,26 @@ def view_html(request: Request, file: str):
 
 @app.get("/export_pdf")
 def export_pdf(file: str):
+    try:
+        import pdfkit  # noqa: F401
+    except ImportError:
+        return Response(
+            "PDF export requires the 'pdfkit' Python package and the wkhtmltopdf system binary. "
+            "Install with: pip install pdfkit && brew install wkhtmltopdf (macOS) or apt install wkhtmltopdf (Ubuntu).",
+            status_code=501,
+        )
     html_files = get_html_files()
     if file not in html_files:
         return Response("File not found.", status_code=404)
     html_content = load_html_content(file)
-    # Rewrite /static/src/results/imgs/xyz.png to file:///home/ubuntu/BMAgent/src/results/imgs/xyz.png
+    # Rewrite /static/<subdir>/imgs/xyz.png back to file:// URLs so wkhtmltopdf
+    # can find the image on local disk.
     def static_to_fileurl(match):
-        filename = match.group(1)
-        abs_img_path = os.path.abspath(os.path.join(RESULTS_DIR, 'src/results/imgs', filename))
-        file_url = f"file://{abs_img_path}"
-        return f'src="{file_url}"'
+        rel_path = match.group(1)
+        abs_img_path = os.path.abspath(os.path.join(RESULTS_DIR, rel_path))
+        return f'src="file://{abs_img_path}"'
     import re
-    html_content = re.sub(r'src=["\']/static/src/results/imgs/([^"\']+)["\']', static_to_fileurl, html_content)
+    html_content = re.sub(r'src=["\']/static/([^"\']+)["\']', static_to_fileurl, html_content)
     # Adjust all <img> tags to have a fixed medium size (e.g., width: 100px, height: 100px)
     def clean_style(m):
         style = m.group(1)
@@ -297,128 +321,6 @@ def export_pdf(file: str):
     return response
 
 
-TEMPLATE_PATH = "host_webs/templates/viewer.html"
-if not os.path.exists("host_webs/templates"):
-    os.makedirs("host_webs/templates")
-if not os.path.exists(TEMPLATE_PATH):
-    with open(TEMPLATE_PATH, "w") as f:
-        f.write('''
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results Viewer</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            margin: 0;
-            background: #f4f6fb;
-            color: #222;
-        }
-        .header {
-            background: #2d3e50;
-            color: #fff;
-            padding: 1.5em 2em 1em 2em;
-            box-shadow: 0 2px 8px rgba(44,62,80,0.08);
-        }
-        .header h3{
-            margin: 0;
-            font-size: 1.2em;
-            letter-spacing: 1px;
-        }
-        .container {
-            max-width: 1400px;
-            margin: 2em auto;
-            padding: 2em;
-            background: #fff;
-            border-radius: 16px;
-            box-shadow: 0 4px 24px rgba(44,62,80,0.10);
-        }
-        .toc {
-            margin-bottom: 2em;
-            display: flex;
-            align-items: center;
-            gap: 1em;
-        }
-        .toc label {
-            font-weight: 500;
-            font-size: 1.1em;
-        }
-        .toc select {
-            font-size: 1em;
-            padding: 0.5em 1.2em 0.5em 0.8em;
-            border-radius: 8px;
-            border: 1px solid #bfc9d9;
-            background: #f8fafc;
-            box-shadow: 0 1px 2px rgba(44,62,80,0.03);
-            transition: border 0.2s;
-        }
-        .toc select:focus {
-            border: 1.5px solid #2d3e50;
-            outline: none;
-        }
-        .viewer {
-            border: none;
-            padding: 2em;
-            background: #f8fafc;
-            border-radius: 12px;
-            min-height: 200px;
-            box-shadow: 0 2px 8px rgba(44,62,80,0.06);
-        }
-        @media (max-width: 1200px) {
-            .container {
-                padding: 1em;
-            }
-            .viewer {
-                padding: 1em;
-            }
-            .header {
-                padding: 1em;
-            }
-        }
-    </style>
-    <script>
-        function onFileChange(sel) {
-            window.location = '/view?file=' + encodeURIComponent(sel.value);
-        }
-        function exportToPDF() {
-            var sel = document.getElementById('file-select');
-            var file = sel.value;
-            if (!file) {
-                alert('Please select a file to export.');
-                return;
-            }
-            window.open('/export_pdf?file=' + encodeURIComponent(file), '_blank');
-        }
-    </script>
-</head>
-<body>
-    <div class="header">
-        <h3>AI-Agents Results Viewer</h3>
-    </div>
-    <div class="container">
-        <div class="toc">
-            <label for="file-select">Select a result to display:</label>
-            <select id="file-select" onchange="onFileChange(this)">
-                <option value="">-- Select --</option>
-                {% for f, label in html_files %}
-                    <option value="{{ f }}" {% if selected_file == f %}selected{% endif %}>{{ label }}</option>
-                {% endfor %}
-            </select>
-        </div>
-        <div class="viewer">
-            {% if html_content %}
-                {{ html_content | safe }}
-            {% else %}
-                <p>Select a file to preview its HTML report.</p>
-            {% endif %}
-        </div>
-    </div>
-</body>
-</html>
-''')
-
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=3009) 
+    uvicorn.run(app, host="0.0.0.0", port=3009)
