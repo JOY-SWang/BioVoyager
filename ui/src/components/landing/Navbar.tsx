@@ -35,14 +35,11 @@ export function Navbar() {
           <a href="#how" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
             How it works
           </a>
+          <a href="#metrics" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
+            Metrics
+          </a>
           <a href="#preview" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
             Demo
-          </a>
-          <a href="#team" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
-            Team
-          </a>
-          <a href="#acknowledgments" className="text-sm font-medium text-slate-600 transition hover:text-slate-900">
-            Acknowledgments
           </a>
         </div>
 

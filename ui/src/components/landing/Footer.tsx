@@ -14,7 +14,6 @@ export function Footer() {
         <nav className="flex flex-wrap items-center gap-6 text-sm text-slate-500">
           <a href="#how" className="hover:text-slate-900">How it works</a>
           <a href="#preview" className="hover:text-slate-900">Demo</a>
-          <a href="#team" className="hover:text-slate-900">Team</a>
           <a
             href="https://github.com/JOY-SWang/BioVoyager"
             target="_blank"
