@@ -1203,9 +1203,13 @@ def generate_v3_html(
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BioInsight Multi-Agent System - {html_mod.escape(disease_short)}</title>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.26.0/cytoscape.min.js"></script>
-    <script src="https://unpkg.com/webcola@3.4.0/WebCola/cola.min.js"></script>
-    <script src="https://unpkg.com/cytoscape-cola@2.5.1/cytoscape-cola.js"></script>
+    <!-- fcose: modern force-directed layout, much better separation than cola for biology graphs. -->
+    <script src="https://unpkg.com/layout-base@2.0.1/layout-base.js"></script>
+    <script src="https://unpkg.com/cose-base@2.2.0/cose-base.js"></script>
+    <script src="https://unpkg.com/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
     <style>
         :root {{
             --primary-bg: #f8f9fa;
@@ -1252,7 +1256,13 @@ def generate_v3_html(
         .stats-item span {{ color: var(--color-protein); font-weight: bold; }}
         .stats-item.pathway span {{ color: var(--color-pathway); }}
         #cy-container {{ flex: 1; position: relative; display: flex; flex-direction: column; overflow: hidden; }}
-        #cy {{ flex: 1; min-height: 0; width: 100%; }}
+        #cy {{
+            flex: 1; min-height: 0; width: 100%;
+            background-color: #fafbfd;
+            background-image:
+                radial-gradient(circle at 1px 1px, rgba(15,23,42,0.05) 1px, transparent 0);
+            background-size: 24px 24px;
+        }}
         .graph-toolbar {{ display: flex; flex-direction: column; gap: 0;
                          background: rgba(255,255,255,0.97); border-bottom: 1px solid var(--border-color);
                          z-index: 5; flex-shrink: 0; }}
@@ -1561,21 +1571,29 @@ def generate_v3_html(
             {elements_js}
         ];
 
-        // Register cola layout (auto-registered by the CDN script; fallback handled in runLayout)
-        function getColaOpts(randomize) {{
+        // Modern force-directed layout via cytoscape-fcose. Falls back to
+        // the built-in cose if fcose didn't register for some reason.
+        function getFcoseOpts(randomize) {{
             return {{
-                name: 'cola',
+                name: 'fcose',
                 animate: true,
-                refresh: 2,
-                maxSimulationTime: 4000,
-                nodeSpacing: 30,
-                edgeLength: 100,
-                avoidOverlap: true,
-                infinite: false,
-                handleDisconnected: true,
-                convergenceThreshold: 0.005,
+                animationDuration: 700,
+                animationEasing: 'ease-out',
+                quality: 'default',
+                nodeSeparation: 80,
+                idealEdgeLength: 110,
+                nodeRepulsion: 5500,
+                edgeElasticity: 0.45,
+                gravity: 0.25,
+                gravityRange: 3.8,
+                gravityCompound: 1.0,
+                numIter: 2500,
+                tile: true,
+                tilingPaddingVertical: 12,
+                tilingPaddingHorizontal: 12,
                 randomize: !!randomize,
-                padding: 20,
+                packComponents: true,
+                padding: 36,
                 fit: true
             }};
         }}
@@ -1585,9 +1603,9 @@ def generate_v3_html(
                 animate: true,
                 animationDuration: 1000,
                 nodeRepulsion: 6000,
-                idealEdgeLength: 90,
+                idealEdgeLength: 100,
                 spacingFactor: {spacing},
-                padding: 20,
+                padding: 30,
                 randomize: true,
                 fit: true
             }};
@@ -1595,8 +1613,8 @@ def generate_v3_html(
         function resetLayout() {{
             var opts;
             try {{
-                cy.makeLayout({{ name: 'cola' }});
-                opts = getColaOpts(true);
+                cy.makeLayout({{ name: 'fcose' }});
+                opts = getFcoseOpts(true);
             }} catch(e) {{
                 opts = getCoseOpts();
             }}
@@ -1615,93 +1633,130 @@ def generate_v3_html(
                     selector: 'node[type="pathway"]',
                     style: {{
                         'background-color': '{colors['pathway']}',
+                        'background-fill': 'radial-gradient',
+                        'background-gradient-stop-colors': '#3b82f6 {colors['pathway']} #1e3a8a',
+                        'background-gradient-stop-positions': '0 60 100',
+                        'border-width': 1.5,
+                        'border-color': '#1e3a8a',
+                        'border-opacity': 0.8,
                         'label': 'data(name)',
                         'shape': 'hexagon',
-                        'width': 38, 'height': 38,
-                        'color': '#333',
+                        'width': 44, 'height': 44,
+                        'color': '#0f172a',
+                        'font-family': 'Inter, system-ui, sans-serif',
+                        'font-weight': 600,
                         'text-valign': 'bottom',
-                        'text-margin-y': 4,
-                        'font-size': 9
+                        'text-margin-y': 6,
+                        'font-size': 10,
+                        'text-outline-width': 2,
+                        'text-outline-color': '#ffffff',
+                        'text-outline-opacity': 0.9
                     }}
                 }},
                 {{
                     selector: 'node[type="protein"]',
                     style: {{
-                        'background-color': '{colors['protein']}',
+                        'background-color': '#475569',
+                        'background-fill': 'radial-gradient',
+                        'background-gradient-stop-colors': '#94a3b8 #475569 #1e293b',
+                        'background-gradient-stop-positions': '0 55 100',
+                        'border-width': 2,
+                        'border-color': '#ffffff',
                         'label': 'data(name)',
                         'shape': 'ellipse',
-                        'width': 28, 'height': 28,
-                        'color': '#000',
+                        'width': 32, 'height': 32,
+                        'color': '#0f172a',
+                        'font-family': 'Inter, ui-monospace, Menlo, monospace',
+                        'font-weight': 700,
                         'text-valign': 'bottom',
-                        'text-margin-y': 4,
-                        'font-weight': 'bold',
-                        'font-size': 10
+                        'text-margin-y': 6,
+                        'font-size': 11,
+                        'text-outline-width': 2,
+                        'text-outline-color': '#ffffff',
+                        'text-outline-opacity': 0.95
                     }}
                 }},
                 {{
                     selector: 'node[type="drug"]',
                     style: {{
-                        'background-color': '#fff',
-                        'border-width': 2,
+                        'background-color': '#ffffff',
+                        'border-width': 1.8,
                         'border-color': '{colors['drug']}',
                         'label': 'data(name)',
                         'shape': 'round-rectangle',
-                        'width': 68, 'height': 22,
+                        'width': 78, 'height': 26,
                         'color': '{colors['drug']}',
+                        'font-family': 'Inter, system-ui, sans-serif',
+                        'font-weight': 600,
                         'text-valign': 'center',
-                        'font-size': 9
+                        'font-size': 10
                     }}
                 }},
                 {{
                     selector: 'node[type="drug"][subtype="pharmaco"]',
                     style: {{
-                        'background-color': '#fff3e0',
+                        'background-color': '#fff7ed',
                         'border-width': 1.5,
-                        'border-color': '#ff7043',
+                        'border-color': '#fb923c',
                         'border-style': 'solid',
                         'shape': 'round-rectangle',
-                        'width': 78, 'height': 20,
-                        'color': '#bf360c',
-                        'font-size': 9,
+                        'width': 88, 'height': 24,
+                        'color': '#9a3412',
+                        'font-family': 'Inter, system-ui, sans-serif',
+                        'font-size': 10,
                         'font-style': 'italic'
+                    }}
+                }},
+                // Subtle global hover glow via overlay (cheap, GPU-friendly).
+                {{
+                    selector: 'node:active',
+                    style: {{
+                        'overlay-color': '#1d4ed8',
+                        'overlay-opacity': 0.18,
+                        'overlay-padding': 8
                     }}
                 }},
                 {{
                     selector: 'edge',
                     style: {{
-                        'width': 1.4,
-                        'line-color': '#cbd2da',
-                        'target-arrow-color': '#cbd2da',
+                        'width': 1.6,
+                        'line-color': '#cbd5e1',
+                        'target-arrow-color': '#cbd5e1',
                         'target-arrow-shape': 'triangle',
-                        'arrow-scale': 0.8,
+                        'arrow-scale': 0.85,
                         'curve-style': 'bezier',
-                        'opacity': 0.75,
+                        'control-point-step-size': 28,
+                        'opacity': 0.7,
                         'label': 'data(relation)',
-                        'font-size': 7,
-                        'color': '#5a6a7a',
+                        'font-family': 'Inter, system-ui, sans-serif',
+                        'font-size': 8,
+                        'color': '#475569',
                         'text-rotation': 'autorotate',
                         'text-background-color': '#ffffff',
-                        'text-background-opacity': 0.85,
-                        'text-background-padding': 1,
-                        'text-margin-y': -2
+                        'text-background-opacity': 0.92,
+                        'text-background-padding': 2,
+                        'text-background-shape': 'round-rectangle',
+                        'text-margin-y': -3
                     }}
                 }},
                 {{
                     selector: 'edge[edge_type="pathway"]',
                     style: {{
-                        'line-color': '{colors['pathway']}',
-                        'target-arrow-color': '{colors['pathway']}',
-                        'opacity': 0.55
+                        'line-color': '#93c5fd',
+                        'target-arrow-color': '#60a5fa',
+                        'opacity': 0.55,
+                        'width': 1.8
                     }}
                 }},
                 {{
                     selector: 'edge[edge_type="ppi"]',
                     style: {{
-                        'line-color': '#90a4ae',
+                        'line-color': '#94a3b8',
                         'line-style': 'dashed',
+                        'line-dash-pattern': [4, 3],
                         'target-arrow-shape': 'none',
                         'opacity': 0.55,
-                        'width': 1.2
+                        'width': 1.3
                     }}
                 }},
                 {{
@@ -1709,32 +1764,43 @@ def generate_v3_html(
                     style: {{
                         'line-color': '{colors['drug']}',
                         'target-arrow-color': '{colors['drug']}',
-                        'opacity': 0.65
+                        'opacity': 0.6,
+                        'width': 1.6
                     }}
                 }},
                 {{
                     selector: 'edge[edge_type="pharmaco"]',
                     style: {{
-                        'line-color': '#ff7043',
-                        'target-arrow-color': '#ff7043',
+                        'line-color': '#fb923c',
+                        'target-arrow-color': '#fb923c',
                         'width': 2,
                         'opacity': 0.85
                     }}
                 }},
                 {{
                     selector: 'node.highlighted',
-                    style: {{ 'border-width': 3, 'border-color': '#ffc107',
-                             'width': 44, 'height': 44 }}
+                    style: {{
+                        'border-width': 3,
+                        'border-color': '#f59e0b',
+                        'overlay-color': '#f59e0b',
+                        'overlay-opacity': 0.18,
+                        'overlay-padding': 10,
+                        'z-index': 99
+                    }}
                 }},
                 {{
                     selector: 'edge.highlighted',
-                    style: {{ 'line-color': '{colors['protein']}',
-                             'target-arrow-color': '{colors['protein']}',
-                             'width': 3, 'opacity': 1, 'z-index': 99 }}
+                    style: {{
+                        'line-color': '#f59e0b',
+                        'target-arrow-color': '#f59e0b',
+                        'width': 2.6,
+                        'opacity': 1,
+                        'z-index': 99
+                    }}
                 }},
                 {{
                     selector: 'node.dimmed, edge.dimmed',
-                    style: {{ 'opacity': 0.08 }}
+                    style: {{ 'opacity': 0.1 }}
                 }}
             ],
             layout: {{ name: 'preset' }}   // placeholder; real layout runs below
@@ -1744,8 +1810,8 @@ def generate_v3_html(
         (function() {{
             var opts;
             try {{
-                cy.makeLayout({{ name: 'cola' }});  // throws if cola not registered
-                opts = getColaOpts(true);
+                cy.makeLayout({{ name: 'fcose' }});  // throws if fcose not registered
+                opts = getFcoseOpts(true);
             }} catch(e) {{
                 opts = getCoseOpts();
             }}
