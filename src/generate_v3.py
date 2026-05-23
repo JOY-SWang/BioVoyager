@@ -714,10 +714,44 @@ def _js_str(s: str) -> str:
              .replace("\r", " "))
 
 
+def load_pathway_intersections(v1_path: Path) -> dict:
+    """Load the authoritative pathway → [protein] mapping that g:Profiler
+    produced during the run.py phase, from <v1_dir>/cache/top_pathways.csv.
+
+    The `intersections` column is stored by pandas as a Python list literal
+    ("['APOE', 'GFAP']"); we use ast.literal_eval to parse it safely.
+
+    Returns: { termId: [gene_symbol, ...] }. Empty dict if the cache is absent.
+    """
+    import ast
+    cache = v1_path.parent / "cache" / "top_pathways.csv"
+    if not cache.exists():
+        return {}
+    out: dict = {}
+    try:
+        with open(cache, newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                term_id = (row.get("native") or "").strip()
+                raw     = (row.get("intersections") or "").strip()
+                if not term_id or not raw:
+                    continue
+                try:
+                    parsed = ast.literal_eval(raw)
+                    if isinstance(parsed, (list, tuple)):
+                        out[term_id] = [str(g).strip() for g in parsed if str(g).strip()]
+                except (ValueError, SyntaxError):
+                    continue
+    except OSError:
+        return {}
+    return out
+
+
 def build_elements(pathways: list[dict], proteins: dict, *,
                    enable_ppi: bool = True,
                    enable_pharmaco: bool = True,
-                   max_pharmaco_genes: int = 8) -> tuple[list, list, list, list]:
+                   max_pharmaco_genes: int = 8,
+                   pathway_intersections: dict = None) -> tuple[list, list, list, list]:
     """
     Build Cytoscape elements: (pathway_nodes, protein_nodes, drug_nodes, edges).
 
@@ -731,6 +765,22 @@ def build_elements(pathways: list[dict], proteins: dict, *,
     protein_nodes: list[str] = []
     drug_nodes:    list[str] = []
     edges:         list[str] = []
+    pathway_intersections = pathway_intersections or {}
+
+    # Augment each pathway's `proteins` list with the authoritative
+    # intersections from g:Profiler (cache/top_pathways.csv) when available.
+    # This catches the cases where the WritingAgent's prose for a pathway
+    # didn't name the input proteins explicitly, leaving the text extractor
+    # with an empty list (manifests as orphan pathway nodes in the graph).
+    if pathway_intersections:
+        for pw in pathways:
+            term_id = (pw.get("termId") or "").strip()
+            authoritative = pathway_intersections.get(term_id, [])
+            if authoritative:
+                merged = list(dict.fromkeys(
+                    list(pw.get("proteins", [])) + [g for g in authoritative if g in proteins]
+                ))
+                pw["proteins"] = merged
 
     # Collect all proteins that appear in at least one pathway
     used_proteins: set = set()
@@ -2221,9 +2271,17 @@ def convert(csv_path: Path, v1_path: Path, out_path: Path, top_n: int = 10,
     info      = parse_v1(html_src, proteins, top_n=top_n)
     colors    = pick_colors(info["disease_name"])
 
+    # Pull the g:Profiler intersections from cache/top_pathways.csv if available;
+    # this gives us authoritative pathway→protein membership instead of relying
+    # on the WritingAgent's prose having named every protein explicitly.
+    pw_intersections = load_pathway_intersections(v1_path)
+    if pw_intersections:
+        print(f"  KB  : cache/top_pathways.csv ({len(pw_intersections)} pathways)")
+
     pw_nodes, pr_nodes, dr_nodes, edges = build_elements(
         info["pathways"], proteins,
-        enable_ppi=enable_ppi, enable_pharmaco=enable_pharmaco)
+        enable_ppi=enable_ppi, enable_pharmaco=enable_pharmaco,
+        pathway_intersections=pw_intersections)
 
     output = generate_v3_html(
         disease_name   = info["disease_name"],
