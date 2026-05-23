@@ -1266,23 +1266,37 @@ def generate_v3_html(
         .graph-toolbar {{ display: flex; flex-direction: column; gap: 0;
                          background: rgba(255,255,255,0.97); border-bottom: 1px solid var(--border-color);
                          z-index: 5; flex-shrink: 0; }}
-        .toolbar-row {{ display: flex; align-items: center; gap: 8px; padding: 7px 14px; flex-wrap: wrap; }}
-        .toolbar-row-legend {{ display: flex; align-items: center; gap: 14px; padding: 5px 14px 8px;
-                              flex-wrap: wrap; border-top: 1px solid #f0f0f0; background: #fafbfc; }}
+        .toolbar-row {{ display: flex; align-items: center; gap: 8px; padding: 8px 14px;
+                       flex-wrap: wrap; row-gap: 6px; }}
+        /* Legend bar — fixed visual prominence so it never gets cramped on narrow widths.
+           min-height ensures the bar always reserves enough space even when items wrap. */
+        .toolbar-row-legend {{ display: flex; align-items: center; gap: 16px; row-gap: 8px;
+                              padding: 8px 14px 10px;
+                              flex-wrap: wrap;
+                              border-top: 1px solid #e5e7eb;
+                              background: #ffffff;
+                              min-height: 32px; }}
         .cy-hint {{ padding: 5px 14px; font-size: 11px; color: #999; text-align: center;
                    background: #fafbfc; border-top: 1px solid var(--border-color);
                    letter-spacing: 0.2px; flex-shrink: 0; }}
-        .toolbar-btn {{ padding: 4px 10px; border: 1px solid #bbb; border-radius: 4px;
-                       background: white; cursor: pointer; font-size: 12px; color: #444;
-                       transition: all 0.15s; user-select: none; }}
-        .toolbar-btn:hover {{ background: #f0f4ff; border-color: var(--color-pathway); color: var(--color-pathway); }}
-        .toolbar-sep {{ width: 1px; height: 18px; background: #ddd; margin: 0 4px; flex-shrink: 0; }}
-        .legend-item {{ display: flex; align-items: center; gap: 5px; font-size: 12px; color: #555; white-space: nowrap; }}
-        .legend-dot {{ width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex-shrink: 0; }}
-        .legend-hex {{ width: 13px; height: 13px; display: inline-block; flex-shrink: 0;
-                      clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%); }}
-        .legend-rect {{ width: 16px; height: 9px; border-radius: 2px; display: inline-block; flex-shrink: 0; }}
-        .legend-line {{ width: 18px; height: 2px; display: inline-block; flex-shrink: 0; }}
+        .toolbar-btn {{ padding: 4px 10px; border: 1px solid #cbd5e1; border-radius: 6px;
+                       background: white; cursor: pointer; font-size: 12px; color: #334155;
+                       transition: all 0.15s; user-select: none;
+                       font-family: 'Inter', system-ui, sans-serif; font-weight: 500; }}
+        .toolbar-btn:hover {{ background: #eff6ff; border-color: var(--color-pathway); color: var(--color-pathway); }}
+        .toolbar-sep {{ width: 1px; height: 18px; background: #e5e7eb; margin: 0 4px; flex-shrink: 0; }}
+        /* Legend chips — small but clearly readable, white-space:nowrap so each
+           "swatch + label" pair stays together when the bar wraps. */
+        .legend-item {{ display: inline-flex; align-items: center; gap: 6px;
+                       font-size: 12px; color: #475569; white-space: nowrap;
+                       font-family: 'Inter', system-ui, sans-serif; font-weight: 500; }}
+        .legend-dot {{ width: 12px; height: 12px; border-radius: 50%; display: inline-block; flex-shrink: 0;
+                       box-shadow: 0 1px 2px rgba(0,0,0,0.12); }}
+        .legend-hex {{ width: 14px; height: 14px; display: inline-block; flex-shrink: 0;
+                      clip-path: polygon(50% 0%,100% 25%,100% 75%,50% 100%,0% 75%,0% 25%);
+                      filter: drop-shadow(0 1px 1px rgba(0,0,0,0.12)); }}
+        .legend-rect {{ width: 18px; height: 10px; border-radius: 3px; display: inline-block; flex-shrink: 0; }}
+        .legend-line {{ width: 22px; height: 2px; display: inline-block; flex-shrink: 0; }}
         .legend-line-solid {{ background: #5a6a7a; }}
         .legend-line-dashed {{ background: transparent;
                               background-image: linear-gradient(to right, #90a4ae 50%, transparent 50%);
@@ -1573,27 +1587,32 @@ def generate_v3_html(
 
         // Modern force-directed layout via cytoscape-fcose. Falls back to
         // the built-in cose if fcose didn't register for some reason.
+        // Spacing scales with node count so dense reports (200+ nodes) don't
+        // become hairballs — bigger graphs need MORE breathing room, not less.
+        const _nodeCount = elements.filter(function(e){{ return e.data && !e.data.source; }}).length;
+        const _spacingScale = _nodeCount > 120 ? 2.2 : _nodeCount > 80 ? 1.8 : _nodeCount > 40 ? 1.4 : 1.0;
         function getFcoseOpts(randomize) {{
             return {{
                 name: 'fcose',
                 animate: true,
-                animationDuration: 700,
+                animationDuration: 800,
                 animationEasing: 'ease-out',
-                quality: 'default',
-                nodeSeparation: 80,
-                idealEdgeLength: 110,
-                nodeRepulsion: 5500,
-                edgeElasticity: 0.45,
-                gravity: 0.25,
-                gravityRange: 3.8,
+                // 'proof' = highest separation quality; well worth the extra ms for the visual win.
+                quality: 'proof',
+                nodeSeparation: 160 * _spacingScale,
+                idealEdgeLength: 200 * _spacingScale,
+                nodeRepulsion: 14000 * _spacingScale,
+                edgeElasticity: 0.40,
+                gravity: 0.18,
+                gravityRange: 5.0,
                 gravityCompound: 1.0,
-                numIter: 2500,
+                numIter: 4500,
                 tile: true,
-                tilingPaddingVertical: 12,
-                tilingPaddingHorizontal: 12,
+                tilingPaddingVertical: 24,
+                tilingPaddingHorizontal: 24,
                 randomize: !!randomize,
                 packComponents: true,
-                padding: 36,
+                padding: 48,
                 fit: true
             }};
         }}
@@ -1636,21 +1655,23 @@ def generate_v3_html(
                         'background-fill': 'radial-gradient',
                         'background-gradient-stop-colors': '#3b82f6 {colors['pathway']} #1e3a8a',
                         'background-gradient-stop-positions': '0 60 100',
-                        'border-width': 1.5,
+                        'border-width': 2,
                         'border-color': '#1e3a8a',
-                        'border-opacity': 0.8,
+                        'border-opacity': 0.85,
                         'label': 'data(name)',
                         'shape': 'hexagon',
-                        'width': 44, 'height': 44,
+                        'width': 56, 'height': 56,
                         'color': '#0f172a',
                         'font-family': 'Inter, system-ui, sans-serif',
                         'font-weight': 600,
                         'text-valign': 'bottom',
-                        'text-margin-y': 6,
-                        'font-size': 10,
-                        'text-outline-width': 2,
+                        'text-margin-y': 8,
+                        'font-size': 11,
+                        'text-wrap': 'wrap',
+                        'text-max-width': 140,
+                        'text-outline-width': 3,
                         'text-outline-color': '#ffffff',
-                        'text-outline-opacity': 0.9
+                        'text-outline-opacity': 0.92
                     }}
                 }},
                 {{
@@ -1660,60 +1681,71 @@ def generate_v3_html(
                         'background-fill': 'radial-gradient',
                         'background-gradient-stop-colors': '#94a3b8 #475569 #1e293b',
                         'background-gradient-stop-positions': '0 55 100',
-                        'border-width': 2,
+                        'border-width': 2.5,
                         'border-color': '#ffffff',
                         'label': 'data(name)',
                         'shape': 'ellipse',
-                        'width': 32, 'height': 32,
+                        'width': 40, 'height': 40,
                         'color': '#0f172a',
                         'font-family': 'Inter, ui-monospace, Menlo, monospace',
                         'font-weight': 700,
                         'text-valign': 'bottom',
-                        'text-margin-y': 6,
-                        'font-size': 11,
-                        'text-outline-width': 2,
+                        'text-margin-y': 7,
+                        'font-size': 12,
+                        'text-outline-width': 3,
                         'text-outline-color': '#ffffff',
-                        'text-outline-opacity': 0.95
+                        'text-outline-opacity': 0.96
                     }}
                 }},
                 {{
                     selector: 'node[type="drug"]',
                     style: {{
                         'background-color': '#ffffff',
-                        'border-width': 1.8,
+                        'border-width': 2,
                         'border-color': '{colors['drug']}',
                         'label': 'data(name)',
                         'shape': 'round-rectangle',
-                        'width': 78, 'height': 26,
+                        'width': 92, 'height': 32,
                         'color': '{colors['drug']}',
                         'font-family': 'Inter, system-ui, sans-serif',
                         'font-weight': 600,
                         'text-valign': 'center',
-                        'font-size': 10
+                        'font-size': 11
                     }}
                 }},
                 {{
                     selector: 'node[type="drug"][subtype="pharmaco"]',
                     style: {{
                         'background-color': '#fff7ed',
-                        'border-width': 1.5,
+                        'border-width': 1.8,
                         'border-color': '#fb923c',
                         'border-style': 'solid',
                         'shape': 'round-rectangle',
-                        'width': 88, 'height': 24,
+                        'width': 104, 'height': 30,
                         'color': '#9a3412',
                         'font-family': 'Inter, system-ui, sans-serif',
-                        'font-size': 10,
+                        'font-size': 11,
                         'font-style': 'italic'
                     }}
                 }},
-                // Subtle global hover glow via overlay (cheap, GPU-friendly).
+                // Big hover halo — makes the click target feel larger and
+                // tells the user "this is interactive". Tap-and-hold also fires :active.
                 {{
                     selector: 'node:active',
                     style: {{
                         'overlay-color': '#1d4ed8',
-                        'overlay-opacity': 0.18,
-                        'overlay-padding': 8
+                        'overlay-opacity': 0.2,
+                        'overlay-padding': 12
+                    }}
+                }},
+                // Wired via JS mouseover/mouseout (Cytoscape doesn't auto-fire :hover).
+                {{
+                    selector: 'node.hover-glow',
+                    style: {{
+                        'overlay-color': '#3b82f6',
+                        'overlay-opacity': 0.15,
+                        'overlay-padding': 10,
+                        'z-index': 50
                     }}
                 }},
                 {{
@@ -1888,9 +1920,10 @@ def generate_v3_html(
             }}
         }});
 
-        // ── Hover tooltip ──────────────────────────────────────────────────────
+        // ── Hover tooltip + glow ───────────────────────────────────────────────
         const tooltip = document.getElementById('cy-tooltip');
         cy.on('mouseover', 'node', function(evt) {{
+            evt.target.addClass('hover-glow');
             var d = evt.target.data();
             var label = '';
             if(d.type === 'pathway') {{
@@ -1918,7 +1951,8 @@ def generate_v3_html(
             tooltip.innerHTML = label;
             tooltip.style.display = 'block';
         }});
-        cy.on('mouseout', 'node', function() {{
+        cy.on('mouseout', 'node', function(evt) {{
+            evt.target.removeClass('hover-glow');
             tooltip.style.display = 'none';
         }});
         cy.on('mousemove', function(evt) {{
