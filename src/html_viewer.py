@@ -87,7 +87,7 @@ DISEASE_CONFIG = [
     {
         "name": "Chronic Kidney Disease",
         "csv": "Chronic_kidney_disease.csv",
-        "report": "kidney disease/Chronic_kidney_disease_v3_auto.html",
+        "report": "kidneydisease/Chronic_kidney_disease_v3_auto.html",
         "category": "Diseases of the Genitourinary System",
     },
     {
