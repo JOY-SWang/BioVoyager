@@ -133,7 +133,8 @@ def get_html_files():
     for root, dirs, files in os.walk(RESULTS_DIR):
         for file in files:
             if (file.endswith('_v1.html') or file.endswith('_v2.html')
-                    or file.endswith('_v3.html') or file.endswith('_v3_auto.html')):
+                    or file.endswith('_v3.html') or file.endswith('_v3_auto.html')
+                    or file.endswith('_v3_modern.html')):
                 rel_dir = os.path.relpath(root, RESULTS_DIR)
                 rel_file = os.path.join(rel_dir, file) if rel_dir != '.' else file
                 html_files.append(rel_file)
