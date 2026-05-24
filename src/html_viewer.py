@@ -125,22 +125,9 @@ def load_portal_data():
 
 
 app = FastAPI()
-
-
-# When someone hits the EC2 IP:5000 directly (not via Cloudflare),
-# they came here for the data — land them on /demo, not /landing.
-# Traffic via biovoyager.papersearch.org keeps the canonical Host header
-# and is not redirected.
-_DIRECT_HTTP_HOSTS = {"3.148.244.109", "3.148.244.109:5000"}
-
-@app.middleware("http")
-async def direct_http_lands_on_demo(request: Request, call_next):
-    if request.url.path == "/":
-        host = (request.headers.get("host") or "").lower()
-        if host in _DIRECT_HTTP_HOSTS:
-            return RedirectResponse("/demo", status_code=302)
-    return await call_next(request)
-
+# Note: the blind-review experience (IP-only, no branding) is handled
+# client-side in ui/src/App.tsx via isBlindReview(). No server-side
+# routing rules — the same index.html is served to both hosts.
 
 app.mount("/static", StaticFiles(directory=RESULTS_DIR), name="static")
 templates = Jinja2Templates(directory=TEMPLATES_DIR)
