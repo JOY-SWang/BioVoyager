@@ -7,7 +7,7 @@ export function Footer() {
           <div className="grid h-7 w-7 place-items-center rounded-md bg-brand-600 text-xs font-bold text-white">
             B
           </div>
-          <span className="text-sm font-semibold text-slate-900">BioVoyager</span>
+          <span className="text-sm font-semibold text-slate-900">BioInsight</span>
           <span className="text-xs text-slate-400">— protein signals to research artifacts</span>
         </div>
 
@@ -22,12 +22,12 @@ export function Footer() {
           >
             GitHub
           </a>
-          <a href="mailto:hello@biovoyager.example.com" className="hover:text-slate-900">
+          <a href="mailto:hello@bioinsight.papersearch.org" className="hover:text-slate-900">
             Contact
           </a>
         </nav>
 
-        <p className="text-xs text-slate-400">© {year} BioVoyager team. MIT-licensed code.</p>
+        <p className="text-xs text-slate-400">© {year} BioInsight team. MIT-licensed code.</p>
       </div>
     </footer>
   )

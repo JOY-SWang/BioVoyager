@@ -288,13 +288,13 @@ if __name__ == "__main__":
   _SRC_DIR = os.path.dirname(os.path.abspath(__file__))
   _REPO_ROOT = os.path.dirname(_SRC_DIR)
   DEFAULT_TEST_DATA_DIR = os.environ.get(
-      "BIOVOYAGER_TEST_DATA_DIR", os.path.join(_REPO_ROOT, "test_data")
+      "BIOINSIGHT_TEST_DATA_DIR", os.path.join(_REPO_ROOT, "test_data")
   )
   DEFAULT_RESULTS_DIR = os.environ.get(
-      "BIOVOYAGER_RESULTS_DIR", os.path.join(_SRC_DIR, "results_0411")
+      "BIOINSIGHT_RESULTS_DIR", os.path.join(_SRC_DIR, "results_0411")
   )
   DEFAULT_META_PATH = os.path.join(DEFAULT_TEST_DATA_DIR, "DiseaseDefinition&Summary_incident.csv")
-  DEFAULT_MODEL = os.environ.get("BIOVOYAGER_MODEL", "gpt-5.4")
+  DEFAULT_MODEL = os.environ.get("BIOINSIGHT_MODEL", "gpt-5.4")
 
   parser = argparse.ArgumentParser(description="Generate v1 narrative HTML reports")
   parser.add_argument("--csv", type=str, help="Run a single CSV instead of batch", default=None)

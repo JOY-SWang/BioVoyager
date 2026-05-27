@@ -24,8 +24,8 @@ from jobs import (
 # viewer runs from any working directory, on any machine.
 _SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 _REPO_ROOT = os.path.dirname(_SRC_DIR)
-RESULTS_DIR = os.environ.get("BIOVOYAGER_RESULTS_DIR", os.path.join(_SRC_DIR, "results_0411"))
-TEST_DATA_DIR = os.environ.get("BIOVOYAGER_TEST_DATA_DIR", os.path.join(_REPO_ROOT, "test_data"))
+RESULTS_DIR = os.environ.get("BIOINSIGHT_RESULTS_DIR", os.path.join(_SRC_DIR, "results_0411"))
+TEST_DATA_DIR = os.environ.get("BIOINSIGHT_TEST_DATA_DIR", os.path.join(_REPO_ROOT, "test_data"))
 TEMPLATES_DIR = os.path.join(_SRC_DIR, "host_webs", "templates")
 
 # Ordered list of diseases: (display_name, csv_filename, report_rel_path_or_None, body_system)

@@ -9,7 +9,7 @@ import { isBlindReview } from './lib/mode'
 /**
  * Top-level router. Two route trees, picked at boot based on the host:
  *
- * Normal mode (served via Cloudflare, biovoyager.papersearch.org):
+ * Normal mode (served via Cloudflare, bioinsight.papersearch.org):
  *   /        → Landing (full marketing page w/ Navbar)
  *   /demo    → Demo    (AppShell w/ compact Header + nav tabs)
  *   /chat    → Chat

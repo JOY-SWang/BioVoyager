@@ -2,7 +2,7 @@ import Demo from './Demo'
 
 /**
  * Demo page WITHOUT the AppShell Header — used in blind-review mode
- * (served from the bare EC2 IP). No logo, no "BioVoyager" text, no
+ * (served from the bare EC2 IP). No logo, no "BioInsight" text, no
  * Demo/Chat tabs, no GitHub link. Just the dashboard.
  *
  * The wrapper recreates the full-height flex container that AppShell

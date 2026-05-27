@@ -1,6 +1,6 @@
-# BioVoyager
+# BioInsight
 
-BioVoyager turns disease-associated protein signals into an evidence-grounded,
+BioInsight turns disease-associated protein signals into an evidence-grounded,
 interactive research artifact. Given a disease name, a protein association table,
 and cohort metadata, the pipeline can:
 
@@ -13,7 +13,7 @@ and cohort metadata, the pipeline can:
 ## Repository Layout
 
 ```text
-BioVoyager/
+BioInsight/
   README.md
   src/
     run.py                 # Generate the v1 narrative HTML report
@@ -32,7 +32,7 @@ for STRING-DB and DGIdb requests are written under `src/.cache_v3/`.
 Download the offline knowledge base and place it at:
 
 ```text
-BioVoyager/knowledge_base/
+BioInsight/knowledge_base/
   ppi_significant.csv
   protein_functions.json
 ```

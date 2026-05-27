@@ -9,10 +9,10 @@ import time
 __init__ = """"""
 
 # knowledge_base/ lives at <repo_root>/knowledge_base/, downloaded per README.
-# Override with BIOVOYAGER_KB_DIR for tests or alternate layouts.
+# Override with BIOINSIGHT_KB_DIR for tests or alternate layouts.
 _AGENTS_DIR = os.path.dirname(os.path.abspath(__file__))
 _REPO_ROOT = os.path.dirname(os.path.dirname(_AGENTS_DIR))
-_KB_DIR = os.environ.get("BIOVOYAGER_KB_DIR", os.path.join(_REPO_ROOT, "knowledge_base"))
+_KB_DIR = os.environ.get("BIOINSIGHT_KB_DIR", os.path.join(_REPO_ROOT, "knowledge_base"))
 
 class QueryAgent(Agent):
   def __init__(self, model, **kwargs):

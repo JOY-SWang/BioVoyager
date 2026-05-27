@@ -22,7 +22,7 @@ export function CTA() {
             </svg>
           </Link>
           <a
-            href="mailto:hello@biovoyager.example.com"
+            href="mailto:hello@bioinsight.papersearch.org"
             className="inline-flex items-center gap-2 rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-slate-500 hover:bg-white/5"
           >
             Contact the team

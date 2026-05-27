@@ -33,7 +33,7 @@ export function Hero() {
             .
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">
-            BioVoyager turns disease-associated proteomics into an interactive,
+            BioInsight turns disease-associated proteomics into an interactive,
             evidence-grounded research dashboard — pathway enrichment, literature
             ranking, drug context, and a citable narrative, generated end-to-end
             by a team of LLM agents.

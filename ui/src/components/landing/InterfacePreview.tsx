@@ -47,7 +47,7 @@ function WindowChrome() {
       <span className="h-3 w-3 rounded-full bg-rose-400" />
       <span className="h-3 w-3 rounded-full bg-amber-400" />
       <span className="h-3 w-3 rounded-full bg-emerald-400" />
-      <span className="ml-3 text-[11px] text-slate-400">biovoyager.papersearch.org/demo</span>
+      <span className="ml-3 text-[11px] text-slate-400">bioinsight.papersearch.org/demo</span>
     </div>
   )
 }

@@ -17,8 +17,8 @@ from tqdm import tqdm
 
 # BioBERT model. Default to the HuggingFace Hub identifier so the model is
 # fetched + cached automatically (~440 MB on first run). Override with
-# BIOVOYAGER_BIOBERT to point at a local checkpoint dir.
-_BIOBERT_MODEL = os.environ.get("BIOVOYAGER_BIOBERT", "dmis-lab/biobert-base-cased-v1.1")
+# BIOINSIGHT_BIOBERT to point at a local checkpoint dir.
+_BIOBERT_MODEL = os.environ.get("BIOINSIGHT_BIOBERT", "dmis-lab/biobert-base-cased-v1.1")
 
 def _load_biobert():
     """Load BioBERT, falling back to the Bert* classes when AutoTokenizer/AutoModel
@@ -130,7 +130,7 @@ def run_gprofiler_query(query, organism="hsapiens", user_threshold=0.05, top=20)
 def get_biobert_embedding(text):
   if not _BIOBERT_AVAILABLE:
       # Caller-side code is expected to wrap this and fall back to TF-IDF.
-      raise RuntimeError("BioBERT unavailable; set BIOVOYAGER_BIOBERT or install transformers properly.")
+      raise RuntimeError("BioBERT unavailable; set BIOINSIGHT_BIOBERT or install transformers properly.")
   inputs = biobert_tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
   with torch.no_grad():
       outputs = biobert_model(**inputs)

@@ -28,7 +28,7 @@ export function Navbar() {
           <div className="grid h-8 w-8 place-items-center rounded-lg bg-brand-600 font-bold text-white shadow-sm">
             B
           </div>
-          <span className="text-base font-semibold tracking-tight text-slate-900">BioVoyager</span>
+          <span className="text-base font-semibold tracking-tight text-slate-900">BioInsight</span>
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">

@@ -10,7 +10,7 @@ export function Header() {
         <div className="grid h-7 w-7 place-items-center rounded-md bg-brand-600 text-sm font-bold text-white">
           B
         </div>
-        <span className="text-base font-semibold tracking-tight text-slate-900">BioVoyager</span>
+        <span className="text-base font-semibold tracking-tight text-slate-900">BioInsight</span>
       </Link>
 
       <nav className="hidden items-center gap-1 md:flex">
