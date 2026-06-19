@@ -175,36 +175,74 @@ def extract_intro_paragraphs(html: str) -> list[str]:
     return [text] if text else []
 
 def parse_table1(html: str) -> list[dict]:
-    """Parse the markdown Table 1 inside a <p> tag."""
-    # Find block containing Table 1
+    """Parse Table 1 from the v1 HTML. Handles two formats:
+      (A) markdown pipes inside <p> — original Jiayi pipeline (results_0411)
+      (B) proper HTML <table><thead><tbody> — post-manual-eval pipeline (results_0617+)
+
+    Returns a list of {termId, name, count, score, pval, source} dicts.
+    """
+    rows = _parse_table1_markdown(html) or _parse_table1_html(html)
+    return rows
+
+
+def _row_from_cells(cells: list[str]) -> dict | None:
+    """Coerce a 5-or-6-cell row into a pathway record. None if it's a header/separator."""
+    if len(cells) < 5:
+        return None
+    if re.match(r"^-+$", cells[0]) or re.match(r"(?i)term.?id", cells[0]):
+        return None
+    try:
+        return {
+            "termId":  cells[0].strip(),
+            "name":    cells[1].strip(),
+            "count":   int(cells[2].strip()),
+            "score":   cells[3].strip(),
+            "pval":    cells[4].strip(),
+            "source":  cells[5].strip() if len(cells) > 5 else "–",
+        }
+    except (ValueError, IndexError):
+        return None
+
+
+def _parse_table1_markdown(html: str) -> list[dict]:
+    """Format A: 'Table 1: …\\n| Term ID | … |\\n| --- |\\n| GO:... | ...|' inside <p>."""
     tbl_match = re.search(
         r"Table\s*1[^\n]*\n\|[^\n]+\|[^\n]+\|(.*?)(?=</p>)", html, re.DOTALL | re.IGNORECASE)
     if not tbl_match:
         return []
-
     rows = []
     for line in tbl_match.group(0).split("\n"):
         line = line.strip()
         if not line.startswith("|"):
             continue
         cells = [c.strip() for c in line.split("|")[1:-1]]
-        if len(cells) < 5:
-            continue
-        # Skip header and separator rows
-        if re.match(r"^-+$", cells[0]) or re.match(r"(?i)term.?id", cells[0]):
-            continue
-        # cells: TermID | Pathway Name | Count | Score | p-value | Source
-        try:
-            rows.append({
-                "termId":  cells[0].strip(),
-                "name":    cells[1].strip(),
-                "count":   int(cells[2].strip()),
-                "score":   cells[3].strip(),
-                "pval":    cells[4].strip(),
-                "source":  cells[5].strip() if len(cells) > 5 else "–",
-            })
-        except (ValueError, IndexError):
-            continue
+        row = _row_from_cells(cells)
+        if row:
+            rows.append(row)
+    return rows
+
+
+def _parse_table1_html(html: str) -> list[dict]:
+    """Format B: a <table>…</table> appearing AFTER a 'Table 1' caption."""
+    caption_match = re.search(r"Table\s*1", html, re.IGNORECASE)
+    if not caption_match:
+        return []
+    table_match = re.search(
+        r"<table[^>]*>(.*?)</table>", html[caption_match.start():],
+        re.DOTALL | re.IGNORECASE)
+    if not table_match:
+        return []
+    table_html = table_match.group(1)
+    rows = []
+    for tr_match in re.finditer(r"<tr[^>]*>(.*?)</tr>", table_html, re.DOTALL | re.IGNORECASE):
+        cells = [
+            clean_text(td.group(1))
+            for td in re.finditer(r"<t[dh][^>]*>(.*?)</t[dh]>", tr_match.group(1),
+                                  re.DOTALL | re.IGNORECASE)
+        ]
+        row = _row_from_cells(cells)
+        if row:
+            rows.append(row)
     return rows
 
 def split_pathway_sections(html: str) -> list[dict]:
