@@ -19,12 +19,13 @@ from jobs import (
     run_pipeline_stub,
 )
 
-# Repo layout: <repo_root>/src/html_viewer.py ; results live in <repo_root>/src/results_0411
-# and inputs live in <repo_root>/test_data. Resolve relative to this file so the
-# viewer runs from any working directory, on any machine.
+# Repo layout: <repo_root>/src/html_viewer.py ; results live under
+# <repo_root>/src/results_<batch>/ — historical sets: results_0411 (original
+# Jiayi cola style), results_0617 (manual-evaluation revision, currently live).
+# Switch RESULTS_DIR via the BIOINSIGHT_RESULTS_DIR env var to roll back.
 _SRC_DIR = os.path.dirname(os.path.abspath(__file__))
 _REPO_ROOT = os.path.dirname(_SRC_DIR)
-RESULTS_DIR = os.environ.get("BIOINSIGHT_RESULTS_DIR", os.path.join(_SRC_DIR, "results_0411"))
+RESULTS_DIR = os.environ.get("BIOINSIGHT_RESULTS_DIR", os.path.join(_SRC_DIR, "results_0617"))
 TEST_DATA_DIR = os.environ.get("BIOINSIGHT_TEST_DATA_DIR", os.path.join(_REPO_ROOT, "test_data"))
 TEMPLATES_DIR = os.path.join(_SRC_DIR, "host_webs", "templates")
 
@@ -170,10 +171,10 @@ def load_html_content(rel_path):
 
     # 1) Relative imgs/ references inside the report
     html = re.sub(r'src=["\'](?:\.?/)?imgs/([^"\']+)["\']', repl_relative_img, html)
-    # 2) Any absolute path that points into a results_0411 imgs dir, regardless of
-    #    which machine generated the report.
+    # 2) Any absolute path that points into a results_<batch>/<disease>/imgs/ dir,
+    #    regardless of which machine generated the report or which batch (0411, 0617, …).
     html = re.sub(
-        r'src=["\'][^"\']*?/results_0411/([^"\']+/imgs/[^"\']+)["\']',
+        r'src=["\'][^"\']*?/results_\d{4,}/([^"\']+/imgs/[^"\']+)["\']',
         repl_absolute_img,
         html,
     )

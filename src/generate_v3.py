@@ -10,7 +10,7 @@ Usage:
 
 Directories (can be overridden via --csv-dir / --html-dir):
     CSV:  <BASE>/test_data/
-    HTML: <BASE>/src/results_0411/<subfolder>/
+    HTML: <BASE>/src/results_0617/<subfolder>/   (post-manual-evaluation; the live set)
 """
 
 import re, csv, sys, json, os, argparse, html as html_mod
@@ -32,7 +32,9 @@ if _ENV_PATH.exists():
 # ──────────────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).parent.parent  # drug-target-agent/
 CSV_DIR  = BASE_DIR / "test_data"
-HTML_DIR = BASE_DIR / "src" / "results_0411"
+# Default batch directory for --batch mode. Override with --html-dir to point
+# at an older set (e.g. results_0411) or a future revision.
+HTML_DIR = BASE_DIR / "src" / "results_0617"
 PROTEIN_COLOR = "#6b7280"
 PATHWAY_COLOR = "#016994"
 
