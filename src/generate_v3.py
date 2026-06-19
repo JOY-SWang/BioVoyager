@@ -223,21 +223,18 @@ def _parse_table1_markdown(html: str) -> list[dict]:
 
 
 def _parse_table1_html(html: str) -> list[dict]:
-    """Format B: one OR MORE <table>…</table> blocks AFTER a 'Table 1' caption,
-    bounded by the next <h2> (the post-eval pipeline splits Table 1 into
-    several tables — one per evidence source like GO MF, GO BP, Reactome, WP)."""
-    caption_match = re.search(r"Table\s*1", html, re.IGNORECASE)
-    if not caption_match:
-        return []
-    # Bound the search to before the next <h2> (e.g., "Enriched Pathways Analysis"),
-    # so we don't accidentally swallow tables from later sections.
-    tail = html[caption_match.start():]
-    next_h2 = re.search(r"<h2[\s>]", tail, re.IGNORECASE)
-    bounded = tail[: next_h2.start()] if next_h2 else tail
+    """Format B: one OR MORE proper <table>…</table> blocks.
 
+    The post-eval pipeline (results_0617+) splits Table 1 into several
+    <table> tags, one per evidence source (GO MF, GO BP, Reactome,
+    WikiPathways). We scan every <table> in the document and rely on
+    _row_from_cells to filter — only rows whose first cell looks like a
+    termId and whose third cell is an int will survive. termId-based
+    dedup handles the case where the same row appears twice.
+    """
     rows: list[dict] = []
-    seen: set = set()  # dedupe by termId in case the same row appears in two tables
-    for table_match in re.finditer(r"<table[^>]*>(.*?)</table>", bounded,
+    seen: set = set()
+    for table_match in re.finditer(r"<table[^>]*>(.*?)</table>", html,
                                    re.DOTALL | re.IGNORECASE):
         for tr_match in re.finditer(r"<tr[^>]*>(.*?)</tr>", table_match.group(1),
                                     re.DOTALL | re.IGNORECASE):
