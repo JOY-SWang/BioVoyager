@@ -223,26 +223,33 @@ def _parse_table1_markdown(html: str) -> list[dict]:
 
 
 def _parse_table1_html(html: str) -> list[dict]:
-    """Format B: a <table>…</table> appearing AFTER a 'Table 1' caption."""
+    """Format B: one OR MORE <table>…</table> blocks AFTER a 'Table 1' caption,
+    bounded by the next <h2> (the post-eval pipeline splits Table 1 into
+    several tables — one per evidence source like GO MF, GO BP, Reactome, WP)."""
     caption_match = re.search(r"Table\s*1", html, re.IGNORECASE)
     if not caption_match:
         return []
-    table_match = re.search(
-        r"<table[^>]*>(.*?)</table>", html[caption_match.start():],
-        re.DOTALL | re.IGNORECASE)
-    if not table_match:
-        return []
-    table_html = table_match.group(1)
-    rows = []
-    for tr_match in re.finditer(r"<tr[^>]*>(.*?)</tr>", table_html, re.DOTALL | re.IGNORECASE):
-        cells = [
-            clean_text(td.group(1))
-            for td in re.finditer(r"<t[dh][^>]*>(.*?)</t[dh]>", tr_match.group(1),
-                                  re.DOTALL | re.IGNORECASE)
-        ]
-        row = _row_from_cells(cells)
-        if row:
-            rows.append(row)
+    # Bound the search to before the next <h2> (e.g., "Enriched Pathways Analysis"),
+    # so we don't accidentally swallow tables from later sections.
+    tail = html[caption_match.start():]
+    next_h2 = re.search(r"<h2[\s>]", tail, re.IGNORECASE)
+    bounded = tail[: next_h2.start()] if next_h2 else tail
+
+    rows: list[dict] = []
+    seen: set = set()  # dedupe by termId in case the same row appears in two tables
+    for table_match in re.finditer(r"<table[^>]*>(.*?)</table>", bounded,
+                                   re.DOTALL | re.IGNORECASE):
+        for tr_match in re.finditer(r"<tr[^>]*>(.*?)</tr>", table_match.group(1),
+                                    re.DOTALL | re.IGNORECASE):
+            cells = [
+                clean_text(td.group(1))
+                for td in re.finditer(r"<t[dh][^>]*>(.*?)</t[dh]>", tr_match.group(1),
+                                      re.DOTALL | re.IGNORECASE)
+            ]
+            row = _row_from_cells(cells)
+            if row and row["termId"] not in seen:
+                seen.add(row["termId"])
+                rows.append(row)
     return rows
 
 def split_pathway_sections(html: str) -> list[dict]:
